@@ -1,37 +1,81 @@
-## Welcome to GitHub Pages
+# ETS2 / ATS Mobile Route Advisor [![Downloads](https://img.shields.io/github/downloads/mike-koch/ets2-mobile-route-advisor/total.svg)](https://github.com/mike-koch/ets2-mobile-route-advisor/releases) [![Current Release](https://img.shields.io/github/release/mike-koch/ets2-mobile-route-advisor.svg)](https://github.com/mike-koch/ets2-mobile-route-advisor/releases) [![Licensed under the MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mike-koch/ets2-mobile-route-advisor/blob/master/LICENSE) [![Join the chat at https://gitter.im/mike-koch/ets2-mobile-route-advisor](https://badges.gitter.im/mike-koch/ets2-mobile-route-advisor.svg)](https://gitter.im/mike-koch/ets2-mobile-route-advisor?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+Euro Truck Simulator 2 / American Truck Simulator's Route Advisor, for mobile devices. This is a skin for funbit's [ETS2 Telemetry Server](https://github.com/Funbit/ets2-telemetry-server).
 
-You can use the [editor on GitHub](https://github.com/meatlayer/ets2-mobile-route-advisor/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+## Features
+The mobile Route Advisor is planned to include all features that Euro Truck Simulator 2 / American Truck Simulator's Route Advisor currently has. These features are:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- Navigation
+    - Mini-map (ETS2 **only**)
+        - Fixed on truck, up is always north
+        - Fixed on truck, map rotates so up is direction truck is facing
+        - Free view/rotate/zoom
+		- Auto zoom map depending on speed
+    - Speed limit
+    - Distance Remaining
+    - Estimated time of arrival (ETA)
+    - Time to destination
+- Current job information
+    - Current load
+    - Destination city
+    - Payout
+    - Time remaining
+    - Time until next rest
+- Truck damage / load damage
+- Localization support
+- [Various configuration options](https://github.com/mike-koch/ets2-mobile-route-advisor/wiki/config.json-Parameters)
 
-### Markdown
+## Requirements
+- Euro Truck Simulator 2 and/or American Truck Simulator
+- [ETS2 Telemetry Server](https://github.com/Funbit/ets2-telemetry-server) 3.2.3 or later
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## How to Install
+1. Download the latest version of the Mobile Route Advisor from either the [official website](http://www.mikekoch.me/ets2-mobile-route-advisor), or from the [releases page](https://www.github.com/mike-koch/ets2-mobile-route-advisor/releases).
+2. Extract the contents of the zip to the ETS2 Telemetry Server's `/server/Html/skins` directory. You should then have a folder named `ets2-mobile-route-advisor` in the `skins` directory.
 
-```markdown
-Syntax highlighted code block
+## Support
+If you require any type of support, please looking at the [contributing guidelines](https://github.com/mike-koch/ets2-mobile-route-advisor/blob/master/CONTRIBUTING.md) to see where you should post your request. **Please do not contact me directly via e-mail, as your e-mail will be ignored.**
 
-# Header 1
-## Header 2
-### Header 3
+## Languages
+A list of supported languages are available on the [ets2-mobile-route-advisor website](http://mikekoch.me/ets2-mobile-route-advisor). If you would like to submit a translation, please submit a pull request.
 
-- Bulleted
-- List
+## Screenshots
+![Navigation Information](screenshots/nav.png)
+![Cargo Information](screenshots/cargo.PNG)
+![Damage Information](screenshots/damage.PNG)
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/meatlayer/ets2-mobile-route-advisor/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Contributors
+<table>
+    <tr>
+        <th>Development</th>
+        <th>Translations</th>
+        <th>Map</th>
+    </tr>
+    <tr>
+        <td valign="top">
+            <ul>
+                <li><a href="https://github.com/mike-koch">mike-koch</a></li>
+                <li><a href="https://github.com/denilsonsa">denilsonsa</a></li>
+                <li><a href="https://github.com/Koenvh1">Koen</a></li>
+            </ul>
+        </td>
+        <td valign="top">
+            <ul>
+                <li><a href="https://github.com/mike-koch">mike-koch</a></li>
+                <li><a href="https://github.com/Phil0499">Phil0499</a></li>
+                <li><a href="https://github.com/raflix261">raflix261</a></li>
+                <li><a href="https://github.com/pedropandolfi">pedropandolfi</a></li>
+                <li><a href="http://forum.scssoft.com/memberlist.php?mode=viewprofile&u=127033">MinecraftMarioGuy53</a></li>
+                <li><a href="http://forum.scssoft.com/memberlist.php?mode=viewprofile&u=3710">SchorschiBW</a></li>
+                <li><a href="https://github.com/denilsonsa">denilsonsa</a></li>
+                <li>Frank Kristensen</li>
+            </ul>
+        </td>
+        <td valign="top">
+            <ul>
+                <li><a href="https://github.com/Funbit">Funbit</a></li>
+                <li><a href="https://github.com/Koenvh1">Koen</a></li>
+				<li><a href="https://github.com/meatlayer">meatlayer</a></li>
+            </ul>
+        </td>
+    </tr>
+</table>
