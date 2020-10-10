@@ -49,7 +49,7 @@ Press Generate, Select a folder, for example C:/ets2-map, and waiting, this proc
 
 6. After the operation is completed, the finished tiles will be stored in the folder C:/ets2-map/Tiles these folders 0 1 2 3 4 5 6 7 8 will need to be placed in ets2-mobile-route-advisor.
 
-7. After completing the operation, you may need a file with the coordinates of the cities it will be in the file C:/ets2-map/Tiles/Cities.json its contents will need to be adapted to the file ets2-mobile-route-advisor\maps\ets2\js\cities.js - it's quite simple, just compare their contents.
+7. After completing the operation, you may need a file with the coordinates of the cities it will be in the file C:/ets2-map/Cities.json its contents will need to be adapted to the file ets2-mobile-route-advisor\maps\ets2\js\cities.js - it's quite simple, just compare their contents.
 
 8. Minor edits may be required, but otherwise, the most difficult part is capturing the tile map. And if you have successfully completed this step, the rest should not be difficult. Enjoy :)
 
