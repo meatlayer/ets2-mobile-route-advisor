@@ -38,11 +38,11 @@ The mobile Route Advisor is planned to include all features that Euro Truck Simu
 2. Extract the contents of the zip in your PC disk `C:\ts-map` directory. Run `TsMap.Canvas` app.
 3. Select the game folder, for example C:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2 and press Continue.
 4. After successfully opening the map in the app, configure the color palette in the menu. Example in the screenshot:
-![palete example](screenshots/example1-setting.png)
+![palete example](example1-setting.png)
 
 5. Run Main - Generate tile map, set the capture parameters according to the parameters in the screenshot (Start: 0, End: 8, 512px tile size, padding 384, checkbox "CityNames" disable)
 
-![capture example](screenshots/example2-capture.png)
+![capture example](example2-capture.png)
 
 Press Generate, Select a folder, for example C:/ets2-map, and waiting, this process can take an average of 15 minutes on fast PCs: i7 7700k, GTX1070, NVME 1TB.
 
