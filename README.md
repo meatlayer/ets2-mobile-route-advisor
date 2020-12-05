@@ -40,10 +40,10 @@ If you require any type of support, please looking at the [contributing guidelin
 A list of supported languages are available on the [ets2-mobile-route-advisor website](http://mikekoch.me/ets2-mobile-route-advisor). If you would like to submit a translation, please submit a pull request.
 
 ## Screenshots
-![Navigation Information](https://raw.githubusercontent.com/meatlayer/ets2-mobile-route-advisor/master/screenshots/nav.jpg)
-![Navigation Information2](https://raw.githubusercontent.com/meatlayer/ets2-mobile-route-advisor/master/screenshots/nav2.jpg)
-![Cargo Information](https://raw.githubusercontent.com/meatlayer/ets2-mobile-route-advisor/master/screenshots/cargo.jpg)
-![Damage Information](https://raw.githubusercontent.com/meatlayer/ets2-mobile-route-advisor/master/screenshots/damage.jpg)
+![Navigation Information](screenshots/nav.jpg)
+![Navigation Information2](screenshots/nav2.jpg)
+![Cargo Information](screenshots/cargo.jpg)
+![Damage Information](screenshots/damage.jpg)
 
 ## Contributors
 <table>
