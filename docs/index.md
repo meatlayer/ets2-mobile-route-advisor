@@ -6,8 +6,8 @@ This is a skin for [ETS2 Telemetry Server 4.1.2.3+](https://github.com/PauloTNCu
 
 ## Features
 > Notice #1: Map contains POI directly on the map images (if the Map follows the driving direction, these icons do NOT rotate).
-
 > Notice #2: Flags have been disabled due to poor map performance when displaying them. You can enable them if needed by uncommenting the lines in the map.js
+
 - Navigation
     - Mini-map (ETS2 & ATS)
     - Truck label is pinned in the center, the map rotates if the truck rotates in relation to the parts of the light (N, S, E, W)
@@ -82,7 +82,6 @@ Euro Truck Simulator 2 / American Truck Simulator's Route Advisor - Навига
 
 ## Возможности
 > Обратите внимание #1: Карта содержит POI-значки непосредственно на изображениях карты (если карта следует направлению движения, эти значки НЕ вращаются).
-
 > Обратите внимание #2: Флаги были отключены из-за плохой производительности карты при их отображении. Вы можете включить их, если это необходимо, раскомментировав строки в map.js
 
 - Навигация
