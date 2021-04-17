@@ -49,13 +49,13 @@ Funbit.Ets.Telemetry.Dashboard.prototype.filter = function (data) {
     data.gameTime12h = getTime(data.game.time, 12);
     var originalTime = data.game.time;
     data.game.time = getTime(data.game.time, 24);
-    var tons = (data.trailer.mass / 1000.0).toFixed(2);
+    var tons = (data.cargo.mass / 1000.0).toFixed(2);
     if (tons.substr(tons.length - 2) === "00") {
         tons = parseInt(tons);
     }
     data.trailerMassTons = data.trailer.attached ? (tons + ' t') : '';
-    data.trailerMassKg = data.trailer.attached ? data.trailer.mass + ' kg' : '';
-    data.trailerMassLbs = data.trailer.attached ? Math.round(data.trailer.mass * 2.20462) + ' lb' : '';
+    data.trailerMassKg = data.trailer.attached ? data.cargo.mass + ' kg' : '';
+    data.trailerMassLbs = data.trailer.attached ? Math.round(data.cargo.mass * 2.20462) + ' lb' : '';
     data.game.nextRestStopTimeArray = getDaysHoursMinutesAndSeconds(data.game.nextRestStopTime);
     data.game.nextRestStopTime = processTimeDifferenceArray(data.game.nextRestStopTimeArray);
     data.navigation.speedLimitMph = data.navigation.speedLimit * .621371;
@@ -80,6 +80,7 @@ Funbit.Ets.Telemetry.Dashboard.prototype.filter = function (data) {
 
     data.job.remainingTimeArray = getDaysHoursMinutesAndSeconds(data.job.remainingTime);
     data.job.remainingTime = processTimeDifferenceArray(data.job.remainingTimeArray);
+	data.trailerName = data.cargo.cargo;
 
     if (data.isEts2) {
         data.jobIncome = getEts2JobIncome(data.job.income);
@@ -452,8 +453,10 @@ function isWorldOfTrucksContract(data) {
     var WORLD_OF_TRUCKS_DEADLINE_TIME = "0001-01-01T00:00:00Z";
     var WORLD_OF_TRUCKS_REMAINING_TIME = "0001-01-01T00:00:00Z";
 
+if(data.job.income !== 0) {
     return data.job.deadlineTime === WORLD_OF_TRUCKS_DEADLINE_TIME
         && data.job.remainingTime === WORLD_OF_TRUCKS_REMAINING_TIME;
+	}
 }
 
 // Wrapper function to set an item to local storage.
@@ -619,7 +622,7 @@ var g_translations;
 var g_skinConfig;
 
 // The current version of ets2-mobile-route-advisor
-var g_currentVersion = '3.6.2';
+var g_currentVersion = '4.0.0';
 
 // The currently running game
 var g_runningGame;

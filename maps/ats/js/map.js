@@ -1,17 +1,26 @@
 // All of this should be executed after the DOM is ready and the entire skin has been loaded.
+// Image size used in the map (tiles 512px * 255 columns =  130560 + 384px padding = 131072)
+var MAX_X = 131072; //padding in ts-map 384px
+var MAX_Y = 131072; //padding in ts-map 384px
+	
+// https://github.com/dariowouters/ts-map/issues/16#issuecomment-716160718
+function game_coord_to_pixels(xx, yy) {
+	// Values from TileMapInfo.json
+	const x1 = -127787.289;
+	const x2 = -16832.72;
+	const y1 = -72065.5;
+	const y2 = 38889.07;
 
-// Image size used in the map.
-var MAX_X = 131072;
-var MAX_Y = 131072; 
-// How the image was extracted from the game:
-// http://forum.scssoft.com/viewtopic.php?p=405122#p405122
+	const xtot = x2 - x1; // Total X length
+	const ytot = y2 - y1; // Total Y length
 
-// Based on http://forum.scssoft.com/viewtopic.php?f=41&t=186779
+	const xrel = (xx - x1) / xtot; // The fraction where the X is (between 0 and 1, 0 being fully left, 1 being fully right)
+	const yrel = (yy - y1) / ytot; // The fraction where the Y is
 
-function game_coord_to_pixels(x, y) {
-	var r = [x / 0.846756+ 150932 , y / 0.846756 + 85128];
-	r[1] = MAX_Y - r[1];
-	return r;
+	return [
+		xrel * MAX_X, // Where X actually is, so multiplied the actual width
+		MAX_Y - (yrel * MAX_Y) // Where Y actually is, only Y is inverted
+	];
 }
 
 // https://github.com/richtr/NoSleep.js
@@ -198,16 +207,17 @@ function getMapTilesLayer(projection, tileGrid) {
 }
 
 var STATE_NAME_TO_CODE = {
-	"arizona": "az",
-	"new_mexico": "nm",
-	"oregon": "or",
-	"washington": "wa",
-	"utah": "ut",
-	"idaho": "nm",
-    "california": "ca",
-    "nevada": "nv",
-	"oregon": "or",
-	"colorado": "co"
+"arizona": "az",
+"new_mexico": "nm",
+"oregon": "or",
+"washington": "wa",
+"utah": "ut",
+"idaho": "nm",
+"california": "ca",
+"nevada": "nv",
+"oregon": "or",
+"colorado": "co",
+"wyoming": "wy"
 };
 
 function getTextFeatures() {
@@ -220,7 +230,8 @@ function getTextFeatures() {
         var scale = Math.min(1, Math.max(0, 1.0 / Math.log2(resolution + 1) - 0.015));
         return [new ol.style.Style({
             //Creating a new image layer
-            image: new ol.style.Icon(({
+			//If you need to display city flags, uncomment it by removing the comment marks.
+ /*           image: new ol.style.Icon(({
                 rotateWithView: false,
                 anchor: [0.5, 1],
                 anchorXUnits: 'fraction',
@@ -229,15 +240,15 @@ function getTextFeatures() {
                 // Flag images from: http://usa.flagpedia.net/
                 src: g_pathPrefix + '/flags-usa/' + this.get('cc') + '.png',
                 scale: 4 / 16 * scale
-            })),
+            })),*/
             text: new ol.style.Text({
                 text: this.get('Name'),
-                font: '1.5em "Helvetica Neue", "Helvetica", "Arial", sans-serif',
+                font: 'bold 48pt "Helvetica Neue", "Helvetica", "Arial", sans-serif',
                 textAlign: 'center',
                 fill: fill,
                 stroke: stroke,
                 scale: scale,
-                offsetY: 64 * scale
+                offsetY: 96 * scale
             })
         })];
     };

@@ -364,8 +364,10 @@ a {
 }
 
 .dashboard > ._tabs {
-    background-image: url("img/bg.png");
-    background-size: 0.5em;  /* Single-value means background width. */
+    /*
+	background-image: url("img/bg.png");
+    background-size: 0.5em; 
+	*/
 }
 .dashboard > nav > * {
     border-bottom: solid 0.1em transparent;

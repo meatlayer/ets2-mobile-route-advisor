@@ -25,7 +25,7 @@ If you have already completed any of these steps in the past (such as creating a
  - Use 4 spaces for indentation. Please do not use the tab character.
 
 ## Submitting Changes
- - Sign the [Contributor License Agreement](https://cla-assistant.io/mike-koch/ets2-mobile-route-advisor)
+ - Sign the [Contributor License Agreement](https://cla-assistant.io/meatlayer/ets2-mobile-route-advisor)
  - Push your changes to a topic branch in your fork of the repository
  - Submit a pull request to the official ETS2 / ATS Mobile Route Advisor repository (mike-koch/ets2-mobile-route-advisor)
  - The owner of ETS2 / ATS Mobile Route Advisor will then inspect and test the code in the pull request.  Feedback will be given via GitHub comments.
