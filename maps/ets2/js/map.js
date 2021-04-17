@@ -1,61 +1,284 @@
 // All of this should be executed after the DOM is ready and the entire skin has been loaded.
-
-// Image size used in the map.
-var MAX_X = 131072;
-var MAX_Y = 131072;
-// How the image was extracted from the game:
-// http://forum.scssoft.com/viewtopic.php?p=405122#p405122
-
-// Based on http://forum.scssoft.com/viewtopic.php?f=41&t=186779
-function game_coord_to_pixels(x, y) {
-	var r = [x / 1.087326 + 57157 , y / 1.087326 + 59287];
+// Image size used in the map (tiles 512px * 255 columns =  130560 + 384px padding = 131072)
+var MAX_X = 131072; //padding in ts-map 384px
+var MAX_Y = 131072; //padding in ts-map 384px
 	
-	// The United Kingdom of Great Britain and Northern Ireland
-	if (x < -31056.8 && y < -5832.867) {
-		var r = [x / 1.087326 + 57157 , y / 1.087326 + 59287];
-	}
-	r[1] = MAX_Y - r[1];
-	return r;
+// https://github.com/dariowouters/ts-map/issues/16#issuecomment-716160718
+function game_coord_to_pixels(xx, yy) {
+	// Values from TileMapInfo.json
+	const x1 = -94505.8047;
+	const x2 = 79254.13;
+	const y1 = -80093.17;
+	const y2 = 93666.7656;
+
+	const xtot = x2 - x1; // Total X length
+	const ytot = y2 - y1; // Total Y length
+
+	const xrel = (xx - x1) / xtot; // The fraction where the X is (between 0 and 1, 0 being fully left, 1 being fully right)
+	const yrel = (yy - y1) / ytot; // The fraction where the Y is
+
+	return [
+		xrel * MAX_X, // Where X actually is, so multiplied the actual width
+		MAX_Y - (yrel * MAX_Y) // Where Y actually is, only Y is inverted
+	];
 }
+
 var COUNTRY_NAME_TO_CODE = {
-    "andorra": "ad",
-    "austria": "at",
-    "belarus": "by",
-    "belgium": "be",
-    "bulgaria": "bg",
-    "czech": "cz",
-    "denmark": "dk",
-    "estonia": "ee",
-    "faroe": "fo",
-    "finland": "fi",
-    "france": "fr",
-    "germany": "de",
-    "hungary": "hu",
-    "iceland": "is",
-    "iom": "im",
-    "isle of man": "im",
-    "italy": "it",
-    "latvia": "lv",
-    "liecht": "li",
-    "liechtenstein": "li",
-    "lithuania": "lt",
-    "luxembourg": "lu",
-    "moldova": "md",
-    "netherlands": "nl",
-    "norway": "no",
-    "poland": "pl",
-	"portugal": "pt",
-    "romania": "ro",
-    "russia": "ru",
-    "slovakia": "sk",
-    "slovenia": "si",
-    "spain": "es",
-	"turkey": "tr",
-    "sweden": "se",
-    "switzerland": "ch",
-    "uk": "gb",
-    "united kingdom": "gb",
-    "ukraine": "ua"
+"afghanistan" : 'af',
+"aland islands" : 'ax',
+"aland" : 'ax',
+"albania" : 'al',
+"algeria" : 'dz',
+"american samoa" : 'as',
+"andorra" : 'ad',
+"angola" : 'ao',
+"anguilla" : 'ai',
+"antarctica" : 'aq',
+"antigua and barbuda" : 'ag',
+"argentina" : 'ar',
+"armenia" : 'am',
+"aruba" : 'aw',
+"australia" : 'au',
+"austria" : 'at',
+"azerbaijan" : 'az',
+"bahamas" : 'bs',
+"bahrain" : 'bh',
+"bangladesh" : 'bd',
+"barbados" : 'bb',
+"belarus" : 'by',
+"belgium" : 'be',
+"belize" : 'bz',
+"benin" : 'bj',
+"bermuda" : 'bm',
+"bhutan" : 'bt',
+"bolivia" : 'bo',
+"bosnia and herzegovina" : 'ba',
+"bosnia" : 'ba',
+"botswana" : 'bw',
+"bouvet island" : 'bv',
+"brazil" : 'br',
+"british indian ocean territory" : 'io',
+"brunei darussalam" : 'bn',
+"bulgaria" : 'bg',
+"burkina faso" : 'bf',
+"burundi" : 'bi',
+"cambodia" : 'kh',
+"cameroon" : 'cm',
+"canada" : 'ca',
+"cape verde" : 'cv',
+"cayman islands" : 'ky',
+"central african republic" : 'cf',
+"chad" : 'td',
+"chile" : 'cl',
+"china" : 'cn',
+"christmas island" : 'cx',
+"cocos (keeling) islands" : 'cc',
+"colombia" : 'co',
+"comoros" : 'km',
+"congo" : 'cg',
+"congo, democratic republic" : 'cd',
+"cook islands" : 'ck',
+"costa rica" : 'cr',
+"cote d\'ivoire" : 'ci',
+"croatia" : 'hr',
+"cuba" : 'cu',
+"cyprus" : 'cy',
+"czech republic" : 'cz',
+"denmark" : 'dk',
+"djibouti" : 'dj',
+"dominica" : 'dm',
+"dominican republic" : 'do',
+"ecuador" : 'ec',
+"egypt" : 'eg',
+"el salvador" : 'sv',
+"equatorial guinea" : 'gq',
+"eritrea" : 'er',
+"estonia" : 'ee',
+"ethiopia" : 'et',
+"falkland islands (malvinas)" : 'fk',
+"faroe islands" : 'fo',
+"fiji" : 'fj',
+"finland" : 'fi',
+"france" : 'fr',
+"french guiana" : 'gf',
+"french polynesia" : 'pf',
+"french southern territories" : 'tf',
+"gabon" : 'ga',
+"gambia" : 'gm',
+"georgia" : 'ge',
+"germany" : 'de',
+"ghana" : 'gh',
+"gibraltar" : 'gi',
+"greece" : 'gr',
+"greenland" : 'gl',
+"grenada" : 'gd',
+"guadeloupe" : 'gp',
+"guam" : 'gu',
+"guatemala" : 'gt',
+"guernsey" : 'gg',
+"guinea" : 'gn',
+"guinea-bissau" : 'gw',
+"guyana" : 'gy',
+"haiti" : 'ht',
+"heard island & mcdonald islands" : 'hm',
+"holy see (vatican city state)" : 'va',
+"honduras" : 'hn',
+"hong kong" : 'hk',
+"hungary" : 'hu',
+"iceland" : 'is',
+"india" : 'in',
+"indonesia" : 'id',
+"iran, islamic republic of" : 'ir',
+"iraq" : 'iq',
+"ireland" : 'ie',
+"nireland" : 'ie',
+"isle of man" : 'im',
+"iom" : 'im',
+"israel" : 'il',
+"italy" : 'it',
+"jamaica" : 'jm',
+"japan" : 'jp',
+"jersey" : 'je',
+"jordan" : 'jo',
+"kazakhstan" : 'kz',
+"kenya" : 'ke',
+"kiribati" : 'ki',
+"korea" : 'kr',
+"kuwait" : 'kw',
+"kyrgyzstan" : 'kg',
+"lao people\'s democratic republic" : 'la',
+"latvia" : 'lv',
+"lebanon" : 'lb',
+"lesotho" : 'ls',
+"liberia" : 'lr',
+"libyan arab jamahiriya" : 'ly',
+"liechtenstein" : 'li',
+"lithuania" : 'lt',
+"luxembourg" : 'lu',
+"macao" : 'mo',
+"macedonia" : 'mk',
+"madagascar" : 'mg',
+"malawi" : 'mw',
+"malaysia" : 'my',
+"maldives" : 'mv',
+"mali" : 'ml',
+"malta" : 'mt',
+"marshall islands" : 'mh',
+"martinique" : 'mq',
+"mauritania" : 'mr',
+"mauritius" : 'mu',
+"mayotte" : 'yt',
+"mexico" : 'mx',
+"micronesia, federated states of" : 'fm',
+"moldova" : 'md',
+"monaco" : 'mc',
+"mongolia" : 'mn',
+"montenegro" : 'me',
+"mnegro" : 'me',
+"montserrat" : 'ms',
+"morocco" : 'ma',
+"mozambique" : 'mz',
+"myanmar" : 'mm',
+"namibia" : 'na',
+"nauru" : 'nr',
+"nepal" : 'np',
+"netherlands" : 'nl',
+"netherlands antilles" : 'an',
+"new caledonia" : 'nc',
+"new zealand" : 'nz',
+"nicaragua" : 'ni',
+"niger" : 'ne',
+"nigeria" : 'ng',
+"niue" : 'nu',
+"norfolk island" : 'nf',
+"northern mariana islands" : 'mp',
+"norway" : 'no',
+"oman" : 'om',
+"pakistan" : 'pk',
+"palau" : 'pw',
+"palestinian territory, occupied" : 'ps',
+"panama" : 'pa',
+"papua new guinea" : 'pg',
+"paraguay" : 'py',
+"peru" : 'pe',
+"philippines" : 'ph',
+"pitcairn" : 'pn',
+"poland" : 'pl',
+"portugal" : 'pt',
+"puerto rico" : 'pr',
+"qatar" : 'qa',
+"reunion" : 're',
+"romania" : 'ro',
+"russian federation" : 'ru',
+"russia" : 'ru',
+"rwanda" : 'rw',
+"saint barthelemy" : 'bl',
+"saint helena" : 'sh',
+"saint kitts and nevis" : 'kn',
+"saint lucia" : 'lc',
+"saint martin" : 'mf',
+"saint pierre and miquelon" : 'pm',
+"saint vincent and grenadines" : 'vc',
+"samoa" : 'ws',
+"san marino" : 'sm',
+"sao tome and principe" : 'st',
+"saudi arabia" : 'sa',
+"saudia" : 'sa',
+"senegal" : 'sn',
+"serbia" : 'rs',
+"seychelles" : 'sc',
+"sierra leone" : 'sl',
+"singapore" : 'sg',
+"slovakia" : 'sk',
+"slovenia" : 'si',
+"solomon islands" : 'sb',
+"somalia" : 'so',
+"south africa" : 'za',
+"south georgia and sandwich isl." : 'gs',
+"spain" : 'es',
+"sri lanka" : 'lk',
+"sudan" : 'sd',
+"suriname" : 'sr',
+"svalbard and jan mayen" : 'sj',
+"svalbard" : 'sj',
+"swaziland" : 'sz',
+"sweden" : 'se',
+"switzerland" : 'ch',
+"syrian arab republic" : 'sy',
+"syria" : 'sy',
+"taiwan" : 'tw',
+"tajikistan" : 'tj',
+"tanzania" : 'tz',
+"thailand" : 'th',
+"timor-leste" : 'tl',
+"togo" : 'tg',
+"tokelau" : 'tk',
+"tonga" : 'to',
+"trinidad and tobago" : 'tt',
+"tunisia" : 'tn',
+"turkey" : 'tr',
+"turkmenistan" : 'tm',
+"turks and caicos islands" : 'tc',
+"tuvalu" : 'tv',
+"uganda" : 'ug',
+"ukraine" : 'ua',
+"united arab emirates" : 'ae',
+"uk": "gb",
+"united kingdom": "gb",
+"united states" : 'us',
+"united states outlying islands" : 'um',
+"uruguay" : 'uy',
+"uzbekistan" : 'uz',
+"vanuatu" : 'vu',
+"venezuela" : 've',
+"viet nam" : 'vn',
+"virgin islands, british" : 'vg',
+"virgin islands, u.s." : 'vi',
+"wallis and futuna" : 'wf',
+"western sahara" : 'eh',
+"yemen" : 'ye',
+"zambia" : 'zm',
+"zimbabwe" : 'zw'
 };
 
 // http://codepen.io/denilsonsa/pen/BKWNgB
@@ -67,12 +290,6 @@ function country_code_to_unicode(cc) {
     var b = cc.charCodeAt(1) - letter_a;
     return String.fromCodePoint(flagA + a, flagA + b);
 }
-
-// Copied from:
-// https://github.com/mike-koch/ets2-mobile-route-advisor/blob/5bde032121cbabac3bfd98f156a1e376d9903fd8/js/map.js
-// https://github.com/mike-koch/ets2-mobile-route-advisor/compare/promods-support
-// See also:
-// https://github.com/mike-koch/ets2-mobile-route-advisor/issues/90
 
 // https://github.com/richtr/NoSleep.js
 // Disabling screen lock on mobile devices
@@ -100,8 +317,8 @@ function getTextFeatures() {
         // console.log(this.get('realName'), this.get('country'));
         return [new ol.style.Style({
             //Creating a new image layer
-
-            image: new ol.style.Icon(({
+			//If you need to display city flags, uncomment it by removing the comment marks.
+ /*           image: new ol.style.Icon(({
                 rotateWithView: false,
                 anchor: [0.5, 1],
                 anchorXUnits: 'fraction',
@@ -110,16 +327,16 @@ function getTextFeatures() {
                 // Flag images from: http://lipis.github.io/flag-icon-css/
                 src: g_pathPrefix + '/flags/' + this.get('cc') + '.svg',
                 scale: 4 / 16 * scale
-            })),
+            })), */
             text: new ol.style.Text({
                 text: text,
-                font: '1.5em "Helvetica Neue", "Helvetica", "Arial", sans-serif',
+                font: 'bold 48pt "Helvetica Neue", "Helvetica", "Arial", sans-serif',
                 textAlign: 'center',
                 fill: fill,
                 stroke: stroke,
                 scale: scale,
                 //Move the text down, otherwise the flag and text will overlap.
-                offsetY: 64 * scale
+                offsetY: 96 * scale
             })
         })];
     };
