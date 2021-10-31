@@ -102,6 +102,7 @@ ATS в составе карты:
 - DLC Utah
 - DLC Idaho
 - DLC Colorado
+- DLC Wyoming
 
 
 ## Требования
