@@ -45,10 +45,11 @@ ATS inclued:
 - DLC Utah
 - DLC Idaho
 - DLC Colorado
+- DLC Wyoming
 
 
 ## Requirements
-- Euro Truck Simulator 2 and/or American Truck Simulator v1.40
+- Euro Truck Simulator 2 and/or American Truck Simulator v1.42
 - [ETS2 Telemetry Server](https://github.com/PauloTNCunha/TelemetryServer4) 4.1.2.3+
 
 ## How to Install
@@ -104,7 +105,7 @@ ATS в составе карты:
 
 
 ## Требования
-- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.40
+- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.42
 - [ETS2 Telemetry Server](https://github.com/PauloTNCunha/TelemetryServer4) 4.1.2.3+
 
 ## Как установить
