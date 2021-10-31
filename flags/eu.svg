@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="480" width="640" version="1">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="480" width="640" viewBox="0 0 640 480">
   <defs>
     <g id="d">
       <g id="b">
@@ -13,7 +13,7 @@
     </g>
   </defs>
   <path fill="#039" d="M0 0h640v480H0z"/>
-  <g transform="matrix(23.7037 0 0 23.7037 320 242.263)" fill="#fc0">
+  <g transform="translate(320 242.263) scale(23.7037)" fill="#fc0">
     <use height="100%" width="100%" xlink:href="#d" y="-6"/>
     <use height="100%" width="100%" xlink:href="#d" y="6"/>
     <g id="e">

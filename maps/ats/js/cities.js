@@ -2,7 +2,7 @@ var g_cities_json = [
   {
     "Name": "Raton",
     "Country": "new_mexico",
-    "X": -38846.4023,
+    "X": -38846.402,
     "Y": 9439.629,
     "CountryId": 31,
     "LocalizedNames": {
@@ -47,14 +47,14 @@ var g_cities_json = [
       "uk_uk": "Ратон",
       "vi_vn": "Raton",
       "zh_cn": "拉顿",
-      "zh_tw": "Raton"
+      "zh_tw": "拉頓"
     }
   },
   {
     "Name": "Durango",
     "Country": "colorado",
-    "X": -53529.0352,
-    "Y": 5028.40234,
+    "X": -53529.035,
+    "Y": 5028.402,
     "CountryId": 7,
     "LocalizedNames": {
       "bg_bg": "Дуранго",
@@ -98,14 +98,14 @@ var g_cities_json = [
       "uk_uk": "Дуранго",
       "vi_vn": "Durango",
       "zh_cn": "杜兰戈",
-      "zh_tw": "Durango"
+      "zh_tw": "杜蘭戈"
     }
   },
   {
     "Name": "Rangely",
     "Country": "colorado",
-    "X": -54419.9023,
-    "Y": -10241.8711,
+    "X": -54419.902,
+    "Y": -10241.871,
     "CountryId": 7,
     "LocalizedNames": {
       "bg_bg": "Рейнджли",
@@ -149,7 +149,7 @@ var g_cities_json = [
       "uk_uk": "Рейнджелі",
       "vi_vn": "Rangely",
       "zh_cn": "兰芝利",
-      "zh_tw": "Rangely"
+      "zh_tw": "蘭芝利"
     }
   },
   {
@@ -200,14 +200,65 @@ var g_cities_json = [
       "uk_uk": "Вернал",
       "vi_vn": "Vernal",
       "zh_cn": "韦纳尔",
-      "zh_tw": "Vernal"
+      "zh_tw": "韋納爾"
+    }
+  },
+  {
+    "Name": "Evanston",
+    "Country": "wyoming",
+    "X": -62020.684,
+    "Y": -19029.934,
+    "CountryId": 50,
+    "LocalizedNames": {
+      "bg_bg": "Еванстън",
+      "ca_es": "Evanston",
+      "cs_cz": "Evanston",
+      "da_dk": "Evanston",
+      "de_de": "Evanston",
+      "el_gr": "Έβανστον",
+      "en_gb": "Evanston",
+      "en_us": "Evanston",
+      "es_es": "Evanston",
+      "es_la": "Evanston",
+      "et_ee": "Evanston",
+      "eu_es": "Evanston",
+      "fi_fi": "Evanston",
+      "fr_fr": "Evanston",
+      "gl_es": "Evanston",
+      "hr_hr": "Evanston",
+      "hu_hu": "Evanston",
+      "it_it": "Evanston",
+      "ja_jp": "エバンストン",
+      "ka_ge": "ევანსტონი",
+      "ko_kr": "에번스턴",
+      "lt_lt": "Evanstonas",
+      "lv_lv": "Evanston",
+      "mk_mk": "Evanston",
+      "nl_nl": "Evanston",
+      "no_no": "Evanston",
+      "pl_pl": "Evanston",
+      "pl_si": "Evanston",
+      "pt_br": "Evanston",
+      "pt_pt": "Evanston",
+      "ro_ro": "Evanston",
+      "ru_ru": "Эванстон",
+      "sk_sk": "Evanston",
+      "sl_sl": "Evanston",
+      "sr_sp": "Evanston",
+      "sr_sr": "Еванстон",
+      "sv_se": "Evanston",
+      "tr_tr": "Evanston",
+      "uk_uk": "Evanston",
+      "vi_vn": "Evanston",
+      "zh_cn": "埃文斯顿",
+      "zh_tw": "埃文斯頓"
     }
   },
   {
     "Name": "Ogden",
     "Country": "utah",
-    "X": -68788.7344,
-    "Y": -19876.89,
+    "X": -67030.359,
+    "Y": -19688.004,
     "CountryId": 44,
     "LocalizedNames": {
       "bg_bg": "Огдън",
@@ -251,13 +302,13 @@ var g_cities_json = [
       "uk_uk": "Огден",
       "vi_vn": "Ogden",
       "zh_cn": "奥格登",
-      "zh_tw": "Ogden"
+      "zh_tw": "奧格登"
     }
   },
   {
     "Name": "Logan",
     "Country": "utah",
-    "X": -66398.31,
+    "X": -66398.312,
     "Y": -22143.57,
     "CountryId": 44,
     "LocalizedNames": {
@@ -302,65 +353,65 @@ var g_cities_json = [
       "uk_uk": "Логан",
       "vi_vn": "Logan",
       "zh_cn": "洛根",
-      "zh_tw": "Logan"
+      "zh_tw": "洛根"
     }
   },
   {
-    "Name": "Coeur dAlene",
+    "Name": "Coeur d'Alene",
     "Country": "idaho",
-    "X": -79193.14,
+    "X": -79193.141,
     "Y": -58598.25,
     "CountryId": 13,
     "LocalizedNames": {
       "bg_bg": "Кор Дълейн",
-      "ca_es": "Coeur dAlene",
-      "cs_cz": "Coeur dAlene",
-      "da_dk": "Coeur dAlene",
-      "de_de": "Coeur dAlene",
-      "el_gr": "Κερ ντ Αλέν",
-      "en_gb": "Coeur dAlene",
-      "en_us": "Coeur dAlene",
-      "es_es": "Coeur dAlene",
-      "es_la": "Coeur dAlene",
-      "et_ee": "Coeur dAlene",
-      "eu_es": "Coeur dAlene",
-      "fi_fi": "Coeur dAlene",
-      "fr_fr": "Coeur dAlene",
-      "gl_es": "Coeur dAlene",
-      "hr_hr": "Coeur dAlene",
-      "hu_hu": "Coeur dAlene",
-      "it_it": "Coeur dAlene",
+      "ca_es": "Coeur d'Alene",
+      "cs_cz": "Coeur d'Alene",
+      "da_dk": "Coeur d'Alene",
+      "de_de": "Coeur d'Alene",
+      "el_gr": "Κερ ντ' Αλέν",
+      "en_gb": "Coeur d'Alene",
+      "en_us": "Coeur d'Alene",
+      "es_es": "Coeur d'Alene",
+      "es_la": "Coeur d'Alene",
+      "et_ee": "Coeur d'Alene",
+      "eu_es": "Coeur d'Alene",
+      "fi_fi": "Coeur d'Alene",
+      "fr_fr": "Coeur d'Alene",
+      "gl_es": "Coeur d'Alene",
+      "hr_hr": "Coeur d'Alene",
+      "hu_hu": "Coeur d'Alene",
+      "it_it": "Coeur d'Alene",
       "ja_jp": "コー・ダリーン",
       "ka_ge": "კორ-დ’ალენი",
       "ko_kr": "코달레인",
-      "lt_lt": "Ker dAlenas",
-      "lv_lv": "Coeur dAlene",
-      "mk_mk": "Coeur dAlene",
-      "nl_nl": "Coeur dAlene",
-      "no_no": "Coeur dAlene",
-      "pl_pl": "Coeur dAlene",
-      "pl_si": "Coeur dAlene",
-      "pt_br": "Coeur dAlene",
-      "pt_pt": "Coeur dAlene",
-      "ro_ro": "Coeur dAlene",
+      "lt_lt": "Ker d'Alenas",
+      "lv_lv": "Coeur d'Alene",
+      "mk_mk": "Coeur d'Alene",
+      "nl_nl": "Coeur d'Alene",
+      "no_no": "Coeur d'Alene",
+      "pl_pl": "Coeur d'Alene",
+      "pl_si": "Coeur d'Alene",
+      "pt_br": "Coeur d'Alene",
+      "pt_pt": "Coeur d'Alene",
+      "ro_ro": "Coeur d'Alene",
       "ru_ru": "Кер-д’Ален",
-      "sk_sk": "Coeur dAlene",
-      "sl_sl": "Coeur dAlene",
-      "sr_sp": "Kor DAlen",
-      "sr_sr": "Кор ДАлен",
-      "sv_se": "Coeur dAlene",
-      "tr_tr": "Coeur dAlene",
-      "uk_uk": "Коур-дАлен",
-      "vi_vn": "Coeur dAlene",
+      "sk_sk": "Coeur d'Alene",
+      "sl_sl": "Coeur d'Alene",
+      "sr_sp": "Kor D'Alen",
+      "sr_sr": "Кор Д'Ален",
+      "sv_se": "Coeur d'Alene",
+      "tr_tr": "Coeur d'Alene",
+      "uk_uk": "Коур-д'Ален",
+      "vi_vn": "Coeur d'Alene",
       "zh_cn": "科达莲",
-      "zh_tw": "Coeur dAlene"
+      "zh_tw": "科達倫"
     }
   },
   {
     "Name": "Sandpoint",
     "Country": "idaho",
-    "X": -78775.04,
-    "Y": -64033.0039,
+    "X": -78775.039,
+    "Y": -64033.004,
     "CountryId": 13,
     "LocalizedNames": {
       "bg_bg": "Сандпойнт",
@@ -404,14 +455,14 @@ var g_cities_json = [
       "uk_uk": "Сандпоінт",
       "vi_vn": "Sandpoint",
       "zh_cn": "桑德波因特",
-      "zh_tw": "Sandpoint"
+      "zh_tw": "桑德波因特"
     }
   },
   {
     "Name": "Nampa",
     "Country": "idaho",
-    "X": -84221.96,
-    "Y": -35760.1055,
+    "X": -84221.961,
+    "Y": -35760.105,
     "CountryId": 13,
     "LocalizedNames": {
       "bg_bg": "Нампа",
@@ -455,14 +506,14 @@ var g_cities_json = [
       "uk_uk": "Нампа",
       "vi_vn": "Nampa",
       "zh_cn": "楠帕",
-      "zh_tw": "Nampa"
+      "zh_tw": "楠帕"
     }
   },
   {
     "Name": "Boise",
     "Country": "idaho",
-    "X": -81921.98,
-    "Y": -36446.7656,
+    "X": -81921.977,
+    "Y": -36446.766,
     "CountryId": 13,
     "LocalizedNames": {
       "bg_bg": "Бойс",
@@ -506,14 +557,14 @@ var g_cities_json = [
       "uk_uk": "Бойсі",
       "vi_vn": "Boise",
       "zh_cn": "博伊西",
-      "zh_tw": "Boise"
+      "zh_tw": "博伊西"
     }
   },
   {
     "Name": "Spokane",
     "Country": "washington",
-    "X": -81409.67,
-    "Y": -59659.5078,
+    "X": -81409.672,
+    "Y": -59659.508,
     "CountryId": 47,
     "LocalizedNames": {
       "bg_bg": "Спокан",
@@ -557,13 +608,13 @@ var g_cities_json = [
       "uk_uk": "Спокан",
       "vi_vn": "Spokane",
       "zh_cn": "斯波坎",
-      "zh_tw": "Spokane"
+      "zh_tw": "斯波坎"
     }
   },
   {
     "Name": "Ehrenberg",
     "Country": "arizona",
-    "X": -85959.06,
+    "X": -85959.062,
     "Y": 21194.57,
     "CountryId": 3,
     "LocalizedNames": {
@@ -608,14 +659,14 @@ var g_cities_json = [
       "uk_uk": "Еренберг",
       "vi_vn": "Ehrenberg",
       "zh_cn": "埃伦伯格",
-      "zh_tw": "Ehrenberg"
+      "zh_tw": "埃倫伯格"
     }
   },
   {
     "Name": "Ontario",
     "Country": "oregon",
-    "X": -85290.09,
-    "Y": -39258.9,
+    "X": -85290.094,
+    "Y": -39258.898,
     "CountryId": 37,
     "LocalizedNames": {
       "bg_bg": "Онтарио",
@@ -659,7 +710,7 @@ var g_cities_json = [
       "uk_uk": "Онтаріо",
       "vi_vn": "Ontario",
       "zh_cn": "安大略",
-      "zh_tw": "Ontario"
+      "zh_tw": "安大略"
     }
   },
   {
@@ -710,14 +761,14 @@ var g_cities_json = [
       "uk_uk": "Юма",
       "vi_vn": "Yuma",
       "zh_cn": "尤马",
-      "zh_tw": "Yuma"
+      "zh_tw": "尤馬"
     }
   },
   {
     "Name": "Pendleton",
     "Country": "oregon",
-    "X": -91312.4844,
-    "Y": -50048.49,
+    "X": -91312.484,
+    "Y": -50048.488,
     "CountryId": 37,
     "LocalizedNames": {
       "bg_bg": "Пендълтън",
@@ -761,14 +812,14 @@ var g_cities_json = [
       "uk_uk": "Пендлтон",
       "vi_vn": "Pendleton",
       "zh_cn": "彭德尔顿",
-      "zh_tw": "Pendleton"
+      "zh_tw": "彭德爾頓"
     }
   },
   {
     "Name": "El Centro",
     "Country": "california",
-    "X": -92373.9844,
-    "Y": 24439.6836,
+    "X": -92373.984,
+    "Y": 24439.684,
     "CountryId": 1,
     "LocalizedNames": {
       "bg_bg": "Ел Сентро",
@@ -812,13 +863,13 @@ var g_cities_json = [
       "uk_uk": "Ель-Центро",
       "vi_vn": "El Centro",
       "zh_cn": "埃尔森特罗",
-      "zh_tw": "El Centro"
+      "zh_tw": "埃爾森特羅"
     }
   },
   {
     "Name": "Barstow",
     "Country": "california",
-    "X": -97233.47,
+    "X": -97233.469,
     "Y": 11885.16,
     "CountryId": 1,
     "LocalizedNames": {
@@ -863,14 +914,14 @@ var g_cities_json = [
       "uk_uk": "Барстоу",
       "vi_vn": "Barstow",
       "zh_cn": "巴斯托",
-      "zh_tw": "Barstow"
+      "zh_tw": "巴斯托"
     }
   },
   {
     "Name": "San Diego",
     "Country": "california",
-    "X": -99512.36,
-    "Y": 23409.5664,
+    "X": -99512.359,
+    "Y": 23409.566,
     "CountryId": 1,
     "LocalizedNames": {
       "bg_bg": "Сан Диего",
@@ -914,14 +965,14 @@ var g_cities_json = [
       "uk_uk": "Сан-Дієго",
       "vi_vn": "San Diego",
       "zh_cn": "圣地亚哥",
-      "zh_tw": "San Diego"
+      "zh_tw": "聖地牙哥"
     }
   },
   {
     "Name": "Los Angeles",
     "Country": "california",
     "X": -104789.375,
-    "Y": 15624.2891,
+    "Y": 15624.289,
     "CountryId": 1,
     "LocalizedNames": {
       "bg_bg": "Лос Анджелис",
@@ -965,14 +1016,14 @@ var g_cities_json = [
       "uk_uk": "Лос-Анджелес",
       "vi_vn": "Los Angeles",
       "zh_cn": "洛杉矶",
-      "zh_tw": "Los Angeles"
+      "zh_tw": "洛杉磯"
     }
   },
   {
     "Name": "Carlsbad",
     "Country": "california",
     "X": -100837.18,
-    "Y": 20432.1836,
+    "Y": 20432.184,
     "CountryId": 1,
     "LocalizedNames": {
       "bg_bg": "Карлсбад",
@@ -1016,14 +1067,14 @@ var g_cities_json = [
       "uk_uk": "Карлсбад",
       "vi_vn": "Carlsbad",
       "zh_cn": "卡尔斯巴德",
-      "zh_tw": "Carlsbad"
+      "zh_tw": "卡爾斯巴德"
     }
   },
   {
     "Name": "Vancouver",
     "Country": "washington",
     "X": -103074.781,
-    "Y": -55804.8672,
+    "Y": -55804.867,
     "CountryId": 47,
     "LocalizedNames": {
       "bg_bg": "Ванкувър",
@@ -1067,7 +1118,7 @@ var g_cities_json = [
       "uk_uk": "Ванкувер",
       "vi_vn": "Vancouver",
       "zh_cn": "温哥华",
-      "zh_tw": "Vancouver"
+      "zh_tw": "溫哥華"
     }
   },
   {
@@ -1118,14 +1169,14 @@ var g_cities_json = [
       "uk_uk": "Бейкерсфілд",
       "vi_vn": "Bakersfield",
       "zh_cn": "贝克斯菲尔德",
-      "zh_tw": "Bakersfield"
+      "zh_tw": "貝克斯菲爾德"
     }
   },
   {
     "Name": "Oxnard",
     "Country": "california",
     "X": -107583.688,
-    "Y": 13186.4727,
+    "Y": 13186.473,
     "CountryId": 1,
     "LocalizedNames": {
       "bg_bg": "Окснард",
@@ -1169,14 +1220,14 @@ var g_cities_json = [
       "uk_uk": "Окснард",
       "vi_vn": "Oxnard",
       "zh_cn": "奥克斯纳德",
-      "zh_tw": "Oxnard"
+      "zh_tw": "奧克斯納德"
     }
   },
   {
     "Name": "Fresno",
     "Country": "california",
     "X": -105663.844,
-    "Y": -689.4219,
+    "Y": -689.422,
     "CountryId": 1,
     "LocalizedNames": {
       "bg_bg": "Фресно",
@@ -1220,14 +1271,14 @@ var g_cities_json = [
       "uk_uk": "Фресно",
       "vi_vn": "Fresno",
       "zh_cn": "弗雷斯诺",
-      "zh_tw": "Fresno"
+      "zh_tw": "弗雷斯諾"
     }
   },
   {
     "Name": "Truckee",
     "Country": "california",
     "X": -106489.211,
-    "Y": -15663.7891,
+    "Y": -15663.789,
     "CountryId": 1,
     "LocalizedNames": {
       "bg_bg": "Тръки",
@@ -1271,14 +1322,14 @@ var g_cities_json = [
       "uk_uk": "Тракі",
       "vi_vn": "Truckee",
       "zh_cn": "特拉基",
-      "zh_tw": "Truckee"
+      "zh_tw": "特拉基"
     }
   },
   {
     "Name": "Portland",
     "Country": "oregon",
     "X": -105047.0,
-    "Y": -52277.69,
+    "Y": -52277.691,
     "CountryId": 37,
     "LocalizedNames": {
       "bg_bg": "Портланд",
@@ -1322,14 +1373,14 @@ var g_cities_json = [
       "uk_uk": "Портленд",
       "vi_vn": "Portland",
       "zh_cn": "波特兰",
-      "zh_tw": "Portland"
+      "zh_tw": "波特蘭"
     }
   },
   {
     "Name": "Astoria",
     "Country": "oregon",
     "X": -107478.266,
-    "Y": -57513.0977,
+    "Y": -57513.098,
     "CountryId": 37,
     "LocalizedNames": {
       "bg_bg": "Астория",
@@ -1373,7 +1424,7 @@ var g_cities_json = [
       "uk_uk": "Асторія",
       "vi_vn": "Astoria",
       "zh_cn": "阿斯托里亚",
-      "zh_tw": "Astoria"
+      "zh_tw": "阿斯托里亞"
     }
   },
   {
@@ -1421,17 +1472,17 @@ var g_cities_json = [
       "sr_sr": "Лонгвју",
       "sv_se": "Longview",
       "tr_tr": "Longview",
-      "uk_uk": "Лонгвю",
+      "uk_uk": "Лонгв'ю",
       "vi_vn": "Longview",
       "zh_cn": "郎维尤",
-      "zh_tw": "Longview"
+      "zh_tw": "朗維尤"
     }
   },
   {
     "Name": "Huron",
     "Country": "california",
     "X": -109380.352,
-    "Y": 1713.4375,
+    "Y": 1713.438,
     "CountryId": 1,
     "LocalizedNames": {
       "bg_bg": "Хюрън",
@@ -1475,13 +1526,13 @@ var g_cities_json = [
       "uk_uk": "Хюрон",
       "vi_vn": "Huron",
       "zh_cn": "休伦",
-      "zh_tw": "Huron"
+      "zh_tw": "休倫"
     }
   },
   {
     "Name": "Santa Maria",
     "Country": "california",
-    "X": -111906.813,
+    "X": -111906.812,
     "Y": 8385.863,
     "CountryId": 1,
     "LocalizedNames": {
@@ -1526,14 +1577,14 @@ var g_cities_json = [
       "uk_uk": "Санта-Марія",
       "vi_vn": "Santa Maria",
       "zh_cn": "圣玛丽亚",
-      "zh_tw": "Santa Maria"
+      "zh_tw": "聖瑪麗亞"
     }
   },
   {
     "Name": "Oakdale",
     "Country": "california",
     "X": -109427.125,
-    "Y": -7211.52734,
+    "Y": -7211.527,
     "CountryId": 1,
     "LocalizedNames": {
       "bg_bg": "Оукдейл",
@@ -1577,14 +1628,14 @@ var g_cities_json = [
       "uk_uk": "Окдейл",
       "vi_vn": "Oakdale",
       "zh_cn": "奥克戴尔",
-      "zh_tw": "Oakdale"
+      "zh_tw": "奧克戴爾"
     }
   },
   {
     "Name": "Stockton",
     "Country": "california",
     "X": -111164.375,
-    "Y": -10447.0352,
+    "Y": -10447.035,
     "CountryId": 1,
     "LocalizedNames": {
       "bg_bg": "Стоктън",
@@ -1628,7 +1679,7 @@ var g_cities_json = [
       "uk_uk": "Стоктон",
       "vi_vn": "Stockton",
       "zh_cn": "斯托克顿",
-      "zh_tw": "Stockton"
+      "zh_tw": "史塔克頓"
     }
   },
   {
@@ -1679,14 +1730,14 @@ var g_cities_json = [
       "uk_uk": "Сакраменто",
       "vi_vn": "Sacramento",
       "zh_cn": "萨克拉门托",
-      "zh_tw": "Sacramento"
+      "zh_tw": "薩克拉門托"
     }
   },
   {
     "Name": "Redding",
     "Country": "california",
     "X": -110950.016,
-    "Y": -25264.7266,
+    "Y": -25264.727,
     "CountryId": 1,
     "LocalizedNames": {
       "bg_bg": "Рединг",
@@ -1730,58 +1781,109 @@ var g_cities_json = [
       "uk_uk": "Редінг",
       "vi_vn": "Redding",
       "zh_cn": "雷丁",
-      "zh_tw": "Redding"
+      "zh_tw": "雷丁"
     }
   },
   {
-    "Name": "Hornbrook",
+    "Name": "Medford",
+    "Country": "oregon",
+    "X": -111057.805,
+    "Y": -36474.281,
+    "CountryId": 37,
+    "LocalizedNames": {
+      "bg_bg": "Медфорд",
+      "ca_es": "Medford",
+      "cs_cz": "Medford",
+      "da_dk": "Medford",
+      "de_de": "Medford",
+      "el_gr": "Μέντφορντ",
+      "en_gb": "Medford",
+      "en_us": "Medford",
+      "es_es": "Medford",
+      "es_la": "Medford",
+      "et_ee": "Medford",
+      "eu_es": "Medford",
+      "fi_fi": "Medford",
+      "fr_fr": "Medford",
+      "gl_es": "Medford",
+      "hr_hr": "Medford",
+      "hu_hu": "Medford",
+      "it_it": "Medford",
+      "ja_jp": "メドフォード",
+      "ka_ge": "მედფორდი",
+      "ko_kr": "메드퍼드",
+      "lt_lt": "Medford",
+      "lv_lv": "Medford",
+      "mk_mk": "Medford",
+      "nl_nl": "Medford",
+      "no_no": "Medford",
+      "pl_pl": "Medford",
+      "pl_si": "Medford",
+      "pt_br": "Medford",
+      "pt_pt": "Medford",
+      "ro_ro": "Medford",
+      "ru_ru": "Медфорд",
+      "sk_sk": "Medford",
+      "sl_sl": "Medford",
+      "sr_sp": "Medford",
+      "sr_sr": "Медфорд",
+      "sv_se": "Medford",
+      "tr_tr": "Medford",
+      "uk_uk": "Медфорд",
+      "vi_vn": "Medford",
+      "zh_cn": "梅德福",
+      "zh_tw": "梅德福"
+    }
+  },
+  {
+    "Name": "Hilt",
     "Country": "california",
-    "X": -110319.344,
-    "Y": -31655.71,
+    "X": -110201.828,
+    "Y": -32496.504,
     "CountryId": 1,
     "LocalizedNames": {
-      "bg_bg": "Хорнбрук",
-      "ca_es": "Hornbrook",
-      "cs_cz": "Hornbrook",
-      "da_dk": "Hornbrook",
-      "de_de": "Hornbrook",
-      "el_gr": "Χόρνμπρουκ",
-      "en_gb": "Hornbrook",
-      "en_us": "Hornbrook",
-      "es_es": "Hornbrook",
-      "es_la": "Hornbrook",
-      "et_ee": "Hornbrook",
-      "eu_es": "Hornbrook",
-      "fi_fi": "Hornbrook",
-      "fr_fr": "Hornbrook",
-      "gl_es": "Hornbrook",
-      "hr_hr": "Hornbrook",
-      "hu_hu": "Hornbrook",
-      "it_it": "Hornbrook",
-      "ja_jp": "ホーンブルック",
-      "ka_ge": "ჰორნბრუკი",
-      "ko_kr": "혼브룩",
-      "lt_lt": "Hornbrook",
-      "lv_lv": "Hornbrook",
-      "mk_mk": "Hornbrook",
-      "nl_nl": "Hornbrook",
-      "no_no": "Hornbrook",
-      "pl_pl": "Hornbrook",
-      "pl_si": "Hornbrook",
-      "pt_br": "Hornbrook",
-      "pt_pt": "Hornbrook",
-      "ro_ro": "Hornbrook",
-      "ru_ru": "Хорнбрук",
-      "sk_sk": "Hornbrook",
-      "sl_sl": "Hornbrook",
-      "sr_sp": "Hornbruk",
-      "sr_sr": "Хорнбрук",
-      "sv_se": "Hornbrook",
-      "tr_tr": "Hornbrook",
-      "uk_uk": "Хорнбрук",
-      "vi_vn": "Hornbrook",
-      "zh_cn": "霍恩布鲁克",
-      "zh_tw": "Hornbrook"
+      "bg_bg": "Хелт",
+      "ca_es": "Hilt",
+      "cs_cz": "Hilt",
+      "da_dk": "Hilt",
+      "de_de": "Hilt",
+      "el_gr": "Χιλτ",
+      "en_gb": "Hilt",
+      "en_us": "Hilt",
+      "es_es": "Hilt",
+      "es_la": "Hilt",
+      "et_ee": "Hilt",
+      "eu_es": "Hilt",
+      "fi_fi": "Hilt",
+      "fr_fr": "Hilt",
+      "gl_es": "Hilt",
+      "hr_hr": "Hilt",
+      "hu_hu": "Hilt",
+      "it_it": "Hilt",
+      "ja_jp": "ヒルト",
+      "ka_ge": "ჰილტი",
+      "ko_kr": "힐트",
+      "lt_lt": "Hiltas",
+      "lv_lv": "Hilt",
+      "mk_mk": "Hilt",
+      "nl_nl": "Hilt",
+      "no_no": "Hilt",
+      "pl_pl": "Hilt",
+      "pl_si": "Hilt",
+      "pt_br": "Hilt",
+      "pt_pt": "Hilt",
+      "ro_ro": "Hilt",
+      "ru_ru": "Хилт",
+      "sk_sk": "Hilt",
+      "sl_sl": "Hilt",
+      "sr_sp": "Hilt",
+      "sr_sr": "Хилт",
+      "sv_se": "Hilt",
+      "tr_tr": "Hilt",
+      "uk_uk": "Hilt",
+      "vi_vn": "Hilt",
+      "zh_cn": "希尔特",
+      "zh_tw": "希爾"
     }
   },
   {
@@ -1832,7 +1934,7 @@ var g_cities_json = [
       "uk_uk": "Санта-Круз",
       "vi_vn": "Santa Cruz",
       "zh_cn": "圣克鲁斯",
-      "zh_tw": "Santa Cruz"
+      "zh_tw": "聖塔克魯茲"
     }
   },
   {
@@ -1883,14 +1985,14 @@ var g_cities_json = [
       "uk_uk": "Окленд",
       "vi_vn": "Oakland",
       "zh_cn": "奥克兰",
-      "zh_tw": "Oakland"
+      "zh_tw": "奧克蘭"
     }
   },
   {
     "Name": "San Francisco",
     "Country": "california",
     "X": -114781.594,
-    "Y": -10460.2852,
+    "Y": -10460.285,
     "CountryId": 1,
     "LocalizedNames": {
       "bg_bg": "Сан Франциско",
@@ -1934,14 +2036,14 @@ var g_cities_json = [
       "uk_uk": "Сан-Франциско",
       "vi_vn": "San Francisco",
       "zh_cn": "旧金山",
-      "zh_tw": "San Francisco"
+      "zh_tw": "舊金山"
     }
   },
   {
     "Name": "San Rafael",
     "Country": "california",
     "X": -115090.805,
-    "Y": -13887.3086,
+    "Y": -13887.309,
     "CountryId": 1,
     "LocalizedNames": {
       "bg_bg": "Сан Рафаел",
@@ -1985,14 +2087,14 @@ var g_cities_json = [
       "uk_uk": "Сан-Рафаель",
       "vi_vn": "San Rafael",
       "zh_cn": "圣拉菲尔",
-      "zh_tw": "San Rafael"
+      "zh_tw": "聖拉斐"
     }
   },
   {
     "Name": "Ukiah",
     "Country": "california",
-    "X": -117215.2,
-    "Y": -19487.2383,
+    "X": -117215.203,
+    "Y": -19487.238,
     "CountryId": 1,
     "LocalizedNames": {
       "bg_bg": "Юкая",
@@ -2036,14 +2138,14 @@ var g_cities_json = [
       "uk_uk": "Юкайа",
       "vi_vn": "Ukiah",
       "zh_cn": "尤奇亚",
-      "zh_tw": "Ukiah"
+      "zh_tw": "尤奇亞"
     }
   },
   {
     "Name": "Eureka",
     "Country": "california",
-    "X": -118791.313,
-    "Y": -27791.5977,
+    "X": -118791.312,
+    "Y": -27791.598,
     "CountryId": 1,
     "LocalizedNames": {
       "bg_bg": "Юрика",
@@ -2087,14 +2189,14 @@ var g_cities_json = [
       "uk_uk": "Юріка",
       "vi_vn": "Eureka",
       "zh_cn": "尤里卡",
-      "zh_tw": "Eureka"
+      "zh_tw": "尤里卡"
     }
   },
   {
     "Name": "Clifton",
     "Country": "arizona",
     "X": -62781.98,
-    "Y": 28035.6484,
+    "Y": 28035.648,
     "CountryId": 3,
     "LocalizedNames": {
       "bg_bg": "Клифтън",
@@ -2138,14 +2240,14 @@ var g_cities_json = [
       "uk_uk": "Кліфтон",
       "vi_vn": "Clifton",
       "zh_cn": "克利夫顿",
-      "zh_tw": "Clifton"
+      "zh_tw": "克利夫頓"
     }
   },
   {
     "Name": "San Simon",
     "Country": "arizona",
     "X": -63108.832,
-    "Y": 32947.88,
+    "Y": 32947.879,
     "CountryId": 3,
     "LocalizedNames": {
       "bg_bg": "Сан Симон",
@@ -2189,13 +2291,13 @@ var g_cities_json = [
       "uk_uk": "Сан-Сімон",
       "vi_vn": "San Simon",
       "zh_cn": "圣西蒙",
-      "zh_tw": "San Simon"
+      "zh_tw": "聖西蒙"
     }
   },
   {
     "Name": "Kayenta",
     "Country": "arizona",
-    "X": -64327.1641,
+    "X": -64327.164,
     "Y": 7017.426,
     "CountryId": 3,
     "LocalizedNames": {
@@ -2240,13 +2342,13 @@ var g_cities_json = [
       "uk_uk": "Каєнта",
       "vi_vn": "Kayenta",
       "zh_cn": "凯恩塔",
-      "zh_tw": "Kayenta"
+      "zh_tw": "凱恩塔"
     }
   },
   {
     "Name": "Holbrook",
     "Country": "arizona",
-    "X": -65350.0742,
+    "X": -65350.074,
     "Y": 17586.125,
     "CountryId": 3,
     "LocalizedNames": {
@@ -2291,14 +2393,14 @@ var g_cities_json = [
       "uk_uk": "Холбрук",
       "vi_vn": "Holbrook",
       "zh_cn": "霍尔布鲁克",
-      "zh_tw": "Holbrook"
+      "zh_tw": "霍爾布魯克"
     }
   },
   {
     "Name": "Show Low",
     "Country": "arizona",
-    "X": -66190.44,
-    "Y": 21138.1719,
+    "X": -66190.438,
+    "Y": 21138.172,
     "CountryId": 3,
     "LocalizedNames": {
       "bg_bg": "Шоу Лоу",
@@ -2342,14 +2444,14 @@ var g_cities_json = [
       "uk_uk": "Шоу-Лоу",
       "vi_vn": "Show Low",
       "zh_cn": "肖洛",
-      "zh_tw": "Show Low"
+      "zh_tw": "肖洛"
     }
   },
   {
     "Name": "Page",
     "Country": "arizona",
-    "X": -69491.4453,
-    "Y": 5151.77344,
+    "X": -69491.445,
+    "Y": 5151.773,
     "CountryId": 3,
     "LocalizedNames": {
       "bg_bg": "Пейдж",
@@ -2393,14 +2495,14 @@ var g_cities_json = [
       "uk_uk": "Пейдж",
       "vi_vn": "Page",
       "zh_cn": "佩吉",
-      "zh_tw": "Page"
+      "zh_tw": "佩吉市"
     }
   },
   {
     "Name": "Flagstaff",
     "Country": "arizona",
-    "X": -72199.7,
-    "Y": 13986.1367,
+    "X": -72199.703,
+    "Y": 13986.137,
     "CountryId": 3,
     "LocalizedNames": {
       "bg_bg": "Флагстаф",
@@ -2444,14 +2546,14 @@ var g_cities_json = [
       "uk_uk": "Флагстаф",
       "vi_vn": "Flagstaff",
       "zh_cn": "弗拉格斯塔夫",
-      "zh_tw": "Flagstaff"
+      "zh_tw": "弗拉格斯塔夫"
     }
   },
   {
     "Name": "Tucson",
     "Country": "arizona",
     "X": -71775.18,
-    "Y": 31336.7656,
+    "Y": 31336.766,
     "CountryId": 3,
     "LocalizedNames": {
       "bg_bg": "Тусон",
@@ -2495,14 +2597,14 @@ var g_cities_json = [
       "uk_uk": "Туксон",
       "vi_vn": "Tucson",
       "zh_cn": "图森",
-      "zh_tw": "Tucson"
+      "zh_tw": "圖森"
     }
   },
   {
     "Name": "Sierra Vista",
     "Country": "arizona",
-    "X": -68940.61,
-    "Y": 36233.85,
+    "X": -68940.609,
+    "Y": 36233.852,
     "CountryId": 3,
     "LocalizedNames": {
       "bg_bg": "Сиера Виста",
@@ -2546,7 +2648,7 @@ var g_cities_json = [
       "uk_uk": "Сієра-Віста",
       "vi_vn": "Sierra Vista",
       "zh_cn": "谢拉维斯塔",
-      "zh_tw": "Sierra Vista"
+      "zh_tw": "謝拉維斯塔"
     }
   },
   {
@@ -2597,14 +2699,14 @@ var g_cities_json = [
       "uk_uk": "Гран-Каньйон Вілейдж",
       "vi_vn": "Grand Canyon Village",
       "zh_cn": "大峡谷村",
-      "zh_tw": "Grand Canyon Village"
+      "zh_tw": "大峽谷村"
     }
   },
   {
     "Name": "Camp Verde",
     "Country": "arizona",
-    "X": -74276.7344,
-    "Y": 18891.6953,
+    "X": -74276.734,
+    "Y": 18891.695,
     "CountryId": 3,
     "LocalizedNames": {
       "bg_bg": "Кемп Верде",
@@ -2648,14 +2750,14 @@ var g_cities_json = [
       "uk_uk": "Камп Верде",
       "vi_vn": "Camp Verde",
       "zh_cn": "坎普维德",
-      "zh_tw": "Camp Verde"
+      "zh_tw": "坎普維德"
     }
   },
   {
     "Name": "Nogales",
     "Country": "arizona",
-    "X": -72518.9,
-    "Y": 36429.9961,
+    "X": -72518.898,
+    "Y": 36429.996,
     "CountryId": 3,
     "LocalizedNames": {
       "bg_bg": "Ногалес",
@@ -2699,13 +2801,13 @@ var g_cities_json = [
       "uk_uk": "Ногалес",
       "vi_vn": "Nogales",
       "zh_cn": "诺加利斯",
-      "zh_tw": "Nogales"
+      "zh_tw": "諾加利斯"
     }
   },
   {
     "Name": "Phoenix",
     "Country": "arizona",
-    "X": -77043.6953,
+    "X": -77043.695,
     "Y": 23928.02,
     "CountryId": 3,
     "LocalizedNames": {
@@ -2750,14 +2852,14 @@ var g_cities_json = [
       "uk_uk": "Фенікс",
       "vi_vn": "Phoenix",
       "zh_cn": "菲尼克斯",
-      "zh_tw": "Phoenix"
+      "zh_tw": "鳳凰城"
     }
   },
   {
     "Name": "Kingman",
     "Country": "arizona",
-    "X": -82382.7,
-    "Y": 12882.2891,
+    "X": -82382.703,
+    "Y": 12882.289,
     "CountryId": 3,
     "LocalizedNames": {
       "bg_bg": "Кингмън",
@@ -2801,14 +2903,14 @@ var g_cities_json = [
       "uk_uk": "Кінгман",
       "vi_vn": "Kingman",
       "zh_cn": "金曼",
-      "zh_tw": "Kingman"
+      "zh_tw": "金曼"
     }
   },
   {
     "Name": "Burlington",
     "Country": "colorado",
-    "X": -27260.3125,
-    "Y": -2930.10156,
+    "X": -27260.312,
+    "Y": -2930.102,
     "CountryId": 7,
     "LocalizedNames": {
       "bg_bg": "Бърлингтън",
@@ -2852,14 +2954,14 @@ var g_cities_json = [
       "uk_uk": "Берлінгтон",
       "vi_vn": "Burlington",
       "zh_cn": "伯灵顿",
-      "zh_tw": "Burlington"
+      "zh_tw": "伯靈頓"
     }
   },
   {
     "Name": "Lamar",
     "Country": "colorado",
-    "X": -29705.3945,
-    "Y": 3196.76953,
+    "X": -29705.395,
+    "Y": 3196.77,
     "CountryId": 7,
     "LocalizedNames": {
       "bg_bg": "Ламар",
@@ -2903,13 +3005,13 @@ var g_cities_json = [
       "uk_uk": "Ламар",
       "vi_vn": "Lamar",
       "zh_cn": "拉马尔",
-      "zh_tw": "Lamar"
+      "zh_tw": "拉馬爾"
     }
   },
   {
     "Name": "Sterling",
     "Country": "colorado",
-    "X": -32971.0039,
+    "X": -32971.004,
     "Y": -10938.41,
     "CountryId": 7,
     "LocalizedNames": {
@@ -2954,14 +3056,14 @@ var g_cities_json = [
       "uk_uk": "Стерлінг",
       "vi_vn": "Sterling",
       "zh_cn": "斯特林",
-      "zh_tw": "Sterling"
+      "zh_tw": "斯特林"
     }
   },
   {
     "Name": "Pueblo",
     "Country": "colorado",
     "X": -38865.16,
-    "Y": 2013.71875,
+    "Y": 2013.719,
     "CountryId": 7,
     "LocalizedNames": {
       "bg_bg": "Пуебло",
@@ -3005,14 +3107,14 @@ var g_cities_json = [
       "uk_uk": "Пуебло",
       "vi_vn": "Pueblo",
       "zh_cn": "普韦布洛",
-      "zh_tw": "Pueblo"
+      "zh_tw": "普韋布洛"
     }
   },
   {
     "Name": "Colorado Springs",
     "Country": "colorado",
-    "X": -37949.51,
-    "Y": -1475.49219,
+    "X": -37949.512,
+    "Y": -1475.492,
     "CountryId": 7,
     "LocalizedNames": {
       "bg_bg": "Колорадо Спрингс",
@@ -3056,13 +3158,13 @@ var g_cities_json = [
       "uk_uk": "Колорадо-Спрінгс",
       "vi_vn": "Colorado Springs",
       "zh_cn": "科罗拉多斯普林斯",
-      "zh_tw": "Colorado Springs"
+      "zh_tw": "科羅拉多泉"
     }
   },
   {
     "Name": "Denver",
     "Country": "colorado",
-    "X": -38611.53,
+    "X": -38611.531,
     "Y": -5261.461,
     "CountryId": 7,
     "LocalizedNames": {
@@ -3107,13 +3209,13 @@ var g_cities_json = [
       "uk_uk": "Денвер",
       "vi_vn": "Denver",
       "zh_cn": "丹佛",
-      "zh_tw": "Denver"
+      "zh_tw": "丹佛"
     }
   },
   {
     "Name": "Fort Collins",
     "Country": "colorado",
-    "X": -39616.9258,
+    "X": -39616.926,
     "Y": -11968.043,
     "CountryId": 7,
     "LocalizedNames": {
@@ -3158,13 +3260,13 @@ var g_cities_json = [
       "uk_uk": "Форт-Колінс",
       "vi_vn": "Fort Collins",
       "zh_cn": "科林斯堡",
-      "zh_tw": "Fort Collins"
+      "zh_tw": "科林斯堡"
     }
   },
   {
     "Name": "Alamosa",
     "Country": "colorado",
-    "X": -45220.4453,
+    "X": -45220.445,
     "Y": 5616.09,
     "CountryId": 7,
     "LocalizedNames": {
@@ -3209,14 +3311,14 @@ var g_cities_json = [
       "uk_uk": "Аламоса",
       "vi_vn": "Alamosa",
       "zh_cn": "阿拉莫萨",
-      "zh_tw": "Alamosa"
+      "zh_tw": "阿拉莫薩"
     }
   },
   {
     "Name": "Steamboat Springs",
     "Country": "colorado",
-    "X": -46989.0273,
-    "Y": -11796.0625,
+    "X": -46989.027,
+    "Y": -11796.062,
     "CountryId": 7,
     "LocalizedNames": {
       "bg_bg": "Стиймбоут Спрингс",
@@ -3260,14 +3362,14 @@ var g_cities_json = [
       "uk_uk": "Стімбот-Спрінгс",
       "vi_vn": "Steamboat Springs",
       "zh_cn": "斯廷博特斯普林斯",
-      "zh_tw": "Steamboat Springs"
+      "zh_tw": "斯廷博特斯普林斯"
     }
   },
   {
     "Name": "Montrose",
     "Country": "colorado",
     "X": -52839.125,
-    "Y": -1183.71875,
+    "Y": -1183.719,
     "CountryId": 7,
     "LocalizedNames": {
       "bg_bg": "Монтроуз",
@@ -3311,14 +3413,14 @@ var g_cities_json = [
       "uk_uk": "Монтроз",
       "vi_vn": "Montrose",
       "zh_cn": "蒙特罗斯",
-      "zh_tw": "Montrose"
+      "zh_tw": "蒙特羅斯"
     }
   },
   {
     "Name": "Grand Junction",
     "Country": "colorado",
-    "X": -54660.54,
-    "Y": -4178.97656,
+    "X": -54660.539,
+    "Y": -4178.977,
     "CountryId": 7,
     "LocalizedNames": {
       "bg_bg": "Гранд Джънкшън",
@@ -3362,14 +3464,14 @@ var g_cities_json = [
       "uk_uk": "Гранд-Джанкшен",
       "vi_vn": "Grand Junction",
       "zh_cn": "大章克申",
-      "zh_tw": "Grand Junction"
+      "zh_tw": "大章克申"
     }
   },
   {
     "Name": "Pocatello",
     "Country": "idaho",
-    "X": -68635.22,
-    "Y": -28935.3516,
+    "X": -68635.219,
+    "Y": -28935.352,
     "CountryId": 13,
     "LocalizedNames": {
       "bg_bg": "Поукателоу",
@@ -3413,14 +3515,14 @@ var g_cities_json = [
       "uk_uk": "Покателло",
       "vi_vn": "Pocatello",
       "zh_cn": "波卡特洛",
-      "zh_tw": "Pocatello"
+      "zh_tw": "波卡特洛"
     }
   },
   {
     "Name": "Idaho Falls",
     "Country": "idaho",
-    "X": -66107.81,
-    "Y": -33850.5039,
+    "X": -66107.812,
+    "Y": -33850.504,
     "CountryId": 13,
     "LocalizedNames": {
       "bg_bg": "Айдахо Фолс",
@@ -3464,14 +3566,14 @@ var g_cities_json = [
       "uk_uk": "Айдахо-Фолс",
       "vi_vn": "Idaho Falls",
       "zh_cn": "爱达荷福尔斯",
-      "zh_tw": "Idaho Falls"
+      "zh_tw": "愛達荷福爾斯"
     }
   },
   {
     "Name": "Salmon",
     "Country": "idaho",
-    "X": -71210.33,
-    "Y": -43149.9961,
+    "X": -71210.328,
+    "Y": -43149.996,
     "CountryId": 13,
     "LocalizedNames": {
       "bg_bg": "Салмон",
@@ -3515,14 +3617,14 @@ var g_cities_json = [
       "uk_uk": "Салман",
       "vi_vn": "Salmon",
       "zh_cn": "萨蒙",
-      "zh_tw": "Salmon"
+      "zh_tw": "薩蒙"
     }
   },
   {
     "Name": "Twin Falls",
     "Country": "idaho",
-    "X": -76344.69,
-    "Y": -29541.1875,
+    "X": -76344.688,
+    "Y": -29541.188,
     "CountryId": 13,
     "LocalizedNames": {
       "bg_bg": "Туин Фолс",
@@ -3566,14 +3668,14 @@ var g_cities_json = [
       "uk_uk": "Туін-Фолс",
       "vi_vn": "Twin Falls",
       "zh_cn": "特温福尔斯",
-      "zh_tw": "Twin Falls"
+      "zh_tw": "特溫福爾斯"
     }
   },
   {
     "Name": "Ketchum",
     "Country": "idaho",
     "X": -74235.625,
-    "Y": -35296.2266,
+    "Y": -35296.227,
     "CountryId": 13,
     "LocalizedNames": {
       "bg_bg": "Кечъм",
@@ -3617,14 +3719,14 @@ var g_cities_json = [
       "uk_uk": "Кетчум",
       "vi_vn": "Ketchum",
       "zh_cn": "凯彻姆",
-      "zh_tw": "Ketchum"
+      "zh_tw": "克川市"
     }
   },
   {
     "Name": "Grangeville",
     "Country": "idaho",
-    "X": -78428.3359,
-    "Y": -49083.5977,
+    "X": -78428.336,
+    "Y": -49083.598,
     "CountryId": 13,
     "LocalizedNames": {
       "bg_bg": "Грейнджвил",
@@ -3668,14 +3770,14 @@ var g_cities_json = [
       "uk_uk": "Ґрейнджвілл",
       "vi_vn": "Grangeville",
       "zh_cn": "格兰奇维尔",
-      "zh_tw": "Grangeville"
+      "zh_tw": "格蘭吉維"
     }
   },
   {
     "Name": "Lewiston",
     "Country": "idaho",
-    "X": -81795.83,
-    "Y": -52129.8477,
+    "X": -81795.828,
+    "Y": -52129.848,
     "CountryId": 13,
     "LocalizedNames": {
       "bg_bg": "Луистън",
@@ -3719,14 +3821,14 @@ var g_cities_json = [
       "uk_uk": "Льюїстон",
       "vi_vn": "Lewiston",
       "zh_cn": "刘易斯顿",
-      "zh_tw": "Lewiston"
+      "zh_tw": "劉易斯頓"
     }
   },
   {
     "Name": "Jackpot",
     "Country": "nevada",
-    "X": -78398.8,
-    "Y": -25445.3125,
+    "X": -78398.797,
+    "Y": -25445.312,
     "CountryId": 2,
     "LocalizedNames": {
       "bg_bg": "Джакпот",
@@ -3770,14 +3872,14 @@ var g_cities_json = [
       "uk_uk": "Джекпот",
       "vi_vn": "Jackpot",
       "zh_cn": "杰克波特",
-      "zh_tw": "Jackpot"
+      "zh_tw": "傑克波特"
     }
   },
   {
     "Name": "Pioche",
     "Country": "nevada",
-    "X": -81256.9453,
-    "Y": -5008.51953,
+    "X": -81256.945,
+    "Y": -5008.52,
     "CountryId": 2,
     "LocalizedNames": {
       "bg_bg": "Пиоче",
@@ -3821,14 +3923,14 @@ var g_cities_json = [
       "uk_uk": "Пайош",
       "vi_vn": "Pioche",
       "zh_cn": "皮奥奇",
-      "zh_tw": "Pioche"
+      "zh_tw": "皮奧奇"
     }
   },
   {
     "Name": "Ely",
     "Country": "nevada",
-    "X": -82717.12,
-    "Y": -10449.5313,
+    "X": -82717.117,
+    "Y": -10449.531,
     "CountryId": 2,
     "LocalizedNames": {
       "bg_bg": "Или",
@@ -3872,14 +3974,14 @@ var g_cities_json = [
       "uk_uk": "Елі",
       "vi_vn": "Ely",
       "zh_cn": "伊利",
-      "zh_tw": "Ely"
+      "zh_tw": "伊利"
     }
   },
   {
     "Name": "Elko",
     "Country": "nevada",
-    "X": -83788.31,
-    "Y": -19854.3242,
+    "X": -83788.312,
+    "Y": -19854.324,
     "CountryId": 2,
     "LocalizedNames": {
       "bg_bg": "Елко",
@@ -3923,14 +4025,14 @@ var g_cities_json = [
       "uk_uk": "Елко",
       "vi_vn": "Elko",
       "zh_cn": "埃尔科",
-      "zh_tw": "Elko"
+      "zh_tw": "埃爾科"
     }
   },
   {
     "Name": "Las Vegas",
     "Country": "nevada",
-    "X": -85371.69,
-    "Y": 6093.14453,
+    "X": -85371.688,
+    "Y": 6093.145,
     "CountryId": 2,
     "LocalizedNames": {
       "bg_bg": "Лас Вегас",
@@ -3974,13 +4076,13 @@ var g_cities_json = [
       "uk_uk": "Лас-Вегас",
       "vi_vn": "Las Vegas",
       "zh_cn": "拉斯维加斯",
-      "zh_tw": "Las Vegas"
+      "zh_tw": "拉斯維加斯"
     }
   },
   {
     "Name": "Primm",
     "Country": "nevada",
-    "X": -86987.71,
+    "X": -86987.711,
     "Y": 9001.891,
     "CountryId": 2,
     "LocalizedNames": {
@@ -4025,13 +4127,13 @@ var g_cities_json = [
       "uk_uk": "Прімм",
       "vi_vn": "Primm",
       "zh_cn": "普里姆",
-      "zh_tw": "Primm"
+      "zh_tw": "普里姆"
     }
   },
   {
     "Name": "Winnemucca",
     "Country": "nevada",
-    "X": -91845.27,
+    "X": -91845.273,
     "Y": -22516.07,
     "CountryId": 2,
     "LocalizedNames": {
@@ -4076,14 +4178,14 @@ var g_cities_json = [
       "uk_uk": "Віннемакка",
       "vi_vn": "Winnemucca",
       "zh_cn": "温尼马卡",
-      "zh_tw": "Winnemucca"
+      "zh_tw": "溫尼馬卡"
     }
   },
   {
     "Name": "Tonopah",
     "Country": "nevada",
-    "X": -94370.39,
-    "Y": -6204.64844,
+    "X": -94370.391,
+    "Y": -6204.648,
     "CountryId": 2,
     "LocalizedNames": {
       "bg_bg": "Тонопа",
@@ -4127,14 +4229,14 @@ var g_cities_json = [
       "uk_uk": "Тонопа",
       "vi_vn": "Tonopah",
       "zh_cn": "托诺帕",
-      "zh_tw": "Tonopah"
+      "zh_tw": "托諾帕"
     }
   },
   {
     "Name": "Carson City",
     "Country": "nevada",
     "X": -102561.359,
-    "Y": -11870.9063,
+    "Y": -11870.906,
     "CountryId": 2,
     "LocalizedNames": {
       "bg_bg": "Карсън Сити",
@@ -4157,7 +4259,7 @@ var g_cities_json = [
       "it_it": "Carson City",
       "ja_jp": "カーソンシティ",
       "ka_ge": "კარსონ-სიტი",
-      "ko_kr": "카슨 시티",
+      "ko_kr": "카슨시티",
       "lt_lt": "Carson City",
       "lv_lv": "Carson City",
       "mk_mk": "Carson City",
@@ -4178,14 +4280,14 @@ var g_cities_json = [
       "uk_uk": "Карсон-Сіті",
       "vi_vn": "Carson City",
       "zh_cn": "卡森城",
-      "zh_tw": "Carson City"
+      "zh_tw": "卡森市"
     }
   },
   {
     "Name": "Reno",
     "Country": "nevada",
     "X": -103494.781,
-    "Y": -17068.11,
+    "Y": -17068.109,
     "CountryId": 2,
     "LocalizedNames": {
       "bg_bg": "Рено",
@@ -4229,14 +4331,14 @@ var g_cities_json = [
       "uk_uk": "Ріно",
       "vi_vn": "Reno",
       "zh_cn": "里诺",
-      "zh_tw": "Reno"
+      "zh_tw": "雷諾"
     }
   },
   {
     "Name": "Tucumcari",
     "Country": "new_mexico",
     "X": -35786.543,
-    "Y": 19689.7617,
+    "Y": 19689.762,
     "CountryId": 31,
     "LocalizedNames": {
       "bg_bg": "Тукумкари",
@@ -4280,14 +4382,14 @@ var g_cities_json = [
       "uk_uk": "Тукумкарі",
       "vi_vn": "Tucumcari",
       "zh_cn": "图克姆卡里",
-      "zh_tw": "Tucumcari"
+      "zh_tw": "圖克姆卡里"
     }
   },
   {
     "Name": "Clovis",
     "Country": "new_mexico",
-    "X": -34112.0664,
-    "Y": 24238.6133,
+    "X": -34112.066,
+    "Y": 24238.613,
     "CountryId": 31,
     "LocalizedNames": {
       "bg_bg": "Кловис",
@@ -4331,14 +4433,14 @@ var g_cities_json = [
       "uk_uk": "Кловіс",
       "vi_vn": "Clovis",
       "zh_cn": "克洛维斯",
-      "zh_tw": "Clovis"
+      "zh_tw": "克洛維斯"
     }
   },
   {
     "Name": "Hobbs",
     "Country": "new_mexico",
-    "X": -34560.05,
-    "Y": 32713.71,
+    "X": -34560.051,
+    "Y": 32713.711,
     "CountryId": 31,
     "LocalizedNames": {
       "bg_bg": "Хобс",
@@ -4382,14 +4484,14 @@ var g_cities_json = [
       "uk_uk": "Хобс",
       "vi_vn": "Hobbs",
       "zh_cn": "霍布斯",
-      "zh_tw": "Hobbs"
+      "zh_tw": "霍布斯"
     }
   },
   {
     "Name": "Roswell",
     "Country": "new_mexico",
     "X": -40313.48,
-    "Y": 29239.36,
+    "Y": 29239.359,
     "CountryId": 31,
     "LocalizedNames": {
       "bg_bg": "Розуел",
@@ -4433,14 +4535,14 @@ var g_cities_json = [
       "uk_uk": "Розвелл",
       "vi_vn": "Roswell",
       "zh_cn": "罗斯威尔",
-      "zh_tw": "Roswell"
+      "zh_tw": "羅斯維爾"
     }
   },
   {
     "Name": "Carlsbad",
     "Country": "new_mexico",
     "X": -38930.77,
-    "Y": 34533.3359,
+    "Y": 34533.336,
     "CountryId": 31,
     "LocalizedNames": {
       "bg_bg": "Карлсбад",
@@ -4484,13 +4586,13 @@ var g_cities_json = [
       "uk_uk": "Карлсбад",
       "vi_vn": "Carlsbad",
       "zh_cn": "卡尔斯巴德",
-      "zh_tw": "Carlsbad"
+      "zh_tw": "卡爾斯巴德"
     }
   },
   {
     "Name": "Artesia",
     "Country": "new_mexico",
-    "X": -40187.3242,
+    "X": -40187.324,
     "Y": 32421.793,
     "CountryId": 31,
     "LocalizedNames": {
@@ -4535,14 +4637,14 @@ var g_cities_json = [
       "uk_uk": "Артезія",
       "vi_vn": "Artesia",
       "zh_cn": "阿蒂西亚",
-      "zh_tw": "Artesia"
+      "zh_tw": "阿蒂西亞"
     }
   },
   {
     "Name": "Santa Fe",
     "Country": "new_mexico",
-    "X": -45502.2539,
-    "Y": 15367.0039,
+    "X": -45502.254,
+    "Y": 15367.004,
     "CountryId": 31,
     "LocalizedNames": {
       "bg_bg": "Санта Фе",
@@ -4586,14 +4688,14 @@ var g_cities_json = [
       "uk_uk": "Санта-Фе",
       "vi_vn": "Santa Fe",
       "zh_cn": "圣菲",
-      "zh_tw": "Santa Fe"
+      "zh_tw": "聖塔菲"
     }
   },
   {
     "Name": "Alamogordo",
     "Country": "new_mexico",
-    "X": -47194.1836,
-    "Y": 30983.8828,
+    "X": -47194.184,
+    "Y": 30983.883,
     "CountryId": 31,
     "LocalizedNames": {
       "bg_bg": "Аламогордо",
@@ -4637,14 +4739,14 @@ var g_cities_json = [
       "uk_uk": "Аламогордо",
       "vi_vn": "Alamogordo",
       "zh_cn": "阿拉莫戈多",
-      "zh_tw": "Alamogordo"
+      "zh_tw": "阿拉莫戈多"
     }
   },
   {
     "Name": "Albuquerque",
     "Country": "new_mexico",
     "X": -50341.73,
-    "Y": 19156.5039,
+    "Y": 19156.504,
     "CountryId": 31,
     "LocalizedNames": {
       "bg_bg": "Албакърки",
@@ -4688,13 +4790,13 @@ var g_cities_json = [
       "uk_uk": "Альбукерке",
       "vi_vn": "Albuquerque",
       "zh_cn": "阿尔伯克基",
-      "zh_tw": "Albuquerque"
+      "zh_tw": "阿爾伯克基"
     }
   },
   {
     "Name": "Socorro",
     "Country": "new_mexico",
-    "X": -51197.4063,
+    "X": -51197.406,
     "Y": 23822.77,
     "CountryId": 31,
     "LocalizedNames": {
@@ -4739,14 +4841,14 @@ var g_cities_json = [
       "uk_uk": "Сокоро",
       "vi_vn": "Socorro",
       "zh_cn": "索科罗",
-      "zh_tw": "Socorro"
+      "zh_tw": "索科羅"
     }
   },
   {
     "Name": "Las Cruces",
     "Country": "new_mexico",
-    "X": -52695.4531,
-    "Y": 33554.51,
+    "X": -52695.453,
+    "Y": 33554.512,
     "CountryId": 31,
     "LocalizedNames": {
       "bg_bg": "Лас Крусес",
@@ -4790,13 +4892,13 @@ var g_cities_json = [
       "uk_uk": "Лас-Крусес",
       "vi_vn": "Las Cruces",
       "zh_cn": "拉斯克鲁塞斯",
-      "zh_tw": "Las Cruces"
+      "zh_tw": "拉斯克魯塞斯"
     }
   },
   {
     "Name": "Farmington",
     "Country": "new_mexico",
-    "X": -55604.65,
+    "X": -55604.648,
     "Y": 8393.055,
     "CountryId": 31,
     "LocalizedNames": {
@@ -4841,14 +4943,14 @@ var g_cities_json = [
       "uk_uk": "Фармінгтон",
       "vi_vn": "Farmington",
       "zh_cn": "法明顿",
-      "zh_tw": "Farmington"
+      "zh_tw": "法明頓"
     }
   },
   {
     "Name": "Gallup",
     "Country": "new_mexico",
-    "X": -58871.6523,
-    "Y": 14928.2031,
+    "X": -58871.652,
+    "Y": 14928.203,
     "CountryId": 31,
     "LocalizedNames": {
       "bg_bg": "Галъп",
@@ -4892,13 +4994,13 @@ var g_cities_json = [
       "uk_uk": "Галуп",
       "vi_vn": "Gallup",
       "zh_cn": "盖洛普",
-      "zh_tw": "Gallup"
+      "zh_tw": "蓋洛普"
     }
   },
   {
     "Name": "Burns",
     "Country": "oregon",
-    "X": -93339.81,
+    "X": -93339.812,
     "Y": -38271.668,
     "CountryId": 37,
     "LocalizedNames": {
@@ -4943,13 +5045,13 @@ var g_cities_json = [
       "uk_uk": "Барнс",
       "vi_vn": "Burns",
       "zh_cn": "柏恩斯",
-      "zh_tw": "Burns"
+      "zh_tw": "柏恩斯"
     }
   },
   {
     "Name": "The Dalles",
     "Country": "oregon",
-    "X": -99410.12,
+    "X": -99410.117,
     "Y": -51847.75,
     "CountryId": 37,
     "LocalizedNames": {
@@ -4994,14 +5096,14 @@ var g_cities_json = [
       "uk_uk": "Даллес",
       "vi_vn": "The Dalles",
       "zh_cn": "达尔斯",
-      "zh_tw": "The Dalles"
+      "zh_tw": "達爾斯"
     }
   },
   {
     "Name": "Lakeview",
     "Country": "oregon",
     "X": -100980.25,
-    "Y": -32212.0781,
+    "Y": -32212.078,
     "CountryId": 37,
     "LocalizedNames": {
       "bg_bg": "Лейквю",
@@ -5045,14 +5147,14 @@ var g_cities_json = [
       "uk_uk": "Лейквю",
       "vi_vn": "Lakeview",
       "zh_cn": "雷克威尔",
-      "zh_tw": "Lakeview"
+      "zh_tw": "拉克夫由"
     }
   },
   {
     "Name": "Bend",
     "Country": "oregon",
     "X": -101855.828,
-    "Y": -44226.88,
+    "Y": -44226.879,
     "CountryId": 37,
     "LocalizedNames": {
       "bg_bg": "Бенд",
@@ -5096,14 +5198,14 @@ var g_cities_json = [
       "uk_uk": "Бенд",
       "vi_vn": "Bend",
       "zh_cn": "本德",
-      "zh_tw": "Bend"
+      "zh_tw": "本德"
     }
   },
   {
     "Name": "Klamath Falls",
     "Country": "oregon",
     "X": -106457.508,
-    "Y": -34799.6953,
+    "Y": -34799.695,
     "CountryId": 37,
     "LocalizedNames": {
       "bg_bg": "Кламат Фолс",
@@ -5126,7 +5228,7 @@ var g_cities_json = [
       "it_it": "Klamath Falls",
       "ja_jp": "クラマスフォールズ",
       "ka_ge": "კლამათ-ფოლსი",
-      "ko_kr": "클래머스 폴스",
+      "ko_kr": "클래머스폴스",
       "lt_lt": "Klamath Falls",
       "lv_lv": "Klamath Falls",
       "mk_mk": "Klamath Falls",
@@ -5147,14 +5249,14 @@ var g_cities_json = [
       "uk_uk": "Кламат Фолс",
       "vi_vn": "Klamath Falls",
       "zh_cn": "克拉马斯瀑布",
-      "zh_tw": "Klamath Falls"
+      "zh_tw": "克拉馬斯福爾斯"
     }
   },
   {
     "Name": "Eugene",
     "Country": "oregon",
     "X": -107494.906,
-    "Y": -45748.78,
+    "Y": -45748.781,
     "CountryId": 37,
     "LocalizedNames": {
       "bg_bg": "Юджийн",
@@ -5198,14 +5300,14 @@ var g_cities_json = [
       "uk_uk": "Юджін",
       "vi_vn": "Eugene",
       "zh_cn": "尤金",
-      "zh_tw": "Eugene"
+      "zh_tw": "尤金"
     }
   },
   {
     "Name": "Salem",
     "Country": "oregon",
     "X": -106653.234,
-    "Y": -49874.4648,
+    "Y": -49874.465,
     "CountryId": 37,
     "LocalizedNames": {
       "bg_bg": "Салем",
@@ -5249,65 +5351,14 @@ var g_cities_json = [
       "uk_uk": "Салем",
       "vi_vn": "Salem",
       "zh_cn": "塞勒姆",
-      "zh_tw": "Salem"
-    }
-  },
-  {
-    "Name": "Medford",
-    "Country": "oregon",
-    "X": -111057.805,
-    "Y": -36474.28,
-    "CountryId": 37,
-    "LocalizedNames": {
-      "bg_bg": "Медфорд",
-      "ca_es": "Medford",
-      "cs_cz": "Medford",
-      "da_dk": "Medford",
-      "de_de": "Medford",
-      "el_gr": "Μέντφορντ",
-      "en_gb": "Medford",
-      "en_us": "Medford",
-      "es_es": "Medford",
-      "es_la": "Medford",
-      "et_ee": "Medford",
-      "eu_es": "Medford",
-      "fi_fi": "Medford",
-      "fr_fr": "Medford",
-      "gl_es": "Medford",
-      "hr_hr": "Medford",
-      "hu_hu": "Medford",
-      "it_it": "Medford",
-      "ja_jp": "メドフォード",
-      "ka_ge": "მედფორდი",
-      "ko_kr": "메드퍼드",
-      "lt_lt": "Medford",
-      "lv_lv": "Medford",
-      "mk_mk": "Medford",
-      "nl_nl": "Medford",
-      "no_no": "Medford",
-      "pl_pl": "Medford",
-      "pl_si": "Medford",
-      "pt_br": "Medford",
-      "pt_pt": "Medford",
-      "ro_ro": "Medford",
-      "ru_ru": "Медфорд",
-      "sk_sk": "Medford",
-      "sl_sl": "Medford",
-      "sr_sp": "Medford",
-      "sr_sr": "Медфорд",
-      "sv_se": "Medford",
-      "tr_tr": "Medford",
-      "uk_uk": "Медфорд",
-      "vi_vn": "Medford",
-      "zh_cn": "梅德福",
-      "zh_tw": "Medford"
+      "zh_tw": "塞勒姆"
     }
   },
   {
     "Name": "Newport",
     "Country": "oregon",
     "X": -111335.258,
-    "Y": -48770.3477,
+    "Y": -48770.348,
     "CountryId": 37,
     "LocalizedNames": {
       "bg_bg": "Нюпорт",
@@ -5351,14 +5402,14 @@ var g_cities_json = [
       "uk_uk": "Нюпорт",
       "vi_vn": "Newport",
       "zh_cn": "纽波特",
-      "zh_tw": "Newport"
+      "zh_tw": "紐波特"
     }
   },
   {
     "Name": "Coos Bay",
     "Country": "oregon",
     "X": -113881.727,
-    "Y": -42965.5664,
+    "Y": -42965.566,
     "CountryId": 37,
     "LocalizedNames": {
       "bg_bg": "Кус Бей",
@@ -5402,13 +5453,13 @@ var g_cities_json = [
       "uk_uk": "Кус Бей",
       "vi_vn": "Coos Bay",
       "zh_cn": "库斯湾",
-      "zh_tw": "Coos Bay"
+      "zh_tw": "庫斯貝"
     }
   },
   {
     "Name": "Moab",
     "Country": "utah",
-    "X": -59442.3047,
+    "X": -59442.305,
     "Y": -3055.875,
     "CountryId": 44,
     "LocalizedNames": {
@@ -5453,13 +5504,13 @@ var g_cities_json = [
       "uk_uk": "Моаб",
       "vi_vn": "Moab",
       "zh_cn": "摩押",
-      "zh_tw": "Moab"
+      "zh_tw": "摩押"
     }
   },
   {
     "Name": "Price",
     "Country": "utah",
-    "X": -63180.7773,
+    "X": -63180.777,
     "Y": -9842.195,
     "CountryId": 44,
     "LocalizedNames": {
@@ -5504,14 +5555,14 @@ var g_cities_json = [
       "uk_uk": "Прайс",
       "vi_vn": "Price",
       "zh_cn": "普赖斯",
-      "zh_tw": "Price"
+      "zh_tw": "普賴斯"
     }
   },
   {
     "Name": "Provo",
     "Country": "utah",
-    "X": -66718.61,
-    "Y": -13684.8125,
+    "X": -66718.609,
+    "Y": -13684.812,
     "CountryId": 44,
     "LocalizedNames": {
       "bg_bg": "Прово",
@@ -5555,14 +5606,14 @@ var g_cities_json = [
       "uk_uk": "Прово",
       "vi_vn": "Provo",
       "zh_cn": "普若佛",
-      "zh_tw": "Provo"
+      "zh_tw": "普若佛"
     }
   },
   {
     "Name": "Salina",
     "Country": "utah",
     "X": -69167.18,
-    "Y": -7267.64453,
+    "Y": -7267.645,
     "CountryId": 44,
     "LocalizedNames": {
       "bg_bg": "Салина",
@@ -5606,14 +5657,14 @@ var g_cities_json = [
       "uk_uk": "Саліна",
       "vi_vn": "Salina",
       "zh_cn": "盐田",
-      "zh_tw": "Salina"
+      "zh_tw": "薩利納斯"
     }
   },
   {
     "Name": "Salt Lake City",
     "Country": "utah",
-    "X": -68842.17,
-    "Y": -17613.6367,
+    "X": -68842.172,
+    "Y": -17613.637,
     "CountryId": 44,
     "LocalizedNames": {
       "bg_bg": "Солт Лейк Сити",
@@ -5636,7 +5687,7 @@ var g_cities_json = [
       "it_it": "Salt Lake City",
       "ja_jp": "ソルトレイクシティ",
       "ka_ge": "სოლტ-ლეიკ-სიტი",
-      "ko_kr": "솔트레이크 시티",
+      "ko_kr": "솔트레이크시티",
       "lt_lt": "Soltleiksitis",
       "lv_lv": "Salt Lake City",
       "mk_mk": "Salt Lake City",
@@ -5657,14 +5708,14 @@ var g_cities_json = [
       "uk_uk": "Солт-Лейк-Сіті",
       "vi_vn": "Salt Lake City",
       "zh_cn": "盐湖城",
-      "zh_tw": "Salt Lake City"
+      "zh_tw": "鹽湖城"
     }
   },
   {
     "Name": "Cedar City",
     "Country": "utah",
-    "X": -75848.86,
-    "Y": -1992.15234,
+    "X": -75848.859,
+    "Y": -1992.152,
     "CountryId": 44,
     "LocalizedNames": {
       "bg_bg": "Сидър Сити",
@@ -5687,7 +5738,7 @@ var g_cities_json = [
       "it_it": "Cedar City",
       "ja_jp": "シーダーシティ",
       "ka_ge": "სიდარ-სიტი",
-      "ko_kr": "시더 시티",
+      "ko_kr": "시더시티",
       "lt_lt": "Kedro miestas",
       "lv_lv": "Cedar City",
       "mk_mk": "Cedar City",
@@ -5708,13 +5759,13 @@ var g_cities_json = [
       "uk_uk": "Сідар-Сіті",
       "vi_vn": "Cedar City",
       "zh_cn": "雪松城",
-      "zh_tw": "Cedar City"
+      "zh_tw": "雪松城"
     }
   },
   {
     "Name": "St. George",
     "Country": "utah",
-    "X": -79334.55,
+    "X": -79334.547,
     "Y": 1556.793,
     "CountryId": 44,
     "LocalizedNames": {
@@ -5759,14 +5810,14 @@ var g_cities_json = [
       "uk_uk": "Сент-Джордж",
       "vi_vn": "St. George",
       "zh_cn": "圣乔治",
-      "zh_tw": "St. George"
+      "zh_tw": "聖喬治"
     }
   },
   {
     "Name": "Colville",
     "Country": "washington",
-    "X": -82338.41,
-    "Y": -64400.04,
+    "X": -82338.406,
+    "Y": -64400.039,
     "CountryId": 47,
     "LocalizedNames": {
       "bg_bg": "Калвил",
@@ -5810,14 +5861,14 @@ var g_cities_json = [
       "uk_uk": "Колвілл",
       "vi_vn": "Colville",
       "zh_cn": "科尔维尔",
-      "zh_tw": "Colville"
+      "zh_tw": "科爾維爾"
     }
   },
   {
     "Name": "Grand Coulee",
     "Country": "washington",
-    "X": -86853.22,
-    "Y": -62920.3242,
+    "X": -86853.219,
+    "Y": -62920.324,
     "CountryId": 47,
     "LocalizedNames": {
       "bg_bg": "Гранд Кули",
@@ -5861,13 +5912,13 @@ var g_cities_json = [
       "uk_uk": "Гранд-Кулі",
       "vi_vn": "Grand Coulee",
       "zh_cn": "大古力",
-      "zh_tw": "Grand Coulee"
+      "zh_tw": "大古力"
     }
   },
   {
     "Name": "Kennewick",
     "Country": "washington",
-    "X": -90697.5547,
+    "X": -90697.555,
     "Y": -53315.332,
     "CountryId": 47,
     "LocalizedNames": {
@@ -5912,14 +5963,14 @@ var g_cities_json = [
       "uk_uk": "Кенневік",
       "vi_vn": "Kennewick",
       "zh_cn": "肯纳威克",
-      "zh_tw": "Kennewick"
+      "zh_tw": "肯納威克"
     }
   },
   {
     "Name": "Omak",
     "Country": "washington",
-    "X": -88427.09,
-    "Y": -64937.9,
+    "X": -88428.5,
+    "Y": -64937.898,
     "CountryId": 47,
     "LocalizedNames": {
       "bg_bg": "Омак",
@@ -5963,14 +6014,14 @@ var g_cities_json = [
       "uk_uk": "Омак",
       "vi_vn": "Omak",
       "zh_cn": "奥马克",
-      "zh_tw": "Omak"
+      "zh_tw": "奧馬克"
     }
   },
   {
     "Name": "Yakima",
     "Country": "washington",
-    "X": -94870.92,
-    "Y": -56176.26,
+    "X": -94870.922,
+    "Y": -56176.262,
     "CountryId": 47,
     "LocalizedNames": {
       "bg_bg": "Якима",
@@ -6014,14 +6065,14 @@ var g_cities_json = [
       "uk_uk": "Якіма",
       "vi_vn": "Yakima",
       "zh_cn": "亚基马",
-      "zh_tw": "Yakima"
+      "zh_tw": "雅基馬"
     }
   },
   {
     "Name": "Wenatchee",
     "Country": "washington",
-    "X": -92925.51,
-    "Y": -60028.6836,
+    "X": -92925.508,
+    "Y": -60028.684,
     "CountryId": 47,
     "LocalizedNames": {
       "bg_bg": "Уеначи",
@@ -6065,14 +6116,14 @@ var g_cities_json = [
       "uk_uk": "Венатчі",
       "vi_vn": "Wenatchee",
       "zh_cn": "韦纳奇",
-      "zh_tw": "Wenatchee"
+      "zh_tw": "韋納奇"
     }
   },
   {
     "Name": "Seattle",
     "Country": "washington",
-    "X": -99719.23,
-    "Y": -63040.1523,
+    "X": -99719.227,
+    "Y": -63040.152,
     "CountryId": 47,
     "LocalizedNames": {
       "bg_bg": "Сиатъл",
@@ -6116,14 +6167,14 @@ var g_cities_json = [
       "uk_uk": "Сіетл",
       "vi_vn": "Seattle",
       "zh_cn": "西雅图",
-      "zh_tw": "Seattle"
+      "zh_tw": "西雅圖"
     }
   },
   {
     "Name": "Everett",
     "Country": "washington",
-    "X": -99044.16,
-    "Y": -65972.3047,
+    "X": -99044.156,
+    "Y": -65972.305,
     "CountryId": 47,
     "LocalizedNames": {
       "bg_bg": "Евърет",
@@ -6167,14 +6218,14 @@ var g_cities_json = [
       "uk_uk": "Еверетт",
       "vi_vn": "Everett",
       "zh_cn": "埃弗里特",
-      "zh_tw": "Everett"
+      "zh_tw": "埃弗里特"
     }
   },
   {
     "Name": "Bellingham",
     "Country": "washington",
-    "X": -99153.1,
-    "Y": -70669.06,
+    "X": -99153.102,
+    "Y": -70669.062,
     "CountryId": 47,
     "LocalizedNames": {
       "bg_bg": "Белингам",
@@ -6218,14 +6269,14 @@ var g_cities_json = [
       "uk_uk": "Беллінгем",
       "vi_vn": "Bellingham",
       "zh_cn": "贝灵汉",
-      "zh_tw": "Bellingham"
+      "zh_tw": "貝靈厄姆"
     }
   },
   {
     "Name": "Olympia",
     "Country": "washington",
     "X": -103216.328,
-    "Y": -61347.05,
+    "Y": -61347.051,
     "CountryId": 47,
     "LocalizedNames": {
       "bg_bg": "Олимпия",
@@ -6269,14 +6320,14 @@ var g_cities_json = [
       "uk_uk": "Олімпія",
       "vi_vn": "Olympia",
       "zh_cn": "奥林匹亚",
-      "zh_tw": "Olympia"
+      "zh_tw": "奧林匹亞"
     }
   },
   {
     "Name": "Tacoma",
     "Country": "washington",
     "X": -100845.5,
-    "Y": -61204.9961,
+    "Y": -61204.996,
     "CountryId": 47,
     "LocalizedNames": {
       "bg_bg": "Такоума",
@@ -6320,7 +6371,7 @@ var g_cities_json = [
       "uk_uk": "Такома",
       "vi_vn": "Tacoma",
       "zh_cn": "塔科马",
-      "zh_tw": "Tacoma"
+      "zh_tw": "塔科馬"
     }
   },
   {
@@ -6371,14 +6422,14 @@ var g_cities_json = [
       "uk_uk": "Порт-Анджелес",
       "vi_vn": "Port Angeles",
       "zh_cn": "安吉利斯港",
-      "zh_tw": "Port Angeles"
+      "zh_tw": "安吉利斯港"
     }
   },
   {
     "Name": "Aberdeen",
     "Country": "washington",
-    "X": -106348.3,
-    "Y": -61543.9,
+    "X": -106348.297,
+    "Y": -61543.898,
     "CountryId": 47,
     "LocalizedNames": {
       "bg_bg": "Абърдийн",
@@ -6422,7 +6473,466 @@ var g_cities_json = [
       "uk_uk": "Абердін",
       "vi_vn": "Aberdeen",
       "zh_cn": "阿伯丁",
-      "zh_tw": "Aberdeen"
+      "zh_tw": "亞伯丁"
+    }
+  },
+  {
+    "Name": "Cheyenne",
+    "Country": "wyoming",
+    "X": -36178.906,
+    "Y": -16823.5,
+    "CountryId": 50,
+    "LocalizedNames": {
+      "bg_bg": "Шейен",
+      "ca_es": "Cheyenne",
+      "cs_cz": "Cheyenne",
+      "da_dk": "Cheyenne",
+      "de_de": "Cheyenne",
+      "el_gr": "Σαϊέν",
+      "en_gb": "Cheyenne",
+      "en_us": "Cheyenne",
+      "es_es": "Cheyenne",
+      "es_la": "Cheyenne",
+      "et_ee": "Cheyenne",
+      "eu_es": "Cheyenne",
+      "fi_fi": "Cheyenne",
+      "fr_fr": "Cheyenne",
+      "gl_es": "Cheyenne",
+      "hr_hr": "Cheyenne",
+      "hu_hu": "Cheyenne",
+      "it_it": "Cheyenne",
+      "ja_jp": "シャイアン",
+      "ka_ge": "შაიენი",
+      "ko_kr": "샤이엔",
+      "lt_lt": "Šejenas",
+      "lv_lv": "Cheyenne",
+      "mk_mk": "Cheyenne",
+      "nl_nl": "Cheyenne",
+      "no_no": "Cheyenne",
+      "pl_pl": "Cheyenne",
+      "pl_si": "Cheyenne",
+      "pt_br": "Cheyenne",
+      "pt_pt": "Cheyenne",
+      "ro_ro": "Cheyenne",
+      "ru_ru": "Шайенн",
+      "sk_sk": "Cheyenne",
+      "sl_sl": "Cheyenne",
+      "sr_sp": "Šajen",
+      "sr_sr": "Шајен",
+      "sv_se": "Cheyenne",
+      "tr_tr": "Cheyenne",
+      "uk_uk": "Cheyenne",
+      "vi_vn": "Cheyenne",
+      "zh_cn": "夏延",
+      "zh_tw": "夏安"
+    }
+  },
+  {
+    "Name": "Gillette",
+    "Country": "wyoming",
+    "X": -38215.336,
+    "Y": -32549.123,
+    "CountryId": 50,
+    "LocalizedNames": {
+      "bg_bg": "Джилет",
+      "ca_es": "Gillette",
+      "cs_cz": "Gillette",
+      "da_dk": "Gillette",
+      "de_de": "Gillette",
+      "el_gr": "Τζιλέτ",
+      "en_gb": "Gillette",
+      "en_us": "Gillette",
+      "es_es": "Gillette",
+      "es_la": "Gillette",
+      "et_ee": "Gillette",
+      "eu_es": "Gillette",
+      "fi_fi": "Gillette",
+      "fr_fr": "Gillette",
+      "gl_es": "Gillette",
+      "hr_hr": "Gillette",
+      "hu_hu": "Gillette",
+      "it_it": "Gillette",
+      "ja_jp": "ジレット",
+      "ka_ge": "ჯილეტი",
+      "ko_kr": "질레트",
+      "lt_lt": "Žiletas",
+      "lv_lv": "Gillette",
+      "mk_mk": "Gillette",
+      "nl_nl": "Gillette",
+      "no_no": "Gillette",
+      "pl_pl": "Gillette",
+      "pl_si": "Gillette",
+      "pt_br": "Gillette",
+      "pt_pt": "Gillette",
+      "ro_ro": "Gillette",
+      "ru_ru": "Джиллетт",
+      "sk_sk": "Gillette",
+      "sl_sl": "Gillette",
+      "sr_sp": "Džilet",
+      "sr_sr": "Џилет",
+      "sv_se": "Gillette",
+      "tr_tr": "Gillette",
+      "uk_uk": "Gillette",
+      "vi_vn": "Gillette",
+      "zh_cn": "吉列",
+      "zh_tw": "吉列"
+    }
+  },
+  {
+    "Name": "Laramie",
+    "Country": "wyoming",
+    "X": -42711.512,
+    "Y": -18424.895,
+    "CountryId": 50,
+    "LocalizedNames": {
+      "bg_bg": "Ларами",
+      "ca_es": "Laramie",
+      "cs_cz": "Laramie",
+      "da_dk": "Laramie",
+      "de_de": "Laramie",
+      "el_gr": "Λάραμι",
+      "en_gb": "Laramie",
+      "en_us": "Laramie",
+      "es_es": "Laramie",
+      "es_la": "Laramie",
+      "et_ee": "Laramie",
+      "eu_es": "Laramie",
+      "fi_fi": "Laramie",
+      "fr_fr": "Laramie",
+      "gl_es": "Laramie",
+      "hr_hr": "Laramie",
+      "hu_hu": "Laramie",
+      "it_it": "Laramie",
+      "ja_jp": "ララミー",
+      "ka_ge": "ლარამი",
+      "ko_kr": "래러미",
+      "lt_lt": "Laramis",
+      "lv_lv": "Laramie",
+      "mk_mk": "Laramie",
+      "nl_nl": "Laramie",
+      "no_no": "Laramie",
+      "pl_pl": "Laramie",
+      "pl_si": "Laramie",
+      "pt_br": "Laramie",
+      "pt_pt": "Laramie",
+      "ro_ro": "Laramie",
+      "ru_ru": "Ларами",
+      "sk_sk": "Laramie",
+      "sl_sl": "Laramie",
+      "sr_sp": "Larami",
+      "sr_sr": "Ларами",
+      "sv_se": "Laramie",
+      "tr_tr": "Laramie",
+      "uk_uk": "Laramie",
+      "vi_vn": "Laramie",
+      "zh_cn": "拉勒米",
+      "zh_tw": "拉勒米"
+    }
+  },
+  {
+    "Name": "Casper",
+    "Country": "wyoming",
+    "X": -44186.312,
+    "Y": -25696.652,
+    "CountryId": 50,
+    "LocalizedNames": {
+      "bg_bg": "Каспър",
+      "ca_es": "Casper",
+      "cs_cz": "Casper",
+      "da_dk": "Casper",
+      "de_de": "Casper",
+      "el_gr": "Κάσπερ",
+      "en_gb": "Casper",
+      "en_us": "Casper",
+      "es_es": "Casper",
+      "es_la": "Casper",
+      "et_ee": "Casper",
+      "eu_es": "Casper",
+      "fi_fi": "Casper",
+      "fr_fr": "Casper",
+      "gl_es": "Casper",
+      "hr_hr": "Casper",
+      "hu_hu": "Casper",
+      "it_it": "Casper",
+      "ja_jp": "キャスパー",
+      "ka_ge": "კასპერი",
+      "ko_kr": "캐스퍼",
+      "lt_lt": "Kasperis",
+      "lv_lv": "Casper",
+      "mk_mk": "Casper",
+      "nl_nl": "Casper",
+      "no_no": "Casper",
+      "pl_pl": "Casper",
+      "pl_si": "Casper",
+      "pt_br": "Casper",
+      "pt_pt": "Casper",
+      "ro_ro": "Casper",
+      "ru_ru": "Каспер",
+      "sk_sk": "Casper",
+      "sl_sl": "Casper",
+      "sr_sp": "Kasper",
+      "sr_sr": "Каспер",
+      "sv_se": "Casper",
+      "tr_tr": "Casper",
+      "uk_uk": "Casper",
+      "vi_vn": "Casper",
+      "zh_cn": "卡斯珀",
+      "zh_tw": "卡斯帕爾"
+    }
+  },
+  {
+    "Name": "Sheridan",
+    "Country": "wyoming",
+    "X": -43895.051,
+    "Y": -35297.184,
+    "CountryId": 50,
+    "LocalizedNames": {
+      "bg_bg": "Шеридън",
+      "ca_es": "Sheridan",
+      "cs_cz": "Sheridan",
+      "da_dk": "Sheridan",
+      "de_de": "Sheridan",
+      "el_gr": "Σέρινταν",
+      "en_gb": "Sheridan",
+      "en_us": "Sheridan",
+      "es_es": "Sheridan",
+      "es_la": "Sheridan",
+      "et_ee": "Sheridan",
+      "eu_es": "Sheridan",
+      "fi_fi": "Sheridan",
+      "fr_fr": "Sheridan",
+      "gl_es": "Sheridan",
+      "hr_hr": "Sheridan",
+      "hu_hu": "Sheridan",
+      "it_it": "Sheridan",
+      "ja_jp": "シェリダン",
+      "ka_ge": "შერიდანი",
+      "ko_kr": "셰리든",
+      "lt_lt": "Šeridanas",
+      "lv_lv": "Sheridan",
+      "mk_mk": "Sheridan",
+      "nl_nl": "Sheridan",
+      "no_no": "Sheridan",
+      "pl_pl": "Sheridan",
+      "pl_si": "Sheridan",
+      "pt_br": "Sheridan",
+      "pt_pt": "Sheridan",
+      "ro_ro": "Sheridan",
+      "ru_ru": "Шеридан",
+      "sk_sk": "Sheridan",
+      "sl_sl": "Sheridan",
+      "sr_sp": "Šeridan",
+      "sr_sr": "Шеридан",
+      "sv_se": "Sheridan",
+      "tr_tr": "Sheridan",
+      "uk_uk": "Sheridan",
+      "vi_vn": "Sheridan",
+      "zh_cn": "谢里登",
+      "zh_tw": "謝里登"
+    }
+  },
+  {
+    "Name": "Rawlins",
+    "Country": "wyoming",
+    "X": -48304.945,
+    "Y": -20771.164,
+    "CountryId": 50,
+    "LocalizedNames": {
+      "bg_bg": "Ролинс",
+      "ca_es": "Rawlins",
+      "cs_cz": "Rawlins",
+      "da_dk": "Rawlins",
+      "de_de": "Rawlins",
+      "el_gr": "Ρόλινς",
+      "en_gb": "Rawlins",
+      "en_us": "Rawlins",
+      "es_es": "Rawlins",
+      "es_la": "Rawlins",
+      "et_ee": "Rawlins",
+      "eu_es": "Rawlins",
+      "fi_fi": "Rawlins",
+      "fr_fr": "Rawlins",
+      "gl_es": "Rawlins",
+      "hr_hr": "Rawlins",
+      "hu_hu": "Rawlins",
+      "it_it": "Rawlins",
+      "ja_jp": "ローリンズ",
+      "ka_ge": "როლინსი",
+      "ko_kr": "롤린스",
+      "lt_lt": "Rolinsas",
+      "lv_lv": "Rawlins",
+      "mk_mk": "Rawlins",
+      "nl_nl": "Rawlins",
+      "no_no": "Rawlins",
+      "pl_pl": "Rawlins",
+      "pl_si": "Rawlins",
+      "pt_br": "Rawlins",
+      "pt_pt": "Rawlins",
+      "ro_ro": "Rawlins",
+      "ru_ru": "Ролинс",
+      "sk_sk": "Rawlins",
+      "sl_sl": "Rawlins",
+      "sr_sp": "Rolins",
+      "sr_sr": "Ролинс",
+      "sv_se": "Rawlins",
+      "tr_tr": "Rawlins",
+      "uk_uk": "Rawlins",
+      "vi_vn": "Rawlins",
+      "zh_cn": "罗林斯",
+      "zh_tw": "羅林斯"
+    }
+  },
+  {
+    "Name": "Riverton",
+    "Country": "wyoming",
+    "X": -51287.273,
+    "Y": -27838.844,
+    "CountryId": 50,
+    "LocalizedNames": {
+      "bg_bg": "Ривъртън",
+      "ca_es": "Riverton",
+      "cs_cz": "Riverton",
+      "da_dk": "Riverton",
+      "de_de": "Riverton",
+      "el_gr": "Ρίβερτον",
+      "en_gb": "Riverton",
+      "en_us": "Riverton",
+      "es_es": "Riverton",
+      "es_la": "Riverton",
+      "et_ee": "Riverton",
+      "eu_es": "Riverton",
+      "fi_fi": "Riverton",
+      "fr_fr": "Riverton",
+      "gl_es": "Riverton",
+      "hr_hr": "Riverton",
+      "hu_hu": "Riverton",
+      "it_it": "Riverton",
+      "ja_jp": "リバートン",
+      "ka_ge": "რივერტონი",
+      "ko_kr": "리버턴",
+      "lt_lt": "Rivertonas",
+      "lv_lv": "Riverton",
+      "mk_mk": "Riverton",
+      "nl_nl": "Riverton",
+      "no_no": "Riverton",
+      "pl_pl": "Riverton",
+      "pl_si": "Riverton",
+      "pt_br": "Riverton",
+      "pt_pt": "Riverton",
+      "ro_ro": "Riverton",
+      "ru_ru": "Ривертон",
+      "sk_sk": "Riverton",
+      "sl_sl": "Riverton",
+      "sr_sp": "Riverton",
+      "sr_sr": "Ривертон",
+      "sv_se": "Riverton",
+      "tr_tr": "Riverton",
+      "uk_uk": "Riverton",
+      "vi_vn": "Riverton",
+      "zh_cn": "里弗顿",
+      "zh_tw": "里弗頓"
+    }
+  },
+  {
+    "Name": "Rock Springs",
+    "Country": "Wyoming",
+    "X": -54464.035,
+    "Y": -19136.965,
+    "CountryId": 50,
+    "LocalizedNames": {
+      "bg_bg": "Рок спрингс",
+      "ca_es": "Rock Springs",
+      "cs_cz": "Rock Springs",
+      "da_dk": "Rock Springs",
+      "de_de": "Rock Springs",
+      "el_gr": "Ροκ Σπρίνκς",
+      "en_gb": "Rock Springs",
+      "en_us": "Rock Springs",
+      "es_es": "Rock Springs",
+      "es_la": "Rock Springs",
+      "et_ee": "Rock Springs",
+      "eu_es": "Rock Springs",
+      "fi_fi": "Rock Springs",
+      "fr_fr": "Rock Springs",
+      "gl_es": "Rock Springs",
+      "hr_hr": "Rock Springs",
+      "hu_hu": "Rock Springs",
+      "it_it": "Rock Springs",
+      "ja_jp": "ロックスプリングス",
+      "ka_ge": "როკ-სპრინგსი",
+      "ko_kr": "록 스프링스",
+      "lt_lt": "Rok Springsas",
+      "lv_lv": "Rock Springs",
+      "mk_mk": "Rock Springs",
+      "nl_nl": "Rock Springs",
+      "no_no": "Rock Springs",
+      "pl_pl": "Rock Springs",
+      "pl_si": "Rock Springs",
+      "pt_br": "Rock Springs",
+      "pt_pt": "Rock Springs",
+      "ro_ro": "Rock Springs",
+      "ru_ru": "Рок-Спрингс",
+      "sk_sk": "Rock Springs",
+      "sl_sl": "Rock Springs",
+      "sr_sp": "Rok Springs",
+      "sr_sr": "Рок Спрингс",
+      "sv_se": "Rock Springs",
+      "tr_tr": "Rock Springs",
+      "uk_uk": "Rock Springs",
+      "vi_vn": "Rock Springs",
+      "zh_cn": "石泉城",
+      "zh_tw": "石泉城"
+    }
+  },
+  {
+    "Name": "Jackson",
+    "Country": "wyoming",
+    "X": -60784.934,
+    "Y": -31617.357,
+    "CountryId": 50,
+    "LocalizedNames": {
+      "bg_bg": "Джаксън",
+      "ca_es": "Jackson",
+      "cs_cz": "Jackson",
+      "da_dk": "Jackson",
+      "de_de": "Jackson",
+      "el_gr": "Τζάκσον",
+      "en_gb": "Jackson",
+      "en_us": "Jackson",
+      "es_es": "Jackson",
+      "es_la": "Jackson",
+      "et_ee": "Jackson",
+      "eu_es": "Jackson",
+      "fi_fi": "Jackson",
+      "fr_fr": "Jackson",
+      "gl_es": "Jackson",
+      "hr_hr": "Jackson",
+      "hu_hu": "Jackson",
+      "it_it": "Jackson",
+      "ja_jp": "ジャクソン",
+      "ka_ge": "ჯექსონი",
+      "ko_kr": "잭슨",
+      "lt_lt": "Džeksonas",
+      "lv_lv": "Jackson",
+      "mk_mk": "Jackson",
+      "nl_nl": "Jackson",
+      "no_no": "Jackson",
+      "pl_pl": "Jackson",
+      "pl_si": "Jackson",
+      "pt_br": "Jackson",
+      "pt_pt": "Jackson",
+      "ro_ro": "Jackson",
+      "ru_ru": "Джексон",
+      "sk_sk": "Jackson",
+      "sl_sl": "Jackson",
+      "sr_sp": "Džekson",
+      "sr_sr": "Џексон",
+      "sv_se": "Jackson",
+      "tr_tr": "Jackson",
+      "uk_uk": "Jackson",
+      "vi_vn": "Jackson",
+      "zh_cn": "杰克逊",
+      "zh_tw": "傑克遜"
     }
   }
 ]
