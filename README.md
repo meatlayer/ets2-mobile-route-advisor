@@ -49,7 +49,7 @@ ATS inclued:
 
 
 ## Requirements
-- Euro Truck Simulator 2 and/or American Truck Simulator v1.42
+- Euro Truck Simulator 2 and/or American Truck Simulator v1.43
 - [ETS2 Telemetry Server](https://github.com/PauloTNCunha/TelemetryServer4) 4.1.2.3+
 
 ## How to Install
@@ -106,7 +106,7 @@ ATS в составе карты:
 
 
 ## Требования
-- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.42
+- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.43
 - [ETS2 Telemetry Server](https://github.com/PauloTNCunha/TelemetryServer4) 4.1.2.3+
 
 ## Как установить
@@ -152,15 +152,15 @@ If you require any type of support, please looking at the [contributing guidelin
     <tr>
         <td valign="top">
             <ul>
-                <li><a href="https://github.com/meatlayer">mike-koch</a></li>
+			    <li><a href="https://github.com/meatlayer">meatlayer</a></li>
+                <li><a href="https://github.com/mike-koch">mike-koch</a></li>
                 <li><a href="https://github.com/denilsonsa">denilsonsa</a></li>
                 <li><a href="https://github.com/Koenvh1">Koen</a></li>
-                <li><a href="https://github.com/meatlayer">meatlayer</a></li>
             </ul>
         </td>
         <td valign="top">
             <ul>
-                <li><a href="https://github.com/meatlayer">mike-koch</a></li>
+                <li><a href="https://github.com/mike-koch">mike-koch</a></li>
                 <li><a href="https://github.com/Phil0499">Phil0499</a></li>
                 <li><a href="https://github.com/raflix261">raflix261</a></li>
                 <li><a href="https://github.com/pedropandolfi">pedropandolfi</a></li>
@@ -172,9 +172,9 @@ If you require any type of support, please looking at the [contributing guidelin
         </td>
         <td valign="top">
             <ul>
+				<li><a href="https://github.com/meatlayer">meatlayer</a></li>
                 <li><a href="https://github.com/Funbit">Funbit</a></li>
                 <li><a href="https://github.com/Koenvh1">Koen</a></li>
-		<li><a href="https://github.com/meatlayer">meatlayer</a></li>
             </ul>
         </td>
     </tr>
