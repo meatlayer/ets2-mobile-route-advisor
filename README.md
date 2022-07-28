@@ -36,6 +36,7 @@ ETS 2 inclued:
 - DLC Beyond the Baltic Sea
 - DLC Road to the Black Sea
 - DLC Iberia
+- DLC Heart of Russia - _release date unknown TBA_
 
 ATS inclued:
 - DLC Arizona
@@ -46,6 +47,7 @@ ATS inclued:
 - DLC Idaho
 - DLC Colorado
 - DLC Wyoming
+- DLC Montana - _coming soon after 4 aug 2022._
 
 
 ## Requirements
@@ -93,6 +95,7 @@ ETS 2 в составе карты:
 - DLC Beyond the Baltic Sea
 - DLC Road to the Black Sea
 - DLC Iberia
+- DLC Heart of Russia - _release date unknown TBA_
 
 ATS в составе карты:
 - DLC Arizona
@@ -103,6 +106,7 @@ ATS в составе карты:
 - DLC Idaho
 - DLC Colorado
 - DLC Wyoming
+- DLC Montana - _coming soon after 4 aug 2022._
 
 
 ## Требования
