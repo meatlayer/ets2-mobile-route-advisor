@@ -6,20 +6,20 @@
 
         "Required properties:",
 
-        "           name: name of the skin (directory name: /skins/name)",
-        "          title: human readable skin title",
+        "         name: name of the skin (directory name: /skins/name)",
+        "         title: human readable skin title",
         "         author: author name",
-        "          width: width of the skin in pixels (same as defined in the CSS)",
+        "         width: width of the skin in pixels (same as defined in the CSS)",
         "         height: height of the skin in pixels (same as defined in the CSS)",
 
         "All the properties at the end of this file are skin-specific. See:",
-        "https://github.com/mike-koch/ets2-mobile-route-advisor/wiki",
+        "https://github.com/meatlayer/ets2-mobile-route-advisor",
         "for descriptions and possible values."
     ],
 
     "config": {
         "name": "ets2-mobile-route-advisor",
-        "title": "Mobile Route Advisor (4.0.2)",
+        "title": "Mobile Route Advisor (4.0.3)",
         "author": "meatlayer, mkoch227 and contributors",
         "width": -1,
         "height": -1,
