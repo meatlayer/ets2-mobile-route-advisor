@@ -49,7 +49,7 @@ ATS inclued:
 
 
 ## Requirements
-- Euro Truck Simulator 2 and/or American Truck Simulator v1.43
+- Euro Truck Simulator 2 and/or American Truck Simulator v1.45
 - [ETS2 Telemetry Server](https://github.com/PauloTNCunha/TelemetryServer4) 4.1.2.3+
 
 ## How to Install
@@ -106,7 +106,7 @@ ATS в составе карты:
 
 
 ## Требования
-- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.43
+- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.45
 - [ETS2 Telemetry Server](https://github.com/PauloTNCunha/TelemetryServer4) 4.1.2.3+
 
 ## Как установить
