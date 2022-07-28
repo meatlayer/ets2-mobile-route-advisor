@@ -36,6 +36,7 @@ ETS 2 inclued:
 - DLC Beyond the Baltic Sea
 - DLC Road to the Black Sea
 - DLC Iberia
+- DLC Heart of Russia - _release date unknown TBA_
 
 ATS inclued:
 - DLC Arizona
@@ -46,10 +47,11 @@ ATS inclued:
 - DLC Idaho
 - DLC Colorado
 - DLC Wyoming
+- DLC Montana - _coming soon after 4 aug 2022._
 
 
 ## Requirements
-- Euro Truck Simulator 2 and/or American Truck Simulator v1.43+
+- Euro Truck Simulator 2 and/or American Truck Simulator v1.45+
 - [ETS2 Telemetry Server](https://github.com/PauloTNCunha/TelemetryServer4) 4.1.2.3+
 
 ## How to Install
@@ -112,6 +114,7 @@ ETS 2 в составе карты:
 - DLC Beyond the Baltic Sea
 - DLC Road to the Black Sea
 - DLC Iberia
+- DLC Heart of Russia - _release date unknown TBA_
 
 ATS в составе карты:
 - DLC Arizona
@@ -122,10 +125,11 @@ ATS в составе карты:
 - DLC Idaho
 - DLC Colorado
 - DLC Wyoming
+- DLC Montana - _coming soon after 4 aug 2022._
 
 
 ## Требования
-- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.43+
+- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.45+
 - [ETS2 Telemetry Server](https://github.com/PauloTNCunha/TelemetryServer4) 4.1.2.3+
 
 ## Как установить
