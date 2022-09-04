@@ -47,7 +47,7 @@ ATS inclued:
 - DLC Idaho
 - DLC Colorado
 - DLC Wyoming
-- DLC Montana - _coming soon after 4 aug 2022._
+- DLC Montana
 
 
 ## Requirements
@@ -125,7 +125,7 @@ ATS в составе карты:
 - DLC Idaho
 - DLC Colorado
 - DLC Wyoming
-- DLC Montana - _coming soon after 4 aug 2022._
+- DLC Montana
 
 
 ## Требования
