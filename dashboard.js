@@ -526,7 +526,7 @@ function processDomChanges(data) {
     }
 
     // Process 12 vs 24 hr time
-    var timeFormat = g_skinConfig[g_configPrefix].timeFormat;
+    var timeFormat = g_skinConfig.timeFormat;
     if (timeFormat === '12h') {
         $('.game-time').addClass('gameTime12h').removeClass('game-time');
         $('.job-deadlineTime').addClass('jobDeadlineTime12h').removeClass('job-deadlineTime');
