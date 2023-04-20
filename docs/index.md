@@ -48,10 +48,11 @@ ATS inclued:
 - DLC Colorado
 - DLC Wyoming
 - DLC Montana
+- DLC Texas
 
 
 ## Requirements
-- Euro Truck Simulator 2 and/or American Truck Simulator v1.45+
+- Euro Truck Simulator 2 and/or American Truck Simulator v1.47
 - [ETS2 Telemetry Server](https://github.com/PauloTNCunha/TelemetryServer4) 4.1.2.3+
 
 ## How to Install
@@ -59,7 +60,7 @@ ATS inclued:
 2. Extract the contents of the zip to the ETS2 Telemetry Server's `\Telemetry Server\Html\skins\ets2-mobile-route-advisor` directory. You should then have a folder named `ets2-mobile-route-advisor` in the `skins` directory.
 
 ## How to Capture map in future game versions
-1. Download the latest version of the ts-map from either the [official website](https://github.com/dariowouters/ts-map), or from the [compiled version zip archive](https://meatlayer.github.io/ets2-mobile-route-advisor/ts-map_v143_compiled.zip) for ets2 / ats version v1.43+.
+1. Download the latest version of the ts-map from either the [official website](https://github.com/dariowouters/ts-map), or from the [compiled version zip archive](https://meatlayer.github.io/ets2-mobile-route-advisor/ts-map_v147_compiled.zip) for ets2 / ats version v1.43+.
 2. Extract the contents of the zip in your PC disk `C:\ts-map` directory. Run `TsMap.Canvas` app.
 3. Select the game folder, for example C:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2 and press Continue.
 4. After successfully opening the map in the app, configure the color palette in the menu. Example in the screenshot: 
@@ -126,10 +127,11 @@ ATS в составе карты:
 - DLC Colorado
 - DLC Wyoming
 - DLC Montana
+- DLC Texas
 
 
 ## Требования
-- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.45+
+- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.47
 - [ETS2 Telemetry Server](https://github.com/PauloTNCunha/TelemetryServer4) 4.1.2.3+
 
 ## Как установить
