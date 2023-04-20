@@ -48,10 +48,11 @@ ATS inclued:
 - DLC Colorado
 - DLC Wyoming
 - DLC Montana
+- DLC Texas
 
 
 ## Requirements
-- Euro Truck Simulator 2 and/or American Truck Simulator v1.45
+- Euro Truck Simulator 2 and/or American Truck Simulator v1.47
 - [ETS2 Telemetry Server](https://github.com/PauloTNCunha/TelemetryServer4) 4.1.2.3+
 
 ## How to Install
@@ -107,10 +108,11 @@ ATS в составе карты:
 - DLC Colorado
 - DLC Wyoming
 - DLC Montana
+- DLC Texas
 
 
 ## Требования
-- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.45
+- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.47
 - [ETS2 Telemetry Server](https://github.com/PauloTNCunha/TelemetryServer4) 4.1.2.3+
 
 ## Как установить
