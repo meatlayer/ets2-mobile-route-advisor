@@ -38,6 +38,22 @@ Funbit.Ets.Telemetry.Dashboard.prototype.filter = function (data) {
 	
 	if (data.truck.shifterType === "automatic" || data.truck.shifterType === "arcade") {
 		data.gear = data.truck.displayedGear > 0 ? 'A' + data.truck.displayedGear : (data.truck.displayedGear < 0 ? 'R' + Math.abs(data.truck.displayedGear) : 'N');
+    } else if (data.truck.shifterType === "hshifter") {
+        var keyHandler = {
+            '-4':'R2H', '-3':'R2L',
+            '-2':'R1H', '-1':'R1L',
+            '0':'N',
+            '1':'LL', '2':'LH',
+            '3':'1L', '4':'1H',
+            '5':'2L', '6':'1H',
+            '7':'3L', '8':'3H',
+            '9':'4L', '10':'4H',
+            '11':'5L', '12':'5H',
+            '13':'6L', '14':'6H',
+            '15':'7L', '16':'7H',
+            '17':'8L', '18':'8H'
+        };
+        data.gear = keyHandler[data.truck.displayedGear];
 	} else {
 		data.gear = data.truck.displayedGear > 0 ? data.truck.displayedGear : (data.truck.displayedGear < 0 ? 'R' + Math.abs(data.truck.displayedGear) : 'N');
 	}
