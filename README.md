@@ -49,6 +49,7 @@ ATS inclued:
 - DLC Wyoming
 - DLC Montana
 - DLC Texas
+- DLC Oklahoma
 
 
 ## Requirements
@@ -109,6 +110,7 @@ ATS в составе карты:
 - DLC Wyoming
 - DLC Montana
 - DLC Texas
+- DLC Oklahoma
 
 
 ## Требования
