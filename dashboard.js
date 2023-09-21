@@ -638,7 +638,7 @@ var g_translations;
 var g_skinConfig;
 
 // The current version of ets2-mobile-route-advisor
-var g_currentVersion = '4.0.5';
+var g_currentVersion = '4.0.6';
 
 // The currently running game
 var g_runningGame;
