@@ -218,6 +218,7 @@ var STATE_NAME_TO_CODE = {
 "oregon": "or",
 "colorado": "co",
 "wyoming": "wy",
+"oklahoma": "ok",
 "texas": "tx"
 };
 
