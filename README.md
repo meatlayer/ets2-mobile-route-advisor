@@ -37,6 +37,7 @@ ETS 2 inclued:
 - DLC Road to the Black Sea
 - DLC Iberia
 - DLC Heart of Russia - _release date unknown TBA_
+- DLC West Balkans
 
 ATS inclued:
 - DLC Arizona
@@ -98,6 +99,7 @@ ETS 2 в составе карты:
 - DLC Road to the Black Sea
 - DLC Iberia
 - DLC Heart of Russia - _release date unknown TBA_
+- DLC West Balkans
 
 ATS в составе карты:
 - DLC Arizona
