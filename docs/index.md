@@ -37,6 +37,7 @@ ETS 2 inclued:
 - DLC Road to the Black Sea
 - DLC Iberia
 - DLC Heart of Russia - _release date unknown TBA_
+- DLC West Balkans
 
 ATS inclued:
 - DLC Arizona
@@ -49,10 +50,11 @@ ATS inclued:
 - DLC Wyoming
 - DLC Montana
 - DLC Texas
+- DLC Oklahoma
 
 
 ## Requirements
-- Euro Truck Simulator 2 and/or American Truck Simulator v1.47
+- Euro Truck Simulator 2 and/or American Truck Simulator v1.48
 - [ETS2 Telemetry Server](https://github.com/PauloTNCunha/TelemetryServer4) 4.1.2.3+
 
 ## How to Install
@@ -60,7 +62,7 @@ ATS inclued:
 2. Extract the contents of the zip to the ETS2 Telemetry Server's `\Telemetry Server\Html\skins\ets2-mobile-route-advisor` directory. You should then have a folder named `ets2-mobile-route-advisor` in the `skins` directory.
 
 ## How to Capture map in future game versions
-1. Download the latest version of the ts-map from either the [official website](https://github.com/dariowouters/ts-map), or from the [compiled version zip archive](https://meatlayer.github.io/ets2-mobile-route-advisor/ts-map_v147_compiled.zip) for ets2 / ats version v1.43+.
+1. Download the latest version of the ts-map from either the [official website](https://github.com/dariowouters/ts-map), or from the [compiled version zip archive](https://meatlayer.github.io/ets2-mobile-route-advisor/ts-map_v148_compiled.zip) for ets2 / ats version v1.48+.
 2. Extract the contents of the zip in your PC disk `C:\ts-map` directory. Run `TsMap.Canvas` app.
 3. Select the game folder, for example C:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2 and press Continue.
 4. After successfully opening the map in the app, configure the color palette in the menu. Example in the screenshot: 
@@ -71,7 +73,7 @@ ATS inclued:
 
 ![capture example](./example2-capture.png)
 
-Press Generate, Select a folder, for example C:/ets2-map, and waiting, this process can take an average of 15 minutes on PCs: i7 7700k, GTX1070, NVME 1TB.
+Press Generate, Select a folder, for example C:/ets2-map, and waiting, this process can take an average of 10 minutes on PCs: i7 12700kf, RTX3080ti, NVME 1TB.
 
 6. After the operation is completed, the finished tiles will be stored in the folder C:/ets2-map/Tiles these folders 0 1 2 3 4 5 6 7 8 will need to be placed in ets2-mobile-route-advisor.
 
@@ -116,6 +118,7 @@ ETS 2 в составе карты:
 - DLC Road to the Black Sea
 - DLC Iberia
 - DLC Heart of Russia - _release date unknown TBA_
+- DLC West Balkans
 
 ATS в составе карты:
 - DLC Arizona
@@ -128,10 +131,10 @@ ATS в составе карты:
 - DLC Wyoming
 - DLC Montana
 - DLC Texas
-
+- DLC Oklahoma
 
 ## Требования
-- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.47
+- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.48
 - [ETS2 Telemetry Server](https://github.com/PauloTNCunha/TelemetryServer4) 4.1.2.3+
 
 ## Как установить
