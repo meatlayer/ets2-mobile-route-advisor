@@ -51,10 +51,11 @@ ATS inclued:
 - DLC Montana
 - DLC Texas
 - DLC Oklahoma
+- DLC Kansas
 
 
 ## Requirements
-- Euro Truck Simulator 2 and/or American Truck Simulator v1.48
+- Euro Truck Simulator 2 and/or American Truck Simulator v1.49
 - [ETS2 Telemetry Server](https://github.com/PauloTNCunha/TelemetryServer4) 4.1.2.3+
 
 ## How to Install
@@ -113,10 +114,11 @@ ATS в составе карты:
 - DLC Montana
 - DLC Texas
 - DLC Oklahoma
+- DLC Kansas
 
 
 ## Требования
-- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.48
+- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.49
 - [ETS2 Telemetry Server](https://github.com/PauloTNCunha/TelemetryServer4) 4.1.2.3+
 
 ## Как установить
