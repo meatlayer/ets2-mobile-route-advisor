@@ -4,8 +4,6 @@ var g_cities_json = [
     "Country": "germany",
     "X": 853.4857,
     "Y": 5416.1333,
-    "InGameId": "nurnberg",
-    "LocalizationToken": "nurnberg",
     "CountryId": 5,
     "LocalizedNames": {
       "bg_bg": "Нюрнберг",
@@ -58,8 +56,6 @@ var g_cities_json = [
     "Country": "germany",
     "X": 2859.25,
     "Y": 13848.9023,
-    "InGameId": "munchen",
-    "LocalizationToken": "munchen",
     "CountryId": 5,
     "LocalizedNames": {
       "bg_bg": "Мюнхен",
@@ -112,8 +108,6 @@ var g_cities_json = [
     "Country": "austria",
     "X": 1710.82813,
     "Y": 19182.43,
-    "InGameId": "innsbruck",
-    "LocalizationToken": "innsbruck",
     "CountryId": 1,
     "LocalizedNames": {
       "bg_bg": "Инсбрук",
@@ -166,8 +160,6 @@ var g_cities_json = [
     "Country": "italy",
     "X": -461.015625,
     "Y": 28983.2,
-    "InGameId": "verona",
-    "LocalizationToken": "verona",
     "CountryId": 6,
     "LocalizedNames": {
       "bg_bg": "Верона",
@@ -220,8 +212,6 @@ var g_cities_json = [
     "Country": "germany",
     "X": 1740.54565,
     "Y": -3217.0354,
-    "InGameId": "erfurt",
-    "LocalizationToken": "erfurt",
     "CountryId": 5,
     "LocalizedNames": {
       "bg_bg": "Ерфурт",
@@ -274,11 +264,9 @@ var g_cities_json = [
     "Country": "germany",
     "X": 863.636963,
     "Y": -15443.0088,
-    "InGameId": "winsen",
-    "LocalizationToken": "winsen",
     "CountryId": 5,
     "LocalizedNames": {
-      "bg_bg": "Winsen",
+      "bg_bg": "Винзен",
       "ca_es": "Winsen",
       "cs_cz": "Winsen",
       "da_dk": "Winsen",
@@ -328,8 +316,6 @@ var g_cities_json = [
     "Country": "germany",
     "X": 2159.001,
     "Y": -20008.4551,
-    "InGameId": "travemunde",
-    "LocalizationToken": "travemunde",
     "CountryId": 5,
     "LocalizedNames": {
       "bg_bg": "Травемюнде",
@@ -382,8 +368,6 @@ var g_cities_json = [
     "Country": "germany",
     "X": 278.463684,
     "Y": -22703.6953,
-    "InGameId": "kiel",
-    "LocalizationToken": "kiel",
     "CountryId": 5,
     "LocalizedNames": {
       "bg_bg": "Кил",
@@ -436,8 +420,6 @@ var g_cities_json = [
     "Country": "italy",
     "X": 4689.758,
     "Y": 29658.8047,
-    "InGameId": "venezia",
-    "LocalizationToken": "venezia",
     "CountryId": 6,
     "LocalizedNames": {
       "bg_bg": "Венеция",
@@ -490,8 +472,6 @@ var g_cities_json = [
     "Country": "germany",
     "X": 6649.0,
     "Y": -3503.957,
-    "InGameId": "leipzig",
-    "LocalizationToken": "leipzig",
     "CountryId": 5,
     "LocalizedNames": {
       "bg_bg": "Лайпциг",
@@ -544,8 +524,6 @@ var g_cities_json = [
     "Country": "germany",
     "X": 4026.879,
     "Y": -8242.57,
-    "InGameId": "magdeburg",
-    "LocalizationToken": "magdeburg",
     "CountryId": 5,
     "LocalizedNames": {
       "bg_bg": "Магдебург",
@@ -598,8 +576,6 @@ var g_cities_json = [
     "Country": "germany",
     "X": 5624.9,
     "Y": -19578.6484,
-    "InGameId": "rostock",
-    "LocalizationToken": "rostock",
     "CountryId": 5,
     "LocalizedNames": {
       "bg_bg": "Росток",
@@ -652,8 +628,6 @@ var g_cities_json = [
     "Country": "denmark",
     "X": 5970.98047,
     "Y": -22420.4531,
-    "InGameId": "gedser",
-    "LocalizationToken": "gedser",
     "CountryId": 21,
     "LocalizedNames": {
       "bg_bg": "Гедсер",
@@ -706,8 +680,6 @@ var g_cities_json = [
     "Country": "austria",
     "X": 8519.496,
     "Y": 15274.625,
-    "InGameId": "salzburg",
-    "LocalizationToken": "salzburg",
     "CountryId": 1,
     "LocalizedNames": {
       "bg_bg": "Залцбург",
@@ -760,11 +732,9 @@ var g_cities_json = [
     "Country": "italy",
     "X": 10154.0605,
     "Y": 27184.23,
-    "InGameId": "trieste",
-    "LocalizationToken": "trieste",
     "CountryId": 6,
     "LocalizedNames": {
-      "bg_bg": "Trieste",
+      "bg_bg": "Триест",
       "ca_es": "Trieste",
       "cs_cz": "Terst",
       "da_dk": "Trieste",
@@ -814,11 +784,9 @@ var g_cities_json = [
     "Country": "slovenia",
     "X": 10733.7813,
     "Y": 28959.6328,
-    "InGameId": "koper",
-    "LocalizationToken": "koper",
     "CountryId": 41,
     "LocalizedNames": {
-      "bg_bg": "Koper",
+      "bg_bg": "Копер",
       "ca_es": "Koper",
       "cs_cz": "Koper",
       "da_dk": "Koper",
@@ -836,7 +804,7 @@ var g_cities_json = [
       "gl_es": "Koper",
       "hr_hr": "Kopar",
       "hu_hu": "Koper",
-      "it_it": "Koper",
+      "it_it": "Capodistria",
       "ja_jp": "コペル",
       "ka_ge": "კოპერი",
       "ko_kr": "코페르",
@@ -868,8 +836,6 @@ var g_cities_json = [
     "Country": "germany",
     "X": 9682.941,
     "Y": -10721.3594,
-    "InGameId": "berlin",
-    "LocalizationToken": "berlin",
     "CountryId": 5,
     "LocalizedNames": {
       "bg_bg": "Берлин",
@@ -922,8 +888,6 @@ var g_cities_json = [
     "Country": "czech",
     "X": 13699.582,
     "Y": 3458.84766,
-    "InGameId": "prague",
-    "LocalizationToken": "prague",
     "CountryId": 3,
     "LocalizedNames": {
       "bg_bg": "Прага",
@@ -976,8 +940,6 @@ var g_cities_json = [
     "Country": "austria",
     "X": 12886.2656,
     "Y": 13343.457,
-    "InGameId": "linz",
-    "LocalizationToken": "linz",
     "CountryId": 1,
     "LocalizedNames": {
       "bg_bg": "Линц",
@@ -1018,7 +980,7 @@ var g_cities_json = [
       "sr_sp": "Linc",
       "sr_sr": "Линц",
       "sv_se": "Linz",
-      "tr_tr": "Linçe",
+      "tr_tr": "Linz",
       "uk_uk": "Лінц",
       "vi_vn": "Linz",
       "zh_cn": "林茨",
@@ -1030,8 +992,6 @@ var g_cities_json = [
     "Country": "austria",
     "X": 13296.98,
     "Y": 22755.7656,
-    "InGameId": "klagenfurt",
-    "LocalizationToken": "klagenfurt_am_worthersee",
     "CountryId": 1,
     "LocalizedNames": {
       "bg_bg": "Клагенфурт",
@@ -1084,11 +1044,9 @@ var g_cities_json = [
     "Country": "slovenia",
     "X": 14797.9727,
     "Y": 25545.0859,
-    "InGameId": "ljubljana",
-    "LocalizationToken": "ljubljana",
     "CountryId": 41,
     "LocalizedNames": {
-      "bg_bg": "Ljubljana",
+      "bg_bg": "Любляна",
       "ca_es": "Ljubljana",
       "cs_cz": "Lublaň",
       "da_dk": "Ljubljana",
@@ -1103,10 +1061,10 @@ var g_cities_json = [
       "fi_fi": "Ljubljana",
       "fr_ca": "Ljubljana",
       "fr_fr": "Ljubljana",
-      "gl_es": "Ljubljana",
+      "gl_es": "Liubliana",
       "hr_hr": "Ljubljana",
       "hu_hu": "Ljubljana",
-      "it_it": "Ljubljana",
+      "it_it": "Lubiana",
       "ja_jp": "リュブリャナ",
       "ka_ge": "ლუბლიანა",
       "ko_kr": "류블랴나",
@@ -1138,11 +1096,9 @@ var g_cities_json = [
     "Country": "croatia",
     "X": 13866.1445,
     "Y": 29916.1367,
-    "InGameId": "rijeka",
-    "LocalizationToken": "rijeka",
     "CountryId": 19,
     "LocalizedNames": {
-      "bg_bg": "Rijeka",
+      "bg_bg": "Риека",
       "ca_es": "Rijeka",
       "cs_cz": "Rijeka",
       "da_dk": "Rijeka",
@@ -1160,7 +1116,7 @@ var g_cities_json = [
       "gl_es": "Rijeka",
       "hr_hr": "Rijeka",
       "hu_hu": "Fiume",
-      "it_it": "Rijeka",
+      "it_it": "Fiume",
       "ja_jp": "リエカ",
       "ka_ge": "რიეკა",
       "ko_kr": "리예카",
@@ -1192,8 +1148,6 @@ var g_cities_json = [
     "Country": "germany",
     "X": 11926.2813,
     "Y": -2164.55469,
-    "InGameId": "dresden",
-    "LocalizationToken": "dresden",
     "CountryId": 5,
     "LocalizedNames": {
       "bg_bg": "Дрезден",
@@ -1246,8 +1200,6 @@ var g_cities_json = [
     "Country": "poland",
     "X": 14502.5352,
     "Y": -15569.8906,
-    "InGameId": "szczecin",
-    "LocalizationToken": "szczecin",
     "CountryId": 8,
     "LocalizedNames": {
       "bg_bg": "Шчечин",
@@ -1268,7 +1220,7 @@ var g_cities_json = [
       "gl_es": "Szczecin",
       "hr_hr": "Szczecin",
       "hu_hu": "Szczecin",
-      "it_it": "Szczecin",
+      "it_it": "Stettino",
       "ja_jp": "シュチェチン",
       "ka_ge": "შჩეცინი",
       "ko_kr": "슈체친",
@@ -1288,7 +1240,7 @@ var g_cities_json = [
       "sr_sp": "Ščećin",
       "sr_sr": "Шчећин",
       "sv_se": "Szczecin",
-      "tr_tr": "Ştetin",
+      "tr_tr": "Szczecin",
       "uk_uk": "Щецин",
       "vi_vn": "Szczecin",
       "zh_cn": "什切青",
@@ -1300,8 +1252,6 @@ var g_cities_json = [
     "Country": "austria",
     "X": 18210.99,
     "Y": 19941.7,
-    "InGameId": "graz",
-    "LocalizationToken": "graz",
     "CountryId": 1,
     "LocalizedNames": {
       "bg_bg": "Грац",
@@ -1354,11 +1304,9 @@ var g_cities_json = [
     "Country": "slovenia",
     "X": 18074.4648,
     "Y": 22717.3359,
-    "InGameId": "maribor",
-    "LocalizationToken": "maribor",
     "CountryId": 41,
     "LocalizedNames": {
-      "bg_bg": "Maribor",
+      "bg_bg": "Марибор",
       "ca_es": "Maribor",
       "cs_cz": "Maribor",
       "da_dk": "Maribor",
@@ -1408,8 +1356,6 @@ var g_cities_json = [
     "Country": "czech",
     "X": 21873.7148,
     "Y": 8794.824,
-    "InGameId": "brno",
-    "LocalizationToken": "brno",
     "CountryId": 3,
     "LocalizedNames": {
       "bg_bg": "Бърно",
@@ -1441,7 +1387,7 @@ var g_cities_json = [
       "no_no": "Brno",
       "pl_pl": "Brno",
       "pl_si": "Brno",
-      "pt_br": "Bruno",
+      "pt_br": "Brno",
       "pt_pt": "Brno",
       "ro_ro": "Brno",
       "ru_ru": "Брно",
@@ -1462,8 +1408,6 @@ var g_cities_json = [
     "Country": "austria",
     "X": 19939.6328,
     "Y": 13465.9063,
-    "InGameId": "wien",
-    "LocalizationToken": "wien",
     "CountryId": 1,
     "LocalizedNames": {
       "bg_bg": "Виена",
@@ -1516,8 +1460,6 @@ var g_cities_json = [
     "Country": "poland",
     "X": 22802.7734,
     "Y": -3021.10547,
-    "InGameId": "wroclaw",
-    "LocalizationToken": "wroclaw",
     "CountryId": 8,
     "LocalizedNames": {
       "bg_bg": "Вроцлав",
@@ -1558,7 +1500,7 @@ var g_cities_json = [
       "sr_sp": "Vrocłav",
       "sr_sr": "Вроцлав",
       "sv_se": "Wrocław",
-      "tr_tr": "Breslava",
+      "tr_tr": "Wrocław",
       "uk_uk": "Вроцлав",
       "vi_vn": "Wrocław",
       "zh_cn": "弗罗茨瓦夫",
@@ -1570,8 +1512,6 @@ var g_cities_json = [
     "Country": "poland",
     "X": 22313.2773,
     "Y": -9682.324,
-    "InGameId": "poznan",
-    "LocalizationToken": "poznan",
     "CountryId": 8,
     "LocalizedNames": {
       "bg_bg": "Познан",
@@ -1624,8 +1564,6 @@ var g_cities_json = [
     "Country": "slovakia",
     "X": 24023.1719,
     "Y": 14410.8945,
-    "InGameId": "bratislava",
-    "LocalizationToken": "bratislava",
     "CountryId": 11,
     "LocalizedNames": {
       "bg_bg": "Братислава",
@@ -1678,11 +1616,9 @@ var g_cities_json = [
     "Country": "croatia",
     "X": 31000.4785,
     "Y": 28372.9473,
-    "InGameId": "osijek",
-    "LocalizationToken": "osijek",
     "CountryId": 19,
     "LocalizedNames": {
-      "bg_bg": "Osijek",
+      "bg_bg": "Осийек",
       "ca_es": "Osijek",
       "cs_cz": "Osijek",
       "da_dk": "Osijek",
@@ -1732,8 +1668,6 @@ var g_cities_json = [
     "Country": "hungary",
     "X": 36318.0938,
     "Y": 23928.0742,
-    "InGameId": "szeged",
-    "LocalizationToken": "szeged",
     "CountryId": 13,
     "LocalizedNames": {
       "bg_bg": "Сегед",
@@ -1754,7 +1688,7 @@ var g_cities_json = [
       "gl_es": "Szeged",
       "hr_hr": "Segedin",
       "hu_hu": "Szeged",
-      "it_it": "Szeged",
+      "it_it": "Seghedino",
       "ja_jp": "セゲド",
       "ka_ge": "სეგედი",
       "ko_kr": "세게드",
@@ -1786,8 +1720,6 @@ var g_cities_json = [
     "Country": "romania",
     "X": 43090.2344,
     "Y": 28534.457,
-    "InGameId": "resita",
-    "LocalizationToken": "resita",
     "CountryId": 37,
     "LocalizedNames": {
       "bg_bg": "Решица",
@@ -1828,7 +1760,7 @@ var g_cities_json = [
       "sr_sp": "Rešica",
       "sr_sr": "Решица",
       "sv_se": "Reșița",
-      "tr_tr": "Reşita",
+      "tr_tr": "Reşçe",
       "uk_uk": "Решица",
       "vi_vn": "Reșița",
       "zh_cn": "雷希察",
@@ -1840,11 +1772,9 @@ var g_cities_json = [
     "Country": "serbia",
     "X": 44790.0234,
     "Y": 39326.83,
-    "InGameId": "nis",
-    "LocalizationToken": "nis",
     "CountryId": 40,
     "LocalizedNames": {
-      "bg_bg": "Niš",
+      "bg_bg": "Ниш",
       "ca_es": "Niš",
       "cs_cz": "Niš",
       "da_dk": "Niš",
@@ -1894,8 +1824,6 @@ var g_cities_json = [
     "Country": "russia",
     "X": 55868.2,
     "Y": -44822.4922,
-    "InGameId": "pskov",
-    "LocalizationToken": "pskov",
     "CountryId": 38,
     "LocalizedNames": {
       "bg_bg": "Псков",
@@ -1948,8 +1876,6 @@ var g_cities_json = [
     "Country": "russia",
     "X": 59346.33,
     "Y": -50665.293,
-    "InGameId": "luga",
-    "LocalizationToken": "luga",
     "CountryId": 38,
     "LocalizedNames": {
       "bg_bg": "Луга",
@@ -2002,8 +1928,6 @@ var g_cities_json = [
     "Country": "germany",
     "X": -3381.44531,
     "Y": -4418.828,
-    "InGameId": "kassel",
-    "LocalizationToken": "kassel",
     "CountryId": 5,
     "LocalizedNames": {
       "bg_bg": "Касел",
@@ -2056,8 +1980,6 @@ var g_cities_json = [
     "Country": "germany",
     "X": -3001.80322,
     "Y": -10199.2979,
-    "InGameId": "hannover",
-    "LocalizationToken": "hannover",
     "CountryId": 5,
     "LocalizedNames": {
       "bg_bg": "Хановер",
@@ -2110,8 +2032,6 @@ var g_cities_json = [
     "Country": "germany",
     "X": -2996.37036,
     "Y": -17401.61,
-    "InGameId": "hamburg",
-    "LocalizationToken": "hamburg",
     "CountryId": 5,
     "LocalizedNames": {
       "bg_bg": "Хамбург",
@@ -2164,8 +2084,6 @@ var g_cities_json = [
     "Country": "germany",
     "X": -6983.73828,
     "Y": 1597.04688,
-    "InGameId": "frankfurt",
-    "LocalizationToken": "frankfurt_am_main",
     "CountryId": 5,
     "LocalizedNames": {
       "bg_bg": "Франкфурт на Майн",
@@ -2218,8 +2136,6 @@ var g_cities_json = [
     "Country": "germany",
     "X": -8322.992,
     "Y": 5545.828,
-    "InGameId": "mannheim",
-    "LocalizationToken": "mannheim",
     "CountryId": 5,
     "LocalizedNames": {
       "bg_bg": "Манхайм",
@@ -2272,8 +2188,6 @@ var g_cities_json = [
     "Country": "germany",
     "X": -5746.2876,
     "Y": 9265.669,
-    "InGameId": "stuttgart",
-    "LocalizationToken": "stuttgart",
     "CountryId": 5,
     "LocalizedNames": {
       "bg_bg": "Щутгарт",
@@ -2326,8 +2240,6 @@ var g_cities_json = [
     "Country": "italy",
     "X": -7916.57031,
     "Y": 28693.5625,
-    "InGameId": "milano",
-    "LocalizationToken": "milano",
     "CountryId": 6,
     "LocalizedNames": {
       "bg_bg": "Милан",
@@ -2380,8 +2292,6 @@ var g_cities_json = [
     "Country": "italy",
     "X": -7765.93359,
     "Y": 54715.4063,
-    "InGameId": "olbia",
-    "LocalizationToken": "olbia",
     "CountryId": 6,
     "LocalizedNames": {
       "bg_bg": "Олбия",
@@ -2434,8 +2344,6 @@ var g_cities_json = [
     "Country": "germany",
     "X": -8120.60547,
     "Y": -9933.598,
-    "InGameId": "osnabruck",
-    "LocalizationToken": "osnabruck",
     "CountryId": 5,
     "LocalizedNames": {
       "bg_bg": "Оснабрюк",
@@ -2488,8 +2396,6 @@ var g_cities_json = [
     "Country": "germany",
     "X": -4970.53125,
     "Y": -14856.2617,
-    "InGameId": "bremen",
-    "LocalizationToken": "bremen",
     "CountryId": 5,
     "LocalizedNames": {
       "bg_bg": "Бремен",
@@ -2542,8 +2448,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -11387.07,
     "Y": 10537.2656,
-    "InGameId": "strasbourg",
-    "LocalizationToken": "strasbourg",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Страсбург",
@@ -2594,10 +2498,8 @@ var g_cities_json = [
   {
     "Name": "Zürich",
     "Country": "switzerland",
-    "X": -8773.934,
-    "Y": 17498.34,
-    "InGameId": "zurich",
-    "LocalizationToken": "zurich",
+    "X": -9438.79,
+    "Y": 16747.23,
     "CountryId": 9,
     "LocalizedNames": {
       "bg_bg": "Цюрих",
@@ -2650,8 +2552,6 @@ var g_cities_json = [
     "Country": "italy",
     "X": -9232.379,
     "Y": 34875.9766,
-    "InGameId": "genova",
-    "LocalizationToken": "genova",
     "CountryId": 6,
     "LocalizedNames": {
       "bg_bg": "Генуа",
@@ -2704,8 +2604,6 @@ var g_cities_json = [
     "Country": "italy",
     "X": -11556.4141,
     "Y": 55186.8633,
-    "InGameId": "sassari",
-    "LocalizationToken": "sassari",
     "CountryId": 6,
     "LocalizedNames": {
       "bg_bg": "Сасари",
@@ -2758,8 +2656,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -8719.895,
     "Y": 51934.8164,
-    "InGameId": "bonifacio",
-    "LocalizationToken": "bonifacio",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Бонифачо",
@@ -2810,10 +2706,8 @@ var g_cities_json = [
   {
     "Name": "Dortmund",
     "Country": "germany",
-    "X": -11102.1914,
-    "Y": -6914.77734,
-    "InGameId": "dortmund",
-    "LocalizationToken": "dortmund",
+    "X": -12080.1172,
+    "Y": -7732.8584,
     "CountryId": 5,
     "LocalizedNames": {
       "bg_bg": "Дортмунд",
@@ -2866,8 +2760,6 @@ var g_cities_json = [
     "Country": "germany",
     "X": -9597.352,
     "Y": -13020.4766,
-    "InGameId": "werlte",
-    "LocalizationToken": "werlte",
     "CountryId": 5,
     "LocalizedNames": {
       "bg_bg": "Верлте",
@@ -2918,10 +2810,8 @@ var g_cities_json = [
   {
     "Name": "Bern",
     "Country": "switzerland",
-    "X": -13180.9141,
-    "Y": 19609.9766,
-    "InGameId": "bern",
-    "LocalizationToken": "bern",
+    "X": -13382.3721,
+    "Y": 19870.6328,
     "CountryId": 9,
     "LocalizedNames": {
       "bg_bg": "Берн",
@@ -2974,8 +2864,6 @@ var g_cities_json = [
     "Country": "italy",
     "X": -13222.375,
     "Y": 30211.8828,
-    "InGameId": "torino",
-    "LocalizationToken": "torino",
     "CountryId": 6,
     "LocalizedNames": {
       "bg_bg": "Торино",
@@ -3026,10 +2914,8 @@ var g_cities_json = [
   {
     "Name": "Köln",
     "Country": "germany",
-    "X": -13750.918,
-    "Y": -3352.879,
-    "InGameId": "koln",
-    "LocalizationToken": "koln",
+    "X": -13641.1172,
+    "Y": -3576.644,
     "CountryId": 5,
     "LocalizedNames": {
       "bg_bg": "Кьолн",
@@ -3078,66 +2964,10 @@ var g_cities_json = [
     }
   },
   {
-    "Name": "Duisburg",
-    "Country": "germany",
-    "X": -13663.7188,
-    "Y": -6978.492,
-    "InGameId": "duisburg",
-    "LocalizationToken": "duisburg",
-    "CountryId": 5,
-    "LocalizedNames": {
-      "bg_bg": "Дуйсбург",
-      "ca_es": "Duisburg",
-      "cs_cz": "Duisburg",
-      "da_dk": "Duisburg",
-      "de_de": "Duisburg",
-      "el_gr": "Ντούισμπουργκ",
-      "en_gb": "Duisburg",
-      "en_us": "Duisburg",
-      "es_es": "Duisburgo",
-      "es_la": "Duisburgo",
-      "et_ee": "Duisburg",
-      "eu_es": "Duisburg",
-      "fi_fi": "Duisburg",
-      "fr_ca": "Duisbourg",
-      "fr_fr": "Duisbourg",
-      "gl_es": "Duisburgo",
-      "hr_hr": "Duisburg",
-      "hu_hu": "Duisburg",
-      "it_it": "Duisburg",
-      "ja_jp": "デュースブルク",
-      "ka_ge": "დუისბურგი",
-      "ko_kr": "뒤스부르크",
-      "lt_lt": "Duisburgas",
-      "lv_lv": "Dīsburga",
-      "mk_mk": "Дисбург",
-      "nl_nl": "Duisburg",
-      "no_no": "Duisburg",
-      "pl_pl": "Duisburg",
-      "pl_si": "Duisburg",
-      "pt_br": "Duisburgo",
-      "pt_pt": "Duisburg",
-      "ro_ro": "Duisburg",
-      "ru_ru": "Дуйсбург",
-      "sk_sk": "Duisburg",
-      "sl_sl": "Duisburg",
-      "sr_sp": "Duizburg",
-      "sr_sr": "Дуизбург",
-      "sv_se": "Duisburg",
-      "tr_tr": "Duisburg",
-      "uk_uk": "Дуйсбург",
-      "vi_vn": "Duisburg",
-      "zh_cn": "杜伊斯堡",
-      "zh_tw": "杜易斯堡"
-    }
-  },
-  {
     "Name": "Düsseldorf",
     "Country": "germany",
-    "X": -13977.3047,
-    "Y": -4719.72656,
-    "InGameId": "dusseldorf",
-    "LocalizationToken": "dusseldorf",
+    "X": -14473.1055,
+    "Y": -5635.48242,
     "CountryId": 5,
     "LocalizedNames": {
       "bg_bg": "Дюселдорф",
@@ -3186,12 +3016,62 @@ var g_cities_json = [
     }
   },
   {
+    "Name": "Duisburg",
+    "Country": "germany",
+    "X": -14784.3418,
+    "Y": -7334.07959,
+    "CountryId": 5,
+    "LocalizedNames": {
+      "bg_bg": "Дуйсбург",
+      "ca_es": "Duisburg",
+      "cs_cz": "Duisburg",
+      "da_dk": "Duisburg",
+      "de_de": "Duisburg",
+      "el_gr": "Ντούισμπουργκ",
+      "en_gb": "Duisburg",
+      "en_us": "Duisburg",
+      "es_es": "Duisburgo",
+      "es_la": "Duisburgo",
+      "et_ee": "Duisburg",
+      "eu_es": "Duisburg",
+      "fi_fi": "Duisburg",
+      "fr_ca": "Duisbourg",
+      "fr_fr": "Duisbourg",
+      "gl_es": "Duisburgo",
+      "hr_hr": "Duisburg",
+      "hu_hu": "Duisburg",
+      "it_it": "Duisburg",
+      "ja_jp": "デュースブルク",
+      "ka_ge": "დუისბურგი",
+      "ko_kr": "뒤스부르크",
+      "lt_lt": "Duisburgas",
+      "lv_lv": "Dīsburga",
+      "mk_mk": "Дисбург",
+      "nl_nl": "Duisburg",
+      "no_no": "Duisburg",
+      "pl_pl": "Duisburg",
+      "pl_si": "Duisburg",
+      "pt_br": "Duisburgo",
+      "pt_pt": "Duisburg",
+      "ro_ro": "Duisburg",
+      "ru_ru": "Дуйсбург",
+      "sk_sk": "Duisburg",
+      "sl_sl": "Duisburg",
+      "sr_sp": "Duizburg",
+      "sr_sr": "Дуизбург",
+      "sv_se": "Duisburg",
+      "tr_tr": "Duisburg",
+      "uk_uk": "Дуйсбург",
+      "vi_vn": "Duisburg",
+      "zh_cn": "杜伊斯堡",
+      "zh_tw": "杜易斯堡"
+    }
+  },
+  {
     "Name": "Groningen",
     "Country": "netherlands",
     "X": -12787.7578,
     "Y": -15988.7813,
-    "InGameId": "groningen",
-    "LocalizationToken": "groningen",
     "CountryId": 7,
     "LocalizedNames": {
       "bg_bg": "Гронинген",
@@ -3244,8 +3124,6 @@ var g_cities_json = [
     "Country": "luxembourg",
     "X": -16384.34,
     "Y": 3937.84766,
-    "InGameId": "luxembourg",
-    "LocalizationToken": "luxembourg_city",
     "CountryId": 12,
     "LocalizedNames": {
       "bg_bg": "Люксембург",
@@ -3298,8 +3176,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -16594.625,
     "Y": 7093.59,
-    "InGameId": "metz",
-    "LocalizationToken": "metz",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Мец",
@@ -3350,10 +3226,8 @@ var g_cities_json = [
   {
     "Name": "Genève",
     "Country": "switzerland",
-    "X": -18549.2578,
-    "Y": 23246.8945,
-    "InGameId": "geneve",
-    "LocalizationToken": "geneve",
+    "X": -18506.8125,
+    "Y": 22793.1836,
     "CountryId": 9,
     "LocalizedNames": {
       "bg_bg": "Женева",
@@ -3406,8 +3280,6 @@ var g_cities_json = [
     "Country": "belgium",
     "X": -17581.6484,
     "Y": -1501.37891,
-    "InGameId": "liege",
-    "LocalizationToken": "liege",
     "CountryId": 2,
     "LocalizedNames": {
       "bg_bg": "Лиеж",
@@ -3460,8 +3332,6 @@ var g_cities_json = [
     "Country": "netherlands",
     "X": -19062.1328,
     "Y": -12231.3359,
-    "InGameId": "amsterdam",
-    "LocalizationToken": "amsterdam",
     "CountryId": 7,
     "LocalizedNames": {
       "bg_bg": "Амстердам",
@@ -3514,8 +3384,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -22820.1523,
     "Y": 16285.375,
-    "InGameId": "dijon",
-    "LocalizationToken": "dijon",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Дижон",
@@ -3536,7 +3404,7 @@ var g_cities_json = [
       "gl_es": "Dijon",
       "hr_hr": "Dijon",
       "hu_hu": "Dijon",
-      "it_it": "Dijon",
+      "it_it": "Digione",
       "ja_jp": "ディジョン",
       "ka_ge": "დიჟონი",
       "ko_kr": "디종",
@@ -3568,8 +3436,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -24477.9531,
     "Y": 24957.9023,
-    "InGameId": "lyon",
-    "LocalizationToken": "lyon",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Лион",
@@ -3622,8 +3488,6 @@ var g_cities_json = [
     "Country": "belgium",
     "X": -22026.1719,
     "Y": -3705.15625,
-    "InGameId": "brussel",
-    "LocalizationToken": "brussel",
     "CountryId": 2,
     "LocalizedNames": {
       "bg_bg": "Брюксел",
@@ -3676,8 +3540,6 @@ var g_cities_json = [
     "Country": "netherlands",
     "X": -20456.0781,
     "Y": -9455.93,
-    "InGameId": "rotterdam",
-    "LocalizationToken": "rotterdam",
     "CountryId": 7,
     "LocalizedNames": {
       "bg_bg": "Ротердам",
@@ -3730,8 +3592,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -24104.89,
     "Y": 5610.01563,
-    "InGameId": "reims",
-    "LocalizationToken": "reims",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Реймс",
@@ -3784,8 +3644,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -26839.5156,
     "Y": -2930.40625,
-    "InGameId": "lille",
-    "LocalizationToken": "lille",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Лил",
@@ -3838,8 +3696,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -31427.4727,
     "Y": 6366.074,
-    "InGameId": "paris",
-    "LocalizationToken": "paris",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Париж",
@@ -3892,8 +3748,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -31140.5273,
     "Y": -5505.76563,
-    "InGameId": "calais",
-    "LocalizationToken": "calais",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Кале",
@@ -3946,8 +3800,6 @@ var g_cities_json = [
     "Country": "uk",
     "X": -31964.6836,
     "Y": -14857.3438,
-    "InGameId": "felixstowe",
-    "LocalizationToken": "felixstowe",
     "CountryId": 10,
     "LocalizedNames": {
       "bg_bg": "Феликстоу",
@@ -3991,7 +3843,7 @@ var g_cities_json = [
       "tr_tr": "Felixstowe",
       "uk_uk": "Філікстоу",
       "vi_vn": "Felixstowe",
-      "zh_cn": "费利克斯托港",
+      "zh_cn": "费利克斯托",
       "zh_tw": "菲力斯杜"
     }
   },
@@ -4000,8 +3852,6 @@ var g_cities_json = [
     "Country": "uk",
     "X": -33772.0742,
     "Y": -8554.48,
-    "InGameId": "dover",
-    "LocalizationToken": "dover",
     "CountryId": 10,
     "LocalizedNames": {
       "bg_bg": "Дувър",
@@ -4054,8 +3904,6 @@ var g_cities_json = [
     "Country": "uk",
     "X": -40196.9922,
     "Y": -12259.34,
-    "InGameId": "london",
-    "LocalizationToken": "london",
     "CountryId": 10,
     "LocalizedNames": {
       "bg_bg": "Лондон",
@@ -4108,8 +3956,6 @@ var g_cities_json = [
     "Country": "uk",
     "X": -37322.8125,
     "Y": -16539.5234,
-    "InGameId": "cambridge",
-    "LocalizationToken": "cambridge",
     "CountryId": 10,
     "LocalizedNames": {
       "bg_bg": "Кембридж",
@@ -4162,8 +4008,6 @@ var g_cities_json = [
     "Country": "uk",
     "X": -36868.0234,
     "Y": -27345.3086,
-    "InGameId": "grimsby",
-    "LocalizationToken": "grimsby",
     "CountryId": 10,
     "LocalizedNames": {
       "bg_bg": "Гримзби",
@@ -4216,8 +4060,6 @@ var g_cities_json = [
     "Country": "uk",
     "X": -40128.168,
     "Y": -39307.8438,
-    "InGameId": "newcastle",
-    "LocalizationToken": "newcastle_upon_tyne",
     "CountryId": 10,
     "LocalizedNames": {
       "bg_bg": "Нюкасъл ъпон Тайн",
@@ -4261,7 +4103,7 @@ var g_cities_json = [
       "tr_tr": "Newcastle",
       "uk_uk": "Ньюкасл-апон-Тайн",
       "vi_vn": "Newcastle upon Tyne",
-      "zh_cn": "泰恩河畔纽卡斯尔",
+      "zh_cn": "纽卡斯尔",
       "zh_tw": "泰恩河畔新堡"
     }
   },
@@ -4270,8 +4112,6 @@ var g_cities_json = [
     "Country": "uk",
     "X": -39596.793,
     "Y": -56040.47,
-    "InGameId": "aberdeen",
-    "LocalizationToken": "aberdeen",
     "CountryId": 10,
     "LocalizedNames": {
       "bg_bg": "Абърдийн",
@@ -4324,8 +4164,6 @@ var g_cities_json = [
     "Country": "uk",
     "X": -43088.88,
     "Y": -27107.6914,
-    "InGameId": "sheffield",
-    "LocalizationToken": "sheffield",
     "CountryId": 10,
     "LocalizedNames": {
       "bg_bg": "Шефилд",
@@ -4378,8 +4216,6 @@ var g_cities_json = [
     "Country": "uk",
     "X": -46838.8672,
     "Y": -7893.371,
-    "InGameId": "southampton",
-    "LocalizationToken": "southampton",
     "CountryId": 10,
     "LocalizedNames": {
       "bg_bg": "Саутхамптън",
@@ -4432,8 +4268,6 @@ var g_cities_json = [
     "Country": "uk",
     "X": -46451.25,
     "Y": -20943.125,
-    "InGameId": "birmingham",
-    "LocalizationToken": "birmingham",
     "CountryId": 10,
     "LocalizedNames": {
       "bg_bg": "Бирмингам",
@@ -4486,8 +4320,6 @@ var g_cities_json = [
     "Country": "uk",
     "X": -46298.7773,
     "Y": -28585.1445,
-    "InGameId": "manchester",
-    "LocalizationToken": "manchester",
     "CountryId": 10,
     "LocalizedNames": {
       "bg_bg": "Манчестър",
@@ -4540,8 +4372,6 @@ var g_cities_json = [
     "Country": "uk",
     "X": -46439.3,
     "Y": -40093.6,
-    "InGameId": "carlisle",
-    "LocalizationToken": "carlisle",
     "CountryId": 10,
     "LocalizedNames": {
       "bg_bg": "Карлайл",
@@ -4594,8 +4424,6 @@ var g_cities_json = [
     "Country": "uk",
     "X": -45400.8672,
     "Y": -47889.7969,
-    "InGameId": "edinburgh",
-    "LocalizationToken": "edinburgh",
     "CountryId": 10,
     "LocalizedNames": {
       "bg_bg": "Единбург",
@@ -4648,8 +4476,6 @@ var g_cities_json = [
     "Country": "uk",
     "X": -49621.86,
     "Y": -29861.957,
-    "InGameId": "liverpool",
-    "LocalizationToken": "liverpool",
     "CountryId": 10,
     "LocalizedNames": {
       "bg_bg": "Ливърпул",
@@ -4702,8 +4528,6 @@ var g_cities_json = [
     "Country": "uk",
     "X": -51134.8242,
     "Y": -49241.7461,
-    "InGameId": "glasgow",
-    "LocalizationToken": "glasgow",
     "CountryId": 10,
     "LocalizedNames": {
       "bg_bg": "Гласгоу",
@@ -4756,8 +4580,6 @@ var g_cities_json = [
     "Country": "uk",
     "X": -54555.4023,
     "Y": -15118.57,
-    "InGameId": "cardiff",
-    "LocalizationToken": "cardiff",
     "CountryId": 10,
     "LocalizedNames": {
       "bg_bg": "Кардиф",
@@ -4810,8 +4632,6 @@ var g_cities_json = [
     "Country": "uk",
     "X": -57646.13,
     "Y": -17652.07,
-    "InGameId": "swansea",
-    "LocalizationToken": "swansea",
     "CountryId": 10,
     "LocalizedNames": {
       "bg_bg": "Суонзи",
@@ -4864,8 +4684,6 @@ var g_cities_json = [
     "Country": "uk",
     "X": -60566.5,
     "Y": -8502.445,
-    "InGameId": "plymouth",
-    "LocalizationToken": "plymouth",
     "CountryId": 10,
     "LocalizedNames": {
       "bg_bg": "Плимът",
@@ -4918,8 +4736,6 @@ var g_cities_json = [
     "Country": "romania",
     "X": 40552.2148,
     "Y": 26320.0117,
-    "InGameId": "timisoara",
-    "LocalizationToken": "timisoara",
     "CountryId": 37,
     "LocalizedNames": {
       "bg_bg": "Тимишоара",
@@ -4972,8 +4788,6 @@ var g_cities_json = [
     "Country": "romania",
     "X": 49028.207,
     "Y": 17957.05,
-    "InGameId": "cluj_napoca",
-    "LocalizationToken": "cluj_napoca",
     "CountryId": 37,
     "LocalizedNames": {
       "bg_bg": "Клуж-Напока",
@@ -5026,8 +4840,6 @@ var g_cities_json = [
     "Country": "romania",
     "X": 48141.7344,
     "Y": 25594.707,
-    "InGameId": "hunedoara",
-    "LocalizationToken": "hunedoara",
     "CountryId": 37,
     "LocalizedNames": {
       "bg_bg": "Хунедоара",
@@ -5080,8 +4892,6 @@ var g_cities_json = [
     "Country": "romania",
     "X": 50918.418,
     "Y": 32508.39,
-    "InGameId": "craiova",
-    "LocalizationToken": "craiova",
     "CountryId": 37,
     "LocalizedNames": {
       "bg_bg": "Крайова",
@@ -5122,7 +4932,7 @@ var g_cities_json = [
       "sr_sp": "Krajova",
       "sr_sr": "Крајова",
       "sv_se": "Craiova",
-      "tr_tr": "Craiova",
+      "tr_tr": "Krayova",
       "uk_uk": "Крайова",
       "vi_vn": "Craiova",
       "zh_cn": "克拉约瓦",
@@ -5134,8 +4944,6 @@ var g_cities_json = [
     "Country": "bulgaria",
     "X": 50404.66,
     "Y": 41995.52,
-    "InGameId": "sofia",
-    "LocalizationToken": "sofia",
     "CountryId": 18,
     "LocalizedNames": {
       "bg_bg": "София",
@@ -5188,8 +4996,6 @@ var g_cities_json = [
     "Country": "bulgaria",
     "X": 47848.12,
     "Y": 44712.83,
-    "InGameId": "pernik",
-    "LocalizationToken": "pernik",
     "CountryId": 18,
     "LocalizedNames": {
       "bg_bg": "Перник",
@@ -5242,8 +5048,6 @@ var g_cities_json = [
     "Country": "romania",
     "X": 52709.5547,
     "Y": 19237.0742,
-    "InGameId": "targu_mures",
-    "LocalizationToken": "targu_mures",
     "CountryId": 37,
     "LocalizedNames": {
       "bg_bg": "Търгу Муреш",
@@ -5284,7 +5088,7 @@ var g_cities_json = [
       "sr_sp": "Turgu Mureš",
       "sr_sr": "Тргу Муреш",
       "sv_se": "Târgu Mureș",
-      "tr_tr": "Targu Mureş",
+      "tr_tr": "Târgu Mureș",
       "uk_uk": "Тиргу-Муреш",
       "vi_vn": "Târgu Mureș",
       "zh_cn": "特尔古穆列什",
@@ -5296,8 +5100,6 @@ var g_cities_json = [
     "Country": "bulgaria",
     "X": 52508.0273,
     "Y": 36077.168,
-    "InGameId": "kozloduy",
-    "LocalizationToken": "kozloduy",
     "CountryId": 18,
     "LocalizedNames": {
       "bg_bg": "Козлодуй",
@@ -5350,8 +5152,6 @@ var g_cities_json = [
     "Country": "bulgaria",
     "X": 55687.74,
     "Y": 42040.9766,
-    "InGameId": "pirdop",
-    "LocalizationToken": "pirdop",
     "CountryId": 18,
     "LocalizedNames": {
       "bg_bg": "Пирдоп",
@@ -5404,8 +5204,6 @@ var g_cities_json = [
     "Country": "romania",
     "X": 58002.2344,
     "Y": 23332.7227,
-    "InGameId": "brasov",
-    "LocalizationToken": "brasov",
     "CountryId": 37,
     "LocalizedNames": {
       "bg_bg": "Брашов",
@@ -5446,7 +5244,7 @@ var g_cities_json = [
       "sr_sp": "Brašov",
       "sr_sr": "Брашов",
       "sv_se": "Brașov",
-      "tr_tr": "Braşov",
+      "tr_tr": "Brașov",
       "uk_uk": "Брашов",
       "vi_vn": "Brașov",
       "zh_cn": "布拉索夫",
@@ -5458,8 +5256,6 @@ var g_cities_json = [
     "Country": "romania",
     "X": 55747.4141,
     "Y": 29392.3711,
-    "InGameId": "pitesti",
-    "LocalizationToken": "pitesti",
     "CountryId": 37,
     "LocalizedNames": {
       "bg_bg": "Питещи",
@@ -5500,7 +5296,7 @@ var g_cities_json = [
       "sr_sp": "Pitešti",
       "sr_sr": "Питешти",
       "sv_se": "Pitești",
-      "tr_tr": "Piteşti",
+      "tr_tr": "Pitești",
       "uk_uk": "Пітешті",
       "vi_vn": "Pitești",
       "zh_cn": "皮特什蒂",
@@ -5512,8 +5308,6 @@ var g_cities_json = [
     "Country": "bulgaria",
     "X": 56844.457,
     "Y": 37037.4258,
-    "InGameId": "pleven",
-    "LocalizationToken": "pleven",
     "CountryId": 18,
     "LocalizedNames": {
       "bg_bg": "Плевен",
@@ -5566,8 +5360,6 @@ var g_cities_json = [
     "Country": "bulgaria",
     "X": 57506.26,
     "Y": 41637.6055,
-    "InGameId": "karlovo",
-    "LocalizationToken": "karlovo",
     "CountryId": 18,
     "LocalizedNames": {
       "bg_bg": "Карлово",
@@ -5620,8 +5412,6 @@ var g_cities_json = [
     "Country": "bulgaria",
     "X": 56984.668,
     "Y": 44949.293,
-    "InGameId": "plovdiv",
-    "LocalizationToken": "plovdiv",
     "CountryId": 18,
     "LocalizedNames": {
       "bg_bg": "Пловдив",
@@ -5674,8 +5464,6 @@ var g_cities_json = [
     "Country": "romania",
     "X": 61887.293,
     "Y": 18223.84,
-    "InGameId": "bacau",
-    "LocalizationToken": "bacau",
     "CountryId": 37,
     "LocalizedNames": {
       "bg_bg": "Бакъу",
@@ -5728,8 +5516,6 @@ var g_cities_json = [
     "Country": "romania",
     "X": 60720.85,
     "Y": 31233.5,
-    "InGameId": "bucuresti",
-    "LocalizationToken": "bucuresti",
     "CountryId": 37,
     "LocalizedNames": {
       "bg_bg": "Букурещ",
@@ -5782,8 +5568,6 @@ var g_cities_json = [
     "Country": "bulgaria",
     "X": 60953.87,
     "Y": 34599.6328,
-    "InGameId": "ruse",
-    "LocalizationToken": "ruse",
     "CountryId": 18,
     "LocalizedNames": {
       "bg_bg": "Русе",
@@ -5836,8 +5620,6 @@ var g_cities_json = [
     "Country": "bulgaria",
     "X": 60463.2578,
     "Y": 38164.33,
-    "InGameId": "veli_tarnovo",
-    "LocalizationToken": "veliko_tarnovo",
     "CountryId": 18,
     "LocalizedNames": {
       "bg_bg": "Велико Търново",
@@ -5890,8 +5672,6 @@ var g_cities_json = [
     "Country": "romania",
     "X": 63246.293,
     "Y": 13443.7422,
-    "InGameId": "iasi",
-    "LocalizationToken": "iasi",
     "CountryId": 37,
     "LocalizedNames": {
       "bg_bg": "Яши",
@@ -5944,8 +5724,6 @@ var g_cities_json = [
     "Country": "romania",
     "X": 66046.03,
     "Y": 23352.875,
-    "InGameId": "galati",
-    "LocalizationToken": "galati",
     "CountryId": 37,
     "LocalizedNames": {
       "bg_bg": "Галати",
@@ -5986,7 +5764,7 @@ var g_cities_json = [
       "sr_sp": "Galaci",
       "sr_sr": "Галаци",
       "sv_se": "Galați",
-      "tr_tr": "Galati",
+      "tr_tr": "Galați",
       "uk_uk": "Галац",
       "vi_vn": "Galați",
       "zh_cn": "加拉茨",
@@ -5998,8 +5776,6 @@ var g_cities_json = [
     "Country": "romania",
     "X": 65124.5,
     "Y": 30737.7188,
-    "InGameId": "calarasi",
-    "LocalizationToken": "calarasi",
     "CountryId": 37,
     "LocalizedNames": {
       "bg_bg": "Кълъраш",
@@ -6040,7 +5816,7 @@ var g_cities_json = [
       "sr_sp": "Kalaraši",
       "sr_sr": "Калараши",
       "sv_se": "Călărași",
-      "tr_tr": "Calaraşi",
+      "tr_tr": "Călărași",
       "uk_uk": "Келераш",
       "vi_vn": "Călărași",
       "zh_cn": "克勒拉希",
@@ -6052,8 +5828,6 @@ var g_cities_json = [
     "Country": "turkey",
     "X": 64295.918,
     "Y": 46409.043,
-    "InGameId": "edirne",
-    "LocalizationToken": "edirne",
     "CountryId": 44,
     "LocalizedNames": {
       "bg_bg": "Едирне",
@@ -6106,8 +5880,6 @@ var g_cities_json = [
     "Country": "romania",
     "X": 68929.36,
     "Y": 29395.2461,
-    "InGameId": "cernavoda",
-    "LocalizationToken": "cernavoda",
     "CountryId": 37,
     "LocalizedNames": {
       "bg_bg": "Черна вода",
@@ -6160,8 +5932,6 @@ var g_cities_json = [
     "Country": "romania",
     "X": 71381.54,
     "Y": 30500.7344,
-    "InGameId": "constanta",
-    "LocalizationToken": "constanta",
     "CountryId": 37,
     "LocalizedNames": {
       "bg_bg": "Кюстенджа",
@@ -6182,7 +5952,7 @@ var g_cities_json = [
       "gl_es": "Constanza",
       "hr_hr": "Constanța",
       "hu_hu": "Konstanca",
-      "it_it": "Constanța",
+      "it_it": "Costanza",
       "ja_jp": "コンスタンツァ",
       "ka_ge": "კონსტანცა",
       "ko_kr": "콘스탄차",
@@ -6214,8 +5984,6 @@ var g_cities_json = [
     "Country": "romania",
     "X": 71227.59,
     "Y": 32960.7266,
-    "InGameId": "mangalia",
-    "LocalizationToken": "mangalia",
     "CountryId": 37,
     "LocalizedNames": {
       "bg_bg": "Мангалия",
@@ -6268,8 +6036,6 @@ var g_cities_json = [
     "Country": "bulgaria",
     "X": 69393.3,
     "Y": 35442.1055,
-    "InGameId": "varna",
-    "LocalizationToken": "varna",
     "CountryId": 18,
     "LocalizedNames": {
       "bg_bg": "Варна",
@@ -6322,8 +6088,6 @@ var g_cities_json = [
     "Country": "bulgaria",
     "X": 66797.05,
     "Y": 39860.543,
-    "InGameId": "burgas",
-    "LocalizationToken": "burgas",
     "CountryId": 18,
     "LocalizedNames": {
       "bg_bg": "Бургас",
@@ -6376,8 +6140,6 @@ var g_cities_json = [
     "Country": "turkey",
     "X": 68190.42,
     "Y": 48967.668,
-    "InGameId": "tekirdag",
-    "LocalizationToken": "tekirdag",
     "CountryId": 44,
     "LocalizedNames": {
       "bg_bg": "Текирдаг",
@@ -6430,8 +6192,6 @@ var g_cities_json = [
     "Country": "turkey",
     "X": 73653.375,
     "Y": 45623.83,
-    "InGameId": "istanbul",
-    "LocalizationToken": "istanbul",
     "CountryId": 44,
     "LocalizedNames": {
       "bg_bg": "Истанбул",
@@ -6484,11 +6244,9 @@ var g_cities_json = [
     "Country": "slovenia",
     "X": 16101.6846,
     "Y": 27209.02,
-    "InGameId": "novo_mesto",
-    "LocalizationToken": "novo_mesto",
     "CountryId": 41,
     "LocalizedNames": {
-      "bg_bg": "Novo Mesto",
+      "bg_bg": "Ново место",
       "ca_es": "Novo Mesto",
       "cs_cz": "Novo Mesto",
       "da_dk": "Novo Mesto",
@@ -6538,11 +6296,9 @@ var g_cities_json = [
     "Country": "croatia",
     "X": 16790.4063,
     "Y": 36096.53,
-    "InGameId": "zadar",
-    "LocalizationToken": "zadar",
     "CountryId": 19,
     "LocalizedNames": {
-      "bg_bg": "Zadar",
+      "bg_bg": "Задар",
       "ca_es": "Zadar",
       "cs_cz": "Zadar",
       "da_dk": "Zadar",
@@ -6560,7 +6316,7 @@ var g_cities_json = [
       "gl_es": "Zadar",
       "hr_hr": "Zadar",
       "hu_hu": "Zára",
-      "it_it": "Zadar",
+      "it_it": "Zara",
       "ja_jp": "ザダル",
       "ka_ge": "ზადარი",
       "ko_kr": "자다르",
@@ -6592,11 +6348,9 @@ var g_cities_json = [
     "Country": "croatia",
     "X": 21030.5723,
     "Y": 26455.02,
-    "InGameId": "zagreb",
-    "LocalizationToken": "zagreb",
     "CountryId": 19,
     "LocalizedNames": {
-      "bg_bg": "Zagreb",
+      "bg_bg": "Загреб",
       "ca_es": "Zagreb",
       "cs_cz": "Záhřeb",
       "da_dk": "Zagreb",
@@ -6614,7 +6368,7 @@ var g_cities_json = [
       "gl_es": "Zagreb",
       "hr_hr": "Zagreb",
       "hu_hu": "Zágráb",
-      "it_it": "Zagreb",
+      "it_it": "Zagabria",
       "ja_jp": "ザグレブ",
       "ka_ge": "ზაგრები",
       "ko_kr": "자그레브",
@@ -6646,11 +6400,9 @@ var g_cities_json = [
     "Country": "bosnia",
     "X": 20200.42,
     "Y": 32348.88,
-    "InGameId": "bihac",
-    "LocalizationToken": "bihac",
     "CountryId": 17,
     "LocalizedNames": {
-      "bg_bg": "Bihać",
+      "bg_bg": "Бихач",
       "ca_es": "Bihać",
       "cs_cz": "Bihać",
       "da_dk": "Bihać",
@@ -6700,11 +6452,9 @@ var g_cities_json = [
     "Country": "croatia",
     "X": 21267.3711,
     "Y": 39421.2539,
-    "InGameId": "split",
-    "LocalizationToken": "split",
     "CountryId": 19,
     "LocalizedNames": {
-      "bg_bg": "Split",
+      "bg_bg": "Сплит",
       "ca_es": "Split",
       "cs_cz": "Split",
       "da_dk": "Split",
@@ -6722,7 +6472,7 @@ var g_cities_json = [
       "gl_es": "Split",
       "hr_hr": "Split",
       "hu_hu": "Split",
-      "it_it": "Split",
+      "it_it": "Spalato",
       "ja_jp": "スプリト",
       "ka_ge": "სპლიტი",
       "ko_kr": "스플리트",
@@ -6754,11 +6504,9 @@ var g_cities_json = [
     "Country": "bosnia",
     "X": 25242.043,
     "Y": 32435.61,
-    "InGameId": "banja_luka",
-    "LocalizationToken": "banja_luka",
     "CountryId": 17,
     "LocalizedNames": {
-      "bg_bg": "Banja Luka",
+      "bg_bg": "Баня Лука",
       "ca_es": "Banja Luka",
       "cs_cz": "Banja Luka",
       "da_dk": "Banja Luka",
@@ -6808,11 +6556,9 @@ var g_cities_json = [
     "Country": "bosnia",
     "X": 29927.2813,
     "Y": 37528.95,
-    "InGameId": "sarajevo",
-    "LocalizationToken": "sarajevo",
     "CountryId": 17,
     "LocalizedNames": {
-      "bg_bg": "Sarajevo",
+      "bg_bg": "Сараево",
       "ca_es": "Sarajevo",
       "cs_cz": "Sarajevo",
       "da_dk": "Sarajevo",
@@ -6827,7 +6573,7 @@ var g_cities_json = [
       "fi_fi": "Sarajevo",
       "fr_ca": "Sarajevo",
       "fr_fr": "Sarajevo",
-      "gl_es": "Sarajevo",
+      "gl_es": "Saraxevo",
       "hr_hr": "Sarajevo",
       "hu_hu": "Szarajevó",
       "it_it": "Sarajevo",
@@ -6862,11 +6608,9 @@ var g_cities_json = [
     "Country": "bosnia",
     "X": 28225.2344,
     "Y": 35576.4023,
-    "InGameId": "zenica",
-    "LocalizationToken": "zenica",
     "CountryId": 17,
     "LocalizedNames": {
-      "bg_bg": "Zenica",
+      "bg_bg": "Зеница",
       "ca_es": "Zenica",
       "cs_cz": "Zenica",
       "da_dk": "Zenica",
@@ -6916,11 +6660,9 @@ var g_cities_json = [
     "Country": "bosnia",
     "X": 27775.5156,
     "Y": 40503.6367,
-    "InGameId": "mostar",
-    "LocalizationToken": "mostar",
     "CountryId": 17,
     "LocalizedNames": {
-      "bg_bg": "Mostar",
+      "bg_bg": "Мостар",
       "ca_es": "Mostar",
       "cs_cz": "Mostar",
       "da_dk": "Mostar",
@@ -6970,11 +6712,9 @@ var g_cities_json = [
     "Country": "bosnia",
     "X": 31410.6367,
     "Y": 33603.3633,
-    "InGameId": "tuzla",
-    "LocalizationToken": "tuzla",
     "CountryId": 17,
     "LocalizedNames": {
-      "bg_bg": "Tuzla",
+      "bg_bg": "Тузла",
       "ca_es": "Tuzla",
       "cs_cz": "Tuzla",
       "da_dk": "Tuzla",
@@ -7024,11 +6764,9 @@ var g_cities_json = [
     "Country": "bosnia",
     "X": 33799.2656,
     "Y": 33203.37,
-    "InGameId": "karakaj",
-    "LocalizationToken": "karakaj",
     "CountryId": 17,
     "LocalizedNames": {
-      "bg_bg": "Karakaj",
+      "bg_bg": "Каракай",
       "ca_es": "Karakaj",
       "cs_cz": "Karakaj",
       "da_dk": "Karakaj",
@@ -7078,11 +6816,9 @@ var g_cities_json = [
     "Country": "montenegro",
     "X": 32904.23,
     "Y": 42799.1953,
-    "InGameId": "niksic",
-    "LocalizationToken": "niksic",
     "CountryId": 34,
     "LocalizedNames": {
-      "bg_bg": "Nikšić",
+      "bg_bg": "Никшич",
       "ca_es": "Nikšić",
       "cs_cz": "Nikšić",
       "da_dk": "Nikšić",
@@ -7132,11 +6868,9 @@ var g_cities_json = [
     "Country": "montenegro",
     "X": 33036.5664,
     "Y": 44220.69,
-    "InGameId": "podgorica",
-    "LocalizationToken": "podgorica",
     "CountryId": 34,
     "LocalizedNames": {
-      "bg_bg": "Podgorica",
+      "bg_bg": "Подгорица",
       "ca_es": "Podgorica",
       "cs_cz": "Podgorica",
       "da_dk": "Podgorica",
@@ -7186,11 +6920,9 @@ var g_cities_json = [
     "Country": "serbia",
     "X": 35308.9,
     "Y": 29357.498,
-    "InGameId": "novi_sad",
-    "LocalizationToken": "novi_sad",
     "CountryId": 40,
     "LocalizedNames": {
-      "bg_bg": "Novi Sad",
+      "bg_bg": "Нови Сад",
       "ca_es": "Novi Sad",
       "cs_cz": "Novi Sad",
       "da_dk": "Novi Sad",
@@ -7240,11 +6972,9 @@ var g_cities_json = [
     "Country": "serbia",
     "X": 38497.7461,
     "Y": 31433.1973,
-    "InGameId": "beograd",
-    "LocalizationToken": "beograd",
     "CountryId": 40,
     "LocalizedNames": {
-      "bg_bg": "Belgrade",
+      "bg_bg": "Белград",
       "ca_es": "Belgrad",
       "cs_cz": "Bělehrad",
       "da_dk": "Beograd",
@@ -7259,7 +6989,7 @@ var g_cities_json = [
       "fi_fi": "Belgrade",
       "fr_ca": "Belgrade",
       "fr_fr": "Belgrade",
-      "gl_es": "Belgrade",
+      "gl_es": "Belgrado",
       "hr_hr": "Beograd",
       "hu_hu": "Belgrád",
       "it_it": "Belgrado",
@@ -7294,11 +7024,9 @@ var g_cities_json = [
     "Country": "montenegro",
     "X": 36073.5859,
     "Y": 41721.8477,
-    "InGameId": "bijelo_polje",
-    "LocalizationToken": "bijelo_polje",
     "CountryId": 34,
     "LocalizedNames": {
-      "bg_bg": "Bijelo Polje",
+      "bg_bg": "Биело поле",
       "ca_es": "Bijelo Polje",
       "cs_cz": "Bijelo Polje",
       "da_dk": "Bijelo Polje",
@@ -7344,15 +7072,13 @@ var g_cities_json = [
     }
   },
   {
-    "Name": "Tirana",
+    "Name": "Tiranë",
     "Country": "albania",
     "X": 37720.4063,
     "Y": 50471.625,
-    "InGameId": "tirana",
-    "LocalizationToken": "tirana",
     "CountryId": 14,
     "LocalizedNames": {
-      "bg_bg": "Tirana",
+      "bg_bg": "Тирана",
       "ca_es": "Tirana",
       "cs_cz": "Tirana",
       "da_dk": "Tirana",
@@ -7402,11 +7128,9 @@ var g_cities_json = [
     "Country": "albania",
     "X": 35460.5625,
     "Y": 51403.8164,
-    "InGameId": "durres",
-    "LocalizationToken": "durres",
     "CountryId": 14,
     "LocalizedNames": {
-      "bg_bg": "Durrës",
+      "bg_bg": "Дурас",
       "ca_es": "Durrës",
       "cs_cz": "Drač",
       "da_dk": "Durrës",
@@ -7422,9 +7146,9 @@ var g_cities_json = [
       "fr_ca": "Durrës",
       "fr_fr": "Durrës",
       "gl_es": "Durrës",
-      "hr_hr": "Durrës",
+      "hr_hr": "Drač",
       "hu_hu": "Durrës",
-      "it_it": "Durrës",
+      "it_it": "Durazzo",
       "ja_jp": "ドゥラス",
       "ka_ge": "დურესი",
       "ko_kr": "두러스",
@@ -7456,11 +7180,9 @@ var g_cities_json = [
     "Country": "albania",
     "X": 37012.01,
     "Y": 53891.4453,
-    "InGameId": "fier",
-    "LocalizationToken": "fier",
     "CountryId": 14,
     "LocalizedNames": {
-      "bg_bg": "Fier",
+      "bg_bg": "Фиер",
       "ca_es": "Fier",
       "cs_cz": "Fier",
       "da_dk": "Fier",
@@ -7476,7 +7198,7 @@ var g_cities_json = [
       "fr_ca": "Fier",
       "fr_fr": "Fier",
       "gl_es": "Fier",
-      "hr_hr": "Fier",
+      "hr_hr": "Fieri",
       "hu_hu": "Fier",
       "it_it": "Fier",
       "ja_jp": "フィエル",
@@ -7510,11 +7232,9 @@ var g_cities_json = [
     "Country": "albania",
     "X": 35951.03,
     "Y": 56421.03,
-    "InGameId": "vlore",
-    "LocalizationToken": "vlore",
     "CountryId": 14,
     "LocalizedNames": {
-      "bg_bg": "Vlorë",
+      "bg_bg": "Вльора",
       "ca_es": "Vlorë",
       "cs_cz": "Vlora",
       "da_dk": "Vlorë",
@@ -7532,7 +7252,7 @@ var g_cities_json = [
       "gl_es": "Vlorë",
       "hr_hr": "Vlora",
       "hu_hu": "Vlorë",
-      "it_it": "Vlorë",
+      "it_it": "Valona",
       "ja_jp": "ヴロラ",
       "ka_ge": "ვლორა",
       "ko_kr": "블로러",
@@ -7564,11 +7284,9 @@ var g_cities_json = [
     "Country": "serbia",
     "X": 39881.0273,
     "Y": 36012.5078,
-    "InGameId": "kragujevac",
-    "LocalizationToken": "kragujevac",
     "CountryId": 40,
     "LocalizedNames": {
-      "bg_bg": "Kragujevac",
+      "bg_bg": "Крагуевац",
       "ca_es": "Kragujevac",
       "cs_cz": "Kragujevac",
       "da_dk": "Kragujevac",
@@ -7618,11 +7336,9 @@ var g_cities_json = [
     "Country": "kosovo",
     "X": 41761.44,
     "Y": 42808.79,
-    "InGameId": "pristina",
-    "LocalizationToken": "pristina",
     "CountryId": 204,
     "LocalizedNames": {
-      "bg_bg": "Pristina",
+      "bg_bg": "Прищина",
       "ca_es": "Pristina",
       "cs_cz": "Priština",
       "da_dk": "Pristina",
@@ -7672,11 +7388,9 @@ var g_cities_json = [
     "Country": "macedonia",
     "X": 42714.0352,
     "Y": 47345.2031,
-    "InGameId": "skopje",
-    "LocalizationToken": "skopje",
     "CountryId": 203,
     "LocalizedNames": {
-      "bg_bg": "Skopje",
+      "bg_bg": "Скопие",
       "ca_es": "Skopje",
       "cs_cz": "Skopje",
       "da_dk": "Skopje",
@@ -7726,11 +7440,9 @@ var g_cities_json = [
     "Country": "macedonia",
     "X": 44483.2461,
     "Y": 52420.3828,
-    "InGameId": "bitola",
-    "LocalizationToken": "bitola",
     "CountryId": 203,
     "LocalizedNames": {
-      "bg_bg": "Bitola",
+      "bg_bg": "Битоля",
       "ca_es": "Bitola",
       "cs_cz": "Bitola",
       "da_dk": "Bitola",
@@ -7780,8 +7492,6 @@ var g_cities_json = [
     "Country": "russia",
     "X": 34315.05,
     "Y": -23251.5039,
-    "InGameId": "kaliningrad",
-    "LocalizationToken": "kaliningrad",
     "CountryId": 38,
     "LocalizedNames": {
       "bg_bg": "Калининград",
@@ -7834,8 +7544,6 @@ var g_cities_json = [
     "Country": "latvia",
     "X": 34204.3672,
     "Y": -34145.0625,
-    "InGameId": "liepaja",
-    "LocalizationToken": "liepaja",
     "CountryId": 28,
     "LocalizedNames": {
       "bg_bg": "Лиепая",
@@ -7876,7 +7584,7 @@ var g_cities_json = [
       "sr_sp": "Lijepaja",
       "sr_sr": "Лијепаја",
       "sv_se": "Liepāja",
-      "tr_tr": "Libau",
+      "tr_tr": "Liepāja",
       "uk_uk": "Лієпая",
       "vi_vn": "Liepāja",
       "zh_cn": "利耶帕亚",
@@ -7888,8 +7596,6 @@ var g_cities_json = [
     "Country": "finland",
     "X": 34710.07,
     "Y": -56782.5234,
-    "InGameId": "naantali",
-    "LocalizationToken": "naantali",
     "CountryId": 23,
     "LocalizedNames": {
       "bg_bg": "Нантали",
@@ -7942,8 +7648,6 @@ var g_cities_json = [
     "Country": "finland",
     "X": 34762.21,
     "Y": -61827.7578,
-    "InGameId": "pori",
-    "LocalizationToken": "pori",
     "CountryId": 23,
     "LocalizedNames": {
       "bg_bg": "Пори",
@@ -7996,8 +7700,6 @@ var g_cities_json = [
     "Country": "finland",
     "X": 34005.1367,
     "Y": -60278.2773,
-    "InGameId": "olkiluoto",
-    "LocalizationToken": "olkiluoto",
     "CountryId": 23,
     "LocalizedNames": {
       "bg_bg": "Олкилуото",
@@ -8050,8 +7752,6 @@ var g_cities_json = [
     "Country": "lithuania",
     "X": 35592.6875,
     "Y": -29939.6875,
-    "InGameId": "klaipeda",
-    "LocalizationToken": "klaipeda",
     "CountryId": 30,
     "LocalizedNames": {
       "bg_bg": "Клайпеда",
@@ -8092,7 +7792,7 @@ var g_cities_json = [
       "sr_sp": "Klajpeda",
       "sr_sr": "Клајпеда",
       "sv_se": "Klaipėda",
-      "tr_tr": "Klaypeda",
+      "tr_tr": "Klaipėda",
       "uk_uk": "Клайпеда",
       "vi_vn": "Klaipėda",
       "zh_cn": "克莱佩达",
@@ -8104,8 +7804,6 @@ var g_cities_json = [
     "Country": "lithuania",
     "X": 39184.2969,
     "Y": -33079.7539,
-    "InGameId": "mazeikiai",
-    "LocalizationToken": "mazeikiai",
     "CountryId": 30,
     "LocalizedNames": {
       "bg_bg": "Мазейкяй",
@@ -8146,7 +7844,7 @@ var g_cities_json = [
       "sr_sp": "Mažejkjaj",
       "sr_sr": "Мажејкјај",
       "sv_se": "Mažeikiai",
-      "tr_tr": "Mazeikiai",
+      "tr_tr": "Mažeikiai",
       "uk_uk": "Мажейкяй",
       "vi_vn": "Mažeikiai",
       "zh_cn": "马热伊基艾",
@@ -8158,8 +7856,6 @@ var g_cities_json = [
     "Country": "latvia",
     "X": 35879.62,
     "Y": -39182.1328,
-    "InGameId": "ventspils",
-    "LocalizationToken": "ventspils",
     "CountryId": 28,
     "LocalizedNames": {
       "bg_bg": "Вентспилс",
@@ -8212,8 +7908,6 @@ var g_cities_json = [
     "Country": "finland",
     "X": 36022.72,
     "Y": -56376.15,
-    "InGameId": "turku",
-    "LocalizationToken": "turku",
     "CountryId": 23,
     "LocalizedNames": {
       "bg_bg": "Турку",
@@ -8266,8 +7960,6 @@ var g_cities_json = [
     "Country": "lithuania",
     "X": 42563.6328,
     "Y": -31373.9414,
-    "InGameId": "siauliai",
-    "LocalizationToken": "siauliai",
     "CountryId": 30,
     "LocalizedNames": {
       "bg_bg": "Шауляй",
@@ -8320,8 +8012,6 @@ var g_cities_json = [
     "Country": "estonia",
     "X": 42144.875,
     "Y": -50332.0742,
-    "InGameId": "paldiski",
-    "LocalizationToken": "paldiski",
     "CountryId": 22,
     "LocalizedNames": {
       "bg_bg": "Палдиски",
@@ -8374,8 +8064,6 @@ var g_cities_json = [
     "Country": "finland",
     "X": 40138.7227,
     "Y": -62610.8672,
-    "InGameId": "tampere",
-    "LocalizationToken": "tampere",
     "CountryId": 23,
     "LocalizedNames": {
       "bg_bg": "Тампере",
@@ -8428,8 +8116,6 @@ var g_cities_json = [
     "Country": "lithuania",
     "X": 44413.8828,
     "Y": -26267.8555,
-    "InGameId": "kaunas",
-    "LocalizationToken": "kaunas",
     "CountryId": 30,
     "LocalizedNames": {
       "bg_bg": "Каунас",
@@ -8482,8 +8168,6 @@ var g_cities_json = [
     "Country": "lithuania",
     "X": 45652.2031,
     "Y": -30282.9375,
-    "InGameId": "panevezys",
-    "LocalizationToken": "panevezys",
     "CountryId": 30,
     "LocalizedNames": {
       "bg_bg": "Паневежис",
@@ -8536,8 +8220,6 @@ var g_cities_json = [
     "Country": "latvia",
     "X": 43827.875,
     "Y": -37984.81,
-    "InGameId": "riga",
-    "LocalizationToken": "riga",
     "CountryId": 28,
     "LocalizedNames": {
       "bg_bg": "Рига",
@@ -8590,8 +8272,6 @@ var g_cities_json = [
     "Country": "latvia",
     "X": 47622.93,
     "Y": -41103.87,
-    "InGameId": "valmiera",
-    "LocalizationToken": "valmiera",
     "CountryId": 28,
     "LocalizedNames": {
       "bg_bg": "Валмиера",
@@ -8644,8 +8324,6 @@ var g_cities_json = [
     "Country": "estonia",
     "X": 44076.6445,
     "Y": -45757.83,
-    "InGameId": "parnu",
-    "LocalizationToken": "parnu",
     "CountryId": 22,
     "LocalizedNames": {
       "bg_bg": "Пярну",
@@ -8686,7 +8364,7 @@ var g_cities_json = [
       "sr_sp": "Parnu",
       "sr_sr": "Парну",
       "sv_se": "Pärnu",
-      "tr_tr": "Parnu",
+      "tr_tr": "Pärnu",
       "uk_uk": "Пярну",
       "vi_vn": "Pärnu",
       "zh_cn": "派尔努",
@@ -8698,8 +8376,6 @@ var g_cities_json = [
     "Country": "estonia",
     "X": 43213.3633,
     "Y": -51613.7539,
-    "InGameId": "tallinn",
-    "LocalizationToken": "tallinn",
     "CountryId": 22,
     "LocalizedNames": {
       "bg_bg": "Талин",
@@ -8752,8 +8428,6 @@ var g_cities_json = [
     "Country": "finland",
     "X": 44470.2266,
     "Y": -56161.6328,
-    "InGameId": "helsinki",
-    "LocalizationToken": "helsinki",
     "CountryId": 23,
     "LocalizedNames": {
       "bg_bg": "Хелзинки",
@@ -8806,8 +8480,6 @@ var g_cities_json = [
     "Country": "finland",
     "X": 47567.2852,
     "Y": -57357.9258,
-    "InGameId": "loviisa",
-    "LocalizationToken": "loviisa",
     "CountryId": 23,
     "LocalizedNames": {
       "bg_bg": "Ловииса",
@@ -8860,8 +8532,6 @@ var g_cities_json = [
     "Country": "finland",
     "X": 45129.68,
     "Y": -61177.1445,
-    "InGameId": "lahti",
-    "LocalizationToken": "lahti",
     "CountryId": 23,
     "LocalizedNames": {
       "bg_bg": "Лахти",
@@ -8914,8 +8584,6 @@ var g_cities_json = [
     "Country": "lithuania",
     "X": 49462.4375,
     "Y": -25905.7852,
-    "InGameId": "vilnius",
-    "LocalizationToken": "vilnius",
     "CountryId": 30,
     "LocalizedNames": {
       "bg_bg": "Вилнюс",
@@ -8956,7 +8624,7 @@ var g_cities_json = [
       "sr_sp": "Vilnjus",
       "sr_sr": "Вилњус",
       "sv_se": "Vilnius",
-      "tr_tr": "Vilna",
+      "tr_tr": "Vilnius",
       "uk_uk": "Вільнюс",
       "vi_vn": "Vilnius",
       "zh_cn": "维尔纽斯",
@@ -8968,8 +8636,6 @@ var g_cities_json = [
     "Country": "lithuania",
     "X": 50128.05,
     "Y": -30060.5469,
-    "InGameId": "utena",
-    "LocalizationToken": "utena",
     "CountryId": 30,
     "LocalizedNames": {
       "bg_bg": "Утена",
@@ -9022,8 +8688,6 @@ var g_cities_json = [
     "Country": "estonia",
     "X": 50707.88,
     "Y": -46878.1367,
-    "InGameId": "tartu",
-    "LocalizationToken": "tartu",
     "CountryId": 22,
     "LocalizedNames": {
       "bg_bg": "Тарту",
@@ -9076,8 +8740,6 @@ var g_cities_json = [
     "Country": "estonia",
     "X": 49435.1641,
     "Y": -52624.81,
-    "InGameId": "kunda",
-    "LocalizationToken": "kunda",
     "CountryId": 22,
     "LocalizedNames": {
       "bg_bg": "Кунда",
@@ -9130,8 +8792,6 @@ var g_cities_json = [
     "Country": "finland",
     "X": 49619.93,
     "Y": -58615.79,
-    "InGameId": "kotka",
-    "LocalizationToken": "kotka",
     "CountryId": 23,
     "LocalizedNames": {
       "bg_bg": "Котка",
@@ -9184,8 +8844,6 @@ var g_cities_json = [
     "Country": "finland",
     "X": 48376.125,
     "Y": -60829.0742,
-    "InGameId": "kouvola",
-    "LocalizationToken": "kouvola",
     "CountryId": 23,
     "LocalizedNames": {
       "bg_bg": "Кувола",
@@ -9238,8 +8896,6 @@ var g_cities_json = [
     "Country": "latvia",
     "X": 52325.2773,
     "Y": -32925.78,
-    "InGameId": "daugavpils",
-    "LocalizationToken": "daugavpils",
     "CountryId": 28,
     "LocalizedNames": {
       "bg_bg": "Даугавпилс",
@@ -9292,8 +8948,6 @@ var g_cities_json = [
     "Country": "latvia",
     "X": 54948.31,
     "Y": -36100.7422,
-    "InGameId": "rezekne",
-    "LocalizationToken": "rezekne",
     "CountryId": 28,
     "LocalizedNames": {
       "bg_bg": "Резекне",
@@ -9346,8 +9000,6 @@ var g_cities_json = [
     "Country": "estonia",
     "X": 53982.0352,
     "Y": -52882.44,
-    "InGameId": "narva",
-    "LocalizationToken": "narva",
     "CountryId": 22,
     "LocalizedNames": {
       "bg_bg": "Нарва",
@@ -9400,8 +9052,6 @@ var g_cities_json = [
     "Country": "russia",
     "X": 54699.02,
     "Y": -54784.6172,
-    "InGameId": "sosnovy_bor",
-    "LocalizationToken": "sosnovy_bor",
     "CountryId": 38,
     "LocalizedNames": {
       "bg_bg": "Соснови Бор",
@@ -9445,7 +9095,7 @@ var g_cities_json = [
       "tr_tr": "Sosnovy Bor",
       "uk_uk": "Сосновий Бор",
       "vi_vn": "Sosnovy Bor",
-      "zh_cn": "索斯诺维波尔",
+      "zh_cn": "索斯诺维博尔",
       "zh_tw": "索斯諾維博爾"
     }
   },
@@ -9454,8 +9104,6 @@ var g_cities_json = [
     "Country": "russia",
     "X": 53965.14,
     "Y": -60641.9336,
-    "InGameId": "vyborg",
-    "LocalizationToken": "vyborg",
     "CountryId": 38,
     "LocalizedNames": {
       "bg_bg": "Виборг",
@@ -9508,8 +9156,6 @@ var g_cities_json = [
     "Country": "russia",
     "X": 59623.6953,
     "Y": -57210.7734,
-    "InGameId": "petersburg",
-    "LocalizationToken": "saint_petersburg",
     "CountryId": 38,
     "LocalizedNames": {
       "bg_bg": "Санкт Петербург",
@@ -9562,8 +9208,6 @@ var g_cities_json = [
     "Country": "poland",
     "X": 30278.66,
     "Y": 1988.70313,
-    "InGameId": "katowice",
-    "LocalizationToken": "katowice",
     "CountryId": 8,
     "LocalizedNames": {
       "bg_bg": "Катовице",
@@ -9616,8 +9260,6 @@ var g_cities_json = [
     "Country": "czech",
     "X": 27831.8125,
     "Y": 4715.97656,
-    "InGameId": "ostrava",
-    "LocalizationToken": "ostrava",
     "CountryId": 3,
     "LocalizedNames": {
       "bg_bg": "Острава",
@@ -9670,8 +9312,6 @@ var g_cities_json = [
     "Country": "Hungary",
     "X": 28439.8047,
     "Y": 25941.5234,
-    "InGameId": "pecs",
-    "LocalizationToken": "pecs",
     "CountryId": 13,
     "LocalizedNames": {
       "bg_bg": "Печ",
@@ -9724,8 +9364,6 @@ var g_cities_json = [
     "Country": "poland",
     "X": 27642.9727,
     "Y": -21539.6641,
-    "InGameId": "gdansk",
-    "LocalizationToken": "gdansk",
     "CountryId": 8,
     "LocalizedNames": {
       "bg_bg": "Гданск",
@@ -9778,8 +9416,6 @@ var g_cities_json = [
     "Country": "poland",
     "X": 33970.125,
     "Y": 2757.55078,
-    "InGameId": "krakow",
-    "LocalizationToken": "krakow",
     "CountryId": 8,
     "LocalizedNames": {
       "bg_bg": "Краков",
@@ -9820,7 +9456,7 @@ var g_cities_json = [
       "sr_sp": "Krakov",
       "sr_sr": "Краков",
       "sv_se": "Kraków",
-      "tr_tr": "Krakov",
+      "tr_tr": "Kraków",
       "uk_uk": "Краків",
       "vi_vn": "Kraków",
       "zh_cn": "克拉科夫",
@@ -9832,8 +9468,6 @@ var g_cities_json = [
     "Country": "slovakia",
     "X": 32257.457,
     "Y": 10360.3516,
-    "InGameId": "bystrica",
-    "LocalizationToken": "banska_bystrica",
     "CountryId": 11,
     "LocalizedNames": {
       "bg_bg": "Банска Бистрица",
@@ -9886,8 +9520,6 @@ var g_cities_json = [
     "Country": "hungary",
     "X": 31817.6953,
     "Y": 17362.5977,
-    "InGameId": "budapest",
-    "LocalizationToken": "budapest",
     "CountryId": 13,
     "LocalizedNames": {
       "bg_bg": "Будапеща",
@@ -9940,8 +9572,6 @@ var g_cities_json = [
     "Country": "poland",
     "X": 31264.3281,
     "Y": -6664.043,
-    "InGameId": "lodz",
-    "LocalizationToken": "lodz",
     "CountryId": 8,
     "LocalizedNames": {
       "bg_bg": "Лодз",
@@ -9982,7 +9612,7 @@ var g_cities_json = [
       "sr_sp": "Lođ",
       "sr_sr": "Лођ",
       "sv_se": "Łódź",
-      "tr_tr": "Lodz",
+      "tr_tr": "Łódź",
       "uk_uk": "Лодзь",
       "vi_vn": "Łódź",
       "zh_cn": "罗兹",
@@ -9994,8 +9624,6 @@ var g_cities_json = [
     "Country": "poland",
     "X": 34258.4727,
     "Y": -18406.0664,
-    "InGameId": "olsztyn",
-    "LocalizationToken": "olsztyn",
     "CountryId": 8,
     "LocalizedNames": {
       "bg_bg": "Олщин",
@@ -10048,8 +9676,6 @@ var g_cities_json = [
     "Country": "slovakia",
     "X": 39343.793,
     "Y": 9974.258,
-    "InGameId": "kosice",
-    "LocalizationToken": "kosice",
     "CountryId": 11,
     "LocalizedNames": {
       "bg_bg": "Кошице",
@@ -10102,8 +9728,6 @@ var g_cities_json = [
     "Country": "poland",
     "X": 36644.79,
     "Y": -10355.9609,
-    "InGameId": "warszawa",
-    "LocalizationToken": "warszawa",
     "CountryId": 8,
     "LocalizedNames": {
       "bg_bg": "Варшава",
@@ -10156,8 +9780,6 @@ var g_cities_json = [
     "Country": "hungary",
     "X": 41291.4531,
     "Y": 16863.582,
-    "InGameId": "debrecen",
-    "LocalizationToken": "debrecen",
     "CountryId": 13,
     "LocalizedNames": {
       "bg_bg": "Дебрецен",
@@ -10210,8 +9832,6 @@ var g_cities_json = [
     "Country": "poland",
     "X": 42744.07,
     "Y": -4625.086,
-    "InGameId": "lublin",
-    "LocalizationToken": "lublin",
     "CountryId": 8,
     "LocalizedNames": {
       "bg_bg": "Люблин",
@@ -10264,8 +9884,6 @@ var g_cities_json = [
     "Country": "poland",
     "X": 43598.27,
     "Y": -15603.52,
-    "InGameId": "bialystok",
-    "LocalizationToken": "bialystok",
     "CountryId": 8,
     "LocalizedNames": {
       "bg_bg": "Бялисток",
@@ -10318,8 +9936,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -7539.672,
     "Y": 43566.22,
-    "InGameId": "bastia",
-    "LocalizationToken": "bastia",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Бастия",
@@ -10372,8 +9988,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -8126.668,
     "Y": 50690.0469,
-    "InGameId": "porto_vecchi",
-    "LocalizationToken": "porto_vecchio",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Порто Вечио",
@@ -10426,8 +10040,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -10635.9688,
     "Y": 45497.4,
-    "InGameId": "calvi",
-    "LocalizationToken": "calvi",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Калви",
@@ -10480,8 +10092,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -9164.836,
     "Y": 44256.2,
-    "InGameId": "lile_rousse",
-    "LocalizationToken": "lile_rousse",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Л'ил-Рус",
@@ -10526,7 +10136,7 @@ var g_cities_json = [
       "uk_uk": "Л'Іль-Русс",
       "vi_vn": "L'Île-Rousse",
       "zh_cn": "利勒鲁斯",
-      "zh_tw": "盧斯島"
+      "zh_tw": "利勒魯斯"
     }
   },
   {
@@ -10534,8 +10144,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -10531.5977,
     "Y": 47850.7656,
-    "InGameId": "ajaccio",
-    "LocalizationToken": "ajaccio",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Аячо",
@@ -10588,8 +10196,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -15870.4922,
     "Y": 37786.04,
-    "InGameId": "nice",
-    "LocalizationToken": "nice",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Ница",
@@ -10630,7 +10236,7 @@ var g_cities_json = [
       "sr_sp": "Nica",
       "sr_sr": "Ница",
       "sv_se": "Nice",
-      "tr_tr": "Nis",
+      "tr_tr": "Nice",
       "uk_uk": "Ніцца",
       "vi_vn": "Nice",
       "zh_cn": "尼斯",
@@ -10642,8 +10248,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -24222.5313,
     "Y": 38440.668,
-    "InGameId": "marseille",
-    "LocalizationToken": "marseille",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Марсилия",
@@ -10696,8 +10300,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -26203.71,
     "Y": 28716.2188,
-    "InGameId": "alban",
-    "LocalizationToken": "saint_alban_du_rhone",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Сен-Олбанс-дю-Рон",
@@ -10741,7 +10343,7 @@ var g_cities_json = [
       "tr_tr": "Saint-Alban-du-Rhône",
       "uk_uk": "Сент-Альбан-дю-Рон",
       "vi_vn": "Saint-Alban-du-Rhône",
-      "zh_cn": "罗讷河畔圣阿尔邦核电站",
+      "zh_cn": "圣阿尔邦核电站",
       "zh_tw": "羅訥河畔聖阿爾邦"
     }
   },
@@ -10750,8 +10352,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -32141.9219,
     "Y": 16080.375,
-    "InGameId": "bourges",
-    "LocalizationToken": "bourges",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Бурж",
@@ -10804,8 +10404,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -31047.5742,
     "Y": 24228.3125,
-    "InGameId": "clermont",
-    "LocalizationToken": "clermont_ferrand",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Клермон-Феран",
@@ -10858,8 +10456,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -30502.4883,
     "Y": 35532.4922,
-    "InGameId": "montpellier",
-    "LocalizationToken": "montpellier",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Монпелие",
@@ -10912,8 +10508,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -33908.2422,
     "Y": -95.22266,
-    "InGameId": "paluel",
-    "LocalizationToken": "paluel",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Палюл",
@@ -10966,8 +10560,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -35899.75,
     "Y": 13234.0938,
-    "InGameId": "laurent",
-    "LocalizationToken": "saint_laurent",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Сен Лоран",
@@ -11020,8 +10612,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -39044.293,
     "Y": 845.3594,
-    "InGameId": "lehavre",
-    "LocalizationToken": "le_havre",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Хавър",
@@ -11074,8 +10664,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -40249.8633,
     "Y": 9198.309,
-    "InGameId": "lemans",
-    "LocalizationToken": "le_mans",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Льо Ман",
@@ -11128,8 +10716,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -39279.8477,
     "Y": 17996.84,
-    "InGameId": "civaux",
-    "LocalizationToken": "civaux",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Сивокс",
@@ -11182,8 +10768,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -37817.4023,
     "Y": 23211.8555,
-    "InGameId": "limoges",
-    "LocalizationToken": "limoges",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Лимож",
@@ -11236,8 +10820,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -40063.3828,
     "Y": 34895.46,
-    "InGameId": "toulouse",
-    "LocalizationToken": "toulouse",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Тулуза",
@@ -11278,7 +10860,7 @@ var g_cities_json = [
       "sr_sp": "Tuluz",
       "sr_sr": "Тулуз",
       "sv_se": "Toulouse",
-      "tr_tr": "Tulus",
+      "tr_tr": "Toulouse",
       "uk_uk": "Тулуза",
       "vi_vn": "Toulouse",
       "zh_cn": "图卢兹",
@@ -11290,8 +10872,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -40845.5156,
     "Y": 31102.43,
-    "InGameId": "golfech",
-    "LocalizationToken": "golfech",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Голфич",
@@ -11344,8 +10924,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -47239.95,
     "Y": 7144.48438,
-    "InGameId": "rennes",
-    "LocalizationToken": "rennes",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Рен",
@@ -11398,8 +10976,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -47221.0742,
     "Y": 13091.9219,
-    "InGameId": "nantes",
-    "LocalizationToken": "nantes",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Нант",
@@ -11452,8 +11028,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -46580.87,
     "Y": 19507.4219,
-    "InGameId": "larochelle",
-    "LocalizationToken": "la_rochelle",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Ла Рошел",
@@ -11506,8 +11080,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -46188.6875,
     "Y": 27204.27,
-    "InGameId": "bordeaux",
-    "LocalizationToken": "bordeaux",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Бордо",
@@ -11560,8 +11132,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -52332.05,
     "Y": 33317.2578,
-    "InGameId": "bayonne",
-    "LocalizationToken": "bayonne",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Байон",
@@ -11580,7 +11150,7 @@ var g_cities_json = [
       "fr_ca": "Bayonne",
       "fr_fr": "Bayonne",
       "gl_es": "Baiona",
-      "hr_hr": "Bayonne",
+      "hr_hr": "Bajona",
       "hu_hu": "Bayonne",
       "it_it": "Bayonne",
       "ja_jp": "バイヨンヌ",
@@ -11614,8 +11184,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -49503.62,
     "Y": 35706.46,
-    "InGameId": "lacq",
-    "LocalizationToken": "lacq",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Лак",
@@ -11668,8 +11236,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -53997.99,
     "Y": 2795.289,
-    "InGameId": "roscoff",
-    "LocalizationToken": "roscoff",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Роскоф",
@@ -11722,8 +11288,6 @@ var g_cities_json = [
     "Country": "france",
     "X": -57421.54,
     "Y": 3199.17969,
-    "InGameId": "brest",
-    "LocalizationToken": "brest",
     "CountryId": 4,
     "LocalizedNames": {
       "bg_bg": "Брест",
@@ -11776,8 +11340,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -40360.1172,
     "Y": 47101.86,
-    "InGameId": "barcelona",
-    "LocalizationToken": "barcelona",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Барселона",
@@ -11830,8 +11392,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -43568.7266,
     "Y": 48597.62,
-    "InGameId": "tarragona",
-    "LocalizationToken": "tarragona",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Тарагона",
@@ -11884,8 +11444,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -45830.9336,
     "Y": 44928.6641,
-    "InGameId": "lleida",
-    "LocalizationToken": "lleida",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Лерида",
@@ -11938,8 +11496,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -45807.7344,
     "Y": 50172.63,
-    "InGameId": "vandellos",
-    "LocalizationToken": "vandellos",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Ванделъс",
@@ -11992,8 +11548,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -51574.5234,
     "Y": 43273.8945,
-    "InGameId": "zaragoza",
-    "LocalizationToken": "zaragoza",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Сарагоса",
@@ -12014,7 +11568,7 @@ var g_cities_json = [
       "gl_es": "Zaragoza",
       "hr_hr": "Zaragoza",
       "hu_hu": "Zaragoza",
-      "it_it": "Zaragoza",
+      "it_it": "Saragozza",
       "ja_jp": "サラゴサ",
       "ka_ge": "სარაგოსა",
       "ko_kr": "사라고사",
@@ -12046,8 +11600,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -51026.0625,
     "Y": 55138.2227,
-    "InGameId": "port_sagunt",
-    "LocalizationToken": "port_de_sagunt",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Пристанище Сагунто",
@@ -12091,7 +11643,7 @@ var g_cities_json = [
       "tr_tr": "Port de Sagunt",
       "uk_uk": "Сагунто-порт",
       "vi_vn": "Port de Sagunt",
-      "zh_cn": "萨贡托",
+      "zh_cn": "萨贡托港",
       "zh_tw": "薩貢托港"
     }
   },
@@ -12100,8 +11652,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -49979.6055,
     "Y": 53263.81,
-    "InGameId": "villarreal",
-    "LocalizationToken": "villarreal",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Виляреал",
@@ -12154,8 +11704,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -52433.26,
     "Y": 56537.1328,
-    "InGameId": "valencia",
-    "LocalizationToken": "valencia",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Валенсия",
@@ -12208,8 +11756,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -53642.293,
     "Y": 37235.92,
-    "InGameId": "pamplona",
-    "LocalizationToken": "pamplona",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Памплона",
@@ -12262,8 +11808,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -53817.168,
     "Y": 51245.7656,
-    "InGameId": "teruel",
-    "LocalizationToken": "teruel",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Теруел",
@@ -12316,8 +11860,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -58855.082,
     "Y": 32583.2656,
-    "InGameId": "bilbao",
-    "LocalizationToken": "bilbao",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Билбао",
@@ -12370,8 +11912,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -59305.1367,
     "Y": 41603.0938,
-    "InGameId": "soria",
-    "LocalizationToken": "soria",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Сория",
@@ -12424,8 +11964,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -58355.48,
     "Y": 58394.95,
-    "InGameId": "albacete",
-    "LocalizationToken": "albacete",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Албасете",
@@ -12478,8 +12016,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -56501.8438,
     "Y": 64632.65,
-    "InGameId": "murcia",
-    "LocalizationToken": "murcia",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Мурсия",
@@ -12532,8 +12068,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -62560.4766,
     "Y": 31170.168,
-    "InGameId": "santander",
-    "LocalizationToken": "santander",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Сантандер",
@@ -12586,8 +12120,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -62334.11,
     "Y": 37141.07,
-    "InGameId": "burgos",
-    "LocalizationToken": "burgos",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Бургос",
@@ -12640,8 +12172,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -63728.0039,
     "Y": 69091.0,
-    "InGameId": "almeria",
-    "LocalizationToken": "almeria",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Алмерия",
@@ -12694,8 +12224,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -68298.24,
     "Y": 40437.5625,
-    "InGameId": "valladolid",
-    "LocalizationToken": "valladolid",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Валядолид",
@@ -12748,8 +12276,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -65897.78,
     "Y": 48202.9258,
-    "InGameId": "madrid",
-    "LocalizationToken": "madrid",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Мадрид",
@@ -12802,8 +12328,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -68015.0,
     "Y": 62969.6563,
-    "InGameId": "mengibar",
-    "LocalizationToken": "mengibar",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Менгибар",
@@ -12856,8 +12380,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -67717.41,
     "Y": 68991.34,
-    "InGameId": "el_ejido",
-    "LocalizationToken": "el_ejido",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Ел Ехидо",
@@ -12910,8 +12432,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -70985.84,
     "Y": 28247.2734,
-    "InGameId": "gijon",
-    "LocalizationToken": "gijon",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Хихон",
@@ -12964,8 +12484,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -70940.31,
     "Y": 34227.5039,
-    "InGameId": "leon",
-    "LocalizationToken": "leon",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Леон",
@@ -13018,8 +12536,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -68946.25,
     "Y": 55954.7578,
-    "InGameId": "ciudad_real",
-    "LocalizationToken": "ciudad_real",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Сиудад Реал",
@@ -13072,8 +12588,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -70063.05,
     "Y": 58776.8945,
-    "InGameId": "puertollano",
-    "LocalizationToken": "puertollano",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Пуертолано",
@@ -13126,8 +12640,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -69463.4844,
     "Y": 61585.25,
-    "InGameId": "bailen",
-    "LocalizationToken": "bailen",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Байлен",
@@ -13180,8 +12692,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -70482.0859,
     "Y": 65656.875,
-    "InGameId": "granada",
-    "LocalizationToken": "granada",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Гранада",
@@ -13234,8 +12744,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -75062.08,
     "Y": 27800.5039,
-    "InGameId": "navia",
-    "LocalizationToken": "navia",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Навия",
@@ -13288,8 +12796,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -73525.99,
     "Y": 43417.7031,
-    "InGameId": "salamanca",
-    "LocalizationToken": "salamanca",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Саламанка",
@@ -13342,8 +12848,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -74733.7344,
     "Y": 49374.4258,
-    "InGameId": "almaraz",
-    "LocalizationToken": "almaraz",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Алмараз",
@@ -13396,8 +12900,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -74402.16,
     "Y": 61412.9,
-    "InGameId": "cordoba",
-    "LocalizationToken": "cordoba",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Кордоба",
@@ -13450,8 +12952,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -74294.31,
     "Y": 68209.875,
-    "InGameId": "malaga",
-    "LocalizationToken": "malaga",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Малага",
@@ -13504,8 +13004,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -77471.89,
     "Y": 33979.75,
-    "InGameId": "o_barco",
-    "LocalizationToken": "o_barco",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "O-Барко-де-Валдеоррас",
@@ -13558,8 +13056,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -80651.09,
     "Y": 62085.91,
-    "InGameId": "sevilla",
-    "LocalizationToken": "sevilla",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Севиля",
@@ -13612,8 +13108,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -80942.375,
     "Y": 69036.42,
-    "InGameId": "algeciras",
-    "LocalizationToken": "algeciras",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Алхесирас",
@@ -13666,8 +13160,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -83140.91,
     "Y": 25857.3438,
-    "InGameId": "a_coruna",
-    "LocalizationToken": "a_coruna",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Коруня",
@@ -13688,7 +13180,7 @@ var g_cities_json = [
       "gl_es": "A Coruña",
       "hr_hr": "A Coruña",
       "hu_hu": "A Coruña",
-      "it_it": "A Coruña",
+      "it_it": "La Coruña",
       "ja_jp": "ア・コルーニャ",
       "ka_ge": "ლა-კორუნია",
       "ko_kr": "라코루냐",
@@ -13720,8 +13212,6 @@ var g_cities_json = [
     "Country": "portugal",
     "X": -82192.2656,
     "Y": 43708.63,
-    "InGameId": "guarda",
-    "LocalizationToken": "guarda",
     "CountryId": 36,
     "LocalizedNames": {
       "bg_bg": "Гуарда",
@@ -13774,8 +13264,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -83250.01,
     "Y": 52860.4141,
-    "InGameId": "badajoz",
-    "LocalizationToken": "badajoz",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Бадахос",
@@ -13828,8 +13316,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -85371.51,
     "Y": 31880.5586,
-    "InGameId": "vigo",
-    "LocalizationToken": "vigo",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Виго",
@@ -13882,8 +13368,6 @@ var g_cities_json = [
     "Country": "portugal",
     "X": -86461.77,
     "Y": 38180.2,
-    "InGameId": "porto",
-    "LocalizationToken": "porto",
     "CountryId": 36,
     "LocalizedNames": {
       "bg_bg": "Порто",
@@ -13936,8 +13420,6 @@ var g_cities_json = [
     "Country": "portugal",
     "X": -87901.56,
     "Y": 43976.832,
-    "InGameId": "coimbra",
-    "LocalizationToken": "coimbra",
     "CountryId": 36,
     "LocalizedNames": {
       "bg_bg": "Коимбра",
@@ -13990,8 +13472,6 @@ var g_cities_json = [
     "Country": "portugal",
     "X": -87609.93,
     "Y": 49702.11,
-    "InGameId": "ponte_de_sor",
-    "LocalizationToken": "ponte_de_sor",
     "CountryId": 36,
     "LocalizedNames": {
       "bg_bg": "Понте де Сор",
@@ -14044,8 +13524,6 @@ var g_cities_json = [
     "Country": "portugal",
     "X": -87442.32,
     "Y": 54044.29,
-    "InGameId": "evora",
-    "LocalizationToken": "evora",
     "CountryId": 36,
     "LocalizedNames": {
       "bg_bg": "Евора",
@@ -14064,7 +13542,7 @@ var g_cities_json = [
       "fr_ca": "Évora",
       "fr_fr": "Évora",
       "gl_es": "Évora",
-      "hr_hr": "Evora",
+      "hr_hr": "Évora",
       "hu_hu": "Évora",
       "it_it": "Evora",
       "ja_jp": "エヴォラ",
@@ -14098,8 +13576,6 @@ var g_cities_json = [
     "Country": "portugal",
     "X": -88339.31,
     "Y": 56611.06,
-    "InGameId": "beja",
-    "LocalizationToken": "beja",
     "CountryId": 36,
     "LocalizedNames": {
       "bg_bg": "Бежа",
@@ -14152,8 +13628,6 @@ var g_cities_json = [
     "Country": "spain",
     "X": -84837.58,
     "Y": 62064.168,
-    "InGameId": "huelva",
-    "LocalizationToken": "huelva",
     "CountryId": 42,
     "LocalizedNames": {
       "bg_bg": "Уелва",
@@ -14206,8 +13680,6 @@ var g_cities_json = [
     "Country": "portugal",
     "X": -92016.95,
     "Y": 53957.3672,
-    "InGameId": "setubal",
-    "LocalizationToken": "setubal",
     "CountryId": 36,
     "LocalizedNames": {
       "bg_bg": "Сетубал",
@@ -14260,8 +13732,6 @@ var g_cities_json = [
     "Country": "portugal",
     "X": -88668.92,
     "Y": 52508.4375,
-    "InGameId": "corticadas",
-    "LocalizationToken": "corticadas_de_lavre",
     "CountryId": 36,
     "LocalizedNames": {
       "bg_bg": "Кортисадаш",
@@ -14314,8 +13784,6 @@ var g_cities_json = [
     "Country": "portugal",
     "X": -92331.4844,
     "Y": 55848.4922,
-    "InGameId": "sines",
-    "LocalizationToken": "sines",
     "CountryId": 36,
     "LocalizedNames": {
       "bg_bg": "Синеш",
@@ -14368,8 +13836,6 @@ var g_cities_json = [
     "Country": "portugal",
     "X": -89220.61,
     "Y": 61890.7422,
-    "InGameId": "olhao",
-    "LocalizationToken": "olhao",
     "CountryId": 36,
     "LocalizedNames": {
       "bg_bg": "Олхао",
@@ -14422,8 +13888,6 @@ var g_cities_json = [
     "Country": "portugal",
     "X": -90530.3359,
     "Y": 62415.5859,
-    "InGameId": "faro",
-    "LocalizationToken": "faro",
     "CountryId": 36,
     "LocalizedNames": {
       "bg_bg": "Фаро",
@@ -14476,8 +13940,6 @@ var g_cities_json = [
     "Country": "portugal",
     "X": -93310.5156,
     "Y": 49853.3438,
-    "InGameId": "lisboa",
-    "LocalizationToken": "lisboa",
     "CountryId": 36,
     "LocalizedNames": {
       "bg_bg": "Лисабон",
@@ -14530,8 +13992,6 @@ var g_cities_json = [
     "Country": "italy",
     "X": 219.988281,
     "Y": 33482.82,
-    "InGameId": "bologna",
-    "LocalizationToken": "bologna",
     "CountryId": 6,
     "LocalizedNames": {
       "bg_bg": "Болония",
@@ -14584,8 +14044,6 @@ var g_cities_json = [
     "Country": "italy",
     "X": 581.625,
     "Y": 38367.7734,
-    "InGameId": "firenze",
-    "LocalizationToken": "firenze",
     "CountryId": 6,
     "LocalizedNames": {
       "bg_bg": "Флоренция",
@@ -14638,8 +14096,6 @@ var g_cities_json = [
     "Country": "italy",
     "X": 6216.492,
     "Y": 45691.66,
-    "InGameId": "terni",
-    "LocalizationToken": "terni",
     "CountryId": 6,
     "LocalizedNames": {
       "bg_bg": "Терни",
@@ -14692,8 +14148,6 @@ var g_cities_json = [
     "Country": "italy",
     "X": 5511.125,
     "Y": 48579.21,
-    "InGameId": "roma",
-    "LocalizationToken": "roma",
     "CountryId": 6,
     "LocalizedNames": {
       "bg_bg": "Рим",
@@ -14746,8 +14200,6 @@ var g_cities_json = [
     "Country": "italy",
     "X": 9424.281,
     "Y": 39138.16,
-    "InGameId": "ancona",
-    "LocalizationToken": "ancona",
     "CountryId": 6,
     "LocalizedNames": {
       "bg_bg": "Анкона",
@@ -14800,8 +14252,6 @@ var g_cities_json = [
     "Country": "italy",
     "X": 8350.891,
     "Y": 70487.19,
-    "InGameId": "palermo",
-    "LocalizationToken": "palermo",
     "CountryId": 6,
     "LocalizedNames": {
       "bg_bg": "Палермо",
@@ -14854,8 +14304,6 @@ var g_cities_json = [
     "Country": "italy",
     "X": 12397.9961,
     "Y": 46327.97,
-    "InGameId": "pescara",
-    "LocalizationToken": "pescara",
     "CountryId": 6,
     "LocalizedNames": {
       "bg_bg": "Пескара",
@@ -14896,7 +14344,7 @@ var g_cities_json = [
       "sr_sp": "Peskara",
       "sr_sr": "Пескара",
       "sv_se": "Pescara",
-      "tr_tr": "Peskere",
+      "tr_tr": "Pescara",
       "uk_uk": "Пескара",
       "vi_vn": "Pescara",
       "zh_cn": "佩斯卡拉",
@@ -14908,8 +14356,6 @@ var g_cities_json = [
     "Country": "italy",
     "X": 12043.8906,
     "Y": 52064.8945,
-    "InGameId": "cassino",
-    "LocalizationToken": "cassino",
     "CountryId": 6,
     "LocalizedNames": {
       "bg_bg": "Касино",
@@ -14962,8 +14408,6 @@ var g_cities_json = [
     "Country": "italy",
     "X": 12418.1016,
     "Y": 55071.93,
-    "InGameId": "napoli",
-    "LocalizationToken": "napoli",
     "CountryId": 6,
     "LocalizedNames": {
       "bg_bg": "Неапол",
@@ -15016,8 +14460,6 @@ var g_cities_json = [
     "Country": "italy",
     "X": 17975.7422,
     "Y": 70539.16,
-    "InGameId": "messina",
-    "LocalizationToken": "messina",
     "CountryId": 6,
     "LocalizedNames": {
       "bg_bg": "Месина",
@@ -15070,8 +14512,6 @@ var g_cities_json = [
     "Country": "italy",
     "X": 19020.7031,
     "Y": 70314.04,
-    "InGameId": "sangiovanni",
-    "LocalizationToken": "villa_san_giovanni",
     "CountryId": 6,
     "LocalizedNames": {
       "bg_bg": "Вила Сан Джовани",
@@ -15124,8 +14564,6 @@ var g_cities_json = [
     "Country": "italy",
     "X": 16420.7148,
     "Y": 74982.42,
-    "InGameId": "catania",
-    "LocalizationToken": "catania",
     "CountryId": 6,
     "LocalizedNames": {
       "bg_bg": "Катания",
@@ -15178,8 +14616,6 @@ var g_cities_json = [
     "Country": "italy",
     "X": 23291.6563,
     "Y": 66425.76,
-    "InGameId": "catanzaro",
-    "LocalizationToken": "catanzaro",
     "CountryId": 6,
     "LocalizedNames": {
       "bg_bg": "Катандзаро",
@@ -15220,7 +14656,7 @@ var g_cities_json = [
       "sr_sp": "Katancaro",
       "sr_sr": "Катанцаро",
       "sv_se": "Catanzaro",
-      "tr_tr": "Katansar",
+      "tr_tr": "Catanzaro",
       "uk_uk": "Катандзаро",
       "vi_vn": "Catanzaro",
       "zh_cn": "卡坦扎罗",
@@ -15232,8 +14668,6 @@ var g_cities_json = [
     "Country": "italy",
     "X": 23031.04,
     "Y": 53831.2734,
-    "InGameId": "bari",
-    "LocalizationToken": "bari",
     "CountryId": 6,
     "LocalizedNames": {
       "bg_bg": "Бари",
@@ -15286,8 +14720,6 @@ var g_cities_json = [
     "Country": "italy",
     "X": 25490.4258,
     "Y": 57821.28,
-    "InGameId": "taranto",
-    "LocalizationToken": "taranto",
     "CountryId": 6,
     "LocalizedNames": {
       "bg_bg": "Таранто",
@@ -15340,8 +14772,6 @@ var g_cities_json = [
     "Country": "italy",
     "X": -1130.94922,
     "Y": 31926.668,
-    "InGameId": "suzzara",
-    "LocalizationToken": "suzzara",
     "CountryId": 6,
     "LocalizedNames": {
       "bg_bg": "Судзара",
@@ -15394,8 +14824,6 @@ var g_cities_json = [
     "Country": "italy",
     "X": -3406.56641,
     "Y": 33434.168,
-    "InGameId": "parma",
-    "LocalizationToken": "parma",
     "CountryId": 6,
     "LocalizedNames": {
       "bg_bg": "Парма",
@@ -15448,8 +14876,6 @@ var g_cities_json = [
     "Country": "italy",
     "X": -2968.42188,
     "Y": 39681.6836,
-    "InGameId": "livorno",
-    "LocalizationToken": "livorno",
     "CountryId": 6,
     "LocalizedNames": {
       "bg_bg": "Ливорно",
@@ -15490,7 +14916,7 @@ var g_cities_json = [
       "sr_sp": "Livorno",
       "sr_sr": "Ливорно",
       "sv_se": "Livorno",
-      "tr_tr": "Ligurna",
+      "tr_tr": "Livorno",
       "uk_uk": "Ліворно",
       "vi_vn": "Livorno",
       "zh_cn": "里窝那",
@@ -15502,8 +14928,6 @@ var g_cities_json = [
     "Country": "italy",
     "X": -10160.8555,
     "Y": 64051.8164,
-    "InGameId": "cagliari",
-    "LocalizationToken": "cagliari",
     "CountryId": 6,
     "LocalizedNames": {
       "bg_bg": "Каляри",
@@ -15556,8 +14980,6 @@ var g_cities_json = [
     "Country": "denmark",
     "X": 1017.5625,
     "Y": -27270.543,
-    "InGameId": "odense",
-    "LocalizationToken": "odense",
     "CountryId": 21,
     "LocalizedNames": {
       "bg_bg": "Оденсе",
@@ -15610,8 +15032,6 @@ var g_cities_json = [
     "Country": "denmark",
     "X": 480.1328,
     "Y": -36290.2227,
-    "InGameId": "aalborg",
-    "LocalizationToken": "aalborg",
     "CountryId": 21,
     "LocalizedNames": {
       "bg_bg": "Олбор",
@@ -15664,8 +15084,6 @@ var g_cities_json = [
     "Country": "denmark",
     "X": 775.34375,
     "Y": -39243.4141,
-    "InGameId": "hirtshals",
-    "LocalizationToken": "hirtshals",
     "CountryId": 21,
     "LocalizedNames": {
       "bg_bg": "Хирцхалс",
@@ -15718,8 +15136,6 @@ var g_cities_json = [
     "Country": "denmark",
     "X": 2361.57031,
     "Y": -38511.5859,
-    "InGameId": "frederikshv",
-    "LocalizationToken": "frederikshavn",
     "CountryId": 21,
     "LocalizedNames": {
       "bg_bg": "Фредерикшавн",
@@ -15772,8 +15188,6 @@ var g_cities_json = [
     "Country": "sweden",
     "X": 6835.76172,
     "Y": -40547.6172,
-    "InGameId": "goteborg",
-    "LocalizationToken": "goteborg",
     "CountryId": 43,
     "LocalizedNames": {
       "bg_bg": "Гьотеборг",
@@ -15814,10 +15228,10 @@ var g_cities_json = [
       "sr_sp": "Geteborg",
       "sr_sr": "Гетеборг",
       "sv_se": "Göteborg",
-      "tr_tr": "Göthenburg",
+      "tr_tr": "Göteborg",
       "uk_uk": "Гетеборг",
       "vi_vn": "Gothenburg",
-      "zh_cn": "哥特堡",
+      "zh_cn": "哥德堡",
       "zh_tw": "哥特堡"
     }
   },
@@ -15826,8 +15240,6 @@ var g_cities_json = [
     "Country": "norway",
     "X": 4140.789,
     "Y": -53680.668,
-    "InGameId": "oslo",
-    "LocalizationToken": "oslo",
     "CountryId": 35,
     "LocalizedNames": {
       "bg_bg": "Осло",
@@ -15880,8 +15292,6 @@ var g_cities_json = [
     "Country": "sweden",
     "X": 10234.7344,
     "Y": -28001.293,
-    "InGameId": "malmo",
-    "LocalizationToken": "malmo",
     "CountryId": 43,
     "LocalizedNames": {
       "bg_bg": "Малмьо",
@@ -15934,8 +15344,6 @@ var g_cities_json = [
     "Country": "sweden",
     "X": 10508.1875,
     "Y": -26107.1563,
-    "InGameId": "trelleborg",
-    "LocalizationToken": "trelleborg",
     "CountryId": 43,
     "LocalizedNames": {
       "bg_bg": "Трелебори",
@@ -15988,8 +15396,6 @@ var g_cities_json = [
     "Country": "denmark",
     "X": 6800.617,
     "Y": -28717.9063,
-    "InGameId": "kobenhavn",
-    "LocalizationToken": "kobenhavn",
     "CountryId": 21,
     "LocalizedNames": {
       "bg_bg": "Копенхаген",
@@ -16042,8 +15448,6 @@ var g_cities_json = [
     "Country": "sweden",
     "X": 9005.078,
     "Y": -30502.55,
-    "InGameId": "helsingborg",
-    "LocalizationToken": "helsingborg",
     "CountryId": 43,
     "LocalizedNames": {
       "bg_bg": "Хелсингбори",
@@ -16096,8 +15500,6 @@ var g_cities_json = [
     "Country": "sweden",
     "X": 13877.1367,
     "Y": -40045.72,
-    "InGameId": "jonkoping",
-    "LocalizationToken": "jonkoping",
     "CountryId": 43,
     "LocalizedNames": {
       "bg_bg": "Йоншьопинг",
@@ -16150,8 +15552,6 @@ var g_cities_json = [
     "Country": "sweden",
     "X": 16745.4336,
     "Y": -31232.5234,
-    "InGameId": "karlskrona",
-    "LocalizationToken": "karlskrona",
     "CountryId": 43,
     "LocalizedNames": {
       "bg_bg": "Карлскруна",
@@ -16204,8 +15604,6 @@ var g_cities_json = [
     "Country": "sweden",
     "X": 15519.2773,
     "Y": -35205.69,
-    "InGameId": "vaxjo",
-    "LocalizationToken": "vaxjo",
     "CountryId": 43,
     "LocalizedNames": {
       "bg_bg": "Ваксьо",
@@ -16246,7 +15644,7 @@ var g_cities_json = [
       "sr_sp": "Vekše",
       "sr_sr": "Векше",
       "sv_se": "Växjö",
-      "tr_tr": "Vaxjö",
+      "tr_tr": "Växjö",
       "uk_uk": "Векше",
       "vi_vn": "Växjö",
       "zh_cn": "韦克舍",
@@ -16258,8 +15656,6 @@ var g_cities_json = [
     "Country": "sweden",
     "X": 17511.5469,
     "Y": -43713.0273,
-    "InGameId": "linkoping",
-    "LocalizationToken": "linkoping",
     "CountryId": 43,
     "LocalizedNames": {
       "bg_bg": "Линшьопинг",
@@ -16312,8 +15708,6 @@ var g_cities_json = [
     "Country": "sweden",
     "X": 16587.707,
     "Y": -48894.8438,
-    "InGameId": "orebro",
-    "LocalizationToken": "orebro",
     "CountryId": 43,
     "LocalizedNames": {
       "bg_bg": "Йоребру",
@@ -16366,8 +15760,6 @@ var g_cities_json = [
     "Country": "sweden",
     "X": 19959.36,
     "Y": -34554.6,
-    "InGameId": "kalmar",
-    "LocalizationToken": "kalmar",
     "CountryId": 43,
     "LocalizedNames": {
       "bg_bg": "Калмар",
@@ -16420,8 +15812,6 @@ var g_cities_json = [
     "Country": "sweden",
     "X": 23325.07,
     "Y": -46540.0,
-    "InGameId": "sodertalje",
-    "LocalizationToken": "sodertalje",
     "CountryId": 43,
     "LocalizedNames": {
       "bg_bg": "Сьодертеле",
@@ -16474,8 +15864,6 @@ var g_cities_json = [
     "Country": "sweden",
     "X": 20562.6016,
     "Y": -50738.4336,
-    "InGameId": "vasteraas",
-    "LocalizationToken": "vasteras",
     "CountryId": 43,
     "LocalizedNames": {
       "bg_bg": "Вестерос",
@@ -16516,7 +15904,7 @@ var g_cities_json = [
       "sr_sp": "Vesteros",
       "sr_sr": "Вестерос",
       "sv_se": "Västerås",
-      "tr_tr": "Vasteras",
+      "tr_tr": "Västerås",
       "uk_uk": "Вестерос",
       "vi_vn": "Västerås",
       "zh_cn": "韦斯特罗斯",
@@ -16528,8 +15916,6 @@ var g_cities_json = [
     "Country": "sweden",
     "X": 24368.4766,
     "Y": -48316.2227,
-    "InGameId": "stockholm",
-    "LocalizationToken": "stockholm",
     "CountryId": 43,
     "LocalizedNames": {
       "bg_bg": "Стокхолм",
@@ -16582,8 +15968,6 @@ var g_cities_json = [
     "Country": "sweden",
     "X": 24731.8555,
     "Y": -46499.9375,
-    "InGameId": "nynashamn",
-    "LocalizationToken": "nynashamn",
     "CountryId": 43,
     "LocalizedNames": {
       "bg_bg": "Нюнесхамн",
@@ -16636,8 +16020,6 @@ var g_cities_json = [
     "Country": "sweden",
     "X": 23521.3281,
     "Y": -52104.625,
-    "InGameId": "uppsala",
-    "LocalizationToken": "uppsala",
     "CountryId": 43,
     "LocalizedNames": {
       "bg_bg": "Упсала",
@@ -16690,8 +16072,6 @@ var g_cities_json = [
     "Country": "sweden",
     "X": 27787.4141,
     "Y": -51382.78,
-    "InGameId": "kapellskar",
-    "LocalizationToken": "kapellskar",
     "CountryId": 43,
     "LocalizedNames": {
       "bg_bg": "Капелскар",
@@ -16744,8 +16124,6 @@ var g_cities_json = [
     "Country": "denmark",
     "X": -5274.55469,
     "Y": -27976.0156,
-    "InGameId": "esbjerg",
-    "LocalizationToken": "esbjerg",
     "CountryId": 21,
     "LocalizedNames": {
       "bg_bg": "Есбер",
@@ -16798,8 +16176,6 @@ var g_cities_json = [
     "Country": "norway",
     "X": -4788.40234,
     "Y": -43061.625,
-    "InGameId": "kristiansand",
-    "LocalizationToken": "kristiansand",
     "CountryId": 35,
     "LocalizedNames": {
       "bg_bg": "Кристиансан",
@@ -16852,8 +16228,6 @@ var g_cities_json = [
     "Country": "norway",
     "X": -10808.8164,
     "Y": -48421.8945,
-    "InGameId": "stavanger",
-    "LocalizationToken": "stavanger",
     "CountryId": 35,
     "LocalizedNames": {
       "bg_bg": "Ставангер",
@@ -16906,8 +16280,6 @@ var g_cities_json = [
     "Country": "norway",
     "X": -10571.707,
     "Y": -56397.7656,
-    "InGameId": "bergen",
-    "LocalizationToken": "bergen",
     "CountryId": 35,
     "LocalizedNames": {
       "bg_bg": "Берген",

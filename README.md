@@ -2,7 +2,7 @@
 
 ## EN:
 Euro Truck Simulator 2 / American Truck Simulator's Route Advisor, for mobile devices.
-This is a skin for [ETS2 Telemetry Server 4.1.2.3+](https://github.com/PauloTNCunha/TelemetryServer4)
+This is a skin for [ETS2 Telemetry Server 4.1.2.4+](https://github.com/meatlayer/TelemetryServer4/releases/download/4.1.2.4/TelemetryServerSetup-4.1.2.4.exe)
 
 ## Features
 > Notice #1: Map contains POI directly on the map images (if the Map follows the driving direction, these icons do NOT rotate).
@@ -52,11 +52,12 @@ ATS inclued:
 - DLC Texas
 - DLC Oklahoma
 - DLC Kansas
+- DLC Nebraska
 
 
 ## Requirements
-- Euro Truck Simulator 2 and/or American Truck Simulator v1.49
-- [ETS2 Telemetry Server](https://github.com/PauloTNCunha/TelemetryServer4) 4.1.2.3+
+- Euro Truck Simulator 2 and/or American Truck Simulator v1.50
+- [ETS2 Telemetry Server](https://github.com/meatlayer/TelemetryServer4/releases/download/4.1.2.4/TelemetryServerSetup-4.1.2.4.exe) 4.1.2.4+
 
 ## How to Install
 1. First, download and install ETS2 Telemetry Server. After, download the latest version of the Mobile Route Advisor from the [releases page](https://www.github.com/meatlayer/ets2-mobile-route-advisor/releases).
@@ -65,7 +66,7 @@ ATS inclued:
 
 ## RU:
 Euro Truck Simulator 2 / American Truck Simulator's Route Advisor - Навигатор для мобильных устройств (работает через браузер).
-Это готовый скин для сервера телеметрии - [ETS2 Telemetry Server 4.1.2.3+](https://github.com/PauloTNCunha/TelemetryServer4)
+Это готовый скин для сервера телеметрии - [ETS2 Telemetry Server 4.1.2.4+](https://github.com/meatlayer/TelemetryServer4/releases/download/4.1.2.4/TelemetryServerSetup-4.1.2.4.exe)
 
 ## Возможности
 > Обратите внимание #1: Карта содержит POI-значки непосредственно на изображениях карты (если карта следует направлению движения, эти значки НЕ вращаются).
@@ -115,14 +116,15 @@ ATS в составе карты:
 - DLC Texas
 - DLC Oklahoma
 - DLC Kansas
+- DLC Nebraska
 
 
 ## Требования
-- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.49
-- [ETS2 Telemetry Server](https://github.com/PauloTNCunha/TelemetryServer4) 4.1.2.3+
+- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.50
+- [ETS2 Telemetry Server](https://github.com/meatlayer/TelemetryServer4/releases/download/4.1.2.4/TelemetryServerSetup-4.1.2.4.exe) 4.1.2.4+
 
 ## Как установить
-1. Во-первых, установите сервер телеметрии [ETS2 Telemetry Server](https://github.com/PauloTNCunha/TelemetryServer4). После этого загрузите последнюю версию ETS2 / ATS Mobile Route Advisor из раздела последних релизов [releases page](https://www.github.com/meatlayer/ets2-mobile-route-advisor/releases).
+1. Во-первых, установите сервер телеметрии [ETS2 Telemetry Server](https://github.com/meatlayer/TelemetryServer4/releases/download/4.1.2.4/TelemetryServerSetup-4.1.2.4.exe). После этого загрузите последнюю версию ETS2 / ATS Mobile Route Advisor из раздела последних релизов [releases page](https://www.github.com/meatlayer/ets2-mobile-route-advisor/releases).
 2. Распакуйте содержимое zip-файла в каталог ETS2 Telemetry Server `\Telemetry Server\Html\skins\ets2-mobile-route-advisor`. У вас должна быть папка именно с именем `ets2-mobile-route-advisor` в каталоге `skins`. И вней должно быть содержимое скина. После чего, Вы можете запустить ETS2 Telemetry Server, открыть его в браузере по IP:25555 URL и найти в списке скин с именем Mobile Route Advisor.
 
 
