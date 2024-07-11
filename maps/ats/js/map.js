@@ -1,7 +1,7 @@
 // All of this should be executed after the DOM is ready and the entire skin has been loaded.
 // Image size used in the map (tiles 512px * 255 columns =  130560 + 384px padding = 131072)
-var MAX_X = 131072; //padding in ts-map 384px
-var MAX_Y = 131072; //padding in ts-map 384px
+//var MAX_X = 131072; //padding in ts-map 384px
+//var MAX_Y = 131072; //padding in ts-map 384px
 var MAX_X = 65535; //padding 0
 var MAX_Y = 65535; //padding 0
 	
