@@ -153,11 +153,11 @@ Funbit.Ets.Telemetry.Dashboard.prototype.render = function (data) {
 	if (data.truck.cruiseControlOn) {
 		$('.cruiseControl').show();
 		$('.noCruiseControl').hide();
-		$('._speed').css('color', 'lime');
+		$('._speed').css('font-style', 'italic');
 	} else {
 		$('.cruiseControl').hide();
 		$('.noCruiseControl').show();
-		$('._speed').css('color', 'white');
+		$('._speed').css('font-style', 'normal');
 	}
 
     // Process DOM for job
