@@ -591,6 +591,12 @@ function updateSpeedIndicator(speedLimit, currentSpeed) {
     var style = 'linear-gradient(to bottom, rgba(127,0,0,{0}) 0%, rgba(255,0,0,{0}) 50%, rgba(127,0,0,{0}) 100%)';
     style = style.split('{0}').join(opacity);
     $('.dashboard').find('aside').find('div._speed').css('background', style);
+
+    var distanceUnits = g_skinConfig[g_configPrefix].distanceUnits;
+    var displaySpeed = distanceUnits === 'mi' ? data.navigation.speedLimitMphRounded : speedLimit;
+
+    // Update the speed limit in the speed indicator
+    $('#speed-limit').find('span').text(displaySpeed);
 }
 
 function updateDisplayForSpecialTransport(trailerId) {
