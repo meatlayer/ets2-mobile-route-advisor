@@ -53,10 +53,11 @@ ATS inclued:
 - DLC Oklahoma
 - DLC Kansas
 - DLC Nebraska
+- DLS Arkansas
 
 
 ## Requirements
-- Euro Truck Simulator 2 and/or American Truck Simulator v1.50
+- Euro Truck Simulator 2 and/or American Truck Simulator v1.51
 - [ETS2 Telemetry Server](https://github.com/meatlayer/TelemetryServer4/releases/download/4.1.2.4/TelemetryServerSetup-4.1.2.4.exe) 4.1.2.4+
 
 ## How to Install
@@ -117,10 +118,11 @@ ATS в составе карты:
 - DLC Oklahoma
 - DLC Kansas
 - DLC Nebraska
+- DLS Arkansas
 
 
 ## Требования
-- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.50
+- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.51
 - [ETS2 Telemetry Server](https://github.com/meatlayer/TelemetryServer4/releases/download/4.1.2.4/TelemetryServerSetup-4.1.2.4.exe) 4.1.2.4+
 
 ## Как установить
