@@ -1,17 +1,17 @@
 // All of this should be executed after the DOM is ready and the entire skin has been loaded.
 // Image size used in the map (tiles 512px * 255 columns =  130560 + 384px padding = 131072)
-//var MAX_X = 131072; //padding in ts-map 384px
-//var MAX_Y = 131072; //padding in ts-map 384px
-var MAX_X = 65535; //padding 0
-var MAX_Y = 65535; //padding 0
+var MAX_X = 131072; //padding in ts-map 384px
+var MAX_Y = 131072; //padding in ts-map 384px
+//var MAX_X = 65535; //padding 0
+//var MAX_Y = 65535; //padding 0
 	
 // https://github.com/dariowouters/ts-map/issues/16#issuecomment-716160718
 function game_coord_to_pixels(xx, yy) {
 	// Values from TileMapInfo.json
-	const x1 = -94122.8047;
-	const x2 = 78871.13;
-	const y1 = -79710.1641;
-	const y2 = 93283.77;
+	const x1 = -94505.8047;
+	const x2 = 79254.13;
+	const y1 = -80093.1641;
+	const y2 = 93666.77;
 
 	const xtot = x2 - x1; // Total X length
 	const ytot = y2 - y1; // Total Y length
@@ -314,7 +314,8 @@ function getTextFeatures() {
     stroke.setWidth(2);
     var createTextStyle = function(resolution) {
         var scale = Math.min(1, Math.max(0, 1.0 / Math.log2(resolution + 1) - 0.015));
-        var text = this.get('Name'); //Removed country_code_to_unicode(this.get('cc')) + ' ' +
+        //var text = this.get('Name'); //Removed country_code_to_unicode(this.get('cc')) + ' ' +
+		var text = this.get('LocalizedNames')['en_us'];
         // console.log(scale, resolution);
         // console.log(this.get('realName'), this.get('country'));
         return [new ol.style.Style({
@@ -409,8 +410,8 @@ function buildMap(target_element_id){
         extent: [0, 0, MAX_X, MAX_Y],
         minZoom: 0,
         origin: [0, MAX_Y],
-        //tileSize: [512, 512],
-		tileSize: [256, 256],
+        tileSize: [512, 512],
+		//tileSize: [256, 256],
         resolutions: (function(){
             var r = [];
             for (var z = 0; z <= 8; ++z) {
@@ -530,8 +531,8 @@ function getMapTilesLayer(projection, tileGrid) {
             source: new ol.source.XYZ({
                 projection: projection,
                 url: g_pathPrefix + '/maps/ets2/tiles/{z}/{x}/{y}.png',
-                //tileSize: [512, 512],
-				tileSize: [256, 256],
+                tileSize: [512, 512],
+				//tileSize: [256, 256],
                 // Using createXYZ() makes the vector layer (with the features) unaligned.
                 // It also tries loading non-existent tiles.
                 //

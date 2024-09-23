@@ -1,17 +1,17 @@
 // All of this should be executed after the DOM is ready and the entire skin has been loaded.
 // Image size used in the map (tiles 512px * 255 columns =  130560 + 384px padding = 131072)
-//var MAX_X = 131072; //padding in ts-map 384px
-//var MAX_Y = 131072; //padding in ts-map 384px
-var MAX_X = 65535; //padding 0
-var MAX_Y = 65535; //padding 0
+var MAX_X = 131072; //padding in ts-map 384px
+var MAX_Y = 131072; //padding in ts-map 384px
+//var MAX_X = 65535; //padding 0
+//var MAX_Y = 65535; //padding 0
 	
 // https://github.com/dariowouters/ts-map/issues/16#issuecomment-716160718
 function game_coord_to_pixels(xx, yy) {
 	// Values from TileMapInfo.json
-	const x1 = -119599.891;
-	const x2 = 30464.64;
-	const y1 = -73328.2656;
-	const y2 = 76736.2656;
+	const x1 = -119982.891;
+	const x2 = 30847.64;
+	const y1 = -73711.2656;
+	const y2 = 77119.2656;
 
 	const xtot = x2 - x1; // Total X length
 	const ytot = y2 - y1; // Total Y length
@@ -78,8 +78,8 @@ function buildMap(target_element_id){
         extent: [0, 0, MAX_X, MAX_Y],
         minZoom: 0,
         origin: [0, MAX_Y],
-        //tileSize: [512, 512],
-		tileSize: [256, 256],
+        tileSize: [512, 512],
+		//tileSize: [256, 256],
         resolutions: (function(){
             var r = [];
             for (var z = 0; z <= 8; ++z) {
@@ -186,8 +186,8 @@ function getMapTilesLayer(projection, tileGrid) {
             source: new ol.source.XYZ({
                 projection: projection,
                 url: g_pathPrefix + '/maps/ats/tiles/{z}/{x}/{y}.png',
-                //tileSize: [512, 512],
-				tileSize: [256, 256],
+                tileSize: [512, 512],
+				//tileSize: [256, 256],
                 // Using createXYZ() makes the vector layer (with the features) unaligned.
                 // It also tries loading non-existent tiles.
                 //
@@ -249,7 +249,8 @@ function getTextFeatures() {
                 scale: 4 / 16 * scale
             })),*/
             text: new ol.style.Text({
-                text: this.get('Name'),
+                //text: this.get('Name'),
+				text: this.get('LocalizedNames')['en_us'],
                 font: 'bold 48pt "Helvetica Neue", "Helvetica", "Arial", sans-serif',
                 textAlign: 'center',
                 fill: fill,

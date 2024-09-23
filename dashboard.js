@@ -231,15 +231,18 @@ Funbit.Ets.Telemetry.Dashboard.prototype.initialize = function (skinConfig) {
         });
     });
 
-    // Check for updates
-    if (g_skinConfig.checkForUpdates) {
-        $.get('https://meatlayer.github.io/ets2-mobile-route-advisor/latest-version.html', function(data) {
-            var latestVersion = data.trim();
-            if (latestVersion != g_currentVersion) {
-                $('#update-status').show();
-            }
-        });
-    }
+	// Check for updates
+	if (g_skinConfig.checkForUpdates) {
+		$.get('https://meatlayer.github.io/ets2-mobile-route-advisor/latest-version.html', function(data) {
+			var latestVersion = data.trim();
+			if (latestVersion != g_currentVersion) {
+				$('#update-status').show();
+				// Добавляем класс для визуальной индикации обновления
+				$('#_about_button').addClass('update-available');
+			}
+		});
+	}
+
 
     // Set the version number on the about page
     versionText = $('#version').text();
@@ -644,7 +647,7 @@ var g_translations;
 var g_skinConfig;
 
 // The current version of ets2-mobile-route-advisor
-var g_currentVersion = '4.1.0';
+var g_currentVersion = '4.1.1';
 
 // The currently running game
 var g_runningGame;
