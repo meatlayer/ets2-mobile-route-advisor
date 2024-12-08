@@ -38,6 +38,8 @@ ETS 2 inclued:
 - DLC Iberia
 - DLC Heart of Russia - _release date unknown TBA_
 - DLC West Balkans
+- DLC Greece
+
 
 ATS inclued:
 - DLC Arizona
@@ -103,6 +105,7 @@ ETS 2 в составе карты:
 - DLC Iberia
 - DLC Heart of Russia - _release date unknown TBA_
 - DLC West Balkans
+- DLC Greece
 
 ATS в составе карты:
 - DLC Arizona
@@ -191,6 +194,7 @@ If you require any type of support, please looking at the [contributing guidelin
 				<li><a href="https://github.com/meatlayer">meatlayer</a></li>
                 <li><a href="https://github.com/Funbit">Funbit</a></li>
                 <li><a href="https://github.com/Koenvh1">Koen</a></li>
+                <li><a href="https://github.com/KS-HTK">KS-HTK</a></li>
             </ul>
         </td>
     </tr>
