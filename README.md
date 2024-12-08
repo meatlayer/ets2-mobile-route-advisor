@@ -53,7 +53,8 @@ ATS inclued:
 - DLC Oklahoma
 - DLC Kansas
 - DLC Nebraska
-- DLS Arkansas
+- DLC Arkansas
+- DLC Nevada
 
 
 ## Requirements
@@ -118,7 +119,8 @@ ATS в составе карты:
 - DLC Oklahoma
 - DLC Kansas
 - DLC Nebraska
-- DLS Arkansas
+- DLC Arkansas
+- DLC Nevada
 
 
 ## Требования
