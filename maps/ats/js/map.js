@@ -9,9 +9,9 @@ var MAX_Y = 131072; //padding in ts-map 384px
 function game_coord_to_pixels(xx, yy) {
 	// Values from TileMapInfo.json
 	const x1 = -119982.891;
-	const x2 = 30847.64;
-	const y1 = -73711.2656;
-	const y2 = 77119.2656;
+	const x2 = 30920.5781;
+	const y1 = -73957.62;
+	const y2 = 76945.85;
 
 	const xtot = x2 - x1; // Total X length
 	const ytot = y2 - y1; // Total Y length
