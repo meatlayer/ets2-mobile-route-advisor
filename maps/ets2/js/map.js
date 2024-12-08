@@ -1,3 +1,13 @@
+// Values from TileMapInfo.json
+const tileMapInfo = {
+    "x1": -94505.8047,
+    "x2": 79254.13,
+    "y1": -74938.61,
+    "y2": 98821.33,
+    "minZoom": 0,
+    "maxZoom": 8
+}
+
 // All of this should be executed after the DOM is ready and the entire skin has been loaded.
 // Image size used in the map (tiles 512px * 255 columns =  130560 + 384px padding = 131072)
 var MAX_X = 131072; //padding in ts-map 384px
@@ -7,17 +17,11 @@ var MAX_Y = 131072; //padding in ts-map 384px
 	
 // https://github.com/dariowouters/ts-map/issues/16#issuecomment-716160718
 function game_coord_to_pixels(xx, yy) {
-	// Values from TileMapInfo.json
-	const x1 = -94505.8047;
-	const x2 = 79254.13;
-	const y1 = -80093.1641;
-	const y2 = 93666.77;
+	const xtot = tileMapInfo["x2"] - tileMapInfo["x1"]; // Total X length
+	const ytot = tileMapInfo["y2"] - tileMapInfo["y1"]; // Total Y length
 
-	const xtot = x2 - x1; // Total X length
-	const ytot = y2 - y1; // Total Y length
-
-	const xrel = (xx - x1) / xtot; // The fraction where the X is (between 0 and 1, 0 being fully left, 1 being fully right)
-	const yrel = (yy - y1) / ytot; // The fraction where the Y is
+	const xrel = (xx - tileMapInfo["x1"]) / xtot; // The fraction where the X is (between 0 and 1, 0 being fully left, 1 being fully right)
+	const yrel = (yy - tileMapInfo["y1"]) / ytot; // The fraction where the Y is
 
 	return [
 		xrel * MAX_X, // Where X actually is, so multiplied the actual width
