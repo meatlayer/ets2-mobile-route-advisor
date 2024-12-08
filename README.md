@@ -38,8 +38,10 @@ ETS 2 inclued:
 - DLC Iberia
 - DLC Heart of Russia - _release date unknown TBA_
 - DLC West Balkans
+- DLC Greece
 
 ATS inclued:
+- DLC Nevada
 - DLC Arizona
 - DLC New Mexico
 - DLC Oregon
@@ -57,7 +59,7 @@ ATS inclued:
 
 
 ## Requirements
-- Euro Truck Simulator 2 and/or American Truck Simulator v1.51
+- Euro Truck Simulator 2 and/or American Truck Simulator v1.53
 - [ETS2 Telemetry Server](https://github.com/meatlayer/TelemetryServer4/releases/download/4.1.2.4/TelemetryServerSetup-4.1.2.4.exe) 4.1.2.4+
 
 ## How to Install
@@ -103,8 +105,10 @@ ETS 2 в составе карты:
 - DLC Iberia
 - DLC Heart of Russia - _release date unknown TBA_
 - DLC West Balkans
+- DLC Greece
 
 ATS в составе карты:
+- DLC Nevada
 - DLC Arizona
 - DLC New Mexico
 - DLC Oregon
@@ -122,7 +126,7 @@ ATS в составе карты:
 
 
 ## Требования
-- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.51
+- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.53
 - [ETS2 Telemetry Server](https://github.com/meatlayer/TelemetryServer4/releases/download/4.1.2.4/TelemetryServerSetup-4.1.2.4.exe) 4.1.2.4+
 
 ## Как установить

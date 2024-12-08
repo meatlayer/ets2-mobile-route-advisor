@@ -10,8 +10,8 @@ function game_coord_to_pixels(xx, yy) {
 	// Values from TileMapInfo.json
 	const x1 = -94505.8047;
 	const x2 = 79254.13;
-	const y1 = -80093.1641;
-	const y2 = 93666.77;
+	const y1 = -74938.61;
+	const y2 = 98821.33;
 
 	const xtot = x2 - x1; // Total X length
 	const ytot = y2 - y1; // Total Y length

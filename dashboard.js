@@ -596,7 +596,8 @@ function updateSpeedIndicator(speedLimit, currentSpeed) {
     $('.dashboard').find('aside').find('div._speed').css('background', style);
 
     var distanceUnits = g_skinConfig[g_configPrefix].distanceUnits;
-    var displaySpeed = distanceUnits === 'mi' ? data.navigation.speedLimitMphRounded : speedLimit;
+    //var displaySpeed = distanceUnits === 'mi' ? data.navigation.speedLimitMphRounded : speedLimit; // error Uncaught ReferenceError: data is not defined
+	var displaySpeed = distanceUnits === 'mi' ? Math.round(speedLimit * .621371) : speedLimit;
 
     // Update the speed limit in the speed indicator
     $('#speed-limit').find('span').text(displaySpeed);
@@ -647,7 +648,7 @@ var g_translations;
 var g_skinConfig;
 
 // The current version of ets2-mobile-route-advisor
-var g_currentVersion = '4.1.1';
+var g_currentVersion = '4.1.2';
 
 // The currently running game
 var g_runningGame;
