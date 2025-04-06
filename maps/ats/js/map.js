@@ -9,9 +9,9 @@ var MAX_Y = 131072; //padding in ts-map 384px
 function game_coord_to_pixels(xx, yy) {
 	// Values from TileMapInfo.json
 	const x1 = -119982.891;
-	const x2 = 30920.5781;
-	const y1 = -73957.62;
-	const y2 = 76945.85;
+	const x2 = 32459.125;
+	const y1 = -74726.88;
+	const y2 = 77715.13;
 
 	const xtot = x2 - x1; // Total X length
 	const ytot = y2 - y1; // Total Y length
@@ -224,7 +224,8 @@ var STATE_NAME_TO_CODE = {
 "wyoming": "wy",
 "oklahoma": "ok",
 "texas": "tx",
-"nebraska": "ne"
+"nebraska": "ne",
+"missouri": "mo",
 };
 
 function getTextFeatures() {
