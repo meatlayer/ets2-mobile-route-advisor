@@ -225,7 +225,7 @@ var STATE_NAME_TO_CODE = {
 "oklahoma": "ok",
 "texas": "tx",
 "nebraska": "ne",
-"missouri": "mo",
+"missouri": "mo"
 };
 
 function getTextFeatures() {
