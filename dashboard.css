@@ -354,7 +354,7 @@ a {
     background: linear-gradient(to bottom, #181818 0%, #404040 50%, #181818 100%);*/
 }
 .dashboard > nav {
-    background: #363636;
+    background: #303030;
     /*background: -webkit-linear-gradient(top, #2c2c2c 0%, #535353 50%, #2c2c2c 100%);
     background: linear-gradient(to bottom, #2c2c2c 0%, #535353 50%, #2c2c2c 100%);*/
 }
@@ -374,7 +374,7 @@ a {
 }
 .dashboard > nav > *._active_tab_button {
     border-bottom-color: orange;
-    background-color: rgba(0, 0, 0, 0.3333);
+    background-color: rgba(35, 35, 35, 1);
 }
 ._yellow-color {
     color: #FB9912;
@@ -383,7 +383,7 @@ a {
     background-color: #373737;
 }
 ._row:nth-child(even) {
-    background-color: rgba(127,127,127,0.25);
+    background-color: rgba(60, 60, 60, 1);
 }
 
 /* Map controls, sometimes overriding styles from OpenLayers. */
@@ -448,6 +448,9 @@ a {
 #map-text {
     /* Hiding the custom controls until they are added to the map. */
     display: none;
+}
+#_map canvas { 
+    background-color: #353535;
 }
 #_map #rotate-button-div {
     display: block;

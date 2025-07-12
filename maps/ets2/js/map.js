@@ -1,17 +1,19 @@
 // All of this should be executed after the DOM is ready and the entire skin has been loaded.
 // Image size used in the map (tiles 512px * 255 columns =  130560 + 384px padding = 131072)
-var MAX_X = 131072; //padding in ts-map 384px
-var MAX_Y = 131072; //padding in ts-map 384px
+var MAX_X = 65535; //padding 0
+var MAX_Y = 65535; //padding 0
+//var MAX_X = 131072; //padding in ts-map 384px
+//var MAX_Y = 131072; //padding in ts-map 384px
 //var MAX_X = 65535; //padding 0
 //var MAX_Y = 65535; //padding 0
 	
 // https://github.com/dariowouters/ts-map/issues/16#issuecomment-716160718
 function game_coord_to_pixels(xx, yy) {
 	// Values from TileMapInfo.json
-	const x1 = -94505.8047;
-	const x2 = 79254.13;
-	const y1 = -74938.61;
-	const y2 = 98821.33;
+	const x1 = -94621.8047;
+	const x2 = 79370.13;
+	const y1 = -75054.61;
+	const y2 = 98937.33;
 
 	const xtot = x2 - x1; // Total X length
 	const ytot = y2 - y1; // Total Y length
@@ -410,8 +412,8 @@ function buildMap(target_element_id){
         extent: [0, 0, MAX_X, MAX_Y],
         minZoom: 0,
         origin: [0, MAX_Y],
-        tileSize: [512, 512],
-		//tileSize: [256, 256],
+        //tileSize: [512, 512],
+		tileSize: [256, 256],
         resolutions: (function(){
             var r = [];
             for (var z = 0; z <= 8; ++z) {
@@ -477,8 +479,8 @@ function buildMap(target_element_id){
             extent: [0, 0, MAX_X, MAX_Y],
             //center: ol.proj.transform([37.41, 8.82], 'EPSG:4326', 'EPSG:3857'),
             center: [MAX_X/2, MAX_Y/2],
-            minZoom: 2,
-            maxZoom: 9,
+            minZoom: 1,
+            maxZoom: 8,
             zoom: 5
         })
     });
@@ -531,8 +533,8 @@ function getMapTilesLayer(projection, tileGrid) {
             source: new ol.source.XYZ({
                 projection: projection,
                 url: g_pathPrefix + '/maps/ets2/tiles/{z}/{x}/{y}.png',
-                tileSize: [512, 512],
-				//tileSize: [256, 256],
+                //tileSize: [512, 512],
+				tileSize: [256, 256],
                 // Using createXYZ() makes the vector layer (with the features) unaligned.
                 // It also tries loading non-existent tiles.
                 //
@@ -546,8 +548,8 @@ function getMapTilesLayer(projection, tileGrid) {
                 //     tileSize: [256, 256]
                 // }),
                 wrapX: false,
-                minZoom: 2,
-                maxZoom: 9
+                minZoom: 1,
+                maxZoom: 8
             })
         });
     }
