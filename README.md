@@ -57,10 +57,11 @@ ATS inclued:
 - DLC Nebraska
 - DLS Arkansas
 - DLS Missouri
+- DLS Iowa
 
 
 ## Requirements
-- Euro Truck Simulator 2 and/or American Truck Simulator v1.54+
+- Euro Truck Simulator 2 and/or American Truck Simulator v1.55+
 - [ETS2 Telemetry Server](https://github.com/meatlayer/ets2-mobile-route-advisor/releases) 4.1.2.4+
 
 ## How to Install
@@ -125,10 +126,11 @@ ATS в составе карты:
 - DLC Nebraska
 - DLS Arkansas
 - DLS Missouri
+- DLS Iowa
 
 
 ## Требования
-- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.54+
+- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.55+
 - [ETS2 Telemetry Server](https://github.com/meatlayer/ets2-mobile-route-advisor/releases) 4.1.2.4+
 
 ## Как установить

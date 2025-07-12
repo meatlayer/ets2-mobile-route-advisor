@@ -57,10 +57,11 @@ ATS inclued:
 - DLC Nebraska
 - DLS Arkansas
 - DLS Missouri
+- DLS Iowa
 
 
 ## Requirements
-- Euro Truck Simulator 2 and/or American Truck Simulator v1.54
+- Euro Truck Simulator 2 and/or American Truck Simulator v1.55
 - [ETS2 Telemetry Server](https://github.com/meatlayer/TelemetryServer4/releases/download/4.1.2.4/TelemetryServerSetup-4.1.2.4.exe) 4.1.2.4+
 
 ## How to Install
@@ -68,7 +69,7 @@ ATS inclued:
 2. Extract the contents of the zip to the ETS2 Telemetry Server's `\Telemetry Server\Html\skins\ets2-mobile-route-advisor` directory. You should then have a folder named `ets2-mobile-route-advisor` in the `skins` directory.
 
 ## How to Capture map in future game versions
-1. Download the latest version of the ts-map from either the [official website](https://github.com/dariowouters/ts-map) for ets2 / ats version v1.54+.
+1. Download the latest version of the ts-map from either the [official website](https://github.com/dariowouters/ts-map) for ets2 / ats version v1.55+.
 2. Extract the contents of the zip in your PC disk `C:\ts-map` directory. Run `TsMap.Canvas` app.
 3. Select the game folder, for example C:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2 and press Continue.
 4. After successfully opening the map in the app, configure the color palette in the menu. Example in the screenshot: 
@@ -144,9 +145,10 @@ ATS в составе карты:
 - DLC Nebraska
 - DLS Arkansas
 - DLS Missouri
+- DLS Iowa
 
 ## Требования
-- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.54
+- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.55
 - [ETS2 Telemetry Server](https://github.com/meatlayer/TelemetryServer4/releases/download/4.1.2.4/TelemetryServerSetup-4.1.2.4.exe) 4.1.2.4+
 
 ## Как установить
