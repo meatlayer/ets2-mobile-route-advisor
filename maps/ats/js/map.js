@@ -1,17 +1,17 @@
 // All of this should be executed after the DOM is ready and the entire skin has been loaded.
 // Image size used in the map (tiles 512px * 255 columns =  130560 + 384px padding = 131072)
-var MAX_X = 131072; //padding in ts-map 384px
-var MAX_Y = 131072; //padding in ts-map 384px
-//var MAX_X = 65535; //padding 0
-//var MAX_Y = 65535; //padding 0
+//var MAX_X = 131072; //padding in ts-map 384px
+//var MAX_Y = 131072; //padding in ts-map 384px
+var MAX_X = 65535; //padding 0
+var MAX_Y = 65535; //padding 0
 	
 // https://github.com/dariowouters/ts-map/issues/16#issuecomment-716160718
 function game_coord_to_pixels(xx, yy) {
 	// Values from TileMapInfo.json
-	const x1 = -119982.891;
-	const x2 = 32372.9375;
-	const y1 = -74683.79;
-	const y2 = 77672.04;
+	const x1 = -120098.891;
+	const x2 = 32321.9219;
+	const y1 = -74716.27;
+	const y2 = 77704.54;
 
 	const xtot = x2 - x1; // Total X length
 	const ytot = y2 - y1; // Total Y length
@@ -78,8 +78,8 @@ function buildMap(target_element_id){
         extent: [0, 0, MAX_X, MAX_Y],
         minZoom: 0,
         origin: [0, MAX_Y],
-        tileSize: [512, 512],
-		//tileSize: [256, 256],
+        //tileSize: [512, 512],
+		tileSize: [256, 256],
         resolutions: (function(){
             var r = [];
             for (var z = 0; z <= 8; ++z) {
@@ -186,8 +186,8 @@ function getMapTilesLayer(projection, tileGrid) {
             source: new ol.source.XYZ({
                 projection: projection,
                 url: g_pathPrefix + '/maps/ats/tiles/{z}/{x}/{y}.png',
-                tileSize: [512, 512],
-				//tileSize: [256, 256],
+                //tileSize: [512, 512],
+				tileSize: [256, 256],
                 // Using createXYZ() makes the vector layer (with the features) unaligned.
                 // It also tries loading non-existent tiles.
                 //
@@ -306,11 +306,17 @@ function updatePlayerPositionAndRotation(lon, lat, rot, speed) {
             var max_ahead_amount = height / 3.0 * g_map.getView().getResolution();
 
 			//console.log(parseFloat((speed).toFixed(0)));
-			//auto-zoom map by speed
-			if(parseFloat((speed).toFixed(0)) >= 15 && parseFloat((speed).toFixed(0))  <= 35) {  g_map.getView().getZoom(g_map.getView().setZoom(9) ); }
-			else if(parseFloat((speed).toFixed(0)) >= 51 && parseFloat((speed).toFixed(0)) <= 55) {  g_map.getView().getZoom(g_map.getView().setZoom(8) ); }
-			else if(parseFloat((speed).toFixed(0)) >= 61 && parseFloat((speed).toFixed(0)) <= 65) {  g_map.getView().getZoom(g_map.getView().setZoom(7) ); }
-			else if(parseFloat((speed).toFixed(0)) >= 81 && parseFloat((speed).toFixed(0)) <= 88) {  g_map.getView().getZoom(g_map.getView().setZoom(6) ); }
+			// auto-zoom map by speed
+			var s = Math.round(speed);
+			if (s >= 15 && s <= 35) {
+			  g_map.getView().setZoom(9);
+			} else if (s >= 51 && s <= 55) {
+			  g_map.getView().setZoom(8);
+			} else if (s >= 61 && s <= 65) {
+			  g_map.getView().setZoom(7);
+			} else if (s >= 81 && s <= 88) {
+			  g_map.getView().setZoom(6);
+			}
 
             var amount_ahead = speed * 0.25;
             amount_ahead = Math.max(-max_ahead_amount, Math.min(amount_ahead, max_ahead_amount));

@@ -10,10 +10,10 @@ var MAX_Y = 65535; //padding 0
 // https://github.com/dariowouters/ts-map/issues/16#issuecomment-716160718
 function game_coord_to_pixels(xx, yy) {
 	// Values from TileMapInfo.json
-	const x1 = -94621.8047;
-	const x2 = 79370.13;
-	const y1 = -75054.61;
-	const y2 = 98937.33;
+	const x1 = -113177.313;
+	const x2 = 97925.625;
+	const y1 = -122648.086;
+	const y2 = 88454.85;
 
 	const xtot = x2 - x1; // Total X length
 	const ytot = y2 - y1; // Total Y length
@@ -579,11 +579,17 @@ function updatePlayerPositionAndRotation(lon, lat, rot, speed) {
             var max_ahead_amount = height / 3.0 * g_map.getView().getResolution();
 
 			//console.log(parseFloat((speed).toFixed(0)));
-			//auto-zoom map by speed
-			if(parseFloat((speed).toFixed(0)) >= 15 && parseFloat((speed).toFixed(0))  <= 35) {  g_map.getView().getZoom(g_map.getView().setZoom(9) ); }
-			else if(parseFloat((speed).toFixed(0)) >= 51 && parseFloat((speed).toFixed(0)) <= 55) {  g_map.getView().getZoom(g_map.getView().setZoom(8) ); }
-			else if(parseFloat((speed).toFixed(0)) >= 61 && parseFloat((speed).toFixed(0)) <= 65) {  g_map.getView().getZoom(g_map.getView().setZoom(7) ); }
-			else if(parseFloat((speed).toFixed(0)) >= 81 && parseFloat((speed).toFixed(0)) <= 88) {  g_map.getView().getZoom(g_map.getView().setZoom(6) ); }
+			// auto-zoom map by speed
+			var s = Math.round(speed);
+			if (s >= 15 && s <= 35) {
+			  g_map.getView().setZoom(9);
+			} else if (s >= 51 && s <= 55) {
+			  g_map.getView().setZoom(8);
+			} else if (s >= 61 && s <= 65) {
+			  g_map.getView().setZoom(7);
+			} else if (s >= 81 && s <= 88) {
+			  g_map.getView().setZoom(6);
+			}
 
             var amount_ahead = speed * 0.25;
             amount_ahead = Math.max(-max_ahead_amount, Math.min(amount_ahead, max_ahead_amount));
@@ -600,4 +606,5 @@ function updatePlayerPositionAndRotation(lon, lat, rot, speed) {
         }
     }
     g_ignore_view_change_events = false;
+
 }
