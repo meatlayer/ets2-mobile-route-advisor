@@ -39,6 +39,7 @@ ETS 2 inclued:
 - DLC Heart of Russia - _release date unknown TBA_
 - DLC West Balkans
 - DLC Greece
+- DLC Nordic Horizons
 
 ATS inclued:
 - DLC Nevada
@@ -61,7 +62,7 @@ ATS inclued:
 
 
 ## Requirements
-- Euro Truck Simulator 2 and/or American Truck Simulator v1.55+
+- Euro Truck Simulator 2 and/or American Truck Simulator v1.57+
 - [ETS2 Telemetry Server](https://github.com/meatlayer/ets2-mobile-route-advisor/releases) 4.1.2.4+
 
 ## How to Install
@@ -108,6 +109,7 @@ ETS 2 в составе карты:
 - DLC Heart of Russia - _release date unknown TBA_
 - DLC West Balkans
 - DLC Greece
+- DLC Nordic Horizons
 
 ATS в составе карты:
 - DLC Nevada
@@ -130,7 +132,7 @@ ATS в составе карты:
 
 
 ## Требования
-- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.55+
+- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.57+
 - [ETS2 Telemetry Server](https://github.com/meatlayer/ets2-mobile-route-advisor/releases) 4.1.2.4+
 
 ## Как установить
