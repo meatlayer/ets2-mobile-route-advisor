@@ -56,9 +56,9 @@ ATS inclued:
 - DLC Oklahoma
 - DLC Kansas
 - DLC Nebraska
-- DLS Arkansas
-- DLS Missouri
-- DLS Iowa
+- DLC Arkansas
+- DLC Missouri
+- DLC Iowa
 - DLC Louisiana
 
 
@@ -127,9 +127,9 @@ ATS в составе карты:
 - DLC Oklahoma
 - DLC Kansas
 - DLC Nebraska
-- DLS Arkansas
-- DLS Missouri
-- DLS Iowa
+- DLC Arkansas
+- DLC Missouri
+- DLC Iowa
 - DLC Louisiana
 
 
