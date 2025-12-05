@@ -59,6 +59,7 @@ ATS inclued:
 - DLS Arkansas
 - DLS Missouri
 - DLS Iowa
+- DLC Louisiana
 
 
 ## Requirements
@@ -129,6 +130,7 @@ ATS в составе карты:
 - DLS Arkansas
 - DLS Missouri
 - DLS Iowa
+- DLC Louisiana
 
 
 ## Требования

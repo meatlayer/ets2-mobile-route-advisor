@@ -56,10 +56,10 @@ ATS inclued:
 - DLC Oklahoma
 - DLC Kansas
 - DLC Nebraska
-- DLS Arkansas
-- DLS Missouri
-- DLS Iowa
-
+- DLC Arkansas
+- DLC Missouri
+- DLC Iowa
+- DLC Louisiana
 
 ## Requirements
 - Euro Truck Simulator 2 and/or American Truck Simulator v1.57
@@ -145,9 +145,10 @@ ATS в составе карты:
 - DLC Oklahoma
 - DLC Kansas
 - DLC Nebraska
-- DLS Arkansas
-- DLS Missouri
-- DLS Iowa
+- DLC Arkansas
+- DLC Missouri
+- DLC Iowa
+- DLC Louisiana
 
 ## Требования
 - Euro Truck Simulator 2 и (или) American Truck Simulator  v1.57
