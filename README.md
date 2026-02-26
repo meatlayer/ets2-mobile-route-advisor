@@ -63,7 +63,7 @@ ATS inclued:
 
 
 ## Requirements
-- Euro Truck Simulator 2 and/or American Truck Simulator v1.57+
+- Euro Truck Simulator 2 and/or American Truck Simulator v1.58+
 - [ETS2 Telemetry Server](https://github.com/meatlayer/ets2-mobile-route-advisor/releases) 4.1.2.4+
 
 ## How to Install
@@ -134,7 +134,7 @@ ATS в составе карты:
 
 
 ## Требования
-- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.57+
+- Euro Truck Simulator 2 и (или) American Truck Simulator  v1.58+
 - [ETS2 Telemetry Server](https://github.com/meatlayer/ets2-mobile-route-advisor/releases) 4.1.2.4+
 
 ## Как установить
