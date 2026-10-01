@@ -98,13 +98,49 @@ Funbit.Ets.Telemetry.Dashboard.prototype.filter = function (data) {
     data.job.remainingTime = processTimeDifferenceArray(data.job.remainingTimeArray);
 	data.trailerName = data.cargo.cargo;
 
+    // SDK 1.15: car/bus jobs (guarded: older servers do not send these blocks).
+    data.isCarJob = !!(data.carJob && data.carJob.active);
+    data.isBusJob = !!(data.busJob && data.busJob.active);
+    // SDK 1.15: trailer body wear (fraction 0..1, like trailer.wear).
+    data.wearBodyTrailerRounded = (data.trailer && typeof data.trailer.wearBody === 'number')
+        ? Math.floor(data.trailer.wearBody * 100) : 0;
+    // Trailer wheels/chassis wear (fraction 0..1).
+    data.wearWheelsTrailerRounded = (data.trailer && typeof data.trailer.wearWheels === 'number')
+        ? Math.floor(data.trailer.wearWheels * 100) : 0;
+    data.wearChassisTrailerRounded = (data.trailer && typeof data.trailer.wearChassis === 'number')
+        ? Math.floor(data.trailer.wearChassis * 100) : 0;
+    // Cargo damage (fraction 0..1): job.cargo.damage is a LIVE per-frame
+    // channel (works in car jobs too, even with cargoLoaded=false).
+    // carJob.cargoDamage instead arrives only with car_job.delivered.
+    data.cargoDamageRounded = (data.cargo && typeof data.cargo.damage === 'number')
+        ? Math.floor(data.cargo.damage * 100) : 0;
+    // SDK 1.15: mandatory break countdown (same format as next rest stop).
+    if (data.game.nextMandatoryBreakTime) {
+        data.game.nextMandatoryBreakTimeArray = getDaysHoursMinutesAndSeconds(data.game.nextMandatoryBreakTime);
+        data.game.nextMandatoryBreakTime = processTimeDifferenceArray(data.game.nextMandatoryBreakTimeArray);
+    } else {
+        data.game.nextMandatoryBreakTime = '';
+    }
+
     if (data.isEts2) {
         data.jobIncome = getEts2JobIncome(data.job.income);
+        if (data.isCarJob) {
+            data.carJobIncome = getEts2JobIncome(data.carJob.income);
+        }
+        if (data.isBusJob) {
+            data.busJobIncome = getEts2JobIncome(data.busJob.income);
+        }
     }
 
     // ATS-specific logic
     if (data.isAts) {
         data.jobIncome = getAtsJobIncome(data.job.income);
+        if (data.isCarJob) {
+            data.carJobIncome = getAtsJobIncome(data.carJob.income);
+        }
+        if (data.isBusJob) {
+            data.busJobIncome = getAtsJobIncome(data.busJob.income);
+        }
     }
 	
 	$('#_map').find('._no-map').hide();
@@ -160,14 +196,37 @@ Funbit.Ets.Telemetry.Dashboard.prototype.render = function (data) {
 		$('._speed').css('font-style', 'normal');
 	}
 
-    // Process DOM for job
-    if (data.trailer.attached) {
+    // Process DOM for job.
+    // SDK 1.15: a car/bus job counts as an active job even without a trailer.
+    // Job modes are mutually exclusive (car takes precedence if several flags
+    // are set, e.g. in synthetic test data) so only one block/icon set shows.
+    var hasCarJob = !!(data.carJob && data.carJob.active);
+    var hasBusJob = !!(data.busJob && data.busJob.active);
+    var isCarJob = hasCarJob;
+    var isBusJob = !hasCarJob && hasBusJob;
+    var isTruckJob = !isCarJob && !isBusJob;
+    if (data.trailer.attached || hasCarJob || hasBusJob) {
         $('.hasJob').show();
         $('.noJob').hide();
     } else {
         $('.hasJob').hide();
         $('.noJob').show();
     }
+    // Show truck, car or bus job details (toggleClass keeps flex layout intact).
+    $('.truckJobBlock').toggleClass('hidden', !isTruckJob);
+    $('.carJobBlock').toggleClass('hidden', !isCarJob);
+    $('.busJobBlock').toggleClass('hidden', !isBusJob);
+    // Swap truck/trailer icons for car/bus icons (damage tab and sidebar).
+    $('.truckIcons').toggleClass('hidden', !isTruckJob);
+    $('.carIcons').toggleClass('hidden', !isCarJob);
+    $('.busIcons').toggleClass('hidden', !isBusJob);
+    $('.vehicleLabelTruck').toggleClass('hidden', !isTruckJob);
+    $('.vehicleLabelCar').toggleClass('hidden', !isCarJob);
+    $('.vehicleLabelBus').toggleClass('hidden', !isBusJob);
+    // Cargo damage line lives in the trailer caption for truck jobs
+    // and in the vehicle caption for car jobs (bus has no such channel).
+    $('.carCargoLine').toggleClass('hidden', !isCarJob);
+    $('#trailerFigure').toggleClass('hidden', !isTruckJob);
 
     // Process map location only if the map has been rendered
     if (g_map) {
@@ -207,8 +266,13 @@ Funbit.Ets.Telemetry.Dashboard.prototype.render = function (data) {
     // Update red bar if speeding
     updateSpeedIndicator(data.navigation.speedLimit, data.truck.speed);
 	
-	// Update UI if in special transport mission
-	updateDisplayForSpecialTransport(data.trailer.id);
+	// Update UI if in special transport mission (trailer jobs only).
+	if (data.trailer.attached) {
+		updateDisplayForSpecialTransport(data.trailer.id);
+	} else {
+		$('.dashboard').find('aside').removeClass('special-transport').end()
+			.find('nav').removeClass('special-transport');
+	}
 
     return data;
 }
@@ -223,13 +287,9 @@ Funbit.Ets.Telemetry.Dashboard.prototype.initialize = function (skinConfig) {
     g_skinConfig = skinConfig;
     g_pathPrefix = 'skins/' + g_skinConfig.name;
 
-    // Process language JSON
-    $.getJSON(g_pathPrefix + '/language/' + g_skinConfig.language, function(json) {
-        g_translations = json;
-        $.each(json, function(key, value) {
-            updateLanguage(key, value);
-        });
-    });
+    // Process language JSON: prefer the browser UI language when a matching
+    // translation exists, fall back to the language from config.json.
+    loadSkinLanguageWithDetection(g_skinConfig.language);
 
 	// Check for updates
 	if (g_skinConfig.checkForUpdates) {
@@ -362,6 +422,83 @@ function getTime(gameTime, timeUnits) {
 
 function updateLanguage(key, value) {
     $('[data-mra-text="' + key + '"]').text(value);
+}
+
+// Translation files shipped with the skin (without the .json extension).
+// Keep in sync with the language/ directory when adding new translations.
+var g_availableSkinLanguages = ['be-BY', 'cs-CZ', 'da-DK', 'de-DE', 'el-GR',
+    'en-US', 'es-ES', 'fr-CA', 'fr-FR', 'it-IT', 'nl-NL', 'pl-PL', 'pt-BR',
+    'pt-PT', 'ru-RU', 'sr-RS', 'tr-TR', 'zh-CN'];
+
+// Picks the translation file for the browser UI language (e.g. navigator
+// "ru-RU" -> "ru-RU.json", "ru" -> "ru-RU.json"). Returns null when neither
+// an exact nor a language-prefix match exists in g_availableSkinLanguages.
+function detectSkinLanguageFile() {
+    var browserLanguage = (navigator.language || navigator.userLanguage || '')
+        .replace(/_/g, '-').toLowerCase();
+    if (!browserLanguage) {
+        return null;
+    }
+    var i;
+    for (i = 0; i < g_availableSkinLanguages.length; i++) {
+        if (g_availableSkinLanguages[i].toLowerCase() === browserLanguage) {
+            return g_availableSkinLanguages[i] + '.json';
+        }
+    }
+    var languagePrefix = browserLanguage.split('-')[0];
+    for (i = 0; i < g_availableSkinLanguages.length; i++) {
+        if (g_availableSkinLanguages[i].toLowerCase().split('-')[0] === languagePrefix) {
+            return g_availableSkinLanguages[i] + '.json';
+        }
+    }
+    return null;
+}
+
+// Normalizes a browser language tag to the "xx-YY" file name form
+// ("pt-br" -> "pt-BR.json", "de" -> "de.json").
+function normalizeSkinLanguageFileName(browserLanguage) {
+    var parts = browserLanguage.replace(/_/g, '-').split('-');
+    var name = parts[0].toLowerCase();
+    for (var i = 1; i < parts.length; i++) {
+        name += '-' + parts[i].toUpperCase();
+    }
+    return name + '.json';
+}
+
+// Loads the given translation file and applies it to the DOM.
+function loadSkinLanguage(languageFile) {
+    $.getJSON(g_pathPrefix + '/language/' + languageFile, function(json) {
+        g_translations = json;
+        $.each(json, function(key, value) {
+            updateLanguage(key, value);
+        });
+    });
+}
+
+// Loads the translation for the browser UI language when available.
+// Falls back to probing an exactly matching file name (covers newly added
+// translations) and finally to the language configured in config.json.
+function loadSkinLanguageWithDetection(configuredLanguage) {
+    var detected = detectSkinLanguageFile();
+    if (detected) {
+        loadSkinLanguage(detected);
+        return;
+    }
+    var browserLanguage = (navigator.language || navigator.userLanguage || '')
+        .replace(/_/g, '-');
+    if (!browserLanguage) {
+        loadSkinLanguage(configuredLanguage);
+        return;
+    }
+    var probedFile = normalizeSkinLanguageFileName(browserLanguage);
+    $.getJSON(g_pathPrefix + '/language/' + probedFile, function(json) {
+        g_translations = json;
+        $.each(json, function(key, value) {
+            updateLanguage(key, value);
+        });
+    }).fail(function() {
+        loadSkinLanguage(configuredLanguage);
+    });
 }
 
 function getEts2JobIncome(income) {
@@ -648,7 +785,7 @@ var g_translations;
 var g_skinConfig;
 
 // The current version of ets2-mobile-route-advisor
-var g_currentVersion = '4.1.7';
+var g_currentVersion = '4.1.8';
 
 // The currently running game
 var g_runningGame;

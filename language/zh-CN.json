@@ -24,5 +24,18 @@
     "SaturdayAbbreviated": "周六",
     "WorldOfTrucksContract": "World of Trucks任务",
     "LoadingMapPleaseWait": "地图加载中，请稍后.....",
-    "NoMapAvailable": "No map available"
+    "NoMapAvailable": "No map available",
+    "Car": "Car",
+    "Bus": "Bus",
+    "Units": "pcs",
+    "Distance": "Distance",
+    "MandatoryBreak": "Mandatory break",
+    "BodyWear": "Body",
+    "Hazard": "Hazard",
+    "DifferentialLock": "Diff. lock",
+    "LiftAxle": "Lift axle",
+    "AdBlueAvg": "AdBlue avg",
+    "Cargo": "Cargo",
+    "Wheels": "Wheels",
+    "Chassis": "Chassis"
 }

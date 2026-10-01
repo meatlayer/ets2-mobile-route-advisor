@@ -243,6 +243,78 @@ a {
 #_damage > figure > figcaption {
     margin-top: 1em;
 }
+/* SDK 1.15: status badges row (hazard / diff lock / lift axle).
+   Core adds the "yes" class to boolean-bound elements set to true. */
+#_damage._active_tab {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+#_damage .statusBadges {
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+}
+.statusBadge {
+    display: none;
+    border: solid 0.1em #FB9912;
+    border-radius: 0.4em;
+    color: #FB9912;
+    padding: 0.2em 0.6em;
+    margin: 0 0.3em;
+    font-size: 0.9em;
+}
+.statusBadge.yes {
+    display: inline-block;
+}
+/* Sidebar damage % label to the right of the icon (like the gear cell),
+   so the top bar height does not grow; updated by core binding. */
+.dashboard > aside > div._damage {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.sidebarDamagePct {
+    font-size: 0.55em;
+    color: #FB9912;
+    margin-left: 0.4em;
+}
+.sidebarDamagePct::after {
+    content: '%';
+}
+/* License plate overlaid on the trailer icon; hidden when empty. */
+.trailerPlate {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translateX(-50%);
+    background: #f2f2f2;
+    color: #111;
+    font-size: 0.45em;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    padding: 0.15em 0.5em;
+    border-radius: 0.2em;
+    border: 0.1em solid #999;
+    white-space: nowrap;
+    z-index: 2;
+}
+.trailerPlate:empty {
+    display: none;
+}
+/* Generic helper for JS-driven show/hide that keeps flex layout intact. */
+.hidden {
+    display: none !important;
+}
 
 /* About tab. */
 #_about._active_tab {
@@ -328,12 +400,14 @@ a {
     display: inline-block;
     position: relative;
 }
-.fillingIcon > .top {
+/* Descendant (not child) selector: vehicle icons are grouped in
+   .truckIcons/.carIcons/.busIcons containers (SDK 1.15 car/bus jobs). */
+.fillingIcon .top {
     position: absolute;
     overflow: hidden;
 }
-.fillingIcon > .top > *,
-.fillingIcon > .bot > * {
+.fillingIcon .top > *,
+.fillingIcon .bot > * {
     display: block;
 }
 

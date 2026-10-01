@@ -9,9 +9,9 @@ var MAX_Y = 65535; //padding 0
 function game_coord_to_pixels(xx, yy) {
 	// Values from TileMapInfo.json
 	const x1 = -120098.891;
-	const x2 = 33419.875;
-	const y1 = -75265.26;
-	const y2 = 78253.51;
+	const x2 = 41144.0938;
+	const y1 = -79127.37;
+	const y2 = 82115.62;
 
 	const xtot = x2 - x1; // Total X length
 	const ytot = y2 - y1; // Total Y length
