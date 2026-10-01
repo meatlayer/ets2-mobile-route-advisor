@@ -49,7 +49,7 @@ var g_cities_json = [
       "uk_uk": "Нюрнберг",
       "vi_vn": "Nuremberg",
       "zh_cn": "纽伦堡",
-      "zh_tw": "紐倫堡"
+      "zh_tw": "紐倫堡市"
     }
   },
   {
@@ -102,7 +102,7 @@ var g_cities_json = [
       "uk_uk": "Мюнхен",
       "vi_vn": "Munich",
       "zh_cn": "慕尼黑",
-      "zh_tw": "慕尼黑"
+      "zh_tw": "慕尼黑市"
     }
   },
   {
@@ -155,7 +155,7 @@ var g_cities_json = [
       "uk_uk": "Інсбрук",
       "vi_vn": "Innsbruck",
       "zh_cn": "因斯布鲁克",
-      "zh_tw": "茵斯布魯克"
+      "zh_tw": "茵斯布魯克市"
     }
   },
   {
@@ -208,7 +208,7 @@ var g_cities_json = [
       "uk_uk": "Верона",
       "vi_vn": "Verona",
       "zh_cn": "维罗纳",
-      "zh_tw": "維羅納"
+      "zh_tw": "維羅納市"
     }
   },
   {
@@ -240,7 +240,7 @@ var g_cities_json = [
       "it_it": "Erfurt",
       "ja_jp": "エアフルト",
       "ka_ge": "ერფურტი",
-      "ko_kr": "에어푸르트",
+      "ko_kr": "에르푸르트",
       "lt_lt": "Erfurtas",
       "lv_lv": "Erfurte",
       "mk_mk": "Ерфурт",
@@ -261,7 +261,7 @@ var g_cities_json = [
       "uk_uk": "Ерфурт",
       "vi_vn": "Erfurt",
       "zh_cn": "爱尔福特",
-      "zh_tw": "艾爾福特"
+      "zh_tw": "艾爾福特市"
     }
   },
   {
@@ -314,7 +314,7 @@ var g_cities_json = [
       "uk_uk": "Вінзен",
       "vi_vn": "Winsen",
       "zh_cn": "温森",
-      "zh_tw": "溫森"
+      "zh_tw": "溫森市"
     }
   },
   {
@@ -367,7 +367,7 @@ var g_cities_json = [
       "uk_uk": "Травемюнде",
       "vi_vn": "Travemünde",
       "zh_cn": "特拉沃明德",
-      "zh_tw": "特拉沃明德"
+      "zh_tw": "特拉沃明德地區"
     }
   },
   {
@@ -420,7 +420,7 @@ var g_cities_json = [
       "uk_uk": "Кіль",
       "vi_vn": "Kiel",
       "zh_cn": "基尔",
-      "zh_tw": "基爾"
+      "zh_tw": "基爾市"
     }
   },
   {
@@ -473,7 +473,7 @@ var g_cities_json = [
       "uk_uk": "Венеція",
       "vi_vn": "Venice",
       "zh_cn": "威尼斯",
-      "zh_tw": "威尼斯"
+      "zh_tw": "威尼斯市"
     }
   },
   {
@@ -526,7 +526,7 @@ var g_cities_json = [
       "uk_uk": "Лейпциг",
       "vi_vn": "Leipzig",
       "zh_cn": "莱比锡",
-      "zh_tw": "萊比錫"
+      "zh_tw": "萊比錫市"
     }
   },
   {
@@ -579,7 +579,7 @@ var g_cities_json = [
       "uk_uk": "Магдебург",
       "vi_vn": "Magdeburg",
       "zh_cn": "马格德堡",
-      "zh_tw": "馬德堡"
+      "zh_tw": "馬德堡市"
     }
   },
   {
@@ -632,7 +632,7 @@ var g_cities_json = [
       "uk_uk": "Росток",
       "vi_vn": "Rostock",
       "zh_cn": "罗斯托克",
-      "zh_tw": "羅斯托克"
+      "zh_tw": "羅斯托克市"
     }
   },
   {
@@ -685,7 +685,7 @@ var g_cities_json = [
       "uk_uk": "Гедсер",
       "vi_vn": "Gedser",
       "zh_cn": "盖瑟",
-      "zh_tw": "蓋瑟"
+      "zh_tw": "蓋瑟鎮"
     }
   },
   {
@@ -738,7 +738,7 @@ var g_cities_json = [
       "uk_uk": "Осло",
       "vi_vn": "Oslo",
       "zh_cn": "奥斯陆",
-      "zh_tw": "奧斯陸"
+      "zh_tw": "奧斯陸市"
     }
   },
   {
@@ -791,7 +791,7 @@ var g_cities_json = [
       "uk_uk": "Зальцбург",
       "vi_vn": "Salzburg",
       "zh_cn": "萨尔茨堡",
-      "zh_tw": "薩爾斯堡"
+      "zh_tw": "薩爾斯堡市"
     }
   },
   {
@@ -844,7 +844,7 @@ var g_cities_json = [
       "uk_uk": "Трієст",
       "vi_vn": "Trieste",
       "zh_cn": "的里雅斯特",
-      "zh_tw": "的里雅斯特"
+      "zh_tw": "的里雅斯特市"
     }
   },
   {
@@ -897,7 +897,7 @@ var g_cities_json = [
       "uk_uk": "Копер",
       "vi_vn": "Koper",
       "zh_cn": "科佩尔",
-      "zh_tw": "科佩爾"
+      "zh_tw": "科佩爾市"
     }
   },
   {
@@ -950,7 +950,7 @@ var g_cities_json = [
       "uk_uk": "Дрезден",
       "vi_vn": "Dresden",
       "zh_cn": "德累斯顿",
-      "zh_tw": "德勒斯登"
+      "zh_tw": "德勒斯登市"
     }
   },
   {
@@ -1003,7 +1003,7 @@ var g_cities_json = [
       "uk_uk": "Берлін",
       "vi_vn": "Berlin",
       "zh_cn": "柏林",
-      "zh_tw": "柏林"
+      "zh_tw": "柏林市"
     }
   },
   {
@@ -1056,7 +1056,7 @@ var g_cities_json = [
       "uk_uk": "Прага",
       "vi_vn": "Prague",
       "zh_cn": "布拉格",
-      "zh_tw": "布拉格"
+      "zh_tw": "布拉格市"
     }
   },
   {
@@ -1109,7 +1109,7 @@ var g_cities_json = [
       "uk_uk": "Лінц",
       "vi_vn": "Linz",
       "zh_cn": "林茨",
-      "zh_tw": "林茲"
+      "zh_tw": "林茲市"
     }
   },
   {
@@ -1151,7 +1151,7 @@ var g_cities_json = [
       "pl_si": "Klagenfurt am Wörthersee",
       "pt_br": "Klagenfurt am Wörthersee",
       "pt_pt": "Klagenfurt am Wörthersee",
-      "ro_ro": "Klagenfurt ",
+      "ro_ro": "Klagenfurt am Wörthersee",
       "ru_ru": "Клагенфурт-ам-Вёртерзе",
       "sk_sk": "Klagenfurt am Wörthersee",
       "sl_sl": "Celovec ob Vrbskem jezeru",
@@ -1161,8 +1161,8 @@ var g_cities_json = [
       "tr_tr": "Klagenfurt",
       "uk_uk": "Клагенфурт-ам-Вертерзеє",
       "vi_vn": "Klagenfurt am Wörthersee",
-      "zh_cn": "克拉根福",
-      "zh_tw": "克拉根福"
+      "zh_cn": "沃尔特湖畔克拉根福",
+      "zh_tw": "沃爾特湖畔克拉根福市"
     }
   },
   {
@@ -1215,7 +1215,7 @@ var g_cities_json = [
       "uk_uk": "Любляна",
       "vi_vn": "Ljubljana",
       "zh_cn": "卢布尔雅那",
-      "zh_tw": "盧比安納"
+      "zh_tw": "盧比安納市"
     }
   },
   {
@@ -1268,7 +1268,7 @@ var g_cities_json = [
       "uk_uk": "Рієка",
       "vi_vn": "Rijeka",
       "zh_cn": "里耶卡",
-      "zh_tw": "里耶卡"
+      "zh_tw": "里耶卡市"
     }
   },
   {
@@ -1321,7 +1321,7 @@ var g_cities_json = [
       "uk_uk": "Щецин",
       "vi_vn": "Szczecin",
       "zh_cn": "什切青",
-      "zh_tw": "斯塞新"
+      "zh_tw": "斯塞新市"
     }
   },
   {
@@ -1374,7 +1374,7 @@ var g_cities_json = [
       "uk_uk": "Грац",
       "vi_vn": "Graz",
       "zh_cn": "格拉茨",
-      "zh_tw": "格拉茲"
+      "zh_tw": "格拉茲市"
     }
   },
   {
@@ -1427,7 +1427,7 @@ var g_cities_json = [
       "uk_uk": "Марибор",
       "vi_vn": "Marburg",
       "zh_cn": "马里博尔",
-      "zh_tw": "馬里波爾"
+      "zh_tw": "馬里波爾市"
     }
   },
   {
@@ -1480,7 +1480,7 @@ var g_cities_json = [
       "uk_uk": "Брно",
       "vi_vn": "Brno",
       "zh_cn": "布尔诺",
-      "zh_tw": "布爾諾"
+      "zh_tw": "布爾諾市"
     }
   },
   {
@@ -1533,7 +1533,7 @@ var g_cities_json = [
       "uk_uk": "Відень",
       "vi_vn": "Vienna",
       "zh_cn": "维也纳",
-      "zh_tw": "維也納"
+      "zh_tw": "維也納市"
     }
   },
   {
@@ -1586,7 +1586,7 @@ var g_cities_json = [
       "uk_uk": "Вроцлав",
       "vi_vn": "Wrocław",
       "zh_cn": "弗罗茨瓦夫",
-      "zh_tw": "弗次瓦夫"
+      "zh_tw": "弗次瓦夫市"
     }
   },
   {
@@ -1605,8 +1605,8 @@ var g_cities_json = [
       "el_gr": "Πόζναν",
       "en_gb": "Poznań",
       "en_us": "Poznań",
-      "es_es": "Poznan",
-      "es_la": "Poznan",
+      "es_es": "Poznań",
+      "es_la": "Poznań",
       "et_ee": "Poznań",
       "eu_es": "Poznań",
       "fi_fi": "Poznań",
@@ -1639,7 +1639,7 @@ var g_cities_json = [
       "uk_uk": "Познань",
       "vi_vn": "Poznań",
       "zh_cn": "波兹南",
-      "zh_tw": "波茲南"
+      "zh_tw": "波茲南市"
     }
   },
   {
@@ -1654,7 +1654,7 @@ var g_cities_json = [
       "ca_es": "Bratislava",
       "cs_cz": "Bratislava",
       "da_dk": "Bratislava",
-      "de_de": "Pressburg",
+      "de_de": "Bratislava",
       "el_gr": "Μπρατισλάβα",
       "en_gb": "Bratislava",
       "en_us": "Bratislava",
@@ -1692,7 +1692,7 @@ var g_cities_json = [
       "uk_uk": "Братислава",
       "vi_vn": "Bratislava",
       "zh_cn": "布拉迪斯拉发",
-      "zh_tw": "布拉提斯拉瓦"
+      "zh_tw": "布拉提斯拉瓦市"
     }
   },
   {
@@ -1745,7 +1745,7 @@ var g_cities_json = [
       "uk_uk": "Осієк",
       "vi_vn": "Osijek",
       "zh_cn": "奥西耶克",
-      "zh_tw": "奧西耶克"
+      "zh_tw": "奧西耶克市"
     }
   },
   {
@@ -1798,7 +1798,7 @@ var g_cities_json = [
       "uk_uk": "Сегед",
       "vi_vn": "Szeged",
       "zh_cn": "塞格德",
-      "zh_tw": "塞格德"
+      "zh_tw": "塞格德市"
     }
   },
   {
@@ -1851,7 +1851,7 @@ var g_cities_json = [
       "uk_uk": "Решица",
       "vi_vn": "Reșița",
       "zh_cn": "雷希察",
-      "zh_tw": "雷希察"
+      "zh_tw": "雷希察市"
     }
   },
   {
@@ -1904,7 +1904,7 @@ var g_cities_json = [
       "uk_uk": "Ниш",
       "vi_vn": "Niš",
       "zh_cn": "尼什",
-      "zh_tw": "尼什"
+      "zh_tw": "尼什市"
     }
   },
   {
@@ -1957,7 +1957,7 @@ var g_cities_json = [
       "uk_uk": "Бітола",
       "vi_vn": "Bitola",
       "zh_cn": "比托拉",
-      "zh_tw": "比托拉"
+      "zh_tw": "比托拉市"
     }
   },
   {
@@ -2010,7 +2010,7 @@ var g_cities_json = [
       "uk_uk": "Коувола",
       "vi_vn": "Kouvola",
       "zh_cn": "科沃拉",
-      "zh_tw": "科沃拉"
+      "zh_tw": "科沃拉市鎮"
     }
   },
   {
@@ -2063,7 +2063,7 @@ var g_cities_json = [
       "uk_uk": "Виборг",
       "vi_vn": "Vyborg",
       "zh_cn": "维堡",
-      "zh_tw": "維堡"
+      "zh_tw": "維堡市"
     }
   },
   {
@@ -2094,7 +2094,7 @@ var g_cities_json = [
       "hu_hu": "Lappeenranta",
       "it_it": "Lappeenranta",
       "ja_jp": "ラッペーンランタ",
-      "ka_ge": "Lappeenranta",
+      "ka_ge": "ლაპეენრანტა",
       "ko_kr": "라페란타",
       "lt_lt": "Lapenranta",
       "lv_lv": "Lappeenranta",
@@ -2116,7 +2116,7 @@ var g_cities_json = [
       "uk_uk": "Лаппеенранта",
       "vi_vn": "Lappeenranta",
       "zh_cn": "拉彭兰塔",
-      "zh_tw": "拉彭蘭塔"
+      "zh_tw": "拉彭蘭塔市"
     }
   },
   {
@@ -2169,7 +2169,7 @@ var g_cities_json = [
       "uk_uk": "Псков",
       "vi_vn": "Pskov",
       "zh_cn": "普斯科夫",
-      "zh_tw": "普斯科夫"
+      "zh_tw": "普斯科夫市"
     }
   },
   {
@@ -2222,7 +2222,7 @@ var g_cities_json = [
       "uk_uk": "Луга",
       "vi_vn": "Luga",
       "zh_cn": "卢加",
-      "zh_tw": "盧加"
+      "zh_tw": "盧加市"
     }
   },
   {
@@ -2275,7 +2275,7 @@ var g_cities_json = [
       "uk_uk": "Кассель",
       "vi_vn": "Kassel",
       "zh_cn": "卡塞尔",
-      "zh_tw": "卡瑟爾"
+      "zh_tw": "卡瑟爾市"
     }
   },
   {
@@ -2316,7 +2316,7 @@ var g_cities_json = [
       "pl_pl": "Hanower",
       "pl_si": "Hanower",
       "pt_br": "Hanôver",
-      "pt_pt": "Hanover",
+      "pt_pt": "Hannover",
       "ro_ro": "Hanovra",
       "ru_ru": "Ганновер",
       "sk_sk": "Hanover",
@@ -2328,7 +2328,7 @@ var g_cities_json = [
       "uk_uk": "Ганновер",
       "vi_vn": "Hanover",
       "zh_cn": "汉诺威",
-      "zh_tw": "漢諾威"
+      "zh_tw": "漢諾威市"
     }
   },
   {
@@ -2381,7 +2381,7 @@ var g_cities_json = [
       "uk_uk": "Гамбург",
       "vi_vn": "Hamburg",
       "zh_cn": "汉堡",
-      "zh_tw": "漢堡"
+      "zh_tw": "漢堡市"
     }
   },
   {
@@ -2433,8 +2433,8 @@ var g_cities_json = [
       "tr_tr": "Frankfurt",
       "uk_uk": "Франкфурт-на-Майні",
       "vi_vn": "Frankfurt am Main",
-      "zh_cn": "法兰克福",
-      "zh_tw": "美茵河畔法蘭克福"
+      "zh_cn": "美因河畔法兰克福",
+      "zh_tw": "美茵河畔法蘭克福市"
     }
   },
   {
@@ -2487,7 +2487,7 @@ var g_cities_json = [
       "uk_uk": "Мангайм",
       "vi_vn": "Mannheim",
       "zh_cn": "曼海姆",
-      "zh_tw": "曼海姆"
+      "zh_tw": "曼海姆市"
     }
   },
   {
@@ -2540,7 +2540,7 @@ var g_cities_json = [
       "uk_uk": "Штутгарт",
       "vi_vn": "Stuttgart",
       "zh_cn": "斯图加特",
-      "zh_tw": "司徒加特"
+      "zh_tw": "司徒加特市"
     }
   },
   {
@@ -2593,7 +2593,7 @@ var g_cities_json = [
       "uk_uk": "Мілан",
       "vi_vn": "Milan",
       "zh_cn": "米兰",
-      "zh_tw": "米蘭"
+      "zh_tw": "米蘭市"
     }
   },
   {
@@ -2646,7 +2646,7 @@ var g_cities_json = [
       "uk_uk": "Ольбія",
       "vi_vn": "Olbia",
       "zh_cn": "奥尔比亚",
-      "zh_tw": "奧比亞"
+      "zh_tw": "奧比亞市鎮"
     }
   },
   {
@@ -2699,7 +2699,7 @@ var g_cities_json = [
       "uk_uk": "Оснабрюк",
       "vi_vn": "Osnabrück",
       "zh_cn": "奥斯纳布吕克",
-      "zh_tw": "奧斯納布魯克"
+      "zh_tw": "奧斯納布魯克市"
     }
   },
   {
@@ -2752,7 +2752,7 @@ var g_cities_json = [
       "uk_uk": "Бремен",
       "vi_vn": "Bremen",
       "zh_cn": "不莱梅",
-      "zh_tw": "布萊梅"
+      "zh_tw": "布萊梅市"
     }
   },
   {
@@ -2805,7 +2805,7 @@ var g_cities_json = [
       "uk_uk": "Страсбург",
       "vi_vn": "Strasbourg",
       "zh_cn": "斯特拉斯堡",
-      "zh_tw": "史特拉斯堡"
+      "zh_tw": "斯特拉斯堡市"
     }
   },
   {
@@ -2858,7 +2858,7 @@ var g_cities_json = [
       "uk_uk": "Цюрих",
       "vi_vn": "Zürich",
       "zh_cn": "苏黎世",
-      "zh_tw": "蘇黎世"
+      "zh_tw": "蘇黎世市"
     }
   },
   {
@@ -2911,7 +2911,7 @@ var g_cities_json = [
       "uk_uk": "Генуя",
       "vi_vn": "Genoa",
       "zh_cn": "热那亚",
-      "zh_tw": "熱那亞"
+      "zh_tw": "熱那亞市"
     }
   },
   {
@@ -2964,7 +2964,7 @@ var g_cities_json = [
       "uk_uk": "Сассарі",
       "vi_vn": "Sassari",
       "zh_cn": "萨萨里",
-      "zh_tw": "薩薩里"
+      "zh_tw": "薩薩里市"
     }
   },
   {
@@ -3004,8 +3004,8 @@ var g_cities_json = [
       "no_no": "Bonifacio",
       "pl_pl": "Bonifacio",
       "pl_si": "Bonifacio",
-      "pt_br": "Bonifacio",
-      "pt_pt": "Bonifácio",
+      "pt_br": "Bonifácio",
+      "pt_pt": "Bonifacio",
       "ro_ro": "Bonifacio",
       "ru_ru": "Бонифачо",
       "sk_sk": "Bonifacio",
@@ -3017,15 +3017,15 @@ var g_cities_json = [
       "uk_uk": "Боніфачо",
       "vi_vn": "Bonifacio",
       "zh_cn": "博尼法乔",
-      "zh_tw": "博尼法喬"
+      "zh_tw": "博尼法喬市"
     }
   },
   {
     "Name": "Dortmund",
     "Group": null,
     "Country": "germany",
-    "X": -12080.1172,
-    "Y": -7732.8584,
+    "X": -12417.9463,
+    "Y": -7868.421,
     "CountryId": 5,
     "LocalizedNames": {
       "bg_bg": "Дортмунд",
@@ -3070,7 +3070,7 @@ var g_cities_json = [
       "uk_uk": "Дортмунд",
       "vi_vn": "Dortmund",
       "zh_cn": "多特蒙德",
-      "zh_tw": "多特蒙德"
+      "zh_tw": "多特蒙德市"
     }
   },
   {
@@ -3102,7 +3102,7 @@ var g_cities_json = [
       "it_it": "Werlte",
       "ja_jp": "ヴェルテ",
       "ka_ge": "ვერლტე",
-      "ko_kr": "웰터",
+      "ko_kr": "베를테",
       "lt_lt": "Verltas",
       "lv_lv": "Werlte",
       "mk_mk": "Верлте",
@@ -3123,7 +3123,7 @@ var g_cities_json = [
       "uk_uk": "Верльте",
       "vi_vn": "Werlte",
       "zh_cn": "韦尔特",
-      "zh_tw": "韋爾特"
+      "zh_tw": "韋爾特市"
     }
   },
   {
@@ -3176,7 +3176,7 @@ var g_cities_json = [
       "uk_uk": "Берн",
       "vi_vn": "Bern",
       "zh_cn": "伯尔尼",
-      "zh_tw": "伯恩"
+      "zh_tw": "伯恩市"
     }
   },
   {
@@ -3229,7 +3229,7 @@ var g_cities_json = [
       "uk_uk": "Турин",
       "vi_vn": "Turin",
       "zh_cn": "都灵",
-      "zh_tw": "杜林"
+      "zh_tw": "杜林市"
     }
   },
   {
@@ -3282,7 +3282,7 @@ var g_cities_json = [
       "uk_uk": "Кельн",
       "vi_vn": "Cologne",
       "zh_cn": "科隆",
-      "zh_tw": "科隆"
+      "zh_tw": "科隆市"
     }
   },
   {
@@ -3335,7 +3335,7 @@ var g_cities_json = [
       "uk_uk": "Дюссельдорф",
       "vi_vn": "Düsseldorf",
       "zh_cn": "杜塞尔多夫",
-      "zh_tw": "杜塞爾多夫"
+      "zh_tw": "杜塞爾多夫市"
     }
   },
   {
@@ -3367,7 +3367,7 @@ var g_cities_json = [
       "it_it": "Duisburg",
       "ja_jp": "デュースブルク",
       "ka_ge": "დუისბურგი",
-      "ko_kr": "뒤스부르크",
+      "ko_kr": "두이스부르크",
       "lt_lt": "Duisburgas",
       "lv_lv": "Dīsburga",
       "mk_mk": "Дисбург",
@@ -3388,15 +3388,15 @@ var g_cities_json = [
       "uk_uk": "Дуйсбург",
       "vi_vn": "Duisburg",
       "zh_cn": "杜伊斯堡",
-      "zh_tw": "杜易斯堡"
+      "zh_tw": "杜易斯堡市"
     }
   },
   {
     "Name": "Groningen",
     "Group": null,
     "Country": "netherlands",
-    "X": -12787.7578,
-    "Y": -15988.7813,
+    "X": -13462.5234,
+    "Y": -16463.7441,
     "CountryId": 7,
     "LocalizedNames": {
       "bg_bg": "Гронинген",
@@ -3417,7 +3417,7 @@ var g_cities_json = [
       "gl_es": "Groninga",
       "hr_hr": "Groningen",
       "hu_hu": "Groningen",
-      "it_it": "Groningen",
+      "it_it": "Groninga",
       "ja_jp": "フローニンゲン",
       "ka_ge": "გრონინგენი",
       "ko_kr": "흐로닝언",
@@ -3441,15 +3441,15 @@ var g_cities_json = [
       "uk_uk": "Гронінген",
       "vi_vn": "Groningen",
       "zh_cn": "格罗宁根",
-      "zh_tw": "格羅寧根"
+      "zh_tw": "格羅寧根市"
     }
   },
   {
     "Name": "Luxembourg",
     "Group": null,
     "Country": "luxembourg",
-    "X": -16384.34,
-    "Y": 3937.84766,
+    "X": -17148.8535,
+    "Y": 2687.389,
     "CountryId": 12,
     "LocalizedNames": {
       "bg_bg": "Люксембург",
@@ -3478,7 +3478,7 @@ var g_cities_json = [
       "lv_lv": "Luxemburga",
       "mk_mk": "Луксембург",
       "nl_nl": "Luxemburg",
-      "no_no": "Luxembourg",
+      "no_no": "Luxemburg",
       "pl_pl": "Luksemburg",
       "pl_si": "Luksemburg",
       "pt_br": "Luxemburgo",
@@ -3494,7 +3494,7 @@ var g_cities_json = [
       "uk_uk": "Люксембург",
       "vi_vn": "Luxembourg",
       "zh_cn": "卢森堡",
-      "zh_tw": "盧森堡"
+      "zh_tw": "盧森堡市"
     }
   },
   {
@@ -3547,7 +3547,7 @@ var g_cities_json = [
       "uk_uk": "Мец",
       "vi_vn": "Metz",
       "zh_cn": "梅斯",
-      "zh_tw": "梅斯"
+      "zh_tw": "梅斯市"
     }
   },
   {
@@ -3600,15 +3600,15 @@ var g_cities_json = [
       "uk_uk": "Женева",
       "vi_vn": "Geneva",
       "zh_cn": "日内瓦",
-      "zh_tw": "日內瓦"
+      "zh_tw": "日內瓦市"
     }
   },
   {
     "Name": "Liège",
     "Group": null,
     "Country": "belgium",
-    "X": -17581.6484,
-    "Y": -1501.37891,
+    "X": -17623.22,
+    "Y": -1475.50671,
     "CountryId": 2,
     "LocalizedNames": {
       "bg_bg": "Лиеж",
@@ -3653,15 +3653,121 @@ var g_cities_json = [
       "uk_uk": "Льєж",
       "vi_vn": "Liège",
       "zh_cn": "列日",
-      "zh_tw": "列日"
+      "zh_tw": "列日市"
+    }
+  },
+  {
+    "Name": "Eindhoven",
+    "Group": null,
+    "Country": "netherlands",
+    "X": -18235.4043,
+    "Y": -7617.59326,
+    "CountryId": 7,
+    "LocalizedNames": {
+      "bg_bg": "Айндховен",
+      "ca_es": "Eindhoven",
+      "cs_cz": "Eindhoven",
+      "da_dk": "Eindhoven",
+      "de_de": "Eindhoven",
+      "el_gr": "Αϊντχόφεν",
+      "en_gb": "Eindhoven",
+      "en_us": "Eindhoven",
+      "es_es": "Eindhoven",
+      "es_la": "Eindhoven",
+      "et_ee": "Eindhoven",
+      "eu_es": "Eindhoven",
+      "fi_fi": "Eindhoven",
+      "fr_ca": "Eindhoven",
+      "fr_fr": "Eindhoven",
+      "gl_es": "Eindhoven",
+      "hr_hr": "Eindhoven",
+      "hu_hu": "Eindhoven",
+      "it_it": "Eindhoven",
+      "ja_jp": "アイントホーフェン",
+      "ka_ge": "ეინდჰოვენი",
+      "ko_kr": "아인트호벤",
+      "lt_lt": "Eindhovenas",
+      "lv_lv": "Eindhoven",
+      "mk_mk": "Eindhoven",
+      "nl_nl": "Eindhoven",
+      "no_no": "Eindhoven",
+      "pl_pl": "Eindhoven",
+      "pl_si": "Eindhoven",
+      "pt_br": "Eindhoven",
+      "pt_pt": "Eindhoven",
+      "ro_ro": "Eindhoven",
+      "ru_ru": "Эйндховен",
+      "sk_sk": "Eindhoven",
+      "sl_sl": "Eindhoven",
+      "sr_sp": "Aindhoven",
+      "sr_sr": "Аиндховен",
+      "sv_se": "Eindhoven",
+      "tr_tr": "Eindhoven",
+      "uk_uk": "Ейндховен",
+      "vi_vn": "Eindhoven",
+      "zh_cn": "埃因霍温",
+      "zh_tw": "埃因霍芬"
+    }
+  },
+  {
+    "Name": "Rotterdam",
+    "Group": null,
+    "Country": "netherlands",
+    "X": -19737.6465,
+    "Y": -10086.5176,
+    "CountryId": 7,
+    "LocalizedNames": {
+      "bg_bg": "Ротердам",
+      "ca_es": "Rotterdam",
+      "cs_cz": "Rotterdam",
+      "da_dk": "Rotterdam",
+      "de_de": "Rotterdam",
+      "el_gr": "Ρότερνταμ",
+      "en_gb": "Rotterdam",
+      "en_us": "Rotterdam",
+      "es_es": "Róterdam",
+      "es_la": "Róterdam",
+      "et_ee": "Rotterdam",
+      "eu_es": "Rotterdam",
+      "fi_fi": "Rotterdam",
+      "fr_ca": "Rotterdam",
+      "fr_fr": "Rotterdam",
+      "gl_es": "Rotterdam",
+      "hr_hr": "Rotterdam",
+      "hu_hu": "Rotterdam",
+      "it_it": "Rotterdam",
+      "ja_jp": "ロッテルダム",
+      "ka_ge": "როტერდამი",
+      "ko_kr": "로테르담",
+      "lt_lt": "Roterdamas",
+      "lv_lv": "Roterdama",
+      "mk_mk": "Ротердам",
+      "nl_nl": "Rotterdam",
+      "no_no": "Rotterdam",
+      "pl_pl": "Rotterdam",
+      "pl_si": "Rotterdam",
+      "pt_br": "Roterdã",
+      "pt_pt": "Roterdão",
+      "ro_ro": "Rotterdam",
+      "ru_ru": "Роттердам",
+      "sk_sk": "Rotterdam",
+      "sl_sl": "Rotterdam",
+      "sr_sp": "Roterdam",
+      "sr_sr": "Ротердам",
+      "sv_se": "Rotterdam",
+      "tr_tr": "Rotterdam",
+      "uk_uk": "Роттердам",
+      "vi_vn": "Rotterdam",
+      "zh_cn": "鹿特丹",
+      "zh_tw": "鹿特丹市"
     }
   },
   {
     "Name": "Amsterdam",
     "Group": null,
     "Country": "netherlands",
-    "X": -19062.1328,
-    "Y": -12231.3359,
+    "X": -19173.9551,
+    "Y": -11370.5283,
     "CountryId": 7,
     "LocalizedNames": {
       "bg_bg": "Амстердам",
@@ -3706,7 +3812,7 @@ var g_cities_json = [
       "uk_uk": "Амстердам",
       "vi_vn": "Amsterdam",
       "zh_cn": "阿姆斯特丹",
-      "zh_tw": "阿姆斯特丹"
+      "zh_tw": "阿姆斯特丹市"
     }
   },
   {
@@ -3759,7 +3865,7 @@ var g_cities_json = [
       "uk_uk": "Діжон",
       "vi_vn": "Dijon",
       "zh_cn": "第戎",
-      "zh_tw": "第戎"
+      "zh_tw": "第戎市"
     }
   },
   {
@@ -3812,15 +3918,15 @@ var g_cities_json = [
       "uk_uk": "Ліон",
       "vi_vn": "Lyon",
       "zh_cn": "里昂",
-      "zh_tw": "里昂"
+      "zh_tw": "里昂市"
     }
   },
   {
     "Name": "Brussel",
     "Group": null,
     "Country": "belgium",
-    "X": -22026.1719,
-    "Y": -3705.15625,
+    "X": -23504.3965,
+    "Y": -3583.59961,
     "CountryId": 2,
     "LocalizedNames": {
       "bg_bg": "Брюксел",
@@ -3865,60 +3971,60 @@ var g_cities_json = [
       "uk_uk": "Брюссель",
       "vi_vn": "Brussels",
       "zh_cn": "布鲁塞尔",
-      "zh_tw": "布魯塞爾"
+      "zh_tw": "布魯塞爾市"
     }
   },
   {
-    "Name": "Rotterdam",
+    "Name": "Antwerpen",
     "Group": null,
-    "Country": "netherlands",
-    "X": -20456.0781,
-    "Y": -9455.93,
-    "CountryId": 7,
+    "Country": "belgium",
+    "X": -22264.9785,
+    "Y": -6196.998,
+    "CountryId": 2,
     "LocalizedNames": {
-      "bg_bg": "Ротердам",
-      "ca_es": "Rotterdam",
-      "cs_cz": "Rotterdam",
-      "da_dk": "Rotterdam",
-      "de_de": "Rotterdam",
-      "el_gr": "Ρότερνταμ",
-      "en_gb": "Rotterdam",
-      "en_us": "Rotterdam",
-      "es_es": "Róterdam",
-      "es_la": "Róterdam",
-      "et_ee": "Rotterdam",
-      "eu_es": "Rotterdam",
-      "fi_fi": "Rotterdam",
-      "fr_ca": "Rotterdam",
-      "fr_fr": "Rotterdam",
-      "gl_es": "Rotterdam",
-      "hr_hr": "Rotterdam",
-      "hu_hu": "Rotterdam",
-      "it_it": "Rotterdam",
-      "ja_jp": "ロッテルダム",
-      "ka_ge": "როტერდამი",
-      "ko_kr": "로테르담",
-      "lt_lt": "Roterdamas",
-      "lv_lv": "Roterdama",
-      "mk_mk": "Ротердам",
-      "nl_nl": "Rotterdam",
-      "no_no": "Rotterdam",
-      "pl_pl": "Rotterdam",
-      "pl_si": "Rotterdam",
-      "pt_br": "Roterdã",
-      "pt_pt": "Roterdão",
-      "ro_ro": "Rotterdam",
-      "ru_ru": "Роттердам",
-      "sk_sk": "Rotterdam",
-      "sl_sl": "Rotterdam",
-      "sr_sp": "Roterdam",
-      "sr_sr": "Ротердам",
-      "sv_se": "Rotterdam",
-      "tr_tr": "Rotterdam",
-      "uk_uk": "Роттердам",
-      "vi_vn": "Rotterdam",
-      "zh_cn": "鹿特丹",
-      "zh_tw": "鹿特丹"
+      "bg_bg": "Антверпен",
+      "ca_es": "Anvers",
+      "cs_cz": "Antverpy",
+      "da_dk": "Antwerpen",
+      "de_de": "Antwerpen",
+      "el_gr": "Αμβέρσα",
+      "en_gb": "Antwerp",
+      "en_us": "Antwerp",
+      "es_es": "Antwerp",
+      "es_la": "Antwerp",
+      "et_ee": "Antwerp",
+      "eu_es": "Antwerp",
+      "fi_fi": "Antwerpen",
+      "fr_ca": "Anvers",
+      "fr_fr": "Anvers",
+      "gl_es": "Anveres",
+      "hr_hr": "Antwerpen",
+      "hu_hu": "Antwerpen",
+      "it_it": "Anversa",
+      "ja_jp": "アントワープ",
+      "ka_ge": "ანტვერპენი",
+      "ko_kr": "안트베르펜",
+      "lt_lt": "Antverpenas",
+      "lv_lv": "Antwerp",
+      "mk_mk": "Antwerp",
+      "nl_nl": "Antwerpen",
+      "no_no": "Antwerpen",
+      "pl_pl": "Antwerpia",
+      "pl_si": "Antwerpia",
+      "pt_br": "Antuérpia",
+      "pt_pt": "Antuérpia",
+      "ro_ro": "Anvers",
+      "ru_ru": "Антверпен",
+      "sk_sk": "Antverpy",
+      "sl_sl": "Antwerpen",
+      "sr_sp": "Antverpen",
+      "sr_sr": "Антверпен",
+      "sv_se": "Antwerpen",
+      "tr_tr": "Anvers",
+      "uk_uk": "Антверпен",
+      "vi_vn": "Antwerp",
+      "zh_cn": "安特卫普",
+      "zh_tw": "安特衛普"
     }
   },
   {
@@ -3971,7 +4077,7 @@ var g_cities_json = [
       "uk_uk": "Реймс",
       "vi_vn": "Reims",
       "zh_cn": "兰斯",
-      "zh_tw": "漢斯"
+      "zh_tw": "漢斯市鎮"
     }
   },
   {
@@ -4024,7 +4130,7 @@ var g_cities_json = [
       "uk_uk": "Лілль",
       "vi_vn": "Lille",
       "zh_cn": "里尔",
-      "zh_tw": "里耳"
+      "zh_tw": "里耳市"
     }
   },
   {
@@ -4077,7 +4183,7 @@ var g_cities_json = [
       "uk_uk": "Париж",
       "vi_vn": "Paris",
       "zh_cn": "巴黎",
-      "zh_tw": "巴黎"
+      "zh_tw": "巴黎市"
     }
   },
   {
@@ -4130,7 +4236,7 @@ var g_cities_json = [
       "uk_uk": "Кале",
       "vi_vn": "Calais",
       "zh_cn": "加来",
-      "zh_tw": "加萊"
+      "zh_tw": "加萊市"
     }
   },
   {
@@ -4183,7 +4289,7 @@ var g_cities_json = [
       "uk_uk": "Філікстоу",
       "vi_vn": "Felixstowe",
       "zh_cn": "费利克斯托",
-      "zh_tw": "菲力斯杜"
+      "zh_tw": "菲力斯杜鎮"
     }
   },
   {
@@ -4236,7 +4342,7 @@ var g_cities_json = [
       "uk_uk": "Дувр",
       "vi_vn": "Dover",
       "zh_cn": "多佛",
-      "zh_tw": "多弗"
+      "zh_tw": "多弗港"
     }
   },
   {
@@ -4289,7 +4395,7 @@ var g_cities_json = [
       "uk_uk": "Лондон",
       "vi_vn": "London",
       "zh_cn": "伦敦",
-      "zh_tw": "倫敦"
+      "zh_tw": "倫敦市"
     }
   },
   {
@@ -4342,7 +4448,7 @@ var g_cities_json = [
       "uk_uk": "Кембридж",
       "vi_vn": "Cambridge",
       "zh_cn": "剑桥",
-      "zh_tw": "劍橋"
+      "zh_tw": "劍橋市"
     }
   },
   {
@@ -4395,7 +4501,7 @@ var g_cities_json = [
       "uk_uk": "Грімcбі",
       "vi_vn": "Grimsby",
       "zh_cn": "格里姆斯比",
-      "zh_tw": "格林斯比"
+      "zh_tw": "格林斯比港"
     }
   },
   {
@@ -4447,8 +4553,8 @@ var g_cities_json = [
       "tr_tr": "Newcastle",
       "uk_uk": "Ньюкасл-апон-Тайн",
       "vi_vn": "Newcastle upon Tyne",
-      "zh_cn": "纽卡斯尔",
-      "zh_tw": "泰恩河畔新堡"
+      "zh_cn": "泰恩河畔纽卡斯尔",
+      "zh_tw": "泰恩河畔新堡市"
     }
   },
   {
@@ -4501,7 +4607,7 @@ var g_cities_json = [
       "uk_uk": "Абердин",
       "vi_vn": "Aberdeen",
       "zh_cn": "阿伯丁",
-      "zh_tw": "亞伯丁"
+      "zh_tw": "亞伯丁市"
     }
   },
   {
@@ -4554,7 +4660,7 @@ var g_cities_json = [
       "uk_uk": "Шеффілд",
       "vi_vn": "Sheffield",
       "zh_cn": "谢菲尔德",
-      "zh_tw": "雪非耳"
+      "zh_tw": "雪非耳市"
     }
   },
   {
@@ -4607,7 +4713,7 @@ var g_cities_json = [
       "uk_uk": "Саутгемптон",
       "vi_vn": "Southampton",
       "zh_cn": "南安普敦",
-      "zh_tw": "南安普敦"
+      "zh_tw": "南安普敦市"
     }
   },
   {
@@ -4660,7 +4766,7 @@ var g_cities_json = [
       "uk_uk": "Бірмінгем",
       "vi_vn": "Birmingham",
       "zh_cn": "伯明翰",
-      "zh_tw": "伯明罕"
+      "zh_tw": "伯明罕市"
     }
   },
   {
@@ -4713,7 +4819,7 @@ var g_cities_json = [
       "uk_uk": "Манчестер",
       "vi_vn": "Manchester",
       "zh_cn": "曼彻斯特",
-      "zh_tw": "曼徹斯特"
+      "zh_tw": "曼徹斯特市"
     }
   },
   {
@@ -4766,7 +4872,7 @@ var g_cities_json = [
       "uk_uk": "Карлайл",
       "vi_vn": "Carlisle",
       "zh_cn": "卡莱尔",
-      "zh_tw": "卡萊爾"
+      "zh_tw": "卡萊爾市"
     }
   },
   {
@@ -4819,7 +4925,7 @@ var g_cities_json = [
       "uk_uk": "Единбург",
       "vi_vn": "Edinburgh",
       "zh_cn": "爱丁堡",
-      "zh_tw": "愛丁堡"
+      "zh_tw": "愛丁堡市"
     }
   },
   {
@@ -4872,7 +4978,7 @@ var g_cities_json = [
       "uk_uk": "Ліверпуль",
       "vi_vn": "Liverpool",
       "zh_cn": "利物浦",
-      "zh_tw": "利物浦"
+      "zh_tw": "利物浦市"
     }
   },
   {
@@ -4925,7 +5031,7 @@ var g_cities_json = [
       "uk_uk": "Глазго",
       "vi_vn": "Glasgow",
       "zh_cn": "格拉斯哥",
-      "zh_tw": "格拉斯哥"
+      "zh_tw": "格拉斯哥市"
     }
   },
   {
@@ -4978,7 +5084,7 @@ var g_cities_json = [
       "uk_uk": "Кардіфф",
       "vi_vn": "Cardiff",
       "zh_cn": "卡迪夫",
-      "zh_tw": "卡地夫"
+      "zh_tw": "卡地夫市"
     }
   },
   {
@@ -5031,7 +5137,7 @@ var g_cities_json = [
       "uk_uk": "Суонсі",
       "vi_vn": "Swansea",
       "zh_cn": "斯旺西",
-      "zh_tw": "斯萬西"
+      "zh_tw": "斯萬西市"
     }
   },
   {
@@ -5084,7 +5190,7 @@ var g_cities_json = [
       "uk_uk": "Плімут",
       "vi_vn": "Plymouth",
       "zh_cn": "普利茅斯",
-      "zh_tw": "普利茅斯"
+      "zh_tw": "普利茅斯市"
     }
   },
   {
@@ -5137,7 +5243,7 @@ var g_cities_json = [
       "uk_uk": "Тімішоара",
       "vi_vn": "Timișoara",
       "zh_cn": "蒂米什瓦拉",
-      "zh_tw": "蒂米什瓦拉"
+      "zh_tw": "蒂米什瓦拉市"
     }
   },
   {
@@ -5190,7 +5296,7 @@ var g_cities_json = [
       "uk_uk": "Клуж-Напока",
       "vi_vn": "Cluj-Napoca",
       "zh_cn": "克卢日-纳波卡",
-      "zh_tw": "克盧日-納波卡"
+      "zh_tw": "克盧日-納波卡市"
     }
   },
   {
@@ -5243,7 +5349,7 @@ var g_cities_json = [
       "uk_uk": "Хунедоара",
       "vi_vn": "Hunedoara",
       "zh_cn": "胡内多阿拉",
-      "zh_tw": "胡內多阿拉"
+      "zh_tw": "胡內多阿拉市"
     }
   },
   {
@@ -5296,7 +5402,7 @@ var g_cities_json = [
       "uk_uk": "Крайова",
       "vi_vn": "Craiova",
       "zh_cn": "克拉约瓦",
-      "zh_tw": "克拉約瓦"
+      "zh_tw": "克拉約瓦市"
     }
   },
   {
@@ -5349,7 +5455,7 @@ var g_cities_json = [
       "uk_uk": "Софія",
       "vi_vn": "Sofia",
       "zh_cn": "索菲亚",
-      "zh_tw": "索非亞"
+      "zh_tw": "索非亞市"
     }
   },
   {
@@ -5402,7 +5508,7 @@ var g_cities_json = [
       "uk_uk": "Перник",
       "vi_vn": "Pernik",
       "zh_cn": "佩尔尼克",
-      "zh_tw": "佩爾尼克"
+      "zh_tw": "佩爾尼克鎮"
     }
   },
   {
@@ -5455,7 +5561,7 @@ var g_cities_json = [
       "uk_uk": "Тиргу-Муреш",
       "vi_vn": "Târgu Mureș",
       "zh_cn": "特尔古穆列什",
-      "zh_tw": "特爾古穆列什"
+      "zh_tw": "特爾古穆列什市"
     }
   },
   {
@@ -5508,7 +5614,7 @@ var g_cities_json = [
       "uk_uk": "Козлодуй",
       "vi_vn": "Kozloduy",
       "zh_cn": "科兹洛杜伊",
-      "zh_tw": "科茲洛杜伊"
+      "zh_tw": "科茲洛杜伊鎮"
     }
   },
   {
@@ -5561,7 +5667,7 @@ var g_cities_json = [
       "uk_uk": "Пирдоп",
       "vi_vn": "Pirdop",
       "zh_cn": "皮尔多普",
-      "zh_tw": "皮爾多普"
+      "zh_tw": "皮爾多普市鎮"
     }
   },
   {
@@ -5614,7 +5720,7 @@ var g_cities_json = [
       "uk_uk": "Брашов",
       "vi_vn": "Brașov",
       "zh_cn": "布拉索夫",
-      "zh_tw": "布拉索夫"
+      "zh_tw": "布拉索夫市"
     }
   },
   {
@@ -5667,7 +5773,7 @@ var g_cities_json = [
       "uk_uk": "Пітешті",
       "vi_vn": "Pitești",
       "zh_cn": "皮特什蒂",
-      "zh_tw": "皮特什蒂"
+      "zh_tw": "皮特什蒂市"
     }
   },
   {
@@ -5720,7 +5826,7 @@ var g_cities_json = [
       "uk_uk": "Плевен",
       "vi_vn": "Pleven",
       "zh_cn": "普列文",
-      "zh_tw": "普列文"
+      "zh_tw": "普列文市"
     }
   },
   {
@@ -5773,7 +5879,7 @@ var g_cities_json = [
       "uk_uk": "Карлово",
       "vi_vn": "Karlovo",
       "zh_cn": "卡尔洛沃",
-      "zh_tw": "卡爾洛沃"
+      "zh_tw": "卡爾洛沃鎮"
     }
   },
   {
@@ -5826,7 +5932,7 @@ var g_cities_json = [
       "uk_uk": "Пловдив",
       "vi_vn": "Plovdiv",
       "zh_cn": "普罗夫迪夫",
-      "zh_tw": "普羅夫迪夫"
+      "zh_tw": "普羅夫迪夫市"
     }
   },
   {
@@ -5879,7 +5985,7 @@ var g_cities_json = [
       "uk_uk": "Бакеу",
       "vi_vn": "Bacău",
       "zh_cn": "巴克乌",
-      "zh_tw": "巴克烏"
+      "zh_tw": "巴克烏市"
     }
   },
   {
@@ -5932,7 +6038,7 @@ var g_cities_json = [
       "uk_uk": "Бухарест",
       "vi_vn": "Bucharest",
       "zh_cn": "布加勒斯特",
-      "zh_tw": "布加勒斯特"
+      "zh_tw": "布加勒斯特市"
     }
   },
   {
@@ -5985,7 +6091,7 @@ var g_cities_json = [
       "uk_uk": "Русе",
       "vi_vn": "Ruse",
       "zh_cn": "鲁塞",
-      "zh_tw": "魯塞"
+      "zh_tw": "魯塞市"
     }
   },
   {
@@ -6038,7 +6144,7 @@ var g_cities_json = [
       "uk_uk": "Велико-Тирново",
       "vi_vn": "Veliko Tarnovo",
       "zh_cn": "大特尔诺沃",
-      "zh_tw": "大特爾諾沃"
+      "zh_tw": "大特爾諾沃市"
     }
   },
   {
@@ -6091,7 +6197,7 @@ var g_cities_json = [
       "uk_uk": "Яси",
       "vi_vn": "Iași",
       "zh_cn": "雅西",
-      "zh_tw": "雅西"
+      "zh_tw": "雅西市"
     }
   },
   {
@@ -6144,7 +6250,7 @@ var g_cities_json = [
       "uk_uk": "Галац",
       "vi_vn": "Galați",
       "zh_cn": "加拉茨",
-      "zh_tw": "加拉茨"
+      "zh_tw": "加拉茨市"
     }
   },
   {
@@ -6197,7 +6303,7 @@ var g_cities_json = [
       "uk_uk": "Келераш",
       "vi_vn": "Călărași",
       "zh_cn": "克勒拉希",
-      "zh_tw": "克勒拉希"
+      "zh_tw": "克勒拉希市"
     }
   },
   {
@@ -6250,7 +6356,7 @@ var g_cities_json = [
       "uk_uk": "Едірне",
       "vi_vn": "Edirne",
       "zh_cn": "埃迪尔内",
-      "zh_tw": "愛第尼"
+      "zh_tw": "愛第尼市"
     }
   },
   {
@@ -6303,7 +6409,7 @@ var g_cities_json = [
       "uk_uk": "Чернаводе",
       "vi_vn": "Cernavodă",
       "zh_cn": "切尔纳沃德",
-      "zh_tw": "切爾納沃德"
+      "zh_tw": "切爾納沃德鎮"
     }
   },
   {
@@ -6356,7 +6462,7 @@ var g_cities_json = [
       "uk_uk": "Констанца",
       "vi_vn": "Constanța",
       "zh_cn": "康斯坦察",
-      "zh_tw": "康斯坦察"
+      "zh_tw": "康斯坦察市"
     }
   },
   {
@@ -6409,7 +6515,7 @@ var g_cities_json = [
       "uk_uk": "Мангалія",
       "vi_vn": "Mangalia",
       "zh_cn": "曼加利亚",
-      "zh_tw": "曼加利亞"
+      "zh_tw": "曼加利亞市"
     }
   },
   {
@@ -6462,7 +6568,7 @@ var g_cities_json = [
       "uk_uk": "Варна",
       "vi_vn": "Varna",
       "zh_cn": "瓦尔纳",
-      "zh_tw": "瓦爾納"
+      "zh_tw": "瓦爾納市"
     }
   },
   {
@@ -6515,7 +6621,7 @@ var g_cities_json = [
       "uk_uk": "Бурґас",
       "vi_vn": "Burgas",
       "zh_cn": "布尔加斯",
-      "zh_tw": "布爾加斯"
+      "zh_tw": "布爾加斯市"
     }
   },
   {
@@ -6568,7 +6674,7 @@ var g_cities_json = [
       "uk_uk": "Текірдаг",
       "vi_vn": "Tekirdağ",
       "zh_cn": "泰基尔达",
-      "zh_tw": "泰基爾達"
+      "zh_tw": "泰基爾達市"
     }
   },
   {
@@ -6621,7 +6727,7 @@ var g_cities_json = [
       "uk_uk": "Стамбул",
       "vi_vn": "İstanbul",
       "zh_cn": "伊斯坦布尔",
-      "zh_tw": "伊斯坦堡"
+      "zh_tw": "伊斯坦堡市"
     }
   },
   {
@@ -6674,7 +6780,7 @@ var g_cities_json = [
       "uk_uk": "Ново Место",
       "vi_vn": "Novo Mesto",
       "zh_cn": "新梅斯托",
-      "zh_tw": "新梅斯托"
+      "zh_tw": "新梅斯托市"
     }
   },
   {
@@ -6727,7 +6833,7 @@ var g_cities_json = [
       "uk_uk": "Задар",
       "vi_vn": "Zadar",
       "zh_cn": "扎达尔",
-      "zh_tw": "扎達爾"
+      "zh_tw": "扎達爾市"
     }
   },
   {
@@ -6768,7 +6874,7 @@ var g_cities_json = [
       "pl_pl": "Zagrzeb",
       "pl_si": "Zagrzeb",
       "pt_br": "Zagreb",
-      "pt_pt": "Zagrebe",
+      "pt_pt": "Zagreb",
       "ro_ro": "Zagreb",
       "ru_ru": "Загреб",
       "sk_sk": "Záhreb",
@@ -6780,7 +6886,7 @@ var g_cities_json = [
       "uk_uk": "Загреб",
       "vi_vn": "Zagreb",
       "zh_cn": "萨格勒布",
-      "zh_tw": "札格瑞布"
+      "zh_tw": "札格瑞布市"
     }
   },
   {
@@ -6833,7 +6939,7 @@ var g_cities_json = [
       "uk_uk": "Бихач",
       "vi_vn": "Bihać",
       "zh_cn": "比哈奇",
-      "zh_tw": "比哈奇"
+      "zh_tw": "比哈奇市"
     }
   },
   {
@@ -6886,7 +6992,7 @@ var g_cities_json = [
       "uk_uk": "Спліт",
       "vi_vn": "Split",
       "zh_cn": "斯普利特",
-      "zh_tw": "史普利特"
+      "zh_tw": "史普利特市"
     }
   },
   {
@@ -6939,7 +7045,7 @@ var g_cities_json = [
       "uk_uk": "Баня-Лука",
       "vi_vn": "Banja Luka",
       "zh_cn": "巴尼亚卢卡",
-      "zh_tw": "巴尼亞盧卡"
+      "zh_tw": "巴尼亞盧卡市"
     }
   },
   {
@@ -6992,7 +7098,7 @@ var g_cities_json = [
       "uk_uk": "Сараєво",
       "vi_vn": "Sarajevo",
       "zh_cn": "萨拉热窝",
-      "zh_tw": "塞拉耶佛"
+      "zh_tw": "塞拉耶佛市"
     }
   },
   {
@@ -7045,7 +7151,7 @@ var g_cities_json = [
       "uk_uk": "Зениця",
       "vi_vn": "Zenica",
       "zh_cn": "泽尼察",
-      "zh_tw": "澤尼察"
+      "zh_tw": "澤尼察市"
     }
   },
   {
@@ -7098,7 +7204,7 @@ var g_cities_json = [
       "uk_uk": "Мостар",
       "vi_vn": "Mostar",
       "zh_cn": "莫斯塔尔",
-      "zh_tw": "莫斯塔爾"
+      "zh_tw": "莫斯塔爾市"
     }
   },
   {
@@ -7151,7 +7257,7 @@ var g_cities_json = [
       "uk_uk": "Тузла",
       "vi_vn": "Tuzla",
       "zh_cn": "图兹拉",
-      "zh_tw": "土茲拉"
+      "zh_tw": "土茲拉市"
     }
   },
   {
@@ -7204,7 +7310,7 @@ var g_cities_json = [
       "uk_uk": "Каракай",
       "vi_vn": "Karakaj",
       "zh_cn": "卡拉卡伊",
-      "zh_tw": "卡拉卡伊"
+      "zh_tw": "卡拉卡伊鎮"
     }
   },
   {
@@ -7257,7 +7363,7 @@ var g_cities_json = [
       "uk_uk": "Никшич",
       "vi_vn": "Nikšić",
       "zh_cn": "尼克希奇",
-      "zh_tw": "尼克希奇"
+      "zh_tw": "尼克希奇市"
     }
   },
   {
@@ -7310,7 +7416,7 @@ var g_cities_json = [
       "uk_uk": "Подгориця",
       "vi_vn": "Podgorica",
       "zh_cn": "波德戈里察",
-      "zh_tw": "波德里查"
+      "zh_tw": "波德里查市"
     }
   },
   {
@@ -7363,7 +7469,7 @@ var g_cities_json = [
       "uk_uk": "Нови Сад",
       "vi_vn": "Novi Sad",
       "zh_cn": "诺维萨德",
-      "zh_tw": "諾維薩德"
+      "zh_tw": "諾維薩德市"
     }
   },
   {
@@ -7384,7 +7490,7 @@ var g_cities_json = [
       "en_us": "Belgrade",
       "es_es": "Belgrado",
       "es_la": "Belgrado",
-      "et_ee": "Belgrade",
+      "et_ee": "Belgrad",
       "eu_es": "Belgrado",
       "fi_fi": "Belgrad",
       "fr_ca": "Belgrade",
@@ -7416,7 +7522,7 @@ var g_cities_json = [
       "uk_uk": "Белград",
       "vi_vn": "Belgrade",
       "zh_cn": "贝尔格莱德",
-      "zh_tw": "貝爾格勒"
+      "zh_tw": "貝爾格勒市"
     }
   },
   {
@@ -7469,7 +7575,7 @@ var g_cities_json = [
       "uk_uk": "Бієло-Полє",
       "vi_vn": "Bijelo Polje",
       "zh_cn": "比耶洛波列",
-      "zh_tw": "比耶洛波列"
+      "zh_tw": "比耶洛波列市"
     }
   },
   {
@@ -7522,7 +7628,7 @@ var g_cities_json = [
       "uk_uk": "Тирана",
       "vi_vn": "Tirana",
       "zh_cn": "地拉那",
-      "zh_tw": "地拉那"
+      "zh_tw": "地拉那市"
     }
   },
   {
@@ -7575,7 +7681,7 @@ var g_cities_json = [
       "uk_uk": "Дуррес",
       "vi_vn": "Durrës",
       "zh_cn": "都拉斯",
-      "zh_tw": "杜勒斯"
+      "zh_tw": "杜勒斯市"
     }
   },
   {
@@ -7628,7 +7734,7 @@ var g_cities_json = [
       "uk_uk": "Фієрі",
       "vi_vn": "Fier",
       "zh_cn": "费里",
-      "zh_tw": "非夏爾州"
+      "zh_tw": "非夏爾市"
     }
   },
   {
@@ -7681,7 +7787,7 @@ var g_cities_json = [
       "uk_uk": "Вльора",
       "vi_vn": "Vlorë",
       "zh_cn": "发罗拉",
-      "zh_tw": "夫羅勒"
+      "zh_tw": "夫羅勒市"
     }
   },
   {
@@ -7734,7 +7840,7 @@ var g_cities_json = [
       "uk_uk": "Крагуєваць",
       "vi_vn": "Kragujevac",
       "zh_cn": "克拉古耶瓦茨",
-      "zh_tw": "克拉古耶瓦茨"
+      "zh_tw": "克拉古耶瓦茨市"
     }
   },
   {
@@ -7787,7 +7893,7 @@ var g_cities_json = [
       "uk_uk": "Приштина",
       "vi_vn": "Pristina",
       "zh_cn": "普里什蒂纳",
-      "zh_tw": "普里斯提納"
+      "zh_tw": "普里斯提納市"
     }
   },
   {
@@ -7840,7 +7946,7 @@ var g_cities_json = [
       "uk_uk": "Скоп'є",
       "vi_vn": "Skopje",
       "zh_cn": "斯科普里",
-      "zh_tw": "史高比耶"
+      "zh_tw": "史高比耶市"
     }
   },
   {
@@ -7881,7 +7987,7 @@ var g_cities_json = [
       "pl_pl": "Królewiec",
       "pl_si": "Królewiec",
       "pt_br": "Kaliningrado",
-      "pt_pt": "Kaliningrad",
+      "pt_pt": "Kaliningrado",
       "ro_ro": "Kaliningrad",
       "ru_ru": "Калининград",
       "sk_sk": "Kaliningrad",
@@ -7893,7 +7999,7 @@ var g_cities_json = [
       "uk_uk": "Калінінград",
       "vi_vn": "Kaliningrad",
       "zh_cn": "加里宁格勒",
-      "zh_tw": "加里寧格勒"
+      "zh_tw": "加里寧格勒市"
     }
   },
   {
@@ -7946,7 +8052,7 @@ var g_cities_json = [
       "uk_uk": "Лієпая",
       "vi_vn": "Liepāja",
       "zh_cn": "利耶帕亚",
-      "zh_tw": "利耶帕亞"
+      "zh_tw": "利耶帕亞市"
     }
   },
   {
@@ -7999,7 +8105,7 @@ var g_cities_json = [
       "uk_uk": "Наанталі",
       "vi_vn": "Naantali",
       "zh_cn": "楠塔利",
-      "zh_tw": "楠塔利"
+      "zh_tw": "楠塔利市鎮"
     }
   },
   {
@@ -8052,7 +8158,7 @@ var g_cities_json = [
       "uk_uk": "Олкілуото",
       "vi_vn": "Olkiluoto",
       "zh_cn": "奥尔基卢奥托岛核电站",
-      "zh_tw": "奧爾基洛托"
+      "zh_tw": "奧爾基洛托鎮"
     }
   },
   {
@@ -8105,7 +8211,7 @@ var g_cities_json = [
       "uk_uk": "Порі",
       "vi_vn": "Pori",
       "zh_cn": "波里",
-      "zh_tw": "波里"
+      "zh_tw": "波里市"
     }
   },
   {
@@ -8158,7 +8264,7 @@ var g_cities_json = [
       "uk_uk": "Клайпеда",
       "vi_vn": "Klaipėda",
       "zh_cn": "克莱佩达",
-      "zh_tw": "克萊佩達"
+      "zh_tw": "克萊佩達港"
     }
   },
   {
@@ -8211,7 +8317,7 @@ var g_cities_json = [
       "uk_uk": "Мажейкяй",
       "vi_vn": "Mažeikiai",
       "zh_cn": "马热伊基艾",
-      "zh_tw": "馬熱伊基艾"
+      "zh_tw": "馬熱伊基艾市"
     }
   },
   {
@@ -8264,7 +8370,7 @@ var g_cities_json = [
       "uk_uk": "Вентспілс",
       "vi_vn": "Ventspils",
       "zh_cn": "文茨皮尔斯",
-      "zh_tw": "文次匹爾斯"
+      "zh_tw": "文次匹爾斯市"
     }
   },
   {
@@ -8317,7 +8423,7 @@ var g_cities_json = [
       "uk_uk": "Турку",
       "vi_vn": "Turku",
       "zh_cn": "图尔库",
-      "zh_tw": "土庫"
+      "zh_tw": "土庫市"
     }
   },
   {
@@ -8370,7 +8476,7 @@ var g_cities_json = [
       "uk_uk": "Шяуляй",
       "vi_vn": "Šiauliai",
       "zh_cn": "希奥利艾",
-      "zh_tw": "希奧利艾"
+      "zh_tw": "希奧利艾市"
     }
   },
   {
@@ -8423,7 +8529,7 @@ var g_cities_json = [
       "uk_uk": "Палдіскі",
       "vi_vn": "Paldiski",
       "zh_cn": "帕尔迪斯基",
-      "zh_tw": "帕爾迪斯基"
+      "zh_tw": "帕爾迪斯基鎮"
     }
   },
   {
@@ -8476,7 +8582,7 @@ var g_cities_json = [
       "uk_uk": "Тампере",
       "vi_vn": "Tampere",
       "zh_cn": "坦佩雷",
-      "zh_tw": "坦佩雷"
+      "zh_tw": "坦佩雷市"
     }
   },
   {
@@ -8529,7 +8635,7 @@ var g_cities_json = [
       "uk_uk": "Каунас",
       "vi_vn": "Kaunas",
       "zh_cn": "考纳斯",
-      "zh_tw": "考納斯"
+      "zh_tw": "考納斯市"
     }
   },
   {
@@ -8582,7 +8688,7 @@ var g_cities_json = [
       "uk_uk": "Паневежис",
       "vi_vn": "Panevėžys",
       "zh_cn": "帕涅韦日斯",
-      "zh_tw": "帕涅維日斯"
+      "zh_tw": "帕涅維日斯市"
     }
   },
   {
@@ -8635,7 +8741,7 @@ var g_cities_json = [
       "uk_uk": "Рига",
       "vi_vn": "Riga",
       "zh_cn": "里加",
-      "zh_tw": "里加"
+      "zh_tw": "里加市"
     }
   },
   {
@@ -8688,7 +8794,7 @@ var g_cities_json = [
       "uk_uk": "Валмієра",
       "vi_vn": "Valmiera",
       "zh_cn": "瓦尔米耶拉",
-      "zh_tw": "瓦爾米耶拉"
+      "zh_tw": "瓦爾米耶拉市"
     }
   },
   {
@@ -8741,7 +8847,7 @@ var g_cities_json = [
       "uk_uk": "Пярну",
       "vi_vn": "Pärnu",
       "zh_cn": "派尔努",
-      "zh_tw": "派爾努"
+      "zh_tw": "派爾努市"
     }
   },
   {
@@ -8782,7 +8888,7 @@ var g_cities_json = [
       "pl_pl": "Tallinn",
       "pl_si": "Tallinn",
       "pt_br": "Talin",
-      "pt_pt": "Talim",
+      "pt_pt": "Tallinn",
       "ro_ro": "Tallinn",
       "ru_ru": "Таллин",
       "sk_sk": "Talin",
@@ -8794,7 +8900,7 @@ var g_cities_json = [
       "uk_uk": "Таллінн",
       "vi_vn": "Tallinn",
       "zh_cn": "塔林",
-      "zh_tw": "塔林"
+      "zh_tw": "塔林市"
     }
   },
   {
@@ -8847,7 +8953,7 @@ var g_cities_json = [
       "uk_uk": "Гельсінкі",
       "vi_vn": "Helsinki",
       "zh_cn": "赫尔辛基",
-      "zh_tw": "赫爾辛基"
+      "zh_tw": "赫爾辛基市"
     }
   },
   {
@@ -8900,7 +9006,7 @@ var g_cities_json = [
       "uk_uk": "Ловійса",
       "vi_vn": "Loviisa",
       "zh_cn": "洛维萨",
-      "zh_tw": "洛維薩"
+      "zh_tw": "洛維薩市"
     }
   },
   {
@@ -8953,7 +9059,7 @@ var g_cities_json = [
       "uk_uk": "Лахті",
       "vi_vn": "Lahti",
       "zh_cn": "拉赫蒂",
-      "zh_tw": "拉赫蒂"
+      "zh_tw": "拉赫蒂市"
     }
   },
   {
@@ -8961,7 +9067,7 @@ var g_cities_json = [
     "Group": null,
     "Country": "lithuania",
     "X": 49462.4375,
-    "Y": -25905.7852,
+    "Y": -26077.6465,
     "CountryId": 30,
     "LocalizedNames": {
       "bg_bg": "Вилнюс",
@@ -9006,7 +9112,7 @@ var g_cities_json = [
       "uk_uk": "Вільнюс",
       "vi_vn": "Vilnius",
       "zh_cn": "维尔纽斯",
-      "zh_tw": "維爾紐斯"
+      "zh_tw": "維爾紐斯市"
     }
   },
   {
@@ -9059,15 +9165,15 @@ var g_cities_json = [
       "uk_uk": "Утена",
       "vi_vn": "Utena",
       "zh_cn": "乌泰纳",
-      "zh_tw": "烏田納"
+      "zh_tw": "烏田納市"
     }
   },
   {
     "Name": "Tartu",
     "Group": null,
     "Country": "estonia",
-    "X": 50707.88,
-    "Y": -46878.1367,
+    "X": 50686.3,
+    "Y": -46878.0938,
     "CountryId": 22,
     "LocalizedNames": {
       "bg_bg": "Тарту",
@@ -9112,7 +9218,7 @@ var g_cities_json = [
       "uk_uk": "Тарту",
       "vi_vn": "Tartu",
       "zh_cn": "塔尔图",
-      "zh_tw": "塔爾圖"
+      "zh_tw": "塔爾圖市"
     }
   },
   {
@@ -9165,7 +9271,7 @@ var g_cities_json = [
       "uk_uk": "Кунда",
       "vi_vn": "Kunda",
       "zh_cn": "昆达",
-      "zh_tw": "昆達"
+      "zh_tw": "昆達鎮"
     }
   },
   {
@@ -9218,7 +9324,7 @@ var g_cities_json = [
       "uk_uk": "Котка",
       "vi_vn": "Kotka",
       "zh_cn": "科特卡",
-      "zh_tw": "科特卡"
+      "zh_tw": "科特卡市鎮"
     }
   },
   {
@@ -9271,7 +9377,7 @@ var g_cities_json = [
       "uk_uk": "Даугавпілс",
       "vi_vn": "Daugavpils",
       "zh_cn": "陶格夫匹尔斯",
-      "zh_tw": "陶格夫匹爾斯"
+      "zh_tw": "陶格夫匹爾斯市"
     }
   },
   {
@@ -9324,7 +9430,7 @@ var g_cities_json = [
       "uk_uk": "Резекне",
       "vi_vn": "Rēzekne",
       "zh_cn": "雷泽克内",
-      "zh_tw": "雷澤克內"
+      "zh_tw": "雷澤克內市"
     }
   },
   {
@@ -9377,7 +9483,7 @@ var g_cities_json = [
       "uk_uk": "Нарва",
       "vi_vn": "Narva",
       "zh_cn": "纳尔瓦",
-      "zh_tw": "納瓦"
+      "zh_tw": "納瓦市"
     }
   },
   {
@@ -9430,7 +9536,7 @@ var g_cities_json = [
       "uk_uk": "Сосновий Бор",
       "vi_vn": "Sosnovy Bor",
       "zh_cn": "索斯诺维博尔",
-      "zh_tw": "索斯諾維博爾"
+      "zh_tw": "索斯諾維博爾市"
     }
   },
   {
@@ -9483,7 +9589,7 @@ var g_cities_json = [
       "uk_uk": "Санкт-Петербург",
       "vi_vn": "Saint Petersburg",
       "zh_cn": "圣彼得堡",
-      "zh_tw": "聖彼得堡"
+      "zh_tw": "聖彼得堡市"
     }
   },
   {
@@ -9536,15 +9642,15 @@ var g_cities_json = [
       "uk_uk": "Катовіце",
       "vi_vn": "Katowice",
       "zh_cn": "卡托维兹",
-      "zh_tw": "卡托維治"
+      "zh_tw": "卡托維治市"
     }
   },
   {
     "Name": "Ostrava",
     "Group": null,
     "Country": "czech",
-    "X": 27831.8125,
-    "Y": 4715.97656,
+    "X": 27831.1758,
+    "Y": 4724.74854,
     "CountryId": 3,
     "LocalizedNames": {
       "bg_bg": "Острава",
@@ -9589,7 +9695,7 @@ var g_cities_json = [
       "uk_uk": "Острава",
       "vi_vn": "Ostrava",
       "zh_cn": "俄斯特拉发",
-      "zh_tw": "奧斯特拉瓦"
+      "zh_tw": "奧斯特拉瓦市"
     }
   },
   {
@@ -9642,7 +9748,7 @@ var g_cities_json = [
       "uk_uk": "Печ",
       "vi_vn": "Pécs",
       "zh_cn": "佩奇",
-      "zh_tw": "貝赤"
+      "zh_tw": "貝赤市"
     }
   },
   {
@@ -9695,7 +9801,7 @@ var g_cities_json = [
       "uk_uk": "Гданськ",
       "vi_vn": "Gdańsk",
       "zh_cn": "格但斯克",
-      "zh_tw": "格但斯克"
+      "zh_tw": "格但斯克市"
     }
   },
   {
@@ -9748,7 +9854,7 @@ var g_cities_json = [
       "uk_uk": "Краків",
       "vi_vn": "Kraków",
       "zh_cn": "克拉科夫",
-      "zh_tw": "克拉科夫"
+      "zh_tw": "克拉科夫市"
     }
   },
   {
@@ -9763,7 +9869,7 @@ var g_cities_json = [
       "ca_es": "Banská Bystrica",
       "cs_cz": "Banská Bystrica",
       "da_dk": "Banská Bystrica",
-      "de_de": "Neusohl",
+      "de_de": "Banská Bystrica",
       "el_gr": "Μπάνσκα Μπίστριτσα",
       "en_gb": "Banská Bystrica",
       "en_us": "Banská Bystrica",
@@ -9801,7 +9907,7 @@ var g_cities_json = [
       "uk_uk": "Банська Бистриця",
       "vi_vn": "Banská Bystrica",
       "zh_cn": "班斯卡-比斯特里察",
-      "zh_tw": "班斯卡-比斯特里察"
+      "zh_tw": "班斯卡-比斯特里察市"
     }
   },
   {
@@ -9854,7 +9960,7 @@ var g_cities_json = [
       "uk_uk": "Будапешт",
       "vi_vn": "Budapest",
       "zh_cn": "布达佩斯",
-      "zh_tw": "布達佩斯"
+      "zh_tw": "布達佩斯市"
     }
   },
   {
@@ -9907,7 +10013,7 @@ var g_cities_json = [
       "uk_uk": "Лодзь",
       "vi_vn": "Łódź",
       "zh_cn": "罗兹",
-      "zh_tw": "羅茲"
+      "zh_tw": "羅茲市"
     }
   },
   {
@@ -9960,7 +10066,7 @@ var g_cities_json = [
       "uk_uk": "Ольштин",
       "vi_vn": "Olsztyn",
       "zh_cn": "奥尔什丁",
-      "zh_tw": "奧士廷"
+      "zh_tw": "奧士廷市"
     }
   },
   {
@@ -10013,7 +10119,7 @@ var g_cities_json = [
       "uk_uk": "Кошице",
       "vi_vn": "Košice",
       "zh_cn": "科希策",
-      "zh_tw": "科希策"
+      "zh_tw": "科希策市"
     }
   },
   {
@@ -10066,7 +10172,7 @@ var g_cities_json = [
       "uk_uk": "Варшава",
       "vi_vn": "Warszawa",
       "zh_cn": "华沙",
-      "zh_tw": "華沙"
+      "zh_tw": "華沙市"
     }
   },
   {
@@ -10119,7 +10225,7 @@ var g_cities_json = [
       "uk_uk": "Дебрецен",
       "vi_vn": "Debrecen",
       "zh_cn": "德布勒森",
-      "zh_tw": "德布勒森"
+      "zh_tw": "德布勒森市"
     }
   },
   {
@@ -10172,7 +10278,7 @@ var g_cities_json = [
       "uk_uk": "Люблін",
       "vi_vn": "Lublin",
       "zh_cn": "卢布林",
-      "zh_tw": "盧布林"
+      "zh_tw": "盧布林市"
     }
   },
   {
@@ -10191,8 +10297,8 @@ var g_cities_json = [
       "el_gr": "Μπιάλιστοκ",
       "en_gb": "Bialystok",
       "en_us": "Białystok",
-      "es_es": "Bialystok",
-      "es_la": "Bialystok",
+      "es_es": "Białystok",
+      "es_la": "Białystok",
       "et_ee": "Białystok",
       "eu_es": "Bialystok",
       "fi_fi": "Białystok",
@@ -10213,7 +10319,7 @@ var g_cities_json = [
       "pl_pl": "Białystok",
       "pl_si": "Białystok",
       "pt_br": "Białystok",
-      "pt_pt": "Bialystok",
+      "pt_pt": "Białystok",
       "ro_ro": "Białystok",
       "ru_ru": "Белосток",
       "sk_sk": "Bielostok",
@@ -10225,7 +10331,7 @@ var g_cities_json = [
       "uk_uk": "Білосток",
       "vi_vn": "Bialystok",
       "zh_cn": "比亚韦斯托克",
-      "zh_tw": "比亞維斯托克"
+      "zh_tw": "比亞維斯托克市"
     }
   },
   {
@@ -10278,7 +10384,7 @@ var g_cities_json = [
       "uk_uk": "Бастія",
       "vi_vn": "Bastia",
       "zh_cn": "巴斯蒂亚",
-      "zh_tw": "巴斯蒂亞"
+      "zh_tw": "巴斯蒂亞市"
     }
   },
   {
@@ -10384,7 +10490,7 @@ var g_cities_json = [
       "uk_uk": "Кальві",
       "vi_vn": "Calvi",
       "zh_cn": "卡尔维",
-      "zh_tw": "卡爾維"
+      "zh_tw": "卡爾維市"
     }
   },
   {
@@ -10408,8 +10514,8 @@ var g_cities_json = [
       "et_ee": "L'Île-Rousse",
       "eu_es": "L'Île-Rousse",
       "fi_fi": "L'Île-Rousse",
-      "fr_ca": "L'Île-Rousse",
-      "fr_fr": "L'Île-Rousse",
+      "fr_ca": "L’Île-Rousse",
+      "fr_fr": "L’Île-Rousse",
       "gl_es": "L'Île-Rousse",
       "hr_hr": "L'Île-Rousse",
       "hu_hu": "L'Île-Rousse",
@@ -10437,7 +10543,7 @@ var g_cities_json = [
       "uk_uk": "Л'Іль-Русс",
       "vi_vn": "L'Île-Rousse",
       "zh_cn": "利勒鲁斯",
-      "zh_tw": "利勒魯斯"
+      "zh_tw": "利勒魯斯市鎮"
     }
   },
   {
@@ -10478,7 +10584,7 @@ var g_cities_json = [
       "pl_pl": "Ajaccio",
       "pl_si": "Ajaccio",
       "pt_br": "Ajaccio",
-      "pt_pt": "Ajácio",
+      "pt_pt": "Ajaccio",
       "ro_ro": "Ajaccio",
       "ru_ru": "Аяччо",
       "sk_sk": "Ajaccio",
@@ -10490,7 +10596,7 @@ var g_cities_json = [
       "uk_uk": "Аяччо",
       "vi_vn": "Ajaccio",
       "zh_cn": "阿雅克肖",
-      "zh_tw": "阿雅克肖"
+      "zh_tw": "阿雅克肖市"
     }
   },
   {
@@ -10543,7 +10649,7 @@ var g_cities_json = [
       "uk_uk": "Ніцца",
       "vi_vn": "Nice",
       "zh_cn": "尼斯",
-      "zh_tw": "尼斯"
+      "zh_tw": "尼斯市"
     }
   },
   {
@@ -10596,7 +10702,7 @@ var g_cities_json = [
       "uk_uk": "Марсель",
       "vi_vn": "Marseille",
       "zh_cn": "马赛",
-      "zh_tw": "馬賽"
+      "zh_tw": "馬賽市"
     }
   },
   {
@@ -10648,8 +10754,8 @@ var g_cities_json = [
       "tr_tr": "Saint-Alban-du-Rhône",
       "uk_uk": "Сент-Альбан-дю-Рон",
       "vi_vn": "Saint-Alban-du-Rhône",
-      "zh_cn": "圣阿尔邦核电站",
-      "zh_tw": "羅訥河畔聖阿爾邦"
+      "zh_cn": "圣阿尔邦",
+      "zh_tw": "羅訥河畔聖阿爾邦市鎮"
     }
   },
   {
@@ -10702,7 +10808,7 @@ var g_cities_json = [
       "uk_uk": "Бурж",
       "vi_vn": "Bourges",
       "zh_cn": "布尔日",
-      "zh_tw": "布爾吉"
+      "zh_tw": "布爾吉市"
     }
   },
   {
@@ -10755,7 +10861,7 @@ var g_cities_json = [
       "uk_uk": "Клермон-Ферран",
       "vi_vn": "Clermont-Ferrand",
       "zh_cn": "克莱蒙费朗",
-      "zh_tw": "克萊蒙-費朗"
+      "zh_tw": "克萊蒙-費朗市"
     }
   },
   {
@@ -10808,7 +10914,7 @@ var g_cities_json = [
       "uk_uk": "Монпельє",
       "vi_vn": "Montpellier",
       "zh_cn": "蒙彼利埃",
-      "zh_tw": "蒙佩利爾"
+      "zh_tw": "蒙佩利爾市"
     }
   },
   {
@@ -10860,8 +10966,8 @@ var g_cities_json = [
       "tr_tr": "Paluel",
       "uk_uk": "Палюель",
       "vi_vn": "Paluel",
-      "zh_cn": "帕吕埃尔核电站",
-      "zh_tw": "帕盧埃爾"
+      "zh_cn": "帕吕埃勒核电站",
+      "zh_tw": "帕盧埃爾市鎮"
     }
   },
   {
@@ -10913,8 +11019,8 @@ var g_cities_json = [
       "tr_tr": "Saint-Laurent",
       "uk_uk": "Сен-Лоран",
       "vi_vn": "Saint-Laurent",
-      "zh_cn": "圣洛朗核电站",
-      "zh_tw": "聖羅宏"
+      "zh_cn": "圣洛朗",
+      "zh_tw": "聖羅宏市"
     }
   },
   {
@@ -10967,7 +11073,7 @@ var g_cities_json = [
       "uk_uk": "Гавр",
       "vi_vn": "Le Havre",
       "zh_cn": "勒阿弗尔",
-      "zh_tw": "利哈佛"
+      "zh_tw": "利阿佛市"
     }
   },
   {
@@ -11020,7 +11126,7 @@ var g_cities_json = [
       "uk_uk": "Ле-Ман",
       "vi_vn": "Le Mans",
       "zh_cn": "勒芒",
-      "zh_tw": "利曼"
+      "zh_tw": "利曼市"
     }
   },
   {
@@ -11072,8 +11178,8 @@ var g_cities_json = [
       "tr_tr": "Civaux",
       "uk_uk": "Сіво",
       "vi_vn": "Civaux",
-      "zh_cn": "西沃核电站",
-      "zh_tw": "錫沃"
+      "zh_cn": "锡沃",
+      "zh_tw": "錫沃市鎮"
     }
   },
   {
@@ -11126,7 +11232,7 @@ var g_cities_json = [
       "uk_uk": "Лімож",
       "vi_vn": "Limoges",
       "zh_cn": "利摩日",
-      "zh_tw": "利摩日"
+      "zh_tw": "利摩日市"
     }
   },
   {
@@ -11179,7 +11285,7 @@ var g_cities_json = [
       "uk_uk": "Тулуза",
       "vi_vn": "Toulouse",
       "zh_cn": "图卢兹",
-      "zh_tw": "土魯斯"
+      "zh_tw": "土魯斯市"
     }
   },
   {
@@ -11232,7 +11338,7 @@ var g_cities_json = [
       "uk_uk": "Гольфеш",
       "vi_vn": "Golfech",
       "zh_cn": "戈尔费什核电站",
-      "zh_tw": "戈爾費什"
+      "zh_tw": "戈爾費什市鎮"
     }
   },
   {
@@ -11285,7 +11391,7 @@ var g_cities_json = [
       "uk_uk": "Ренн",
       "vi_vn": "Rennes",
       "zh_cn": "雷恩",
-      "zh_tw": "雷恩"
+      "zh_tw": "雷恩市"
     }
   },
   {
@@ -11338,7 +11444,7 @@ var g_cities_json = [
       "uk_uk": "Нант",
       "vi_vn": "Nantes",
       "zh_cn": "南特",
-      "zh_tw": "南特"
+      "zh_tw": "南特市"
     }
   },
   {
@@ -11391,7 +11497,7 @@ var g_cities_json = [
       "uk_uk": "Ла-Рошель",
       "vi_vn": "La Rochelle",
       "zh_cn": "拉罗谢尔",
-      "zh_tw": "拉羅謝爾"
+      "zh_tw": "拉羅謝爾市"
     }
   },
   {
@@ -11444,7 +11550,7 @@ var g_cities_json = [
       "uk_uk": "Бордо",
       "vi_vn": "Bordeaux",
       "zh_cn": "波尔多",
-      "zh_tw": "波爾多"
+      "zh_tw": "波爾多市"
     }
   },
   {
@@ -11497,7 +11603,7 @@ var g_cities_json = [
       "uk_uk": "Байонна",
       "vi_vn": "Bayonne",
       "zh_cn": "巴约讷",
-      "zh_tw": "巴約訥"
+      "zh_tw": "巴約訥市"
     }
   },
   {
@@ -11550,7 +11656,7 @@ var g_cities_json = [
       "uk_uk": "Лак",
       "vi_vn": "Lacq",
       "zh_cn": "拉克",
-      "zh_tw": "拉克"
+      "zh_tw": "拉克市鎮"
     }
   },
   {
@@ -11603,7 +11709,7 @@ var g_cities_json = [
       "uk_uk": "Роскофф",
       "vi_vn": "Roscoff",
       "zh_cn": "罗斯科夫",
-      "zh_tw": "羅斯科夫"
+      "zh_tw": "羅斯科夫市"
     }
   },
   {
@@ -11656,7 +11762,7 @@ var g_cities_json = [
       "uk_uk": "Брест",
       "vi_vn": "Brest",
       "zh_cn": "布雷斯特",
-      "zh_tw": "布雷斯特"
+      "zh_tw": "布雷斯特市"
     }
   },
   {
@@ -11697,7 +11803,7 @@ var g_cities_json = [
       "pl_pl": "Janina",
       "pl_si": "Janina",
       "pt_br": "Janina",
-      "pt_pt": "Janina",
+      "pt_pt": "Ioánnina",
       "ro_ro": "Ioannina",
       "ru_ru": "Янина",
       "sk_sk": "Ioannina",
@@ -11709,7 +11815,7 @@ var g_cities_json = [
       "uk_uk": "Яніна",
       "vi_vn": "Ioannina",
       "zh_cn": "约阿尼纳",
-      "zh_tw": "約阿尼納"
+      "zh_tw": "約阿尼納市"
     }
   },
   {
@@ -11762,7 +11868,7 @@ var g_cities_json = [
       "uk_uk": "Аргостоліон",
       "vi_vn": "Argostoli",
       "zh_cn": "阿尔戈斯托利",
-      "zh_tw": "阿爾戈斯托利"
+      "zh_tw": "阿爾戈斯托利市鎮"
     }
   },
   {
@@ -11815,7 +11921,7 @@ var g_cities_json = [
       "uk_uk": "Трикала",
       "vi_vn": "Trikala",
       "zh_cn": "特里卡拉",
-      "zh_tw": "特里卡拉"
+      "zh_tw": "特里卡拉市"
     }
   },
   {
@@ -11868,7 +11974,7 @@ var g_cities_json = [
       "uk_uk": "Патри",
       "vi_vn": "Patras",
       "zh_cn": "帕特雷",
-      "zh_tw": "帕特雷"
+      "zh_tw": "帕特雷市"
     }
   },
   {
@@ -11909,7 +12015,7 @@ var g_cities_json = [
       "pl_pl": "Saloniki",
       "pl_si": "Saloniki",
       "pt_br": "Tessalônica",
-      "pt_pt": "Tessalônica",
+      "pt_pt": "Tessalónica",
       "ro_ro": "Salonic",
       "ru_ru": "Салоники",
       "sk_sk": "Solún",
@@ -11921,7 +12027,7 @@ var g_cities_json = [
       "uk_uk": "Салоніки",
       "vi_vn": "Thessaloniki",
       "zh_cn": "塞萨洛尼基",
-      "zh_tw": "塞薩洛尼基"
+      "zh_tw": "塞薩洛尼基市"
     }
   },
   {
@@ -11940,8 +12046,8 @@ var g_cities_json = [
       "el_gr": "Λάρισα",
       "en_gb": "Larissa",
       "en_us": "Larissa",
-      "es_es": "Larisa",
-      "es_la": "Larisa",
+      "es_es": "Lárisa",
+      "es_la": "Lárisa",
       "et_ee": "Larissa",
       "eu_es": "Larissa",
       "fi_fi": "Lárisa",
@@ -11974,7 +12080,7 @@ var g_cities_json = [
       "uk_uk": "Лариса",
       "vi_vn": "Larissa",
       "zh_cn": "拉里萨",
-      "zh_tw": "拉里薩"
+      "zh_tw": "拉里薩市"
     }
   },
   {
@@ -12027,7 +12133,7 @@ var g_cities_json = [
       "uk_uk": "Ламія",
       "vi_vn": "Lamia",
       "zh_cn": "拉米亚",
-      "zh_tw": "拉彌亞"
+      "zh_tw": "拉彌亞市"
     }
   },
   {
@@ -12080,7 +12186,7 @@ var g_cities_json = [
       "uk_uk": "Каламата",
       "vi_vn": "Kalamata",
       "zh_cn": "卡拉马塔",
-      "zh_tw": "卡拉馬塔"
+      "zh_tw": "卡拉馬塔市鎮"
     }
   },
   {
@@ -12133,7 +12239,7 @@ var g_cities_json = [
       "uk_uk": "Кавала",
       "vi_vn": "Kavala",
       "zh_cn": "卡瓦拉",
-      "zh_tw": "卡瓦拉"
+      "zh_tw": "卡瓦拉市鎮"
     }
   },
   {
@@ -12186,7 +12292,7 @@ var g_cities_json = [
       "uk_uk": "Афіни",
       "vi_vn": "Athens",
       "zh_cn": "雅典",
-      "zh_tw": "雅典"
+      "zh_tw": "雅典市"
     }
   },
   {
@@ -12205,8 +12311,8 @@ var g_cities_json = [
       "el_gr": "Χανιά",
       "en_gb": "Chania",
       "en_us": "Chania",
-      "es_es": "Chania",
-      "es_la": "Chania",
+      "es_es": "La Canea",
+      "es_la": "La Canea",
       "et_ee": "Chania",
       "eu_es": "Chania",
       "fi_fi": "Chaniá",
@@ -12239,7 +12345,7 @@ var g_cities_json = [
       "uk_uk": "Ханья",
       "vi_vn": "Chania",
       "zh_cn": "干尼亚",
-      "zh_tw": "哈尼亞"
+      "zh_tw": "哈尼亞市鎮"
     }
   },
   {
@@ -12292,7 +12398,7 @@ var g_cities_json = [
       "uk_uk": "Мітилена",
       "vi_vn": "Mitilini",
       "zh_cn": "米蒂利尼",
-      "zh_tw": "米蒂利尼"
+      "zh_tw": "米蒂利尼市鎮"
     }
   },
   {
@@ -12344,8 +12450,8 @@ var g_cities_json = [
       "tr_tr": "Sakız",
       "uk_uk": "Хіос",
       "vi_vn": "Chios",
-      "zh_cn": "希俄斯",
-      "zh_tw": "希俄斯"
+      "zh_cn": "希俄斯岛",
+      "zh_tw": "希俄斯島"
     }
   },
   {
@@ -12386,7 +12492,7 @@ var g_cities_json = [
       "pl_pl": "Heraklion",
       "pl_si": "Heraklion",
       "pt_br": "Iráklio",
-      "pt_pt": "Iráklio",
+      "pt_pt": "Heraklion",
       "ro_ro": "Heraklion",
       "ru_ru": "Ираклион",
       "sk_sk": "Iraklio",
@@ -12398,7 +12504,7 @@ var g_cities_json = [
       "uk_uk": "Іракліон",
       "vi_vn": "Heraklion",
       "zh_cn": "伊拉克利翁",
-      "zh_tw": "伊拉克利翁"
+      "zh_tw": "伊拉克利翁市鎮"
     }
   },
   {
@@ -12439,19 +12545,19 @@ var g_cities_json = [
       "pl_pl": "Rodos",
       "pl_si": "Rodos",
       "pt_br": "Rhodes",
-      "pt_pt": "Rhodes",
+      "pt_pt": "Rodes",
       "ro_ro": "Rodos",
       "ru_ru": "Родос",
       "sk_sk": "Rodos",
       "sl_sl": "Rodos",
       "sr_sp": "Rodos",
       "sr_sr": "Родос",
-      "sv_se": "Rhodes",
+      "sv_se": "Rhodos",
       "tr_tr": "Rodos",
       "uk_uk": "Родос",
       "vi_vn": "Rhodes",
-      "zh_cn": "罗得",
-      "zh_tw": "羅得"
+      "zh_cn": "罗得岛",
+      "zh_tw": "羅得島"
     }
   },
   {
@@ -12504,7 +12610,7 @@ var g_cities_json = [
       "uk_uk": "Барселона",
       "vi_vn": "Barcelona",
       "zh_cn": "巴塞罗那",
-      "zh_tw": "巴塞隆納"
+      "zh_tw": "巴塞隆納市"
     }
   },
   {
@@ -12557,7 +12663,7 @@ var g_cities_json = [
       "uk_uk": "Таррагона",
       "vi_vn": "Tarragona",
       "zh_cn": "塔拉戈纳",
-      "zh_tw": "塔拉戈納"
+      "zh_tw": "塔拉戈納市"
     }
   },
   {
@@ -12589,7 +12695,7 @@ var g_cities_json = [
       "it_it": "Lleida",
       "ja_jp": "リェイダ",
       "ka_ge": "ლიეიდა",
-      "ko_kr": "레리다",
+      "ko_kr": "예이다",
       "lt_lt": "Lerida",
       "lv_lv": "Lleida",
       "mk_mk": "Љеида",
@@ -12610,7 +12716,7 @@ var g_cities_json = [
       "uk_uk": "Леріда",
       "vi_vn": "Lleida",
       "zh_cn": "莱里达",
-      "zh_tw": "萊里達"
+      "zh_tw": "萊里達市"
     }
   },
   {
@@ -12663,7 +12769,7 @@ var g_cities_json = [
       "uk_uk": "Вандельос",
       "vi_vn": "Vandellòs",
       "zh_cn": "班德略斯",
-      "zh_tw": "班德略斯"
+      "zh_tw": "班德略斯市鎮"
     }
   },
   {
@@ -12716,7 +12822,7 @@ var g_cities_json = [
       "uk_uk": "Сарагоса",
       "vi_vn": "Zaragoza",
       "zh_cn": "萨拉戈萨",
-      "zh_tw": "札拉哥沙"
+      "zh_tw": "札拉哥沙市"
     }
   },
   {
@@ -12822,7 +12928,7 @@ var g_cities_json = [
       "uk_uk": "Вільярреал",
       "vi_vn": "Villarreal",
       "zh_cn": "比利亚雷阿尔",
-      "zh_tw": "比利亞雷阿爾"
+      "zh_tw": "比利亞雷阿爾鎮"
     }
   },
   {
@@ -12875,7 +12981,7 @@ var g_cities_json = [
       "uk_uk": "Валенсія",
       "vi_vn": "Valencia",
       "zh_cn": "巴伦西亚",
-      "zh_tw": "瓦倫西亞"
+      "zh_tw": "瓦倫西亞市"
     }
   },
   {
@@ -12928,7 +13034,7 @@ var g_cities_json = [
       "uk_uk": "Памплона",
       "vi_vn": "Pamplona",
       "zh_cn": "潘普洛纳",
-      "zh_tw": "潘普洛納"
+      "zh_tw": "潘普洛納市"
     }
   },
   {
@@ -12981,7 +13087,7 @@ var g_cities_json = [
       "uk_uk": "Теруель",
       "vi_vn": "Teruel",
       "zh_cn": "特鲁埃尔",
-      "zh_tw": "特魯埃爾"
+      "zh_tw": "特魯埃爾市鎮"
     }
   },
   {
@@ -13034,7 +13140,7 @@ var g_cities_json = [
       "uk_uk": "Більбао",
       "vi_vn": "Bilbao",
       "zh_cn": "毕尔巴鄂",
-      "zh_tw": "畢爾巴鄂"
+      "zh_tw": "畢爾巴鄂市"
     }
   },
   {
@@ -13087,7 +13193,7 @@ var g_cities_json = [
       "uk_uk": "Сорія",
       "vi_vn": "Soria",
       "zh_cn": "索里亚",
-      "zh_tw": "索里亞"
+      "zh_tw": "索里亞市鎮"
     }
   },
   {
@@ -13140,7 +13246,7 @@ var g_cities_json = [
       "uk_uk": "Альбасете",
       "vi_vn": "Albacete",
       "zh_cn": "阿尔瓦塞特",
-      "zh_tw": "阿爾巴塞特"
+      "zh_tw": "阿爾瓦塞特市"
     }
   },
   {
@@ -13193,7 +13299,7 @@ var g_cities_json = [
       "uk_uk": "Мурсія",
       "vi_vn": "Murcia",
       "zh_cn": "穆尔西亚",
-      "zh_tw": "莫夕亞"
+      "zh_tw": "莫夕亞市"
     }
   },
   {
@@ -13246,7 +13352,7 @@ var g_cities_json = [
       "uk_uk": "Сантандер",
       "vi_vn": "Santander",
       "zh_cn": "桑坦德",
-      "zh_tw": "桑坦德"
+      "zh_tw": "桑坦德市"
     }
   },
   {
@@ -13299,7 +13405,7 @@ var g_cities_json = [
       "uk_uk": "Бургос",
       "vi_vn": "Burgos",
       "zh_cn": "布尔戈斯",
-      "zh_tw": "布爾戈斯"
+      "zh_tw": "布爾戈斯市"
     }
   },
   {
@@ -13352,7 +13458,7 @@ var g_cities_json = [
       "uk_uk": "Альмерія",
       "vi_vn": "Almería",
       "zh_cn": "阿尔梅里亚",
-      "zh_tw": "阿爾梅里亞"
+      "zh_tw": "阿爾梅里亞市"
     }
   },
   {
@@ -13405,7 +13511,7 @@ var g_cities_json = [
       "uk_uk": "Вальядолід",
       "vi_vn": "Valladolid",
       "zh_cn": "巴利亚多利德",
-      "zh_tw": "華拉杜列"
+      "zh_tw": "華拉杜列市"
     }
   },
   {
@@ -13458,7 +13564,7 @@ var g_cities_json = [
       "uk_uk": "Мадрид",
       "vi_vn": "Madrid",
       "zh_cn": "马德里",
-      "zh_tw": "馬德里"
+      "zh_tw": "馬德里市"
     }
   },
   {
@@ -13511,7 +13617,7 @@ var g_cities_json = [
       "uk_uk": "Менгібар",
       "vi_vn": "Mengíbar",
       "zh_cn": "门希瓦尔",
-      "zh_tw": "門希瓦爾"
+      "zh_tw": "門希瓦爾市鎮"
     }
   },
   {
@@ -13564,7 +13670,7 @@ var g_cities_json = [
       "uk_uk": "Ель-Ехідо",
       "vi_vn": "El Ejido",
       "zh_cn": "埃尔埃希多",
-      "zh_tw": "埃爾埃希多"
+      "zh_tw": "埃爾埃希多市"
     }
   },
   {
@@ -13617,7 +13723,7 @@ var g_cities_json = [
       "uk_uk": "Хіхон",
       "vi_vn": "Gijón",
       "zh_cn": "希洪",
-      "zh_tw": "希洪"
+      "zh_tw": "希洪市"
     }
   },
   {
@@ -13670,7 +13776,7 @@ var g_cities_json = [
       "uk_uk": "Леон",
       "vi_vn": "León",
       "zh_cn": "莱昂",
-      "zh_tw": "萊昂"
+      "zh_tw": "萊昂市"
     }
   },
   {
@@ -13776,7 +13882,7 @@ var g_cities_json = [
       "uk_uk": "Пуертояно",
       "vi_vn": "Puertollano",
       "zh_cn": "普埃尔托利亚诺",
-      "zh_tw": "普埃爾托利亞諾"
+      "zh_tw": "普埃爾托利亞諾市鎮"
     }
   },
   {
@@ -13829,7 +13935,7 @@ var g_cities_json = [
       "uk_uk": "Байлен",
       "vi_vn": "Bailén",
       "zh_cn": "拜伦",
-      "zh_tw": "拜倫"
+      "zh_tw": "拜倫市鎮"
     }
   },
   {
@@ -13882,7 +13988,7 @@ var g_cities_json = [
       "uk_uk": "Гранада",
       "vi_vn": "Granada",
       "zh_cn": "格拉纳达",
-      "zh_tw": "格拉納達"
+      "zh_tw": "格拉納達市"
     }
   },
   {
@@ -13935,7 +14041,7 @@ var g_cities_json = [
       "uk_uk": "Навія",
       "vi_vn": "Navia",
       "zh_cn": "纳维亚",
-      "zh_tw": "納維亞"
+      "zh_tw": "納維亞市鎮"
     }
   },
   {
@@ -13988,7 +14094,7 @@ var g_cities_json = [
       "uk_uk": "Саламанка",
       "vi_vn": "Salamanca",
       "zh_cn": "萨拉曼卡",
-      "zh_tw": "薩拉曼卡"
+      "zh_tw": "薩拉曼卡市"
     }
   },
   {
@@ -14041,7 +14147,7 @@ var g_cities_json = [
       "uk_uk": "Альмарас",
       "vi_vn": "Almaraz",
       "zh_cn": "阿尔马拉斯",
-      "zh_tw": "阿爾馬拉斯"
+      "zh_tw": "阿爾馬拉斯市鎮"
     }
   },
   {
@@ -14094,7 +14200,7 @@ var g_cities_json = [
       "uk_uk": "Кордова",
       "vi_vn": "Córdoba",
       "zh_cn": "科尔多瓦",
-      "zh_tw": "哥多華"
+      "zh_tw": "哥多華市"
     }
   },
   {
@@ -14147,7 +14253,7 @@ var g_cities_json = [
       "uk_uk": "Малага",
       "vi_vn": "Málaga",
       "zh_cn": "马拉加",
-      "zh_tw": "馬拉加"
+      "zh_tw": "馬拉加市"
     }
   },
   {
@@ -14179,7 +14285,7 @@ var g_cities_json = [
       "it_it": "O Barco",
       "ja_jp": "オ・バルコ",
       "ka_ge": "ო-ბარკო",
-      "ko_kr": "오 바르코",
+      "ko_kr": "오 바르꼬",
       "lt_lt": "O-Barko",
       "lv_lv": "O Barco",
       "mk_mk": "О Барко",
@@ -14200,7 +14306,7 @@ var g_cities_json = [
       "uk_uk": "О-Барко-де-Вальдеоррас",
       "vi_vn": "O Barco",
       "zh_cn": "埃尔巴尔科",
-      "zh_tw": "奧瓦爾科"
+      "zh_tw": "奧瓦爾科市鎮"
     }
   },
   {
@@ -14221,7 +14327,7 @@ var g_cities_json = [
       "en_us": "Seville",
       "es_es": "Sevilla",
       "es_la": "Sevilla",
-      "et_ee": "Seville",
+      "et_ee": "Sevilla",
       "eu_es": "Sevilla",
       "fi_fi": "Sevilla",
       "fr_ca": "Séville",
@@ -14253,7 +14359,7 @@ var g_cities_json = [
       "uk_uk": "Севілья",
       "vi_vn": "Seville",
       "zh_cn": "塞维利亚",
-      "zh_tw": "塞維利亞"
+      "zh_tw": "塞維利亞市"
     }
   },
   {
@@ -14306,7 +14412,7 @@ var g_cities_json = [
       "uk_uk": "Альхесірас",
       "vi_vn": "Algeciras",
       "zh_cn": "阿尔赫西拉斯",
-      "zh_tw": "阿爾赫西拉斯"
+      "zh_tw": "阿爾赫西拉斯市"
     }
   },
   {
@@ -14338,7 +14444,7 @@ var g_cities_json = [
       "it_it": "La Coruña",
       "ja_jp": "ア・コルーニャ",
       "ka_ge": "ლა-კორუნია",
-      "ko_kr": "라코루냐",
+      "ko_kr": "아코루냐",
       "lt_lt": "La Korunja",
       "lv_lv": "A Coruña",
       "mk_mk": "Коруња",
@@ -14412,7 +14518,7 @@ var g_cities_json = [
       "uk_uk": "Гуарда",
       "vi_vn": "Guarda",
       "zh_cn": "瓜尔达",
-      "zh_tw": "瓜達"
+      "zh_tw": "瓜達市"
     }
   },
   {
@@ -14465,7 +14571,7 @@ var g_cities_json = [
       "uk_uk": "Бадахоз",
       "vi_vn": "Badajoz",
       "zh_cn": "巴达霍斯",
-      "zh_tw": "巴達霍斯"
+      "zh_tw": "巴達霍斯市"
     }
   },
   {
@@ -14518,7 +14624,7 @@ var g_cities_json = [
       "uk_uk": "Віґо",
       "vi_vn": "Vigo",
       "zh_cn": "维戈",
-      "zh_tw": "比戈"
+      "zh_tw": "比戈市"
     }
   },
   {
@@ -14550,7 +14656,7 @@ var g_cities_json = [
       "it_it": "Porto",
       "ja_jp": "ポルト",
       "ka_ge": "პორტო",
-      "ko_kr": "포르투",
+      "ko_kr": "포르토",
       "lt_lt": "Portas",
       "lv_lv": "Porto",
       "mk_mk": "Порто",
@@ -14571,7 +14677,7 @@ var g_cities_json = [
       "uk_uk": "Порту",
       "vi_vn": "Porto",
       "zh_cn": "波尔图",
-      "zh_tw": "波多"
+      "zh_tw": "波多市"
     }
   },
   {
@@ -14624,7 +14730,7 @@ var g_cities_json = [
       "uk_uk": "Коїмбра",
       "vi_vn": "Coimbra",
       "zh_cn": "科英布拉",
-      "zh_tw": "科英布拉"
+      "zh_tw": "科英布拉市"
     }
   },
   {
@@ -14656,7 +14762,7 @@ var g_cities_json = [
       "it_it": "Ponte de Sor",
       "ja_jp": "ポンテ・デ・ソル",
       "ka_ge": "პონტე-დი-სორი",
-      "ko_kr": "폰트드소르",
+      "ko_kr": "폰테 데 소르",
       "lt_lt": "Ponte de Soras",
       "lv_lv": "Ponte de Sor",
       "mk_mk": "Понте де Сор",
@@ -14677,7 +14783,7 @@ var g_cities_json = [
       "uk_uk": "Понте-де-Сор",
       "vi_vn": "Ponte de Sor",
       "zh_cn": "蓬蒂-迪索尔",
-      "zh_tw": "蓬蒂-迪索爾"
+      "zh_tw": "蓬蒂-迪索爾市"
     }
   },
   {
@@ -14730,7 +14836,7 @@ var g_cities_json = [
       "uk_uk": "Евора",
       "vi_vn": "Evora",
       "zh_cn": "埃武拉",
-      "zh_tw": "埃武拉"
+      "zh_tw": "埃武拉市鎮"
     }
   },
   {
@@ -14783,7 +14889,7 @@ var g_cities_json = [
       "uk_uk": "Бежа",
       "vi_vn": "Beja",
       "zh_cn": "贝雅",
-      "zh_tw": "貝雅"
+      "zh_tw": "貝雅市"
     }
   },
   {
@@ -14836,7 +14942,7 @@ var g_cities_json = [
       "uk_uk": "Уельва",
       "vi_vn": "Huelva",
       "zh_cn": "韦尔瓦",
-      "zh_tw": "韋爾瓦"
+      "zh_tw": "韋爾瓦市"
     }
   },
   {
@@ -14889,7 +14995,7 @@ var g_cities_json = [
       "uk_uk": "Сетубал",
       "vi_vn": "Setúbal",
       "zh_cn": "塞图巴尔",
-      "zh_tw": "塞圖巴"
+      "zh_tw": "塞圖巴市"
     }
   },
   {
@@ -14942,7 +15048,7 @@ var g_cities_json = [
       "uk_uk": "Кортісада-де-Лавр",
       "vi_vn": "Cortiçadas de Lavre",
       "zh_cn": "库尔蒂萨达什-迪拉夫勒",
-      "zh_tw": "拉夫科爾蒂薩斯"
+      "zh_tw": "拉夫科爾蒂薩斯市"
     }
   },
   {
@@ -14995,7 +15101,7 @@ var g_cities_json = [
       "uk_uk": "Сінес",
       "vi_vn": "Sines",
       "zh_cn": "锡尼什",
-      "zh_tw": "錫尼什"
+      "zh_tw": "錫尼什市"
     }
   },
   {
@@ -15027,7 +15133,7 @@ var g_cities_json = [
       "it_it": "Olhão",
       "ja_jp": "オリョン",
       "ka_ge": "ოლანი",
-      "ko_kr": "올량",
+      "ko_kr": "올랴오",
       "lt_lt": "Oljaunas",
       "lv_lv": "Olhão",
       "mk_mk": "Олијан",
@@ -15048,7 +15154,7 @@ var g_cities_json = [
       "uk_uk": "Ольяу",
       "vi_vn": "Olhão",
       "zh_cn": "奥良",
-      "zh_tw": "奧良"
+      "zh_tw": "奧良市"
     }
   },
   {
@@ -15101,7 +15207,7 @@ var g_cities_json = [
       "uk_uk": "Фару",
       "vi_vn": "Faro",
       "zh_cn": "法鲁",
-      "zh_tw": "法羅"
+      "zh_tw": "法羅市"
     }
   },
   {
@@ -15154,7 +15260,7 @@ var g_cities_json = [
       "uk_uk": "Лісабон",
       "vi_vn": "Lisbon",
       "zh_cn": "里斯本",
-      "zh_tw": "里斯本"
+      "zh_tw": "里斯本市"
     }
   },
   {
@@ -15207,7 +15313,7 @@ var g_cities_json = [
       "uk_uk": "Болонья",
       "vi_vn": "Bologna",
       "zh_cn": "博洛尼亚",
-      "zh_tw": "波隆那"
+      "zh_tw": "波隆那市"
     }
   },
   {
@@ -15260,7 +15366,7 @@ var g_cities_json = [
       "uk_uk": "Флоренція",
       "vi_vn": "Florence",
       "zh_cn": "佛罗伦萨",
-      "zh_tw": "佛羅倫斯"
+      "zh_tw": "佛羅倫斯市"
     }
   },
   {
@@ -15313,7 +15419,7 @@ var g_cities_json = [
       "uk_uk": "Терні",
       "vi_vn": "Terni",
       "zh_cn": "特尔尼",
-      "zh_tw": "特爾尼"
+      "zh_tw": "特爾尼市"
     }
   },
   {
@@ -15366,7 +15472,7 @@ var g_cities_json = [
       "uk_uk": "Рим",
       "vi_vn": "Rome",
       "zh_cn": "罗马",
-      "zh_tw": "羅馬"
+      "zh_tw": "羅馬市"
     }
   },
   {
@@ -15419,7 +15525,7 @@ var g_cities_json = [
       "uk_uk": "Анкона",
       "vi_vn": "Ancona",
       "zh_cn": "安科纳",
-      "zh_tw": "安科納"
+      "zh_tw": "安科納市鎮"
     }
   },
   {
@@ -15472,7 +15578,7 @@ var g_cities_json = [
       "uk_uk": "Палермо",
       "vi_vn": "Palermo",
       "zh_cn": "巴勒莫",
-      "zh_tw": "巴勒摩"
+      "zh_tw": "巴勒摩市鎮"
     }
   },
   {
@@ -15525,7 +15631,7 @@ var g_cities_json = [
       "uk_uk": "Пескара",
       "vi_vn": "Pescara",
       "zh_cn": "佩斯卡拉",
-      "zh_tw": "佩斯卡拉"
+      "zh_tw": "佩斯卡拉市"
     }
   },
   {
@@ -15578,7 +15684,7 @@ var g_cities_json = [
       "uk_uk": "Кассіно",
       "vi_vn": "Cassino",
       "zh_cn": "卡西诺",
-      "zh_tw": "卡西諾"
+      "zh_tw": "卡西諾市鎮"
     }
   },
   {
@@ -15631,7 +15737,7 @@ var g_cities_json = [
       "uk_uk": "Неаполь",
       "vi_vn": "Naples",
       "zh_cn": "那不勒斯",
-      "zh_tw": "那不勒斯"
+      "zh_tw": "拿坡里市"
     }
   },
   {
@@ -15684,7 +15790,7 @@ var g_cities_json = [
       "uk_uk": "Мессіна",
       "vi_vn": "Messina",
       "zh_cn": "墨西拿",
-      "zh_tw": "美西納"
+      "zh_tw": "美西納市"
     }
   },
   {
@@ -15737,7 +15843,7 @@ var g_cities_json = [
       "uk_uk": "Вілла-Сан-Джованні",
       "vi_vn": "Villa San Giovanni",
       "zh_cn": "圣乔瓦尼镇",
-      "zh_tw": "聖喬瓦尼"
+      "zh_tw": "聖喬瓦尼市鎮"
     }
   },
   {
@@ -15790,7 +15896,60 @@ var g_cities_json = [
       "uk_uk": "Катанія",
       "vi_vn": "Catania",
       "zh_cn": "卡塔尼亚",
-      "zh_tw": "卡塔尼亞"
+      "zh_tw": "卡塔尼亞市"
+    }
+  },
+  {
+    "Name": "Bari",
+    "Group": null,
+    "Country": "italy",
+    "X": 22578.1758,
+    "Y": 53831.2734,
+    "CountryId": 6,
+    "LocalizedNames": {
+      "bg_bg": "Бари",
+      "ca_es": "Bari",
+      "cs_cz": "Bari",
+      "da_dk": "Bari",
+      "de_de": "Bari",
+      "el_gr": "Μπάρι",
+      "en_gb": "Bari",
+      "en_us": "Bari",
+      "es_es": "Bari",
+      "es_la": "Bari",
+      "et_ee": "Bari",
+      "eu_es": "Bari",
+      "fi_fi": "Bari",
+      "fr_ca": "Bari",
+      "fr_fr": "Bari",
+      "gl_es": "Bari",
+      "hr_hr": "Bari",
+      "hu_hu": "Bari",
+      "it_it": "Bari",
+      "ja_jp": "バーリ",
+      "ka_ge": "ბარი",
+      "ko_kr": "바리",
+      "lt_lt": "Baris",
+      "lv_lv": "Bari",
+      "mk_mk": "Бари",
+      "nl_nl": "Bari",
+      "no_no": "Bari",
+      "pl_pl": "Bari",
+      "pl_si": "Bari",
+      "pt_br": "Bari",
+      "pt_pt": "Bari",
+      "ro_ro": "Bari",
+      "ru_ru": "Бари",
+      "sk_sk": "Bari",
+      "sl_sl": "Bari",
+      "sr_sp": "Bari",
+      "sr_sr": "Бари",
+      "sv_se": "Bari",
+      "tr_tr": "Bari",
+      "uk_uk": "Барі",
+      "vi_vn": "Bari",
+      "zh_cn": "巴里",
+      "zh_tw": "巴里市"
     }
   },
   {
@@ -15843,60 +16002,7 @@ var g_cities_json = [
       "uk_uk": "Катандзаро",
       "vi_vn": "Catanzaro",
       "zh_cn": "卡坦扎罗",
-      "zh_tw": "卡坦扎羅"
-    }
-  },
-  {
-    "Name": "Bari",
-    "Group": null,
-    "Country": "italy",
-    "X": 23031.04,
-    "Y": 53831.2734,
-    "CountryId": 6,
-    "LocalizedNames": {
-      "bg_bg": "Бари",
-      "ca_es": "Bari",
-      "cs_cz": "Bari",
-      "da_dk": "Bari",
-      "de_de": "Bari",
-      "el_gr": "Μπάρι",
-      "en_gb": "Bari",
-      "en_us": "Bari",
-      "es_es": "Bari",
-      "es_la": "Bari",
-      "et_ee": "Bari",
-      "eu_es": "Bari",
-      "fi_fi": "Bari",
-      "fr_ca": "Bari",
-      "fr_fr": "Bari",
-      "gl_es": "Bari",
-      "hr_hr": "Bari",
-      "hu_hu": "Bari",
-      "it_it": "Bari",
-      "ja_jp": "バーリ",
-      "ka_ge": "ბარი",
-      "ko_kr": "바리",
-      "lt_lt": "Baris",
-      "lv_lv": "Bari",
-      "mk_mk": "Бари",
-      "nl_nl": "Bari",
-      "no_no": "Bari",
-      "pl_pl": "Bari",
-      "pl_si": "Bari",
-      "pt_br": "Bari",
-      "pt_pt": "Bari",
-      "ro_ro": "Bari",
-      "ru_ru": "Бари",
-      "sk_sk": "Bari",
-      "sl_sl": "Bari",
-      "sr_sp": "Bari",
-      "sr_sr": "Бари",
-      "sv_se": "Bari",
-      "tr_tr": "Bari",
-      "uk_uk": "Барі",
-      "vi_vn": "Bari",
-      "zh_cn": "巴里",
-      "zh_tw": "巴里"
+      "zh_tw": "卡坦扎羅市"
     }
   },
   {
@@ -15949,7 +16055,7 @@ var g_cities_json = [
       "uk_uk": "Таранто",
       "vi_vn": "Taranto",
       "zh_cn": "塔兰托",
-      "zh_tw": "塔蘭托"
+      "zh_tw": "塔蘭托市"
     }
   },
   {
@@ -16002,7 +16108,7 @@ var g_cities_json = [
       "uk_uk": "Суццара",
       "vi_vn": "Suzzara",
       "zh_cn": "苏扎拉",
-      "zh_tw": "蘇扎拉"
+      "zh_tw": "蘇扎拉市鎮"
     }
   },
   {
@@ -16055,7 +16161,7 @@ var g_cities_json = [
       "uk_uk": "Парма",
       "vi_vn": "Parma",
       "zh_cn": "帕尔马",
-      "zh_tw": "帕爾馬"
+      "zh_tw": "帕爾馬市"
     }
   },
   {
@@ -16108,7 +16214,7 @@ var g_cities_json = [
       "uk_uk": "Ліворно",
       "vi_vn": "Livorno",
       "zh_cn": "里窝那",
-      "zh_tw": "利弗諾"
+      "zh_tw": "利弗諾市"
     }
   },
   {
@@ -16161,7 +16267,7 @@ var g_cities_json = [
       "uk_uk": "Кальярі",
       "vi_vn": "Cagliari",
       "zh_cn": "卡利亚里",
-      "zh_tw": "卡利亞里"
+      "zh_tw": "卡利亞里市"
     }
   },
   {
@@ -16214,7 +16320,7 @@ var g_cities_json = [
       "uk_uk": "Оденсе",
       "vi_vn": "Odense",
       "zh_cn": "欧登塞",
-      "zh_tw": "奧登色"
+      "zh_tw": "奧登色市"
     }
   },
   {
@@ -16267,7 +16373,7 @@ var g_cities_json = [
       "uk_uk": "Орхус",
       "vi_vn": "Aarhus",
       "zh_cn": "奥胡斯",
-      "zh_tw": "奧胡斯"
+      "zh_tw": "奧胡斯市"
     }
   },
   {
@@ -16297,7 +16403,7 @@ var g_cities_json = [
       "hr_hr": "Hirtshals",
       "hu_hu": "Hirtshals",
       "it_it": "Hirtshals",
-      "ja_jp": "ヒァツハルス",
+      "ja_jp": "ヒアツハルス",
       "ka_ge": "ჰირტსჰალსი",
       "ko_kr": "히르트스할스",
       "lt_lt": "Hirtshalsas",
@@ -16320,7 +16426,7 @@ var g_cities_json = [
       "uk_uk": "Хіртсхальс",
       "vi_vn": "Hirtshals",
       "zh_cn": "希茨海尔斯",
-      "zh_tw": "希茨海爾斯"
+      "zh_tw": "希茨海爾斯鎮"
     }
   },
   {
@@ -16426,7 +16532,7 @@ var g_cities_json = [
       "uk_uk": "Ольборг",
       "vi_vn": "Aalborg",
       "zh_cn": "奥尔堡",
-      "zh_tw": "奧爾堡"
+      "zh_tw": "奧爾堡市"
     }
   },
   {
@@ -16479,7 +16585,7 @@ var g_cities_json = [
       "uk_uk": "Копенгаген",
       "vi_vn": "Copenhagen",
       "zh_cn": "哥本哈根",
-      "zh_tw": "哥本哈根"
+      "zh_tw": "哥本哈根市"
     }
   },
   {
@@ -16532,7 +16638,7 @@ var g_cities_json = [
       "uk_uk": "Гетеборг",
       "vi_vn": "Gothenburg",
       "zh_cn": "哥德堡",
-      "zh_tw": "哥特堡"
+      "zh_tw": "哥特堡市"
     }
   },
   {
@@ -16573,7 +16679,7 @@ var g_cities_json = [
       "pl_pl": "Malmö",
       "pl_si": "Malmö",
       "pt_br": "Malmo",
-      "pt_pt": "Malmo",
+      "pt_pt": "Malmö",
       "ro_ro": "Malmö",
       "ru_ru": "Мальмё",
       "sk_sk": "Malmö",
@@ -16585,7 +16691,7 @@ var g_cities_json = [
       "uk_uk": "Мальме",
       "vi_vn": "Malmö",
       "zh_cn": "马尔默",
-      "zh_tw": "馬爾摩"
+      "zh_tw": "馬爾摩市"
     }
   },
   {
@@ -16638,7 +16744,7 @@ var g_cities_json = [
       "uk_uk": "Треллеборг",
       "vi_vn": "Trelleborg",
       "zh_cn": "特雷勒堡",
-      "zh_tw": "特雷勒堡"
+      "zh_tw": "特雷勒堡市"
     }
   },
   {
@@ -16691,7 +16797,7 @@ var g_cities_json = [
       "uk_uk": "Гельсінборг",
       "vi_vn": "Helsingborg",
       "zh_cn": "赫尔辛堡",
-      "zh_tw": "赫爾辛堡"
+      "zh_tw": "赫爾辛堡市"
     }
   },
   {
@@ -16744,7 +16850,7 @@ var g_cities_json = [
       "uk_uk": "Векше",
       "vi_vn": "Växjö",
       "zh_cn": "韦克舍",
-      "zh_tw": "韋克舍"
+      "zh_tw": "韋克舍市"
     }
   },
   {
@@ -16797,7 +16903,7 @@ var g_cities_json = [
       "uk_uk": "Єнчепінг",
       "vi_vn": "Jönköping",
       "zh_cn": "延雪平",
-      "zh_tw": "延雪平"
+      "zh_tw": "延雪平市"
     }
   },
   {
@@ -16850,7 +16956,7 @@ var g_cities_json = [
       "uk_uk": "Карлстад",
       "vi_vn": "Karlstad",
       "zh_cn": "卡尔斯塔德",
-      "zh_tw": "卡爾斯塔德"
+      "zh_tw": "卡爾斯塔德市"
     }
   },
   {
@@ -16903,7 +17009,7 @@ var g_cities_json = [
       "uk_uk": "Карлскруна",
       "vi_vn": "Karlskrona",
       "zh_cn": "卡尔斯克鲁纳",
-      "zh_tw": "卡爾斯克魯納"
+      "zh_tw": "卡爾斯克魯納市鎮"
     }
   },
   {
@@ -16956,7 +17062,7 @@ var g_cities_json = [
       "uk_uk": "Лінчепінг",
       "vi_vn": "Linköping",
       "zh_cn": "林雪平",
-      "zh_tw": "林雪坪"
+      "zh_tw": "林雪坪市"
     }
   },
   {
@@ -17009,7 +17115,7 @@ var g_cities_json = [
       "uk_uk": "Еребру",
       "vi_vn": "Örebro",
       "zh_cn": "厄勒布鲁",
-      "zh_tw": "厄勒布魯"
+      "zh_tw": "厄勒布魯市"
     }
   },
   {
@@ -17062,7 +17168,7 @@ var g_cities_json = [
       "uk_uk": "Кальмар",
       "vi_vn": "Kalmar",
       "zh_cn": "卡尔马",
-      "zh_tw": "卡爾馬"
+      "zh_tw": "卡爾馬市"
     }
   },
   {
@@ -17115,7 +17221,7 @@ var g_cities_json = [
       "uk_uk": "Седертельє",
       "vi_vn": "Södertälje",
       "zh_cn": "南泰利耶",
-      "zh_tw": "南泰利耶"
+      "zh_tw": "南泰利耶市"
     }
   },
   {
@@ -17168,7 +17274,7 @@ var g_cities_json = [
       "uk_uk": "Вестерос",
       "vi_vn": "Västerås",
       "zh_cn": "韦斯特罗斯",
-      "zh_tw": "韋斯特羅斯"
+      "zh_tw": "韋斯特羅斯市"
     }
   },
   {
@@ -17221,7 +17327,7 @@ var g_cities_json = [
       "uk_uk": "Стокгольм",
       "vi_vn": "Stockholm",
       "zh_cn": "斯德哥尔摩",
-      "zh_tw": "斯德哥爾摩"
+      "zh_tw": "斯德哥爾摩市"
     }
   },
   {
@@ -17327,7 +17433,7 @@ var g_cities_json = [
       "uk_uk": "Уппсала",
       "vi_vn": "Uppsala",
       "zh_cn": "乌普萨拉",
-      "zh_tw": "烏普薩拉"
+      "zh_tw": "烏普薩拉市"
     }
   },
   {
@@ -17380,7 +17486,7 @@ var g_cities_json = [
       "uk_uk": "Капельшир",
       "vi_vn": "Kapellskär",
       "zh_cn": "卡珀尔谢尔",
-      "zh_tw": "卡珀爾謝爾"
+      "zh_tw": "卡珀爾謝爾港"
     }
   },
   {
@@ -17433,7 +17539,7 @@ var g_cities_json = [
       "uk_uk": "Есб'єрг",
       "vi_vn": "Esbjerg",
       "zh_cn": "埃斯比约",
-      "zh_tw": "埃斯比約"
+      "zh_tw": "埃斯比約市"
     }
   },
   {
@@ -17486,7 +17592,7 @@ var g_cities_json = [
       "uk_uk": "Крістіансанн",
       "vi_vn": "Kristiansand",
       "zh_cn": "克里斯蒂安桑",
-      "zh_tw": "克里斯蒂安桑"
+      "zh_tw": "克里斯蒂安桑市"
     }
   },
   {
@@ -17539,7 +17645,7 @@ var g_cities_json = [
       "uk_uk": "Ставангер",
       "vi_vn": "Stavanger",
       "zh_cn": "斯塔万格",
-      "zh_tw": "斯塔萬格"
+      "zh_tw": "斯塔萬格市鎮"
     }
   },
   {
@@ -17592,7 +17698,7 @@ var g_cities_json = [
       "uk_uk": "Берген",
       "vi_vn": "Bergen",
       "zh_cn": "卑尔根",
-      "zh_tw": "卑爾根"
+      "zh_tw": "卑爾根市鎮"
     }
   },
   {
@@ -17623,7 +17729,7 @@ var g_cities_json = [
       "hu_hu": "Trondheim",
       "it_it": "Trondheim",
       "ja_jp": "トロンハイム",
-      "ka_ge": "Trondheim",
+      "ka_ge": "ტრონჰეიმი",
       "ko_kr": "트론헤임",
       "lt_lt": "Trondheimas",
       "lv_lv": "Trondheim",
@@ -17645,7 +17751,7 @@ var g_cities_json = [
       "uk_uk": "Тронгейм",
       "vi_vn": "Trondheim",
       "zh_cn": "特隆赫姆",
-      "zh_tw": "特隆赫姆"
+      "zh_tw": "特隆赫姆市鎮"
     }
   },
   {
@@ -17676,7 +17782,7 @@ var g_cities_json = [
       "hu_hu": "Hamar",
       "it_it": "Hamar",
       "ja_jp": "ハーマル",
-      "ka_ge": "Hamar",
+      "ka_ge": "ჰამარი",
       "ko_kr": "하마르",
       "lt_lt": "Hamaras",
       "lv_lv": "Hamar",
@@ -17698,7 +17804,7 @@ var g_cities_json = [
       "uk_uk": "Гамар",
       "vi_vn": "Hamar",
       "zh_cn": "哈马尔",
-      "zh_tw": "哈馬爾"
+      "zh_tw": "哈馬爾鎮"
     }
   },
   {
@@ -17729,7 +17835,7 @@ var g_cities_json = [
       "hu_hu": "Lillehammer",
       "it_it": "Lillehammer",
       "ja_jp": "リレハンメル",
-      "ka_ge": "Lillehammer",
+      "ka_ge": "ლილეჰამერი",
       "ko_kr": "릴레함메르",
       "lt_lt": "Lilehameris",
       "lv_lv": "Lillehammer",
@@ -17751,7 +17857,7 @@ var g_cities_json = [
       "uk_uk": "Ліллегаммер",
       "vi_vn": "Lillehammer",
       "zh_cn": "利勒哈默尔",
-      "zh_tw": "利勒哈默爾"
+      "zh_tw": "利勒哈默爾市"
     }
   },
   {
@@ -17782,7 +17888,7 @@ var g_cities_json = [
       "hu_hu": "Steinkjer",
       "it_it": "Steinkjer",
       "ja_jp": "スタインシャー",
-      "ka_ge": "Steinkjer",
+      "ka_ge": "სტეინხიერი",
       "ko_kr": "스테인셰르",
       "lt_lt": "Steincheris",
       "lv_lv": "Steinkjer",
@@ -17804,7 +17910,7 @@ var g_cities_json = [
       "uk_uk": "Стейнх'єр",
       "vi_vn": "Steinkjer",
       "zh_cn": "斯泰恩谢尔",
-      "zh_tw": "斯泰恩謝爾"
+      "zh_tw": "斯泰恩謝爾市鎮"
     }
   },
   {
@@ -17835,7 +17941,7 @@ var g_cities_json = [
       "hu_hu": "Östersund",
       "it_it": "Östersund",
       "ja_jp": "エステルスンド",
-      "ka_ge": "Östersund",
+      "ka_ge": "ესტერსუნდი",
       "ko_kr": "외스테르순드",
       "lt_lt": "Estešundas",
       "lv_lv": "Östersund",
@@ -17857,7 +17963,7 @@ var g_cities_json = [
       "uk_uk": "Естерсунд",
       "vi_vn": "Östersund",
       "zh_cn": "厄斯特松德",
-      "zh_tw": "厄斯特松德"
+      "zh_tw": "厄斯特松德市"
     }
   },
   {
@@ -17888,7 +17994,7 @@ var g_cities_json = [
       "hu_hu": "Mo i Rana",
       "it_it": "Mo i Rana",
       "ja_jp": "モー・イ・ラーナ",
-      "ka_ge": "Mo i Rana",
+      "ka_ge": "მუ-ი-რანა",
       "ko_kr": "모이라나",
       "lt_lt": "Mo i Rana",
       "lv_lv": "Mo i Rana",
@@ -17941,7 +18047,7 @@ var g_cities_json = [
       "hu_hu": "Bodø",
       "it_it": "Bodø",
       "ja_jp": "ボードー",
-      "ka_ge": "Bodø",
+      "ka_ge": "ბუდე",
       "ko_kr": "보되",
       "lt_lt": "Budė",
       "lv_lv": "Bodø",
@@ -17963,7 +18069,7 @@ var g_cities_json = [
       "uk_uk": "Буде",
       "vi_vn": "Bodø",
       "zh_cn": "博德",
-      "zh_tw": "博德"
+      "zh_tw": "博德鎮"
     }
   },
   {
@@ -17994,7 +18100,7 @@ var g_cities_json = [
       "hu_hu": "Svolvær",
       "it_it": "Svolvær",
       "ja_jp": "スボルベル",
-      "ka_ge": "Svolvær",
+      "ka_ge": "სვოლვერი",
       "ko_kr": "스볼베르",
       "lt_lt": "Svolveris",
       "lv_lv": "Svolvær",
@@ -18016,7 +18122,7 @@ var g_cities_json = [
       "uk_uk": "Сволвер",
       "vi_vn": "Svolvær",
       "zh_cn": "斯沃尔韦尔",
-      "zh_tw": "斯沃爾韋爾"
+      "zh_tw": "斯沃爾韋爾市鎮"
     }
   },
   {
@@ -18047,7 +18153,7 @@ var g_cities_json = [
       "hu_hu": "Borlänge",
       "it_it": "Borlänge",
       "ja_jp": "ボルレンゲ",
-      "ka_ge": "Borlänge",
+      "ka_ge": "ბურლენგე",
       "ko_kr": "볼렝에",
       "lt_lt": "Burlengė",
       "lv_lv": "Borlänge",
@@ -18069,7 +18175,7 @@ var g_cities_json = [
       "uk_uk": "Бурленге",
       "vi_vn": "Borlänge",
       "zh_cn": "博伦厄",
-      "zh_tw": "博倫厄"
+      "zh_tw": "博倫厄市"
     }
   },
   {
@@ -18100,7 +18206,7 @@ var g_cities_json = [
       "hu_hu": "Falun",
       "it_it": "Falun",
       "ja_jp": "ファールン",
-      "ka_ge": "Falun",
+      "ka_ge": "ფალუნი",
       "ko_kr": "팔룬",
       "lt_lt": "Falunas",
       "lv_lv": "Falun",
@@ -18122,7 +18228,7 @@ var g_cities_json = [
       "uk_uk": "Фалун",
       "vi_vn": "Falun",
       "zh_cn": "法伦",
-      "zh_tw": "法倫"
+      "zh_tw": "法倫市"
     }
   },
   {
@@ -18152,8 +18258,8 @@ var g_cities_json = [
       "hr_hr": "Andenes",
       "hu_hu": "Andenes",
       "it_it": "Andenes",
-      "ja_jp": "アネネス",
-      "ka_ge": "Andenes",
+      "ja_jp": "アンデネス",
+      "ka_ge": "ანდენესი",
       "ko_kr": "안데스",
       "lt_lt": "Andenas",
       "lv_lv": "Andenes",
@@ -18175,7 +18281,7 @@ var g_cities_json = [
       "uk_uk": "Анденес",
       "vi_vn": "Andenes",
       "zh_cn": "安德内斯",
-      "zh_tw": "安德內斯"
+      "zh_tw": "安德內斯鎮"
     }
   },
   {
@@ -18206,7 +18312,7 @@ var g_cities_json = [
       "hu_hu": "Gävle",
       "it_it": "Gävle",
       "ja_jp": "イェヴレ",
-      "ka_ge": "Gävle",
+      "ka_ge": "ებლე",
       "ko_kr": "예블레",
       "lt_lt": "Gavlė",
       "lv_lv": "Gävle",
@@ -18228,7 +18334,7 @@ var g_cities_json = [
       "uk_uk": "Євле",
       "vi_vn": "Gävle",
       "zh_cn": "耶夫勒",
-      "zh_tw": "耶夫勒"
+      "zh_tw": "耶夫勒市"
     }
   },
   {
@@ -18259,7 +18365,7 @@ var g_cities_json = [
       "hu_hu": "Sundsvall",
       "it_it": "Sundsvall",
       "ja_jp": "スンツヴァル",
-      "ka_ge": "Sundsvall",
+      "ka_ge": "სუნდსვალი",
       "ko_kr": "순스발",
       "lt_lt": "Sundsvalis",
       "lv_lv": "Sundsvall",
@@ -18281,7 +18387,7 @@ var g_cities_json = [
       "uk_uk": "Сундсвалль",
       "vi_vn": "Sundsvall",
       "zh_cn": "松兹瓦尔",
-      "zh_tw": "松茲瓦爾"
+      "zh_tw": "松茲瓦爾市"
     }
   },
   {
@@ -18312,7 +18418,7 @@ var g_cities_json = [
       "hu_hu": "Narvik",
       "it_it": "Narvik",
       "ja_jp": "ナルヴィク",
-      "ka_ge": "Narvik",
+      "ka_ge": "ნარვიკი",
       "ko_kr": "나르비크",
       "lt_lt": "Narvikas",
       "lv_lv": "Narvik",
@@ -18334,7 +18440,7 @@ var g_cities_json = [
       "uk_uk": "Нарвік",
       "vi_vn": "Narvik",
       "zh_cn": "纳尔维克",
-      "zh_tw": "納爾維克"
+      "zh_tw": "納爾維克鎮"
     }
   },
   {
@@ -18365,7 +18471,7 @@ var g_cities_json = [
       "hu_hu": "Örnsköldsvik",
       "it_it": "Örnsköldsvik",
       "ja_jp": "エルンシェルツビク",
-      "ka_ge": "Örnsköldsvik",
+      "ka_ge": "ერნშელდსვიკი",
       "ko_kr": "외른셀스비크",
       "lt_lt": "Ernšioldsvikas",
       "lv_lv": "Örnsköldsvik",
@@ -18387,7 +18493,7 @@ var g_cities_json = [
       "uk_uk": "Ерншельдсвік",
       "vi_vn": "Örnsköldsvik",
       "zh_cn": "恩舍尔兹维克",
-      "zh_tw": "恩舍爾茲維克"
+      "zh_tw": "恩舍爾茲維克鎮"
     }
   },
   {
@@ -18418,7 +18524,7 @@ var g_cities_json = [
       "hu_hu": "Arvidsjaur",
       "it_it": "Arvidsjaur",
       "ja_jp": "アルビッツヤウル",
-      "ka_ge": "Arvidsjaur",
+      "ka_ge": "არვიდსიაური",
       "ko_kr": "아르비드자우르",
       "lt_lt": "Arvidsjauras",
       "lv_lv": "Arvidsjaur",
@@ -18440,7 +18546,7 @@ var g_cities_json = [
       "uk_uk": "Арвідсьяур",
       "vi_vn": "Arvidsjaur",
       "zh_cn": "阿尔维斯尧尔",
-      "zh_tw": "阿爾維斯堯爾"
+      "zh_tw": "阿爾維斯堯爾市"
     }
   },
   {
@@ -18471,7 +18577,7 @@ var g_cities_json = [
       "hu_hu": "Kiruna",
       "it_it": "Kiruna",
       "ja_jp": "キルナ",
-      "ka_ge": "Kiruna",
+      "ka_ge": "კირუნა",
       "ko_kr": "키루나",
       "lt_lt": "Kiruna",
       "lv_lv": "Kiruna",
@@ -18493,7 +18599,7 @@ var g_cities_json = [
       "uk_uk": "Кіруна",
       "vi_vn": "Kiruna",
       "zh_cn": "基律纳",
-      "zh_tw": "基律納"
+      "zh_tw": "基律納市"
     }
   },
   {
@@ -18524,7 +18630,7 @@ var g_cities_json = [
       "hu_hu": "Tromsø",
       "it_it": "Tromsø",
       "ja_jp": "トロムソ",
-      "ka_ge": "Tromsø",
+      "ka_ge": "ტრომსე",
       "ko_kr": "트롬쇠",
       "lt_lt": "Tromsė",
       "lv_lv": "Tromsø",
@@ -18546,7 +18652,7 @@ var g_cities_json = [
       "uk_uk": "Тромсе",
       "vi_vn": "Tromsø",
       "zh_cn": "特罗姆瑟",
-      "zh_tw": "特羅姆瑟"
+      "zh_tw": "特羅姆瑟市"
     }
   },
   {
@@ -18577,7 +18683,7 @@ var g_cities_json = [
       "hu_hu": "Umeå",
       "it_it": "Umeå",
       "ja_jp": "ウメオ",
-      "ka_ge": "Umeå",
+      "ka_ge": "უმეო",
       "ko_kr": "우메아",
       "lt_lt": "Umeo",
       "lv_lv": "Umeå",
@@ -18599,7 +18705,7 @@ var g_cities_json = [
       "uk_uk": "Умео",
       "vi_vn": "Umeå",
       "zh_cn": "于默奥",
-      "zh_tw": "于默奧"
+      "zh_tw": "于默奧市"
     }
   },
   {
@@ -18630,7 +18736,7 @@ var g_cities_json = [
       "hu_hu": "Skellefteå",
       "it_it": "Skellefteå",
       "ja_jp": "シェレフテオ",
-      "ka_ge": "Skellefteå",
+      "ka_ge": "შელეფტეო",
       "ko_kr": "셀레프테오",
       "lt_lt": "Šelefteo",
       "lv_lv": "Skellefteå",
@@ -18652,7 +18758,7 @@ var g_cities_json = [
       "uk_uk": "Шелефтео",
       "vi_vn": "Skellefteå",
       "zh_cn": "谢莱夫特奥",
-      "zh_tw": "謝萊夫特奧"
+      "zh_tw": "謝萊夫特奧市鎮"
     }
   },
   {
@@ -18683,7 +18789,7 @@ var g_cities_json = [
       "hu_hu": "Vaasa",
       "it_it": "Vaasa",
       "ja_jp": "ヴァーサ",
-      "ka_ge": "Vaasa",
+      "ka_ge": "ვაასა",
       "ko_kr": "바사",
       "lt_lt": "Vasa",
       "lv_lv": "Vaasa",
@@ -18705,7 +18811,7 @@ var g_cities_json = [
       "uk_uk": "Вааса",
       "vi_vn": "Vaasa",
       "zh_cn": "瓦萨",
-      "zh_tw": "瓦薩"
+      "zh_tw": "瓦薩市"
     }
   },
   {
@@ -18736,7 +18842,7 @@ var g_cities_json = [
       "hu_hu": "Luleå",
       "it_it": "Luleå",
       "ja_jp": "ルレオ",
-      "ka_ge": "Lulea",
+      "ka_ge": "ლულეო",
       "ko_kr": "룰레오",
       "lt_lt": "Liuleo",
       "lv_lv": "Lulea",
@@ -18746,19 +18852,19 @@ var g_cities_json = [
       "pl_pl": "Luleå",
       "pl_si": "Luleå",
       "pt_br": "Luleå",
-      "pt_pt": "Lulea",
+      "pt_pt": "Luleå",
       "ro_ro": "Luleå",
       "ru_ru": "Лулео",
       "sk_sk": "Luleå",
       "sl_sl": "Lulea",
       "sr_sp": "Luleo",
       "sr_sr": "Лулео",
-      "sv_se": "Lulea",
+      "sv_se": "Luleå",
       "tr_tr": "Lulea",
       "uk_uk": "Лулео",
       "vi_vn": "Luleå",
       "zh_cn": "吕勒奥",
-      "zh_tw": "呂勒奧"
+      "zh_tw": "呂勒奧市"
     }
   },
   {
@@ -18789,7 +18895,7 @@ var g_cities_json = [
       "hu_hu": "Karesuando",
       "it_it": "Karesuando",
       "ja_jp": "カレスアンド",
-      "ka_ge": "Karesuando",
+      "ka_ge": "კარეზუანდო",
       "ko_kr": "카레수안도",
       "lt_lt": "Karesuando",
       "lv_lv": "Karesuando",
@@ -18811,7 +18917,7 @@ var g_cities_json = [
       "uk_uk": "Каресуандо",
       "vi_vn": "Karesuando",
       "zh_cn": "卡雷苏安多",
-      "zh_tw": "卡雷蘇安多"
+      "zh_tw": "卡雷蘇安多鎮"
     }
   },
   {
@@ -18842,7 +18948,7 @@ var g_cities_json = [
       "hu_hu": "Alta",
       "it_it": "Alta",
       "ja_jp": "アルタ",
-      "ka_ge": "Alta",
+      "ka_ge": "ალტა",
       "ko_kr": "알타",
       "lt_lt": "Alta",
       "lv_lv": "Alta",
@@ -18864,7 +18970,7 @@ var g_cities_json = [
       "uk_uk": "Алта",
       "vi_vn": "Alta",
       "zh_cn": "阿尔塔",
-      "zh_tw": "阿爾塔"
+      "zh_tw": "阿爾塔市"
     }
   },
   {
@@ -18895,7 +19001,7 @@ var g_cities_json = [
       "hu_hu": "Kokkola",
       "it_it": "Kokkola",
       "ja_jp": "コッコラ",
-      "ka_ge": "Kokkola",
+      "ka_ge": "კოკოლა",
       "ko_kr": "콕콜라",
       "lt_lt": "Kokola",
       "lv_lv": "Kokkola",
@@ -18917,7 +19023,7 @@ var g_cities_json = [
       "uk_uk": "Коккола",
       "vi_vn": "Kokkola",
       "zh_cn": "科科拉",
-      "zh_tw": "科科拉"
+      "zh_tw": "科科拉市鎮"
     }
   },
   {
@@ -18948,7 +19054,7 @@ var g_cities_json = [
       "hu_hu": "Haparanda",
       "it_it": "Haparanda",
       "ja_jp": "ハパランダ",
-      "ka_ge": "Haparanda",
+      "ka_ge": "ჰაპარანდა",
       "ko_kr": "하파란다",
       "lt_lt": "Haparanda",
       "lv_lv": "Haparanda",
@@ -18970,7 +19076,7 @@ var g_cities_json = [
       "uk_uk": "Гапаранда",
       "vi_vn": "Haparanda",
       "zh_cn": "哈帕兰达",
-      "zh_tw": "哈帕蘭達"
+      "zh_tw": "哈帕蘭達鎮"
     }
   },
   {
@@ -19001,7 +19107,7 @@ var g_cities_json = [
       "hu_hu": "Tornio",
       "it_it": "Tornio",
       "ja_jp": "トルニオ",
-      "ka_ge": "Tornio",
+      "ka_ge": "ტორნიო",
       "ko_kr": "토르니오",
       "lt_lt": "Tornio",
       "lv_lv": "Tornio",
@@ -19018,12 +19124,12 @@ var g_cities_json = [
       "sl_sl": "Tornio",
       "sr_sp": "Tornio",
       "sr_sr": "Торнио",
-      "sv_se": "Tornio",
+      "sv_se": "Torneå",
       "tr_tr": "Tornio",
       "uk_uk": "Торніо",
       "vi_vn": "Tornio",
       "zh_cn": "托尔尼奥",
-      "zh_tw": "托爾尼奧"
+      "zh_tw": "托爾尼奧市"
     }
   },
   {
@@ -19054,7 +19160,7 @@ var g_cities_json = [
       "hu_hu": "Rovaniemi",
       "it_it": "Rovaniemi",
       "ja_jp": "ロヴァニエミ",
-      "ka_ge": "Rovaniemi",
+      "ka_ge": "როვანიემი",
       "ko_kr": "로바니에미",
       "lt_lt": "Rovaniemi",
       "lv_lv": "Rovaniemi",
@@ -19076,7 +19182,7 @@ var g_cities_json = [
       "uk_uk": "Рованіємі",
       "vi_vn": "Rovaniemi",
       "zh_cn": "罗瓦涅米",
-      "zh_tw": "羅瓦涅米"
+      "zh_tw": "羅瓦涅米市"
     }
   },
   {
@@ -19107,7 +19213,7 @@ var g_cities_json = [
       "hu_hu": "Honningsvåg",
       "it_it": "Honningsvåg",
       "ja_jp": "ホニングスヴォーグ",
-      "ka_ge": "Honningsvåg",
+      "ka_ge": "ჰონინგსვოგი",
       "ko_kr": "호닝스버그",
       "lt_lt": "Honingsvogas",
       "lv_lv": "Honningsvåg",
@@ -19129,7 +19235,7 @@ var g_cities_json = [
       "uk_uk": "Гоннінґсвоґ",
       "vi_vn": "Honningsvåg",
       "zh_cn": "洪宁斯沃格",
-      "zh_tw": "洪寧斯沃格"
+      "zh_tw": "洪寧斯沃格市"
     }
   },
   {
@@ -19160,7 +19266,7 @@ var g_cities_json = [
       "hu_hu": "Oulu",
       "it_it": "Oulu",
       "ja_jp": "オウル",
-      "ka_ge": "Oulu",
+      "ka_ge": "ოულუ",
       "ko_kr": "오울루",
       "lt_lt": "Oulu",
       "lv_lv": "Oulu",
@@ -19182,7 +19288,7 @@ var g_cities_json = [
       "uk_uk": "Оулу",
       "vi_vn": "Oulu",
       "zh_cn": "奥卢",
-      "zh_tw": "奧盧"
+      "zh_tw": "奧盧市"
     }
   },
   {
@@ -19213,7 +19319,7 @@ var g_cities_json = [
       "hu_hu": "Ivalo",
       "it_it": "Ivalo",
       "ja_jp": "イヴァロ",
-      "ka_ge": "Ivalo",
+      "ka_ge": "ივალო",
       "ko_kr": "이발로",
       "lt_lt": "Ivalo",
       "lv_lv": "Ivalo",
@@ -19235,7 +19341,7 @@ var g_cities_json = [
       "uk_uk": "Івало",
       "vi_vn": "Ivalo",
       "zh_cn": "伊瓦洛",
-      "zh_tw": "伊瓦洛"
+      "zh_tw": "伊瓦洛村"
     }
   },
   {
@@ -19266,7 +19372,7 @@ var g_cities_json = [
       "hu_hu": "Jyväskylä",
       "it_it": "Jyväskylä",
       "ja_jp": "ユヴァスキュラ",
-      "ka_ge": "Jyväskylä",
+      "ka_ge": "იუვიასკიულია",
       "ko_kr": "이위베스킬레",
       "lt_lt": "Juveskiulė",
       "lv_lv": "Jyväskylä",
@@ -19288,7 +19394,7 @@ var g_cities_json = [
       "uk_uk": "Ювяскюля",
       "vi_vn": "Jyväskylä",
       "zh_cn": "于韦斯屈莱",
-      "zh_tw": "于韋斯屈萊"
+      "zh_tw": "于韋斯屈萊市"
     }
   },
   {
@@ -19319,7 +19425,7 @@ var g_cities_json = [
       "hu_hu": "Mikkeli",
       "it_it": "Mikkeli",
       "ja_jp": "ミッケリ",
-      "ka_ge": "Mikkeli",
+      "ka_ge": "მიკელი",
       "ko_kr": "미켈리",
       "lt_lt": "Mikelis",
       "lv_lv": "Mikkeli",
@@ -19341,7 +19447,7 @@ var g_cities_json = [
       "uk_uk": "Міккелі",
       "vi_vn": "Mikkeli",
       "zh_cn": "米凯利",
-      "zh_tw": "米凱利"
+      "zh_tw": "米凱利市鎮"
     }
   },
   {
@@ -19372,7 +19478,7 @@ var g_cities_json = [
       "hu_hu": "Kuopio",
       "it_it": "Kuopio",
       "ja_jp": "クオピオ",
-      "ka_ge": "Kuopio",
+      "ka_ge": "კუოპიო",
       "ko_kr": "쿠오피오",
       "lt_lt": "Kuopio",
       "lv_lv": "Kuopio",
@@ -19394,7 +19500,7 @@ var g_cities_json = [
       "uk_uk": "Куопіо",
       "vi_vn": "Kuopio",
       "zh_cn": "库奥皮奥",
-      "zh_tw": "庫奧皮奧"
+      "zh_tw": "庫奧皮奧市"
     }
   },
   {
@@ -19425,7 +19531,7 @@ var g_cities_json = [
       "hu_hu": "Kajaani",
       "it_it": "Kajaani",
       "ja_jp": "カヤーニ",
-      "ka_ge": "Kajaani",
+      "ka_ge": "კაიაანი",
       "ko_kr": "카야니",
       "lt_lt": "Kajanis",
       "lv_lv": "Kajaani",
@@ -19447,7 +19553,7 @@ var g_cities_json = [
       "uk_uk": "Каяані",
       "vi_vn": "Kajaani",
       "zh_cn": "卡亚尼",
-      "zh_tw": "卡亞尼"
+      "zh_tw": "卡亞尼市"
     }
   },
   {
@@ -19478,7 +19584,7 @@ var g_cities_json = [
       "hu_hu": "Kuusamo",
       "it_it": "Kuusamo",
       "ja_jp": "クーサモ",
-      "ka_ge": "Kuusamo",
+      "ka_ge": "კუუსამო",
       "ko_kr": "쿠사모",
       "lt_lt": "Kuusamo",
       "lv_lv": "Kuusamo",
@@ -19500,7 +19606,7 @@ var g_cities_json = [
       "uk_uk": "Куусамо",
       "vi_vn": "Kuusamo",
       "zh_cn": "库萨莫",
-      "zh_tw": "庫薩莫"
+      "zh_tw": "庫薩莫市"
     }
   },
   {
@@ -19531,7 +19637,7 @@ var g_cities_json = [
       "hu_hu": "Joensuu",
       "it_it": "Joensuu",
       "ja_jp": "ヨエンスー",
-      "ka_ge": "Joensuu",
+      "ka_ge": "იოენსუუ",
       "ko_kr": "조엔수",
       "lt_lt": "Joensū",
       "lv_lv": "Joensuu",
@@ -19553,7 +19659,7 @@ var g_cities_json = [
       "uk_uk": "Йоенсуу",
       "vi_vn": "Joensuu",
       "zh_cn": "约恩苏",
-      "zh_tw": "約恩蘇"
+      "zh_tw": "約恩蘇市"
     }
   },
   {
@@ -19572,8 +19678,8 @@ var g_cities_json = [
       "el_gr": "Ντούμπος",
       "en_gb": "Dombås",
       "en_us": "Dombås",
-      "es_es": "Dombås",
-      "es_la": "Dombås",
+      "es_es": "Dombás",
+      "es_la": "Dombás",
       "et_ee": "Dombås",
       "eu_es": "Dombås",
       "fi_fi": "Dombås",
@@ -19583,8 +19689,8 @@ var g_cities_json = [
       "hr_hr": "Dombås",
       "hu_hu": "Dombås",
       "it_it": "Dombås",
-      "ja_jp": "ドンボス",
-      "ka_ge": "Dombås",
+      "ja_jp": "ドンボース",
+      "ka_ge": "დომბოსი",
       "ko_kr": "돔보스",
       "lt_lt": "Dumbasas",
       "lv_lv": "Dombås",
@@ -19606,7 +19712,7 @@ var g_cities_json = [
       "uk_uk": "Домбос",
       "vi_vn": "Dombås",
       "zh_cn": "杜姆奥斯",
-      "zh_tw": "杜姆奧斯"
+      "zh_tw": "杜姆奧斯鎮"
     }
   },
   {
@@ -19637,7 +19743,7 @@ var g_cities_json = [
       "hu_hu": "Kristiansund",
       "it_it": "Kristiansund",
       "ja_jp": "クリスチャンスン",
-      "ka_ge": "Kristiansund",
+      "ka_ge": "კრისტიანსუნი",
       "ko_kr": "크리스티안순",
       "lt_lt": "Kristiansundas",
       "lv_lv": "Kristiansund",
@@ -19659,7 +19765,7 @@ var g_cities_json = [
       "uk_uk": "Крістіансунн",
       "vi_vn": "Kristiansund",
       "zh_cn": "克里斯蒂安松",
-      "zh_tw": "克里斯蒂安松"
+      "zh_tw": "克里斯蒂安松市鎮"
     }
   },
   {
@@ -19690,7 +19796,7 @@ var g_cities_json = [
       "hu_hu": "Ålesund",
       "it_it": "Ålesund",
       "ja_jp": "オーレスン",
-      "ka_ge": "Ålesund",
+      "ka_ge": "ოლესუნი",
       "ko_kr": "올레순",
       "lt_lt": "Alesundas",
       "lv_lv": "Ålesund",
@@ -19712,7 +19818,7 @@ var g_cities_json = [
       "uk_uk": "Олесунн",
       "vi_vn": "Ålesund",
       "zh_cn": "奥勒松",
-      "zh_tw": "奧勒松"
+      "zh_tw": "奧勒松市鎮"
     }
   }
 ]

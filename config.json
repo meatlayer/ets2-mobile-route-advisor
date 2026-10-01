@@ -11,6 +11,9 @@
         "         author: author name",
         "         width: width of the skin in pixels (same as defined in the CSS)",
         "         height: height of the skin in pixels (same as defined in the CSS)",
+        "         language: fallback translation file from language/ (used only",
+        "                   when the browser UI language has no matching file;",
+        "                   otherwise the browser language is used automatically)",
 
         "All the properties at the end of this file are skin-specific. See:",
         "https://github.com/meatlayer/ets2-mobile-route-advisor",
@@ -19,7 +22,7 @@
 
     "config": {
         "name": "ets2-mobile-route-advisor",
-        "title": "Mobile Route Advisor (4.1.7)",
+        "title": "Mobile Route Advisor (4.1.8)",
         "author": "meatlayer, mkoch227 and contributors",
         "width": -1,
         "height": -1,

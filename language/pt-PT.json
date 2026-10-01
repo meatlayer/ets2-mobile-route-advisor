@@ -24,5 +24,18 @@
     "SaturdayAbbreviated": "Sáb",
     "WorldOfTrucksContract": "Contracto World of Trucks",
     "LoadingMapPleaseWait": "seguimos e comprimos a sede",
-    "NoMapAvailable": "disponivel agrad"
+    "NoMapAvailable": "disponivel agrad",
+    "Car": "Car",
+    "Bus": "Bus",
+    "Units": "pcs",
+    "Distance": "Distance",
+    "MandatoryBreak": "Mandatory break",
+    "BodyWear": "Body",
+    "Hazard": "Hazard",
+    "DifferentialLock": "Diff. lock",
+    "LiftAxle": "Lift axle",
+    "AdBlueAvg": "AdBlue avg",
+    "Cargo": "Cargo",
+    "Wheels": "Wheels",
+    "Chassis": "Chassis"
 }

@@ -24,5 +24,18 @@
     "SaturdayAbbreviated": "Сб",
     "WorldOfTrucksContract": "Контракт World of Trucks",
     "LoadingMapPleaseWait": "Загрузка карты, ожидайте...",
-    "NoMapAvailable": "Нет доступных карт"
+    "NoMapAvailable": "Нет доступных карт",
+    "Car": "Легковой",
+    "Bus": "Автобус",
+    "Units": "шт",
+    "Distance": "Расстояние",
+    "MandatoryBreak": "Перерыв",
+    "BodyWear": "Кузов",
+    "Hazard": "Аварийка",
+    "DifferentialLock": "Блок. дифф.",
+    "LiftAxle": "Ось",
+    "AdBlueAvg": "AdBlue ср.",
+    "Cargo": "Груз",
+    "Wheels": "Колёса",
+    "Chassis": "Шасси"
 }

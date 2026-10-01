@@ -19,6 +19,20 @@
             <path d="m104 38a2 2 0 0 0 -2 -2 2 2 0 0 0 -2 2 2 2 0 0 0 2 2 2 2 0 0 0 2 -2zm3 0a5 5 0 0 1 -5 5 5 5 0 0 1 -5 -5 5 5 0 0 1 5 -5 5 5 0 0 1 5 5zm-14 0a2 2 0 0 0 -2 -2 2 2 0 0 0 -2 2 2 2 0 0 0 2 2 2 2 0 0 0 2 -2zm3 0a5 5 0 0 1 -5 5 5 5 0 0 1 -5 -5 5 5 0 0 1 5 -5 5 5 0 0 1 5 5zm-42-4h21v4h-21zM2 0h110a2 2 0 0 1 2 2v30h-114v-30a2 2 0 0 1 2-2z"/>
         </symbol>
 
+        <!-- SDK 1.15: car_job vehicle icon (side-view silhouette, same proportions as the truck). -->
+        <symbol id="svg-ets2-car" viewBox="0 0 54 36">
+            <path d="M2 28 V20 Q2 17 5 16 L12 14 L18 7 Q19 5 22 5 L34 5 Q37 5 39 7 L44 14 L50 16 Q52 17 52 20 V28 H48 A5 5 0 0 0 38 28 H24 A5 5 0 0 0 14 28 Z"/>
+            <circle cx="19" cy="28" r="5"/>
+            <circle cx="43" cy="28" r="5"/>
+        </symbol>
+
+        <!-- SDK 1.15: bus_job vehicle icon (side-view silhouette, same proportions as the truck). -->
+        <symbol id="svg-ets2-bus" viewBox="0 0 54 36">
+            <path d="M2 28 V11 Q2 6 7 6 H47 Q52 6 52 11 V28 H48 A5 5 0 0 0 38 28 H24 A5 5 0 0 0 14 28 Z"/>
+            <circle cx="19" cy="28" r="5"/>
+            <circle cx="43" cy="28" r="5"/>
+        </symbol>
+
         <!-- Based on the actual game icon. 12x12 image with 2 pixel margin. -->
         <symbol id="svg-gear" viewBox="-2 -2 16 16">
             <path d="m0 0v12h2v-5h3v5h2v-5h3 2v-2-5h-2v5h-3v-5h-2v5h-3v-5h-2z"/>
@@ -115,11 +129,16 @@
 
         <div class="_damage _middle">
             <div class="fillingIcon truckDamage">
-                <div class="top isEts2"><svg width="1.2em" height="1em"><use xlink:href="#svg-ets2-truck" fill="#969696"/></svg></div>
-                <div class="bot isEts2"><svg width="1.2em" height="1em"><use xlink:href="#svg-ets2-truck" fill="#930002"/></svg></div>
-                <div class="top isAts"><svg width="1.5em" height="1em"><use xlink:href="#svg-ats-truck" fill="#969696"/></svg></div>
-                <div class="bot isAts"><svg width="1.5em" height="1em"><use xlink:href="#svg-ats-truck" fill="#930002"/></svg></div>
+                <div class="top isEts2 truckIcons"><svg width="1.2em" height="1em"><use xlink:href="#svg-ets2-truck" fill="#969696"/></svg></div>
+                <div class="bot isEts2 truckIcons"><svg width="1.2em" height="1em"><use xlink:href="#svg-ets2-truck" fill="#930002"/></svg></div>
+                <div class="top isAts truckIcons"><svg width="1.5em" height="1em"><use xlink:href="#svg-ats-truck" fill="#969696"/></svg></div>
+                <div class="bot isAts truckIcons"><svg width="1.5em" height="1em"><use xlink:href="#svg-ats-truck" fill="#930002"/></svg></div>
+                <div class="top carIcons hidden"><svg width="1.2em" height="1em"><use xlink:href="#svg-ets2-car" fill="#969696"/></svg></div>
+                <div class="bot carIcons hidden"><svg width="1.2em" height="1em"><use xlink:href="#svg-ets2-car" fill="#930002"/></svg></div>
+                <div class="top busIcons hidden"><svg width="1.2em" height="1em"><use xlink:href="#svg-ets2-bus" fill="#969696"/></svg></div>
+                <div class="bot busIcons hidden"><svg width="1.2em" height="1em"><use xlink:href="#svg-ets2-bus" fill="#930002"/></svg></div>
             </div>
+            <div class="sidebarDamagePct scsTruckDamageRounded"></div>
         </div>
         <div class="_fuel _middle">
             <div class="fillingIcon fuel">
@@ -184,54 +203,122 @@
                     <p data-mra-text="CurrentJob"></p>
                     <p><!-- There is no way to get the current balance from the telemetry. --></p>
                 </div>
-                <div class="_row">
+                <div class="_row truckJobBlock">
                     <p data-mra-text="CargoName"></p>
                     <p><span class="trailerName"></span> (<span class="trailerMassKgOrT"></span>)</p>
                 </div>
-                <div class="_row">
+                <div class="_row truckJobBlock">
                     <p data-mra-text="Destination"></p>
                     <p><span class="job-destinationCity"></span> - <span class="job-destinationCompany"></span></p>
                 </div>
-                <div class="_row" id="expected">
+                <div class="_row truckJobBlock" id="expected">
                     <p data-mra-text="Expected"></p>
                     <!--p><span class="job-???????"></span> - <span class="job-deadlineTime"></span></p-->
                     <p><span class="job-deadlineTime"></span></p>
                 </div>
-                <div class="_row">
+                <div class="_row truckJobBlock">
                     <p data-mra-text="JobIncome"></p>
                     <p class="jobIncome"></p>
                     <!--p><span class="currencyCode"></span> <span class="jobIncome"></span></p-->
                 </div>
-                <div class="_row" id="remains">
+                <div class="_row truckJobBlock" id="remains">
                     <p data-mra-text="Remains"></p>
                     <p class="job-remainingTime"></p>
+                </div>
+                <div class="_row truckJobBlock">
+                    <p data-mra-text="Distance"></p>
+                    <p><span class="job-plannedDistanceKm"></span> <span class="distanceUnits"></span></p>
+                </div>
+                <div class="_row carJobBlock hidden">
+                    <p data-mra-text="CargoName"></p>
+                    <p><span class="carJob-cargo"></span> (<span class="carJob-unitCount"></span>&nbsp;<span data-mra-text="Units"></span>)</p>
+                </div>
+                <div class="_row carJobBlock hidden">
+                    <p data-mra-text="Destination"></p>
+                    <p><span class="carJob-destinationCity"></span> - <span class="carJob-destinationCompany"></span></p>
+                </div>
+                <div class="_row carJobBlock hidden">
+                    <p data-mra-text="Expected"></p>
+                    <p><span class="carJob-deliveryTime"></span></p>
+                </div>
+                <div class="_row carJobBlock hidden">
+                    <p data-mra-text="JobIncome"></p>
+                    <p class="carJobIncome"></p>
+                </div>
+                <div class="_row carJobBlock hidden">
+                    <p data-mra-text="Distance"></p>
+                    <p><span class="carJob-plannedDistanceKm"></span> <span class="distanceUnits"></span></p>
+                </div>
+                <div class="_row busJobBlock hidden">
+                    <p data-mra-text="CargoName"></p>
+                    <p><span class="busJob-cargo"></span> (<span class="busJob-unitCount"></span>&nbsp;<span data-mra-text="Units"></span>)</p>
+                </div>
+                <div class="_row busJobBlock hidden">
+                    <p data-mra-text="Destination"></p>
+                    <p><span class="busJob-destinationCity"></span> - <span class="busJob-destinationCompany"></span></p>
+                </div>
+                <div class="_row busJobBlock hidden">
+                    <p data-mra-text="Expected"></p>
+                    <p><span class="busJob-deliveryTime"></span></p>
+                </div>
+                <div class="_row busJobBlock hidden">
+                    <p data-mra-text="JobIncome"></p>
+                    <p class="busJobIncome"></p>
+                </div>
+                <div class="_row busJobBlock hidden">
+                    <p data-mra-text="Distance"></p>
+                    <p><span class="busJob-plannedDistanceKm"></span> <span class="distanceUnits"></span></p>
                 </div>
                 <div class="_row">
                     <p data-mra-text="NextRestStopIn"></p>
                     <p class="game-nextRestStopTime _yellow-color"></p>
                 </div>
+                <div class="_row">
+                    <p data-mra-text="MandatoryBreak"></p>
+                    <p class="game-nextMandatoryBreakTime _yellow-color"></p>
+                </div>
+                <div class="_row">
+                    <p data-mra-text="AdBlueAvg"></p>
+                    <p class="truck-adblueAverageConsumption"></p>
+                </div>
             </div>
         </article>
 
         <article id="_damage">
-            <figure>
+            <figure id="vehicleFigure">
                 <div class="fillingIcon truckDamage">
-                    <div class="top isEts2"><svg width="7em" height="4em"><use xlink:href="#svg-ets2-truck" fill="#969696"/></svg></div>
-                    <div class="bot isEts2"><svg width="7em" height="4em"><use xlink:href="#svg-ets2-truck" fill="#930002"/></svg></div>
-                    <div class="top isAts"><svg width="7em" height="4em"><use xlink:href="#svg-ats-truck" fill="#969696"/></svg></div>
-                    <div class="bot isAts"><svg width="7em" height="4em"><use xlink:href="#svg-ats-truck" fill="#930002"/></svg></div>
+                    <div class="truckIcons">
+                        <div class="top isEts2"><svg width="7em" height="4em"><use xlink:href="#svg-ets2-truck" fill="#969696"/></svg></div>
+                        <div class="bot isEts2"><svg width="7em" height="4em"><use xlink:href="#svg-ets2-truck" fill="#930002"/></svg></div>
+                        <div class="top isAts"><svg width="7em" height="4em"><use xlink:href="#svg-ats-truck" fill="#969696"/></svg></div>
+                        <div class="bot isAts"><svg width="7em" height="4em"><use xlink:href="#svg-ats-truck" fill="#930002"/></svg></div>
+                    </div>
+                    <div class="carIcons hidden">
+                        <div class="top"><svg width="7em" height="4em"><use xlink:href="#svg-ets2-car" fill="#969696"/></svg></div>
+                        <div class="bot"><svg width="7em" height="4em"><use xlink:href="#svg-ets2-car" fill="#930002"/></svg></div>
+                    </div>
+                    <div class="busIcons hidden">
+                        <div class="top"><svg width="7em" height="4em"><use xlink:href="#svg-ets2-bus" fill="#969696"/></svg></div>
+                        <div class="bot"><svg width="7em" height="4em"><use xlink:href="#svg-ets2-bus" fill="#930002"/></svg></div>
+                    </div>
                 </div>
-                <figcaption><span data-mra-text="Truck"></span>: <span class="scsTruckDamageRounded"></span>%</figcaption>
+                <figcaption><span class="vehicleLabelTruck" data-mra-text="Truck"></span><span class="vehicleLabelCar hidden" data-mra-text="Car"></span><span class="vehicleLabelBus hidden" data-mra-text="Bus"></span>: <span class="scsTruckDamageRounded"></span>%<br class="carCargoLine hidden"><span class="carCargoLine hidden"><span data-mra-text="Cargo"></span>: <span class="cargoDamageRounded"></span>%</span></figcaption>
             </figure>
-            <figure>
+            <figure id="trailerFigure">
                 <div class="fillingIcon trailerDamage">
                     <div class="top isEts2"><svg width="11em" height="4em"><use xlink:href="#svg-ets2-trailer" fill="#969696"/></svg></div>
                     <div class="bot isEts2"><svg width="11em" height="4em"><use xlink:href="#svg-ets2-trailer" fill="#930002"/></svg></div>
                     <div class="top isAts"><svg width="11em" height="4em"><use xlink:href="#svg-ats-trailer" fill="#969696"/></svg></div>
                     <div class="bot isAts"><svg width="11em" height="4em"><use xlink:href="#svg-ats-trailer" fill="#930002"/></svg></div>
+                    <div class="trailerPlate trailer-licensePlate"></div>
                 </div>
-                <figcaption><span data-mra-text="Trailer"></span>: <span class="wearTrailerRounded"></span>%</figcaption>
+                <figcaption><span data-mra-text="Trailer"></span>: <span class="wearTrailerRounded"></span>%<br><span data-mra-text="Wheels"></span>: <span class="wearWheelsTrailerRounded"></span>%<br><span data-mra-text="Chassis"></span>: <span class="wearChassisTrailerRounded"></span>%<br><span data-mra-text="BodyWear"></span>: <span class="wearBodyTrailerRounded"></span>%<br><span data-mra-text="Cargo"></span>: <span class="cargoDamageRounded"></span>%</figcaption>
             </figure>
+            <div class="statusBadges">
+                <span class="statusBadge truck-hazardWarningOn" data-mra-text="Hazard"></span>
+                <span class="statusBadge truck-differentialLock" data-mra-text="DifferentialLock"></span>
+                <span class="statusBadge truck-liftAxle" data-mra-text="LiftAxle"></span>
+            </div>
         </article>
 
 		<article id="_about">

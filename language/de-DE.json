@@ -24,5 +24,18 @@
     "SaturdayAbbreviated": "Sa",
     "WorldOfTrucksContract": "World of Trucks Vertrag",
     "LoadingMapPleaseWait": "Lade Karte, bitte warten...",
-    "NoMapAvailable": "Keine Karte verfügbar"
+    "NoMapAvailable": "Keine Karte verfügbar",
+    "Car": "Car",
+    "Bus": "Bus",
+    "Units": "pcs",
+    "Distance": "Distance",
+    "MandatoryBreak": "Mandatory break",
+    "BodyWear": "Body",
+    "Hazard": "Hazard",
+    "DifferentialLock": "Diff. lock",
+    "LiftAxle": "Lift axle",
+    "AdBlueAvg": "AdBlue avg",
+    "Cargo": "Cargo",
+    "Wheels": "Wheels",
+    "Chassis": "Chassis"
 }
